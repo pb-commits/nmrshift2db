@@ -147,7 +147,6 @@
             font-style: italic;
         }
 
-        /* Disabled filter styling */
         .filter-group select:disabled {
             background: var(--disabled-bg);
             color: var(--disabled-text);
@@ -376,6 +375,22 @@
             transform: rotate(20deg);
         }
 
+        .progress-bar {
+            width: 100%;
+            height: 4px;
+            background: var(--border-color);
+            border-radius: 2px;
+            margin: 1rem 0;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: var(--accent);
+            transition: width 0.3s ease;
+            width: 0%;
+        }
+
         @media (max-width: 768px) {
             .container {
                 padding: 10px;
@@ -421,11 +436,11 @@
                         <label for="nmrFilter">NMR Type:</label>
                         <select id="nmrFilter" onchange="updateFilterAvailability()">
                             <option value="">All NMR Types</option>
-                            <option value="1H">¹H NMR (604 spectra)</option>
-                            <option value="13C">¹³C NMR (1516 spectra)</option>
-                            <option value="31P">³¹P NMR (475 spectra)</option>
-                            <option value="19F">¹⁹F NMR (24 spectra)</option>
-                            <option value="15N">¹⁵N NMR (3 spectra)</option>
+                            <option value="1H">¹H NMR</option>
+                            <option value="13C">¹³C NMR</option>
+                            <option value="31P">³¹P NMR</option>
+                            <option value="19F">¹⁹F NMR</option>
+                            <option value="15N">¹⁵N NMR</option>
                         </select>
                     </div>
                     
@@ -433,9 +448,9 @@
                         <label for="solventFilter">Solvent:</label>
                         <select id="solventFilter" onchange="updateFilterAvailability()">
                             <option value="">All Solvents</option>
-                            <option value="Chloroform-D1 (CDCl3)">CDCl₃ (192 compounds)</option>
-                            <option value="Dimethylsulphoxide-D6 (DMSO-D6, C2D6SO)">DMSO-d₆ (27 compounds)</option>
-                            <option value="Methanol-D4 (CD3OD)">CD₃OD (20 compounds)</option>
+                            <option value="Chloroform-D1 (CDCl3)">CDCl₃</option>
+                            <option value="Dimethylsulphoxide-D6 (DMSO-D6, C2D6SO)">DMSO-d₆</option>
+                            <option value="Methanol-D4 (CD3OD)">CD₃OD</option>
                             <option value="Unknown">Unknown Solvent</option>
                             <option value="Unreported">Unreported Solvent</option>
                         </select>
@@ -445,16 +460,16 @@
                         <label for="fieldFilter">Field Strength:</label>
                         <select id="fieldFilter" onchange="updateFilterAvailability()">
                             <option value="">All Field Strengths</option>
-                            <option value="100">100 MHz (84 compounds)</option>
-                            <option value="141">141 MHz (68 compounds)</option>
-                            <option value="125">125 MHz (64 compounds)</option>
-                            <option value="75">75 MHz (52 compounds)</option>
-                            <option value="400">400 MHz (36 compounds)</option>
-                            <option value="500">500 MHz (35 compounds)</option>
-                            <option value="300">300 MHz (34 compounds)</option>
-                            <option value="150">150 MHz (33 compounds)</option>
-                            <option value="600">600 MHz (28 compounds)</option>
-                            <option value="700">700 MHz (16 compounds)</option>
+                            <option value="100">100 MHz</option>
+                            <option value="141">141 MHz</option>
+                            <option value="125">125 MHz</option>
+                            <option value="75">75 MHz</option>
+                            <option value="400">400 MHz</option>
+                            <option value="500">500 MHz</option>
+                            <option value="300">300 MHz</option>
+                            <option value="150">150 MHz</option>
+                            <option value="600">600 MHz</option>
+                            <option value="700">700 MHz</option>
                             <option value="Unknown">Unknown Field Strength</option>
                             <option value="Unreported">Unreported Field Strength</option>
                         </select>
@@ -473,8 +488,12 @@
                 </div>
             </div>
             
+            <div class="progress-bar" id="progressBar" style="display: none;">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+            
             <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 1rem;">
-                💡 Filters automatically update to show only available combinations. Grayed out options are not available with current selections.
+                💡 Now using all 56,938 files for filtering! Select filters and click "Apply Filter" to see results.
             </p>
         </div>
 
@@ -488,12 +507,12 @@
                 <div>Loaded Compounds</div>
             </div>
             <div class="stat-card">
-                <div class="stat-number">5</div>
-                <div>NMR Types</div>
+                <div class="stat-number" id="searchedCompounds">0</div>
+                <div>Searched Compounds</div>
             </div>
             <div class="stat-card">
-                <div class="stat-number">3</div>
-                <div>Main Solvents</div>
+                <div class="stat-number">5</div>
+                <div>NMR Types</div>
             </div>
         </div>
 
@@ -521,32 +540,8 @@
         
         let allCompounds = [];
         let filteredCompounds = [];
-        let currentPage = 0;
         let availableFiles = [];
-
-        // Filter combinations based on actual data analysis
-        const filterCombinations = {
-            '1H': {
-                solvents: ['Chloroform-D1 (CDCl3)', 'Dimethylsulphoxide-D6 (DMSO-D6, C2D6SO)', 'Methanol-D4 (CD3OD)', 'Unknown', 'Unreported'],
-                fields: ['100', '141', '125', '75', '400', '500', '300', '150', '600', '700', 'Unknown', 'Unreported']
-            },
-            '13C': {
-                solvents: ['Chloroform-D1 (CDCl3)', 'Dimethylsulphoxide-D6 (DMSO-D6, C2D6SO)', 'Methanol-D4 (CD3OD)', 'Unknown', 'Unreported'],
-                fields: ['100', '141', '125', '75', '400', '500', '300', '150', '600', '700', 'Unknown', 'Unreported']
-            },
-            '31P': {
-                solvents: ['Unknown', 'Unreported'],
-                fields: ['Unknown', 'Unreported']
-            },
-            '19F': {
-                solvents: ['Chloroform-D1 (CDCl3)', 'Dimethylsulphoxide-D6 (DMSO-D6, C2D6SO)', 'Unknown', 'Unreported'],
-                fields: ['Unknown', 'Unreported']
-            },
-            '15N': {
-                solvents: ['Unknown', 'Unreported'],
-                fields: ['Unknown', 'Unreported']
-            }
-        };
+        let isSearching = false;
 
         // Theme Management
         function initializeTheme() {
@@ -579,105 +574,39 @@
 
         // Filter availability management
         function updateFilterAvailability() {
-            const nmrFilter = document.getElementById('nmrFilter');
-            const solventFilter = document.getElementById('solventFilter');
-            const fieldFilter = document.getElementById('fieldFilter');
-            
-            const selectedNMR = nmrFilter.value;
-            const selectedSolvent = solventFilter.value;
-            
-            // Reset all options to enabled
-            enableAllFilterOptions();
-            
-            if (selectedNMR) {
-                // Disable unavailable solvents for selected NMR type
-                const availableSolvents = filterCombinations[selectedNMR].solvents;
-                disableUnavailableOptions(solventFilter, availableSolvents);
-                
-                // If a solvent is selected, also filter fields
-                if (selectedSolvent && availableSolvents.includes(selectedSolvent)) {
-                    const availableFields = filterCombinations[selectedNMR].fields;
-                    disableUnavailableOptions(fieldFilter, availableFields);
-                }
-            }
-            
-            // If only solvent is selected (no NMR), show all fields
-            if (!selectedNMR && selectedSolvent) {
-                // Keep all field options available
-            }
+            // For now, keep all filters available since we're using all files
+            // This can be enhanced later with actual combination analysis
         }
 
-        function enableAllFilterOptions() {
-            const filters = ['solventFilter', 'fieldFilter'];
-            
-            filters.forEach(filterId => {
-                const select = document.getElementById(filterId);
-                const group = document.getElementById(filterId + 'Group');
-                
-                // Enable all options
-                Array.from(select.options).forEach(option => {
-                    option.disabled = false;
-                    option.style.color = '';
-                    option.style.fontStyle = '';
-                });
-                
-                // Enable the select element and group
-                select.disabled = false;
-                group.classList.remove('disabled');
-            });
-        }
-
-        function disableUnavailableOptions(selectElement, availableValues) {
-            Array.from(selectElement.options).forEach(option => {
-                if (option.value === '') {
-                    // Always keep the "All" option available
-                    option.disabled = false;
-                    option.style.color = '';
-                    option.style.fontStyle = '';
-                } else if (!availableValues.includes(option.value)) {
-                    // Disable unavailable options
-                    option.disabled = true;
-                    option.style.color = 'var(--disabled-text)';
-                    option.style.fontStyle = 'italic';
+        // Load all available files
+        async function loadAllAvailableFiles() {
+            try {
+                const response = await fetch('all_available_files.txt');
+                if (response.ok) {
+                    const text = await response.text();
+                    availableFiles = text.trim().split('\n').filter(f => f.trim());
+                    console.log(`Loaded ${availableFiles.length} files for filtering`);
+                    updateStats();
                 } else {
-                    // Keep available options enabled
-                    option.disabled = false;
-                    option.style.color = '';
-                    option.style.fontStyle = '';
+                    console.error('Could not load file list, using fallback');
+                    // Fallback to a sample if the file doesn't exist
+                    availableFiles = [
+                        'AAAISYODTULZTR-DARAHFNDSA-N.json',
+                        'AAAQKTZKLRYKHR-UHFFFAOYSA-N.json',
+                        'AAARTTJTRNAYHQ-NXEZZACHSA-N.json',
+                        'AAARTTJTRNAYHQ-VHSXEESVSA-N.json',
+                        'AAASFPHGEWHGIB-UHFFFAOYSA-N.json'
+                    ];
                 }
-            });
-        }
-
-        // Initialize available files list
-        async function initializeAvailableFiles() {
-            const sampleFiles = [
-                'AAAISYODTULZTR-DARAHFNDSA-N.json',
-                'AAAQKTZKLRYKHR-UHFFFAOYSA-N.json',
-                'AAARTTJTRNAYHQ-NXEZZACHSA-N.json',
-                'AAARTTJTRNAYHQ-VHSXEESVSA-N.json',
-                'AAASFPHGEWHGIB-UHFFFAOYSA-N.json',
-                'AAAXMNYUNVCMCJ-UHFFFAOYSA-N.json',
-                'AABOCLLAUKSOSG-RKDXNWHRSA-N.json',
-                'QGMWDUUHVVLHNP-JQXSQYPDSA-N.json',
-                'GJNXTRPTZOVADS-PWRGDLIESA-N.json',
-                'UNPSXBKCCZEIRN-UHFFFAOYSA-N.json',
-                'ZEKAXIFHLIITGV-UHFFFAOYSA-N.json',
-                'WUADCCWRTIWKIC-UHFFFAOYSA-N.json',
-                'VHRGRCVQAFMJIZ-UHFFFAOYSA-N.json',
-                'UFSCUCAEUNYCKX-UHFFFAOYSA-N.json',
-                'TZERFULGIUVIGO-UHFFFAOYSA-N.json',
-                'SXJWSJQUNMFOSK-UHFFFAOYSA-N.json',
-                'RWSOTUBLDIXVET-UHFFFAOYSA-N.json',
-                'QZRVSLHMLPKULR-UHFFFAOYSA-N.json',
-                'PKZCNXHKXOPNOV-UHFFFAOYSA-N.json',
-                'OJWKTCDVKWGWDY-UHFFFAOYSA-N.json',
-                'NIXOWILDQLNWCW-UHFFFAOYSA-N.json',
-                'MWHVXIOWNAJDQZ-UHFFFAOYSA-N.json',
-                'LWHOVWRFCVHHJQ-UHFFFAOYSA-N.json',
-                'KVWJXWZOKYOFNK-UHFFFAOYSA-N.json',
-                'JZXXOCUPIKVFOY-UHFFFAOYSA-N.json'
-            ];
-            availableFiles = sampleFiles;
+            } catch (error) {
+                console.error('Error loading file list:', error);
+                // Use fallback
+                availableFiles = [
+                    'AAAISYODTULZTR-DARAHFNDSA-N.json',
+                    'AAAQKTZKLRYKHR-UHFFFAOYSA-N.json',
+                    'AAARTTJTRNAYHQ-NXEZZACHSA-N.json'
+                ];
+            }
         }
 
         async function loadCompound(filename) {
@@ -701,8 +630,12 @@
         }
 
         async function loadFilteredCompounds() {
+            if (isSearching) return;
+            
+            isSearching = true;
             showLoading(true);
             hideError();
+            showProgress(true);
             
             const nmrFilter = document.getElementById('nmrFilter').value;
             const solventFilter = document.getElementById('solventFilter').value;
@@ -710,11 +643,24 @@
             const limitFilter = parseInt(document.getElementById('limitFilter').value);
             
             const compounds = [];
-            let loaded = 0;
-            const maxLoad = Math.min(limitFilter, availableFiles.length);
+            let searched = 0;
+            let matched = 0;
+            const totalFiles = availableFiles.length;
             
-            for (const filename of availableFiles) {
-                if (loaded >= maxLoad) break;
+            // Shuffle files for random results
+            const shuffledFiles = [...availableFiles].sort(() => Math.random() - 0.5);
+            
+            for (const filename of shuffledFiles) {
+                if (matched >= limitFilter) break;
+                
+                searched++;
+                
+                // Update progress
+                if (searched % 100 === 0) {
+                    const progress = (searched / totalFiles) * 100;
+                    updateProgress(progress);
+                    document.getElementById('searchedCompounds').textContent = searched;
+                }
                 
                 const data = await loadCompound(filename);
                 if (data) {
@@ -740,8 +686,13 @@
                             data: data,
                             filename: filename
                         });
-                        loaded++;
+                        matched++;
                     }
+                }
+                
+                // Add small delay to prevent browser freezing
+                if (searched % 50 === 0) {
+                    await new Promise(resolve => setTimeout(resolve, 1));
                 }
             }
             
@@ -749,9 +700,13 @@
             displayCompounds(compounds);
             updateStats();
             showLoading(false);
+            showProgress(false);
+            isSearching = false;
             
             if (compounds.length === 0) {
-                showError('No compounds found matching the selected filters. Try adjusting your criteria or check if the files are available.');
+                showError(`No compounds found matching the selected filters after searching ${searched} files. Try adjusting your criteria.`);
+            } else {
+                console.log(`Found ${compounds.length} compounds matching filters after searching ${searched} files`);
             }
         }
 
@@ -797,13 +752,27 @@
                 return;
             }
 
+            if (isSearching) return;
+            
+            isSearching = true;
             showLoading(true);
             hideError();
+            showProgress(true);
 
             const compounds = [];
+            let searched = 0;
+            const totalFiles = availableFiles.length;
             
-            // Search in available files
             for (const filename of availableFiles) {
+                searched++;
+                
+                // Update progress
+                if (searched % 100 === 0) {
+                    const progress = (searched / totalFiles) * 100;
+                    updateProgress(progress);
+                    document.getElementById('searchedCompounds').textContent = searched;
+                }
+                
                 const data = await loadCompound(filename);
                 if (data) {
                     const searchLower = query.toLowerCase();
@@ -819,15 +788,24 @@
                         });
                     }
                 }
+                
+                // Add small delay to prevent browser freezing
+                if (searched % 50 === 0) {
+                    await new Promise(resolve => setTimeout(resolve, 1));
+                }
             }
 
             allCompounds = compounds;
             displayCompounds(compounds);
             updateStats();
             showLoading(false);
+            showProgress(false);
+            isSearching = false;
             
             if (compounds.length === 0) {
-                showError('No compounds found matching your search. Try a different search term.');
+                showError(`No compounds found matching "${query}" after searching ${searched} files.`);
+            } else {
+                console.log(`Found ${compounds.length} compounds matching "${query}" after searching ${searched} files`);
             }
         }
 
@@ -931,6 +909,14 @@
             document.getElementById('loading').style.display = show ? 'block' : 'none';
         }
 
+        function showProgress(show) {
+            document.getElementById('progressBar').style.display = show ? 'block' : 'none';
+        }
+
+        function updateProgress(percentage) {
+            document.getElementById('progressFill').style.width = percentage + '%';
+        }
+
         function showError(message) {
             const errorEl = document.getElementById('error');
             errorEl.textContent = message;
@@ -942,6 +928,7 @@
         }
 
         function updateStats() {
+            document.getElementById('totalCompounds').textContent = availableFiles.length.toLocaleString();
             document.getElementById('loadedCompounds').textContent = allCompounds.length;
         }
 
@@ -963,9 +950,10 @@
         // Initialize everything
         async function initialize() {
             initializeTheme();
-            await initializeAvailableFiles();
-            updateFilterAvailability(); // Initialize filter availability
-            loadFilteredCompounds();
+            await loadAllAvailableFiles();
+            updateFilterAvailability();
+            // Don't auto-load compounds since we now have 56k+ files
+            // User should select filters and click "Apply Filter"
         }
 
         // Start the application
