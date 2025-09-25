@@ -22,6 +22,9 @@
             --shadow-hover: rgba(0,0,0,0.15);
             --accent: #667eea;
             --accent-hover: #5a6fd8;
+            --disabled-bg: #f8f9fa;
+            --disabled-text: #adb5bd;
+            --disabled-border: #e9ecef;
         }
 
         [data-theme="dark"] {
@@ -35,6 +38,9 @@
             --shadow-hover: rgba(0,0,0,0.4);
             --accent: #7c3aed;
             --accent-hover: #6d28d9;
+            --disabled-bg: #1a1a1a;
+            --disabled-text: #666666;
+            --disabled-border: #333333;
         }
 
         body {
@@ -125,8 +131,32 @@
             border-color: var(--accent);
         }
 
-        .filter-group select:hover {
+        .filter-group select:hover:not(:disabled) {
             border-color: var(--accent);
+        }
+
+        .filter-group select option {
+            padding: 0.5rem;
+            background: var(--bg-secondary);
+            color: var(--text-primary);
+        }
+
+        .filter-group select option:disabled {
+            background: var(--disabled-bg);
+            color: var(--disabled-text);
+            font-style: italic;
+        }
+
+        /* Disabled filter styling */
+        .filter-group select:disabled {
+            background: var(--disabled-bg);
+            color: var(--disabled-text);
+            border-color: var(--disabled-border);
+            cursor: not-allowed;
+        }
+
+        .filter-group.disabled label {
+            color: var(--disabled-text);
         }
 
         input[type="text"] {
@@ -387,66 +417,70 @@
             
             <div class="filter-section">
                 <div class="filter-row">
-                    <div class="filter-group">
+                    <div class="filter-group" id="nmrFilterGroup">
                         <label for="nmrFilter">NMR Type:</label>
-                        <select id="nmrFilter">
+                        <select id="nmrFilter" onchange="updateFilterAvailability()">
                             <option value="">All NMR Types</option>
-                            <option value="1H">¹H NMR</option>
-                            <option value="13C">¹³C NMR</option>
-                            <option value="19F">¹⁹F NMR</option>
-                            <option value="31P">³¹P NMR</option>
-                            <option value="15N">¹⁵N NMR</option>
-                            <option value="2H">²H NMR</option>
+                            <option value="1H">¹H NMR (604 spectra)</option>
+                            <option value="13C">¹³C NMR (1516 spectra)</option>
+                            <option value="31P">³¹P NMR (475 spectra)</option>
+                            <option value="19F">¹⁹F NMR (24 spectra)</option>
+                            <option value="15N">¹⁵N NMR (3 spectra)</option>
                         </select>
                     </div>
                     
-                    <div class="filter-group">
+                    <div class="filter-group" id="solventFilterGroup">
                         <label for="solventFilter">Solvent:</label>
-                        <select id="solventFilter">
+                        <select id="solventFilter" onchange="updateFilterAvailability()">
                             <option value="">All Solvents</option>
-                            <option value="CDCl3">CDCl₃</option>
-                            <option value="DMSO">DMSO-d₆</option>
-                            <option value="CD3OD">CD₃OD</option>
-                            <option value="D2O">D₂O</option>
-                            <option value="C6D6">C₆D₆</option>
-                            <option value="CD3CN">CD₃CN</option>
+                            <option value="Chloroform-D1 (CDCl3)">CDCl₃ (192 compounds)</option>
+                            <option value="Dimethylsulphoxide-D6 (DMSO-D6, C2D6SO)">DMSO-d₆ (27 compounds)</option>
+                            <option value="Methanol-D4 (CD3OD)">CD₃OD (20 compounds)</option>
+                            <option value="Unknown">Unknown Solvent</option>
+                            <option value="Unreported">Unreported Solvent</option>
                         </select>
                     </div>
                     
-                    <div class="filter-group">
+                    <div class="filter-group" id="fieldFilterGroup">
                         <label for="fieldFilter">Field Strength:</label>
-                        <select id="fieldFilter">
+                        <select id="fieldFilter" onchange="updateFilterAvailability()">
                             <option value="">All Field Strengths</option>
-                            <option value="300">300 MHz</option>
-                            <option value="400">400 MHz</option>
-                            <option value="500">500 MHz</option>
-                            <option value="600">600 MHz</option>
-                            <option value="700">700 MHz</option>
-                            <option value="800">800 MHz</option>
+                            <option value="100">100 MHz (84 compounds)</option>
+                            <option value="141">141 MHz (68 compounds)</option>
+                            <option value="125">125 MHz (64 compounds)</option>
+                            <option value="75">75 MHz (52 compounds)</option>
+                            <option value="400">400 MHz (36 compounds)</option>
+                            <option value="500">500 MHz (35 compounds)</option>
+                            <option value="300">300 MHz (34 compounds)</option>
+                            <option value="150">150 MHz (33 compounds)</option>
+                            <option value="600">600 MHz (28 compounds)</option>
+                            <option value="700">700 MHz (16 compounds)</option>
+                            <option value="Unknown">Unknown Field Strength</option>
+                            <option value="Unreported">Unreported Field Strength</option>
                         </select>
                     </div>
                     
                     <div class="filter-group">
                         <label for="limitFilter">Show:</label>
                         <select id="limitFilter">
-                            <option value="12">12 compounds</option>
-                            <option value="24">24 compounds</option>
-                            <option value="48">48 compounds</option>
-                            <option value="96">96 compounds</option>
-                            <option value="200">200 compounds</option>
+                            <option value="5">5 compounds</option>
+                            <option value="10">10 compounds</option>
+                            <option value="15">15 compounds</option>
+                            <option value="20">20 compounds</option>
+                            <option value="25">25 compounds</option>
                         </select>
                     </div>
                 </div>
             </div>
             
             <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 1rem;">
-                💡 Use filters to narrow down compounds by NMR type, solvent, field strength, or search for specific compounds
+                💡 Filters automatically update to show only available combinations. Grayed out options are not available with current selections.
             </p>
         </div>
 
         <div class="stats">
             <div class="stat-card">
-                <div class="stat-number" id="totalCompounds">0</div>
+                <div class="stat-number" id="totalCompounds">56,938</div>
                 <div>Total Compounds</div>
             </div>
             <div class="stat-card">
@@ -454,12 +488,12 @@
                 <div>Loaded Compounds</div>
             </div>
             <div class="stat-card">
-                <div class="stat-number" id="nmrTypes">0</div>
+                <div class="stat-number">5</div>
                 <div>NMR Types</div>
             </div>
             <div class="stat-card">
-                <div class="stat-number" id="solvents">0</div>
-                <div>Solvents</div>
+                <div class="stat-number">3</div>
+                <div>Main Solvents</div>
             </div>
         </div>
 
@@ -482,13 +516,37 @@
 
     <script>
         // Configuration
-        const LOCAL_FILES = true; // Set to true to use local files, false for GitHub
+        const LOCAL_FILES = true;
         const GITHUB_RAW_BASE = 'https://raw.githubusercontent.com/pb-commits/nmrshift2db/main/';
         
         let allCompounds = [];
         let filteredCompounds = [];
         let currentPage = 0;
-        const pageSize = 12;
+        let availableFiles = [];
+
+        // Filter combinations based on actual data analysis
+        const filterCombinations = {
+            '1H': {
+                solvents: ['Chloroform-D1 (CDCl3)', 'Dimethylsulphoxide-D6 (DMSO-D6, C2D6SO)', 'Methanol-D4 (CD3OD)', 'Unknown', 'Unreported'],
+                fields: ['100', '141', '125', '75', '400', '500', '300', '150', '600', '700', 'Unknown', 'Unreported']
+            },
+            '13C': {
+                solvents: ['Chloroform-D1 (CDCl3)', 'Dimethylsulphoxide-D6 (DMSO-D6, C2D6SO)', 'Methanol-D4 (CD3OD)', 'Unknown', 'Unreported'],
+                fields: ['100', '141', '125', '75', '400', '500', '300', '150', '600', '700', 'Unknown', 'Unreported']
+            },
+            '31P': {
+                solvents: ['Unknown', 'Unreported'],
+                fields: ['Unknown', 'Unreported']
+            },
+            '19F': {
+                solvents: ['Chloroform-D1 (CDCl3)', 'Dimethylsulphoxide-D6 (DMSO-D6, C2D6SO)', 'Unknown', 'Unreported'],
+                fields: ['Unknown', 'Unreported']
+            },
+            '15N': {
+                solvents: ['Unknown', 'Unreported'],
+                fields: ['Unknown', 'Unreported']
+            }
+        };
 
         // Theme Management
         function initializeTheme() {
@@ -519,27 +577,116 @@
             }
         }
 
-        // Sample of available InChI keys for testing (you can expand this list)
-        const sampleInchiKeys = [
-            'AAAISYODTULZTR-DARAHFNDSA-N',
-            'AAAQKTZKLRYKHR-UHFFFAOYSA-N',
-            'AAARTTJTRNAYHQ-NXEZZACHSA-N',
-            'AAARTTJTRNAYHQ-VHSXEESVSA-N',
-            'AAASFPHGEWHGIB-UHFFFAOYSA-N',
-            'AAAXMNYUNVCMCJ-UHFFFAOYSA-N',
-            'AABOCLLAUKSOSG-RKDXNWHRSA-N',
-            'QGMWDUUHVVLHNP-JQXSQYPDSA-N',
-            'GJNXTRPTZOVADS-PWRGDLIESA-N',
-            'UNPSXBKCCZEIRN-UHFFFAOYSA-N'
-        ];
+        // Filter availability management
+        function updateFilterAvailability() {
+            const nmrFilter = document.getElementById('nmrFilter');
+            const solventFilter = document.getElementById('solventFilter');
+            const fieldFilter = document.getElementById('fieldFilter');
+            
+            const selectedNMR = nmrFilter.value;
+            const selectedSolvent = solventFilter.value;
+            
+            // Reset all options to enabled
+            enableAllFilterOptions();
+            
+            if (selectedNMR) {
+                // Disable unavailable solvents for selected NMR type
+                const availableSolvents = filterCombinations[selectedNMR].solvents;
+                disableUnavailableOptions(solventFilter, availableSolvents);
+                
+                // If a solvent is selected, also filter fields
+                if (selectedSolvent && availableSolvents.includes(selectedSolvent)) {
+                    const availableFields = filterCombinations[selectedNMR].fields;
+                    disableUnavailableOptions(fieldFilter, availableFields);
+                }
+            }
+            
+            // If only solvent is selected (no NMR), show all fields
+            if (!selectedNMR && selectedSolvent) {
+                // Keep all field options available
+            }
+        }
 
-        async function loadCompound(inchiKey) {
+        function enableAllFilterOptions() {
+            const filters = ['solventFilter', 'fieldFilter'];
+            
+            filters.forEach(filterId => {
+                const select = document.getElementById(filterId);
+                const group = document.getElementById(filterId + 'Group');
+                
+                // Enable all options
+                Array.from(select.options).forEach(option => {
+                    option.disabled = false;
+                    option.style.color = '';
+                    option.style.fontStyle = '';
+                });
+                
+                // Enable the select element and group
+                select.disabled = false;
+                group.classList.remove('disabled');
+            });
+        }
+
+        function disableUnavailableOptions(selectElement, availableValues) {
+            Array.from(selectElement.options).forEach(option => {
+                if (option.value === '') {
+                    // Always keep the "All" option available
+                    option.disabled = false;
+                    option.style.color = '';
+                    option.style.fontStyle = '';
+                } else if (!availableValues.includes(option.value)) {
+                    // Disable unavailable options
+                    option.disabled = true;
+                    option.style.color = 'var(--disabled-text)';
+                    option.style.fontStyle = 'italic';
+                } else {
+                    // Keep available options enabled
+                    option.disabled = false;
+                    option.style.color = '';
+                    option.style.fontStyle = '';
+                }
+            });
+        }
+
+        // Initialize available files list
+        async function initializeAvailableFiles() {
+            const sampleFiles = [
+                'AAAISYODTULZTR-DARAHFNDSA-N.json',
+                'AAAQKTZKLRYKHR-UHFFFAOYSA-N.json',
+                'AAARTTJTRNAYHQ-NXEZZACHSA-N.json',
+                'AAARTTJTRNAYHQ-VHSXEESVSA-N.json',
+                'AAASFPHGEWHGIB-UHFFFAOYSA-N.json',
+                'AAAXMNYUNVCMCJ-UHFFFAOYSA-N.json',
+                'AABOCLLAUKSOSG-RKDXNWHRSA-N.json',
+                'QGMWDUUHVVLHNP-JQXSQYPDSA-N.json',
+                'GJNXTRPTZOVADS-PWRGDLIESA-N.json',
+                'UNPSXBKCCZEIRN-UHFFFAOYSA-N.json',
+                'ZEKAXIFHLIITGV-UHFFFAOYSA-N.json',
+                'WUADCCWRTIWKIC-UHFFFAOYSA-N.json',
+                'VHRGRCVQAFMJIZ-UHFFFAOYSA-N.json',
+                'UFSCUCAEUNYCKX-UHFFFAOYSA-N.json',
+                'TZERFULGIUVIGO-UHFFFAOYSA-N.json',
+                'SXJWSJQUNMFOSK-UHFFFAOYSA-N.json',
+                'RWSOTUBLDIXVET-UHFFFAOYSA-N.json',
+                'QZRVSLHMLPKULR-UHFFFAOYSA-N.json',
+                'PKZCNXHKXOPNOV-UHFFFAOYSA-N.json',
+                'OJWKTCDVKWGWDY-UHFFFAOYSA-N.json',
+                'NIXOWILDQLNWCW-UHFFFAOYSA-N.json',
+                'MWHVXIOWNAJDQZ-UHFFFAOYSA-N.json',
+                'LWHOVWRFCVHHJQ-UHFFFAOYSA-N.json',
+                'KVWJXWZOKYOFNK-UHFFFAOYSA-N.json',
+                'JZXXOCUPIKVFOY-UHFFFAOYSA-N.json'
+            ];
+            availableFiles = sampleFiles;
+        }
+
+        async function loadCompound(filename) {
             try {
                 let url;
                 if (LOCAL_FILES) {
-                    url = `${inchiKey}.json`;
+                    url = filename;
                 } else {
-                    url = `${GITHUB_RAW_BASE}${inchiKey}.json`;
+                    url = `${GITHUB_RAW_BASE}${filename}`;
                 }
                 
                 const response = await fetch(url);
@@ -548,7 +695,7 @@
                 }
                 return null;
             } catch (error) {
-                console.error(`Error loading ${inchiKey}:`, error);
+                console.error(`Error loading ${filename}:`, error);
                 return null;
             }
         }
@@ -564,12 +711,12 @@
             
             const compounds = [];
             let loaded = 0;
-            const maxLoad = Math.min(limitFilter, sampleInchiKeys.length);
+            const maxLoad = Math.min(limitFilter, availableFiles.length);
             
-            for (const key of sampleInchiKeys) {
+            for (const filename of availableFiles) {
                 if (loaded >= maxLoad) break;
                 
-                const data = await loadCompound(key);
+                const data = await loadCompound(filename);
                 if (data) {
                     // Apply filters
                     let passesFilter = true;
@@ -587,9 +734,11 @@
                     }
                     
                     if (passesFilter) {
+                        const inchiKey = filename.replace('.json', '');
                         compounds.push({
-                            inchiKey: key,
-                            data: data
+                            inchiKey: inchiKey,
+                            data: data,
+                            filename: filename
                         });
                         loaded++;
                     }
@@ -602,32 +751,43 @@
             showLoading(false);
             
             if (compounds.length === 0) {
-                showError('No compounds found matching the selected filters. Try adjusting your criteria.');
+                showError('No compounds found matching the selected filters. Try adjusting your criteria or check if the files are available.');
             }
         }
 
         function hasNMRType(data, nmrType) {
-            const nmrKeys = Object.keys(data).filter(key => 
-                key.includes('H-') || key.includes('C-') || key.includes('F-') || 
-                key.includes('P-') || key.includes('N-') || key.includes('D-')
-            );
-            
-            for (const key of nmrKeys) {
-                if (key.includes(nmrType)) {
-                    return true;
+            // Check for spectrum data with the specific NMR type
+            for (const key in data) {
+                if (key.includes('Spectrum') && key.includes(nmrType)) {
+                    const spectrum = data[key];
+                    if (spectrum && spectrum.trim() && spectrum !== '0:Unreported ') {
+                        return true;
+                    }
                 }
             }
             return false;
         }
 
         function hasSolvent(data, solvent) {
-            const solventValue = data['Solvent'] || data['solvent'] || '';
-            return solventValue.toLowerCase().includes(solvent.toLowerCase());
+            const solventValue = data['Solvent'] || '';
+            if (!solventValue || solventValue === '0:Unreported ') {
+                return solvent === 'Unreported';
+            }
+            if (solventValue === '0:Unknown ') {
+                return solvent === 'Unknown';
+            }
+            return solventValue.includes(solvent);
         }
 
         function hasFieldStrength(data, field) {
-            const fieldValue = data['Field Strength [MHz]'] || data['field_strength'] || '';
-            return fieldValue.toString().includes(field);
+            const fieldValue = data['Field Strength [MHz]'] || '';
+            if (!fieldValue || fieldValue === '0:Unreported ') {
+                return field === 'Unreported';
+            }
+            if (fieldValue === '0:Unknown ') {
+                return field === 'Unknown';
+            }
+            return fieldValue.includes(field);
         }
 
         async function searchCompounds() {
@@ -642,17 +802,20 @@
 
             const compounds = [];
             
-            // Search in sample keys first
-            for (const key of sampleInchiKeys) {
-                const data = await loadCompound(key);
+            // Search in available files
+            for (const filename of availableFiles) {
+                const data = await loadCompound(filename);
                 if (data) {
                     const searchLower = query.toLowerCase();
-                    if (key.toLowerCase().includes(searchLower) ||
+                    const inchiKey = filename.replace('.json', '');
+                    
+                    if (inchiKey.toLowerCase().includes(searchLower) ||
                         (data.SMILES && data.SMILES.toLowerCase().includes(searchLower)) ||
                         (data['nmrshiftdb2 ID'] && data['nmrshiftdb2 ID'].toString().includes(query))) {
                         compounds.push({
-                            inchiKey: key,
-                            data: data
+                            inchiKey: inchiKey,
+                            data: data,
+                            filename: filename
                         });
                     }
                 }
@@ -691,9 +854,9 @@
                 <div class="compound-smiles">${data.SMILES || 'No SMILES available'}</div>
                 <div class="compound-info">
                     <div><span class="info-label">ID:</span> ${data['nmrshiftdb2 ID'] || 'N/A'}</div>
-                    <div><span class="info-label">Solvent:</span> ${data['Solvent'] || 'N/A'}</div>
-                    <div><span class="info-label">Temperature:</span> ${data['Temperature [K]'] || 'N/A'}</div>
-                    <div><span class="info-label">Field:</span> ${data['Field Strength [MHz]'] || 'N/A'}</div>
+                    <div><span class="info-label">Solvent:</span> ${formatSolvent(data['Solvent']) || 'N/A'}</div>
+                    <div><span class="info-label">Temperature:</span> ${formatTemperature(data['Temperature [K]']) || 'N/A'}</div>
+                    <div><span class="info-label">Field:</span> ${formatField(data['Field Strength [MHz]']) || 'N/A'}</div>
                 </div>
                 <div class="nmr-badges">
                     ${nmrTypes.map(type => `<span class="nmr-badge available">${type}</span>`).join('')}
@@ -705,18 +868,46 @@
 
         function getNMRTypes(data) {
             const types = [];
-            const keys = Object.keys(data);
             
-            keys.forEach(key => {
-                if (key.includes('H-')) types.push('¹H');
-                else if (key.includes('C-')) types.push('¹³C');
-                else if (key.includes('F-')) types.push('¹⁹F');
-                else if (key.includes('P-')) types.push('³¹P');
-                else if (key.includes('N-')) types.push('¹⁵N');
-                else if (key.includes('D-')) types.push('²H');
-            });
+            for (const key in data) {
+                if (key.includes('Spectrum')) {
+                    if (key.includes('1H')) types.push('¹H');
+                    else if (key.includes('13C')) types.push('¹³C');
+                    else if (key.includes('31P')) types.push('³¹P');
+                    else if (key.includes('19F')) types.push('¹⁹F');
+                    else if (key.includes('15N')) types.push('¹⁵N');
+                    else if (key.includes('11B')) types.push('¹¹B');
+                }
+            }
             
             return [...new Set(types)]; // Remove duplicates
+        }
+
+        function formatSolvent(solvent) {
+            if (!solvent || solvent === '0:Unreported ') return null;
+            if (solvent === '0:Unknown ') return 'Unknown';
+            
+            // Extract the actual solvent name
+            const match = solvent.match(/([A-Za-z0-9\-\(\)]+)/);
+            return match ? match[1] : solvent;
+        }
+
+        function formatTemperature(temp) {
+            if (!temp || temp === '0:Unreported ') return null;
+            if (temp === '0:Unknown ') return 'Unknown';
+            
+            // Extract numeric value
+            const match = temp.match(/(\d+)/);
+            return match ? match[1] + ' K' : temp;
+        }
+
+        function formatField(field) {
+            if (!field || field === '0:Unreported ') return null;
+            if (field === '0:Unknown ') return 'Unknown';
+            
+            // Extract numeric value
+            const match = field.match(/(\d+)/);
+            return match ? match[1] + ' MHz' : field;
         }
 
         function showCompoundDetails(compound) {
@@ -751,10 +942,7 @@
         }
 
         function updateStats() {
-            document.getElementById('totalCompounds').textContent = '56,938';
             document.getElementById('loadedCompounds').textContent = allCompounds.length;
-            document.getElementById('nmrTypes').textContent = '6';
-            document.getElementById('solvents').textContent = '10+';
         }
 
         // Event listeners
@@ -772,9 +960,16 @@
             }
         }
 
-        // Initialize theme and load initial data
-        initializeTheme();
-        loadFilteredCompounds();
+        // Initialize everything
+        async function initialize() {
+            initializeTheme();
+            await initializeAvailableFiles();
+            updateFilterAvailability(); // Initialize filter availability
+            loadFilteredCompounds();
+        }
+
+        // Start the application
+        initialize();
     </script>
 </body>
 </html>
