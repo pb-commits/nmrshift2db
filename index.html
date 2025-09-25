@@ -535,7 +535,7 @@
 
     <script>
         // Configuration
-        const LOCAL_FILES = true;
+        const LOCAL_FILES = false;
         const GITHUB_RAW_BASE = 'https://raw.githubusercontent.com/pb-commits/nmrshift2db/main/';
         
         let allCompounds = [];
@@ -581,7 +581,7 @@
         // Load all available files
         async function loadAllAvailableFiles() {
             try {
-                const response = await fetch('all_available_files.txt');
+                const response = await fetch(`${GITHUB_RAW_BASE}all_available_files.txt`);
                 if (response.ok) {
                     const text = await response.text();
                     availableFiles = text.trim().split('\n').filter(f => f.trim());
@@ -615,7 +615,7 @@
                 if (LOCAL_FILES) {
                     url = filename;
                 } else {
-                    url = `${GITHUB_RAW_BASE}${filename}`;
+                    url = `${GITHUB_RAW_BASE}nmr-json/${filename}`;
                 }
                 
                 const response = await fetch(url);
@@ -952,8 +952,8 @@
             initializeTheme();
             await loadAllAvailableFiles();
             updateFilterAvailability();
-            // Don't auto-load compounds since we now have 56k+ files
-            // User should select filters and click "Apply Filter"
+            // Auto-load some compounds on startup for better user experience
+            await loadFilteredCompounds();
         }
 
         // Start the application
