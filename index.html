@@ -5,11 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NMR Chemical Shift Database Viewer</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+        * { margin:0; padding:0; box-sizing:border-box; }
 
         :root {
             --bg-primary: #f8f9fa;
@@ -27,9 +23,9 @@
         [data-theme="dark"] {
             --bg-primary: #1a1a1a;
             --bg-secondary: #2d2d2d;
-            --text-primary: #ffffff;
-            --text-secondary: #cccccc;
-            --text-muted: #999999;
+            --text-primary: #fff;
+            --text-secondary: #ccc;
+            --text-muted: #999;
             --border-color: #404040;
             --shadow: rgba(0,0,0,0.3);
             --shadow-hover: rgba(0,0,0,0.4);
@@ -37,571 +33,248 @@
             --accent-hover: #6d28d9;
         }
 
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            line-height: 1.6;
-            color: var(--text-primary);
-            background-color: var(--bg-primary);
-            transition: background-color 0.3s ease, color 0.3s ease;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-
-        header {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 2rem 0;
-            margin-bottom: 2rem;
-            border-radius: 10px;
-        }
-
-        h1 {
-            text-align: center;
-            font-size: 2.5rem;
-            margin-bottom: 0.5rem;
-        }
-
-        .subtitle {
-            text-align: center;
-            font-size: 1.1rem;
-            opacity: 0.9;
-        }
-
-        .search-section {
-            background: var(--bg-secondary);
-            padding: 2rem;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px var(--shadow);
-            margin-bottom: 2rem;
-        }
-
-        .search-box {
-            display: flex;
-            gap: 1rem;
-            margin-bottom: 1rem;
-        }
-
-        input[type="text"] {
-            flex: 1;
-            padding: 0.75rem;
-            border: 2px solid var(--border-color);
-            border-radius: 5px;
-            font-size: 1rem;
-            background: var(--bg-secondary);
-            color: var(--text-primary);
-            transition: border-color 0.3s ease;
-        }
-
-        input[type="text"]:focus {
-            outline: none;
-            border-color: var(--accent);
-        }
-
-        button {
-            padding: 0.75rem 1.5rem;
-            background: var(--accent);
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 1rem;
-            transition: background-color 0.3s;
-        }
-
-        button:hover {
-            background: var(--accent-hover);
-        }
-
-        button:disabled {
-            background: #ccc;
-            cursor: not-allowed;
-        }
-
-        .stats {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 1rem;
-            margin-bottom: 2rem;
-        }
-
-        .stat-card {
-            background: var(--bg-secondary);
-            padding: 1.5rem;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px var(--shadow);
-            text-align: center;
-        }
-
-        .stat-number {
-            font-size: 2rem;
-            font-weight: bold;
-            color: var(--accent);
-        }
-
-        .compound-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-            gap: 1.5rem;
-            margin-top: 2rem;
-        }
-
-        .compound-card {
-            background: var(--bg-secondary);
-            border-radius: 10px;
-            padding: 1.5rem;
-            box-shadow: 0 2px 10px var(--shadow);
-            transition: transform 0.3s, box-shadow 0.3s;
-            cursor: pointer;
-        }
-
-        .compound-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 5px 20px var(--shadow-hover);
-        }
-
-        .compound-id {
-            font-family: monospace;
-            font-size: 0.9rem;
-            color: var(--text-secondary);
-            margin-bottom: 0.5rem;
-        }
-
-        .compound-smiles {
-            font-family: monospace;
-            font-size: 0.8rem;
-            color: var(--text-muted);
-            margin-bottom: 1rem;
-            word-break: break-all;
-        }
-
-        .compound-info {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 0.5rem;
-            font-size: 0.9rem;
-        }
-
-        .info-label {
-            font-weight: bold;
-            color: var(--text-secondary);
-        }
-
-        .nmr-badges {
-            margin-top: 1rem;
-            display: flex;
-            gap: 0.5rem;
-            flex-wrap: wrap;
-        }
-
-        .nmr-badge {
-            padding: 0.25rem 0.5rem;
-            background: #e9ecef;
-            border-radius: 15px;
-            font-size: 0.8rem;
-            color: #495057;
-        }
-
-        .nmr-badge.available {
-            background: #d4edda;
-            color: #155724;
-        }
-
-        .loading {
-            text-align: center;
-            padding: 2rem;
-            color: var(--text-secondary);
-        }
-
-        .error {
-            background: #f8d7da;
-            color: #721c24;
-            padding: 1rem;
-            border-radius: 5px;
-            margin: 1rem 0;
-        }
-
-        .modal {
-            display: none;
-            position: fixed;
-            z-index: 1000;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0,0,0,0.5);
-        }
-
-        .modal-content {
-            background-color: var(--bg-secondary);
-            margin: 5% auto;
-            padding: 2rem;
-            border-radius: 10px;
-            width: 90%;
-            max-width: 800px;
-            max-height: 80vh;
-            overflow-y: auto;
-        }
-
-        .close {
-            color: #aaa;
-            float: right;
-            font-size: 28px;
-            font-weight: bold;
-            cursor: pointer;
-        }
-
-        .close:hover {
-            color: #000;
-        }
-
-        .json-viewer {
-            background: var(--bg-primary);
-            padding: 1rem;
-            border-radius: 5px;
-            font-family: monospace;
-            font-size: 0.9rem;
-            white-space: pre-wrap;
-            max-height: 400px;
-            overflow-y: auto;
-            border: 1px solid var(--border-color);
-        }
-
-        .theme-toggle {
-            position: fixed;
-            top: 20px;
-            right: 20px;
-            background: var(--bg-secondary);
-            border: 2px solid var(--border-color);
-            border-radius: 50px;
-            padding: 0.5rem 1rem;
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-            font-size: 0.9rem;
-            color: var(--text-primary);
-            box-shadow: 0 2px 10px var(--shadow);
-            transition: all 0.3s ease;
-            z-index: 1000;
-        }
-
-        .theme-toggle:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 15px var(--shadow-hover);
-        }
-
-        .theme-icon {
-            font-size: 1.2rem;
-            transition: transform 0.3s ease;
-        }
-
-        .theme-toggle:hover .theme-icon {
-            transform: rotate(20deg);
-        }
+        body { font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif; line-height:1.6; color:var(--text-primary); background-color:var(--bg-primary); transition: background-color 0.3s ease, color 0.3s ease; }
+        .container { max-width:1200px; margin:0 auto; padding:20px; }
+        header { background: linear-gradient(135deg,#667eea 0%,#764ba2 100%); color:white; padding:2rem 0; margin-bottom:2rem; border-radius:10px; }
+        h1 { text-align:center; font-size:2.5rem; margin-bottom:0.5rem; }
+        .subtitle { text-align:center; font-size:1.1rem; opacity:0.9; }
+        .search-section { background: var(--bg-secondary); padding:2rem; border-radius:10px; box-shadow:0 2px 10px var(--shadow); margin-bottom:2rem; }
+        .search-box { display:flex; gap:1rem; margin-bottom:1rem; }
+        input[type="text"] { flex:1; padding:0.75rem; border:2px solid var(--border-color); border-radius:5px; font-size:1rem; background:var(--bg-secondary); color:var(--text-primary); transition:border-color 0.3s ease; }
+        input[type="text"]:focus { outline:none; border-color:var(--accent); }
+        button { padding:0.75rem 1.5rem; background:var(--accent); color:white; border:none; border-radius:5px; cursor:pointer; font-size:1rem; transition: background-color 0.3s; }
+        button:hover { background:var(--accent-hover); }
+        button:disabled { background:#ccc; cursor:not-allowed; }
+        .stats { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:1rem; margin-bottom:2rem; }
+        .stat-card { background:var(--bg-secondary); padding:1.5rem; border-radius:10px; box-shadow:0 2px 10px var(--shadow); text-align:center; }
+        .stat-number { font-size:2rem; font-weight:bold; color:var(--accent); }
+        .compound-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(350px,1fr)); gap:1.5rem; margin-top:2rem; }
+        .compound-card { background:var(--bg-secondary); border-radius:10px; padding:1.5rem; box-shadow:0 2px 10px var(--shadow); transition: transform 0.3s, box-shadow 0.3s; cursor:pointer; }
+        .compound-card:hover { transform:translateY(-5px); box-shadow:0 5px 20px var(--shadow-hover); }
+        .compound-id { font-family:monospace; font-size:0.9rem; color:var(--text-secondary); margin-bottom:0.5rem; }
+        .compound-smiles { font-family:monospace; font-size:0.8rem; color:var(--text-muted); margin-bottom:1rem; word-break:break-all; }
+        .compound-info { display:grid; grid-template-columns:1fr 1fr; gap:0.5rem; font-size:0.9rem; }
+        .info-label { font-weight:bold; color:var(--text-secondary); }
+        .nmr-badges { margin-top:1rem; display:flex; gap:0.5rem; flex-wrap:wrap; }
+        .nmr-badge { padding:0.25rem 0.5rem; background:#e9ecef; border-radius:15px; font-size:0.8rem; color:#495057; }
+        .nmr-badge.available { background:#d4edda; color:#155724; }
+        .loading { text-align:center; padding:2rem; color:var(--text-secondary); }
+        .error { background:#f8d7da; color:#721c24; padding:1rem; border-radius:5px; margin:1rem 0; }
+        .modal { display:none; position:fixed; z-index:1000; left:0; top:0; width:100%; height:100%; background-color:rgba(0,0,0,0.5); }
+        .modal-content { background-color:var(--bg-secondary); margin:5% auto; padding:2rem; border-radius:10px; width:90%; max-width:800px; max-height:80vh; overflow-y:auto; }
+        .close { color:#aaa; float:right; font-size:28px; font-weight:bold; cursor:pointer; }
+        .close:hover { color:#000; }
+        .json-viewer { background:var(--bg-primary); padding:1rem; border-radius:5px; font-family:monospace; font-size:0.9rem; white-space:pre-wrap; max-height:400px; overflow-y:auto; border:1px solid var(--border-color); }
+        .theme-toggle { position:fixed; top:20px; right:20px; background:var(--bg-secondary); border:2px solid var(--border-color); border-radius:50px; padding:0.5rem 1rem; cursor:pointer; display:flex; align-items:center; gap:0.5rem; font-size:0.9rem; color:var(--text-primary); box-shadow:0 2px 10px var(--shadow); transition: all 0.3s ease; z-index:1000; }
+        .theme-toggle:hover { transform:translateY(-2px); box-shadow:0 4px 15px var(--shadow-hover); }
+        .theme-icon { font-size:1.2rem; transition: transform 0.3s ease; }
+        .theme-toggle:hover .theme-icon { transform: rotate(20deg); }
+        .pagination { margin-top:1.5rem; text-align:center; display:flex; justify-content:center; gap:0.5rem; flex-wrap:wrap; }
+        .pagination button { padding:0.5rem 0.75rem; background:var(--bg-secondary); border:1px solid var(--border-color); border-radius:5px; cursor:pointer; }
+        .pagination button.active { background:var(--accent); color:white; border-color:var(--accent); }
     </style>
 </head>
 <body>
-    <!-- Theme Toggle Button -->
-    <div class="theme-toggle" onclick="toggleTheme()">
-        <span class="theme-icon">🌙</span>
-        <span class="theme-text">Dark</span>
-    </div>
-    
-    <div class="container">
-        <header>
-            <h1>NMR Chemical Shift Database</h1>
-            <p class="subtitle">Browse and search 57,000+ chemical compounds with NMR data</p>
-        </header>
+<div class="theme-toggle" onclick="toggleTheme()">
+    <span class="theme-icon">🌙</span><span class="theme-text">Dark</span>
+</div>
+<div class="container">
+    <header>
+        <h1>NMR Chemical Shift Database</h1>
+        <p class="subtitle">Browse and search 57,000+ chemical compounds with NMR data</p>
+    </header>
 
-        <div class="search-section">
-            <div class="search-box">
-                <input type="text" id="searchInput" placeholder="Search by InChI key, SMILES, or NMR ID...">
-                <button onclick="searchCompounds()">Search</button>
-                <button onclick="loadRandomCompounds()">Browse Random</button>
-            </div>
-            <p style="color: #666; font-size: 0.9rem;">
-                💡 Try searching for specific InChI keys like "AAAISYODTULZTR-DARAHFNDSA-N" or browse random compounds
-            </p>
+    <div class="search-section">
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search by InChI key, SMILES, or NMR ID...">
+            <button onclick="searchCompounds()">Search</button>
+            <button onclick="loadRandomCompounds()">Browse Random</button>
         </div>
-
-        <div class="stats">
-            <div class="stat-card">
-                <div class="stat-number" id="totalCompounds">57,055</div>
-                <div>Total Compounds</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-number" id="loadedCompounds">0</div>
-                <div>Loaded</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-number" id="with1H">0</div>
-                <div>With ¹H NMR</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-number" id="with13C">0</div>
-                <div>With ¹³C NMR</div>
-            </div>
-        </div>
-
-        <div id="loading" class="loading" style="display: none;">
-            Loading compounds...
-        </div>
-
-        <div id="error" class="error" style="display: none;"></div>
-
-        <div id="compounds" class="compound-grid"></div>
+        <p style="color:#666;font-size:0.9rem;">💡 Try searching for specific InChI keys like "AAAISYODTULZTR-DARAHFNDSA-N" or browse random compounds</p>
     </div>
 
-    <!-- Modal for compound details -->
-    <div id="compoundModal" class="modal">
-        <div class="modal-content">
-            <span class="close" onclick="closeModal()">&times;</span>
-            <h2 id="modalTitle">Compound Details</h2>
-            <div id="modalContent"></div>
-        </div>
+    <div class="stats">
+        <div class="stat-card"><div class="stat-number" id="totalCompounds">57,055</div><div>Total Compounds</div></div>
+        <div class="stat-card"><div class="stat-number" id="loadedCompounds">0</div><div>Loaded</div></div>
+        <div class="stat-card"><div class="stat-number" id="with1H">0</div><div>With ¹H NMR</div></div>
+        <div class="stat-card"><div class="stat-number" id="with13C">0</div><div>With ¹³C NMR</div></div>
     </div>
 
-    <script>
-        const GITHUB_RAW_BASE = 'https://raw.githubusercontent.com/pb-commits/nmrshift2db/main/';
-        let currentCompounds = [];
+    <div id="loading" class="loading" style="display:none;">Loading compounds...</div>
+    <div id="error" class="error" style="display:none;"></div>
+    <div id="compounds" class="compound-grid"></div>
+    <div class="pagination" id="pagination"></div>
+</div>
 
-        // Theme Management
-        function initializeTheme() {
-            const savedTheme = localStorage.getItem('nmr-theme') || 'light';
-            document.documentElement.setAttribute('data-theme', savedTheme);
-            updateThemeToggle(savedTheme);
+<div id="compoundModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <h2 id="modalTitle">Compound Details</h2>
+        <div id="modalContent"></div>
+    </div>
+</div>
+
+<script>
+const GITHUB_RAW_BASE = 'https://raw.githubusercontent.com/pb-commits/nmrshift2db/main/';
+let currentCompounds = [];
+const PAGE_SIZE = 30;
+let currentPage = 1;
+
+// Theme Management
+function initializeTheme() {
+    const savedTheme = localStorage.getItem('nmr-theme') || 'light';
+    document.documentElement.setAttribute('data-theme', savedTheme);
+    updateThemeToggle(savedTheme);
+}
+function toggleTheme() {
+    const currentTheme = document.documentElement.getAttribute('data-theme') || 'light';
+    const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', newTheme);
+    localStorage.setItem('nmr-theme', newTheme);
+    updateThemeToggle(newTheme);
+}
+function updateThemeToggle(theme) {
+    document.querySelector('.theme-icon').textContent = theme === 'dark' ? '☀️' : '🌙';
+    document.querySelector('.theme-text').textContent = theme === 'dark' ? 'Light' : 'Dark';
+}
+
+// Sample InChI keys
+const sampleInchiKeys = [
+    'AAAISYODTULZTR-DARAHFNDSA-N','AAAQKTZKLRYKHR-UHFFFAOYSA-N','AAARTTJTRNAYHQ-NXEZZACHSA-N','AAARTTJTRNAYHQ-VHSXEESVSA-N',
+    'AAASFPHGEWHGIB-UHFFFAOYSA-N','AAAXMNYUNVCMCJ-UHFFFAOYSA-N','AABOCLLAUKSOSG-RKDXNWHRSA-N','QGMWDUUHVVLHNP-JQXSQYPDSA-N',
+    'GJNXTRPTZOVADS-PWRGDLIESA-N','UNPSXBKCCZEIRN-UHFFFAOYSA-N'
+];
+
+async function loadCompound(inchiKey){
+    try{
+        const resp = await fetch(`${GITHUB_RAW_BASE}${inchiKey}.json`);
+        if(!resp.ok) throw new Error(`HTTP ${resp.status}`);
+        return await resp.json();
+    }catch(err){ console.error(err); return null; }
+}
+
+async function loadRandomCompounds() {
+    showLoading(true); hideError();
+    const compounds = [];
+    const keysToLoad = [...sampleInchiKeys].sort(() => 0.5 - Math.random()).slice(0, PAGE_SIZE);
+    for(const key of keysToLoad){
+        const data = await loadCompound(key);
+        if(data) compounds.push({ inchiKey:key, data });
+    }
+    currentCompounds = compounds;
+    currentPage = 1;
+    renderPage();
+    updateStats(compounds);
+    showLoading(false);
+}
+
+async function searchCompounds(){
+    const query = document.getElementById('searchInput').value.trim();
+    if(!query){ loadRandomCompounds(); return; }
+
+    showLoading(true); hideError();
+    const compounds = [];
+
+    if(query.length>20 && query.includes('-')){
+        const data = await loadCompound(query);
+        if(data){ currentCompounds=[{inchiKey:query,data}]; currentPage=1; renderPage(); updateStats(currentCompounds); showLoading(false); return; }
+    }
+
+    for(const key of sampleInchiKeys){
+        const data = await loadCompound(key);
+        if(!data) continue;
+        const qLower = query.toLowerCase();
+        if(key.toLowerCase().includes(qLower) || (data.SMILES && data.SMILES.toLowerCase().includes(qLower)) || (data['nmrshiftdb2 ID'] && data['nmrshiftdb2 ID'].toString().includes(query))){
+            compounds.push({ inchiKey:key,data });
         }
+    }
 
-        function toggleTheme() {
-            const currentTheme = document.documentElement.getAttribute('data-theme') || 'light';
-            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
-            
-            document.documentElement.setAttribute('data-theme', newTheme);
-            localStorage.setItem('nmr-theme', newTheme);
-            updateThemeToggle(newTheme);
-        }
+    if(compounds.length===0) showError(`No compounds found matching "${query}". Try exact InChI key or browse random.`);
 
-        function updateThemeToggle(theme) {
-            const themeIcon = document.querySelector('.theme-icon');
-            const themeText = document.querySelector('.theme-text');
-            
-            if (theme === 'dark') {
-                themeIcon.textContent = '☀️';
-                themeText.textContent = 'Light';
-            } else {
-                themeIcon.textContent = '🌙';
-                themeText.textContent = 'Dark';
-            }
-        }
+    currentCompounds = compounds; currentPage=1;
+    renderPage();
+    updateStats(compounds);
+    showLoading(false);
+}
 
-        // Sample of available InChI keys (you can expand this list)
-        const sampleInchiKeys = [
-            'AAAISYODTULZTR-DARAHFNDSA-N',
-            'AAAQKTZKLRYKHR-UHFFFAOYSA-N',
-            'AAARTTJTRNAYHQ-NXEZZACHSA-N',
-            'AAARTTJTRNAYHQ-VHSXEESVSA-N',
-            'AAASFPHGEWHGIB-UHFFFAOYSA-N',
-            'AAAXMNYUNVCMCJ-UHFFFAOYSA-N',
-            'AABOCLLAUKSOSG-RKDXNWHRSA-N',
-            'QGMWDUUHVVLHNP-JQXSQYPDSA-N',
-            'GJNXTRPTZOVADS-PWRGDLIESA-N',
-            'UNPSXBKCCZEIRN-UHFFFAOYSA-N'
-        ];
+function renderPage(){
+    const start = (currentPage-1)*PAGE_SIZE;
+    const end = start + PAGE_SIZE;
+    displayCompounds(currentCompounds.slice(start,end));
+    renderPagination();
+}
 
-        async function loadCompound(inchiKey) {
-            try {
-                const response = await fetch(`${GITHUB_RAW_BASE}${inchiKey}.json`);
-                if (!response.ok) throw new Error(`HTTP ${response.status}`);
-                return await response.json();
-            } catch (error) {
-                console.error(`Error loading ${inchiKey}:`, error);
-                return null;
-            }
-        }
+function displayCompounds(compounds){
+    const container = document.getElementById('compounds');
+    if(compounds.length===0){ container.innerHTML='<p style="text-align:center;color:#666;">No compounds to display.</p>'; return; }
 
-        async function loadRandomCompounds() {
-            showLoading(true);
-            hideError();
-            
-            const compounds = [];
-            const keysToLoad = [...sampleInchiKeys].sort(() => 0.5 - Math.random()).slice(0, 8);
-            
-            for (const key of keysToLoad) {
-                const data = await loadCompound(key);
-                if (data) {
-                    compounds.push({
-                        inchiKey: key,
-                        data: data
-                    });
-                }
-            }
-            
-            currentCompounds = compounds;
-            displayCompounds(compounds);
-            updateStats(compounds);
-            showLoading(false);
-        }
+    container.innerHTML = compounds.map(c=>{
+        const data=c.data;
+        const hasNMR={ '1H':Object.keys(data).some(k=>k.includes('Spectrum 1H')), '13C':Object.keys(data).some(k=>k.includes('Spectrum 13C')), '31P':Object.keys(data).some(k=>k.includes('Spectrum 31P')), '19F':Object.keys(data).some(k=>k.includes('Spectrum 19F')) };
+        return `<div class="compound-card" onclick="showCompoundDetails('${c.inchiKey}')">
+            <div class="compound-id">${c.inchiKey}</div>
+            <div class="compound-smiles">${data.SMILES||'No SMILES available'}</div>
+            <div class="compound-info">
+                <span class="info-label">NMR ID:</span><span>${data['nmrshiftdb2 ID']||'N/A'}</span>
+                <span class="info-label">Temperature:</span><span>${data['Temperature [K]']||'N/A'}</span>
+                <span class="info-label">Solvent:</span><span>${data.Solvent||'N/A'}</span>
+                <span class="info-label">Field Strength:</span><span>${data['Field Strength [MHz]']||'N/A'}</span>
+            </div>
+            <div class="nmr-badges">
+                <span class="nmr-badge ${hasNMR['1H']?'available':''}">¹H NMR</span>
+                <span class="nmr-badge ${hasNMR['13C']?'available':''}">¹³C NMR</span>
+                <span class="nmr-badge ${hasNMR['31P']?'available':''}">³¹P NMR</span>
+                <span class="nmr-badge ${hasNMR['19F']?'available':''}">¹⁹F NMR</span>
+            </div>
+        </div>`;
+    }).join('');
+}
 
-        async function searchCompounds() {
-            const query = document.getElementById('searchInput').value.trim();
-            if (!query) {
-                loadRandomCompounds();
-                return;
-            }
+function renderPagination(){
+    const totalPages = Math.ceil(currentCompounds.length/PAGE_SIZE);
+    const container = document.getElementById('pagination');
+    container.innerHTML = '';
+    if(totalPages<=1) return;
+    for(let i=1;i<=totalPages;i++){
+        const btn = document.createElement('button');
+        btn.textContent = i;
+        btn.className = i===currentPage?'active':'';
+        btn.onclick = ()=>{ currentPage=i; renderPage(); };
+        container.appendChild(btn);
+    }
+}
 
-            showLoading(true);
-            hideError();
+function updateStats(compounds){
+    document.getElementById('loadedCompounds').textContent = compounds.length;
+    let with1H=0,with13C=0;
+    compounds.forEach(c=>{
+        const data=c.data;
+        if(Object.keys(data).some(k=>k.includes('Spectrum 1H'))) with1H++;
+        if(Object.keys(data).some(k=>k.includes('Spectrum 13C'))) with13C++;
+    });
+    document.getElementById('with1H').textContent = with1H;
+    document.getElementById('with13C').textContent = with13C;
+}
 
-            // Try to load the compound directly if it looks like an InChI key
-            if (query.length > 20 && query.includes('-')) {
-                const data = await loadCompound(query);
-                if (data) {
-                    const compounds = [{
-                        inchiKey: query,
-                        data: data
-                    }];
-                    currentCompounds = compounds;
-                    displayCompounds(compounds);
-                    updateStats(compounds);
-                    showLoading(false);
-                    return;
-                }
-            }
+function showCompoundDetails(inchiKey){
+    const compound = currentCompounds.find(c=>c.inchiKey===inchiKey);
+    if(!compound) return;
+    document.getElementById('modalTitle').textContent=`Compound: ${inchiKey}`;
+    document.getElementById('modalContent').innerHTML=`<div class="json-viewer">${JSON.stringify(compound.data,null,2)}</div>`;
+    document.getElementById('compoundModal').style.display='block';
+}
 
-            // If direct load failed or query doesn't look like InChI key, search in sample
-            const compounds = [];
-            for (const key of sampleInchiKeys) {
-                const data = await loadCompound(key);
-                if (data) {
-                    const searchLower = query.toLowerCase();
-                    if (key.toLowerCase().includes(searchLower) ||
-                        (data.SMILES && data.SMILES.toLowerCase().includes(searchLower)) ||
-                        (data['nmrshiftdb2 ID'] && data['nmrshiftdb2 ID'].toString().includes(query))) {
-                        compounds.push({
-                            inchiKey: key,
-                            data: data
-                        });
-                    }
-                }
-            }
+function closeModal(){ document.getElementById('compoundModal').style.display='none'; }
+function showLoading(show){ document.getElementById('loading').style.display = show?'block':'none'; }
+function showError(msg){ const e=document.getElementById('error'); e.textContent=msg; e.style.display='block'; }
+function hideError(){ document.getElementById('error').style.display='none'; }
 
-            if (compounds.length === 0) {
-                showError(`No compounds found matching "${query}". Try an exact InChI key or browse random compounds.`);
-            }
+document.getElementById('searchInput').addEventListener('keypress', e=>{ if(e.key==='Enter') searchCompounds(); });
+window.onclick = e=>{ if(e.target===document.getElementById('compoundModal')) closeModal(); }
 
-            currentCompounds = compounds;
-            displayCompounds(compounds);
-            updateStats(compounds);
-            showLoading(false);
-        }
-
-        function displayCompounds(compounds) {
-            const container = document.getElementById('compounds');
-            
-            if (compounds.length === 0) {
-                container.innerHTML = '<p style="text-align: center; color: #666;">No compounds to display.</p>';
-                return;
-            }
-
-            container.innerHTML = compounds.map(compound => {
-                const data = compound.data;
-                const hasNMR = {
-                    '1H': Object.keys(data).some(key => key.includes('Spectrum 1H')),
-                    '13C': Object.keys(data).some(key => key.includes('Spectrum 13C')),
-                    '31P': Object.keys(data).some(key => key.includes('Spectrum 31P')),
-                    '19F': Object.keys(data).some(key => key.includes('Spectrum 19F'))
-                };
-
-                return `
-                    <div class="compound-card" onclick="showCompoundDetails('${compound.inchiKey}')">
-                        <div class="compound-id">${compound.inchiKey}</div>
-                        <div class="compound-smiles">${data.SMILES || 'No SMILES available'}</div>
-                        <div class="compound-info">
-                            <span class="info-label">NMR ID:</span>
-                            <span>${data['nmrshiftdb2 ID'] || 'N/A'}</span>
-                            <span class="info-label">Temperature:</span>
-                            <span>${data['Temperature [K]'] || 'N/A'}</span>
-                            <span class="info-label">Solvent:</span>
-                            <span>${data.Solvent || 'N/A'}</span>
-                            <span class="info-label">Field Strength:</span>
-                            <span>${data['Field Strength [MHz]'] || 'N/A'}</span>
-                        </div>
-                        <div class="nmr-badges">
-                            <span class="nmr-badge ${hasNMR['1H'] ? 'available' : ''}">¹H NMR</span>
-                            <span class="nmr-badge ${hasNMR['13C'] ? 'available' : ''}">¹³C NMR</span>
-                            <span class="nmr-badge ${hasNMR['31P'] ? 'available' : ''}">³¹P NMR</span>
-                            <span class="nmr-badge ${hasNMR['19F'] ? 'available' : ''}">¹⁹F NMR</span>
-                        </div>
-                    </div>
-                `;
-            }).join('');
-        }
-
-        function updateStats(compounds) {
-            document.getElementById('loadedCompounds').textContent = compounds.length;
-            
-            let with1H = 0, with13C = 0;
-            compounds.forEach(compound => {
-                const data = compound.data;
-                if (Object.keys(data).some(key => key.includes('Spectrum 1H'))) with1H++;
-                if (Object.keys(data).some(key => key.includes('Spectrum 13C'))) with13C++;
-            });
-            
-            document.getElementById('with1H').textContent = with1H;
-            document.getElementById('with13C').textContent = with13C;
-        }
-
-        function showCompoundDetails(inchiKey) {
-            const compound = currentCompounds.find(c => c.inchiKey === inchiKey);
-            if (!compound) return;
-
-            document.getElementById('modalTitle').textContent = `Compound: ${inchiKey}`;
-            document.getElementById('modalContent').innerHTML = `
-                <div class="json-viewer">${JSON.stringify(compound.data, null, 2)}</div>
-            `;
-            document.getElementById('compoundModal').style.display = 'block';
-        }
-
-        function closeModal() {
-            document.getElementById('compoundModal').style.display = 'none';
-        }
-
-        function showLoading(show) {
-            document.getElementById('loading').style.display = show ? 'block' : 'none';
-        }
-
-        function showError(message) {
-            const errorEl = document.getElementById('error');
-            errorEl.textContent = message;
-            errorEl.style.display = 'block';
-        }
-
-        function hideError() {
-            document.getElementById('error').style.display = 'none';
-        }
-
-        // Event listeners
-        document.getElementById('searchInput').addEventListener('keypress', function(e) {
-            if (e.key === 'Enter') {
-                searchCompounds();
-            }
-        });
-
-        // Close modal when clicking outside
-        window.onclick = function(event) {
-            const modal = document.getElementById('compoundModal');
-            if (event.target === modal) {
-                closeModal();
-            }
-        }
-
-        // Initialize theme and load initial data
-        initializeTheme();
-        loadRandomCompounds();
-    </script>
+initializeTheme();
+loadRandomCompounds();
+</script>
 </body>
 </html>
+
