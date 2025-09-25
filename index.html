@@ -427,6 +427,7 @@
             <div class="search-box">
                 <input type="text" id="searchInput" placeholder="Search by InChI key, SMILES, or NMR ID...">
                 <button onclick="searchCompounds()">Search</button>
+                <button onclick="loadRandomCompounds()">Browse Random</button>
                 <button onclick="loadFilteredCompounds()">Apply Filter</button>
             </div>
             
@@ -629,6 +630,62 @@
             }
         }
 
+        async function loadRandomCompounds() {
+            if (isSearching) return;
+            
+            isSearching = true;
+            showLoading(true);
+            hideError();
+            showProgress(true);
+            
+            const compounds = [];
+            let searched = 0;
+            const totalFiles = availableFiles.length;
+            const maxRandom = Math.min(25, totalFiles); // Load exactly 25 random compounds
+            
+            // Shuffle files for random results
+            const shuffledFiles = [...availableFiles].sort(() => Math.random() - 0.5);
+            
+            for (let i = 0; i < Math.min(maxRandom, shuffledFiles.length); i++) {
+                const filename = shuffledFiles[i];
+                searched++;
+                
+                // Update progress
+                if (searched % 5 === 0) {
+                    const progress = (searched / maxRandom) * 100;
+                    updateProgress(progress);
+                    document.getElementById('searchedCompounds').textContent = searched;
+                }
+                
+                const data = await loadCompound(filename);
+                if (data) {
+                    const inchiKey = filename.replace('.json', '');
+                    compounds.push({
+                        inchiKey: inchiKey,
+                        data: data,
+                        filename: filename
+                    });
+                }
+                
+                // Add small delay to prevent browser freezing
+                if (searched % 5 === 0) {
+                    await new Promise(resolve => setTimeout(resolve, 1));
+                }
+            }
+
+            allCompounds = compounds;
+            currentPage = 1;
+            totalPages = Math.ceil(compounds.length / itemsPerPage);
+            displayCompounds(getCurrentPageCompounds());
+            updatePagination();
+            updateStats();
+            showLoading(false);
+            showProgress(false);
+            isSearching = false;
+            
+            console.log(`Loaded ${compounds.length} random compounds from ${searched} files`);
+        }
+
         async function loadFilteredCompounds() {
             if (isSearching) return;
             
@@ -650,8 +707,8 @@
             // Shuffle files for random results
             const shuffledFiles = [...availableFiles].sort(() => Math.random() - 0.5);
             
-            for (const filename of shuffledFiles) {
-                if (matched >= limitFilter) break;
+            for (let i = 0; i < Math.min(maxSearchFiles, shuffledFiles.length); i++) {
+                const filename = shuffledFiles[i];
                 
                 searched++;
                 
@@ -702,6 +759,9 @@
             showLoading(false);
             showProgress(false);
             isSearching = false;
+            
+            // Show filter statistics
+            showFilterStatistics(nmrFilter, solventFilter, fieldFilter, compounds.length, searched);
             
             if (compounds.length === 0) {
                 showError(`No compounds found matching the selected filters after searching ${searched} files. Try adjusting your criteria.`);
@@ -930,6 +990,9 @@
         }
 
         function updateStats() {
+            document.getElementById('totalCompounds').textContent = availableFiles.length.toLocaleString();
+            document.getElementById('loadedCompounds').textContent = allCompounds.length;
+        }
 
         function showFilterStatistics(nmrFilter, solventFilter, fieldFilter, foundCount, searchedCount) {
             let statsMessage = `Searched ${searchedCount} files and found ${foundCount} compounds`;
@@ -997,8 +1060,8 @@
             initializeTheme();
             await loadAllAvailableFiles();
             updateFilterAvailability();
-            // Auto-load some compounds on startup for better user experience
-            await loadFilteredCompounds();
+            // Preload 25 compounds on startup for immediate user experience
+            await loadRandomCompounds();
         }
 
         // Start the application
