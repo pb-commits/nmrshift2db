@@ -115,166 +115,207 @@
 </div>
 
 <script>
-const GITHUB_RAW_BASE = 'https://raw.githubusercontent.com/pb-commits/nmrshift2db/main/';
-let currentCompounds = [];
-const PAGE_SIZE = 30;
-let currentPage = 1;
-
-// Theme Management
-function initializeTheme() {
-    const savedTheme = localStorage.getItem('nmr-theme') || 'light';
-    document.documentElement.setAttribute('data-theme', savedTheme);
-    updateThemeToggle(savedTheme);
-}
-function toggleTheme() {
-    const currentTheme = document.documentElement.getAttribute('data-theme') || 'light';
-    const newTheme = currentTheme === 'light' ? 'dark' : 'light';
-    document.documentElement.setAttribute('data-theme', newTheme);
-    localStorage.setItem('nmr-theme', newTheme);
-    updateThemeToggle(newTheme);
-}
-function updateThemeToggle(theme) {
-    document.querySelector('.theme-icon').textContent = theme === 'dark' ? '☀️' : '🌙';
-    document.querySelector('.theme-text').textContent = theme === 'dark' ? 'Light' : 'Dark';
-}
-
-// Sample InChI keys
-const sampleInchiKeys = [
-    'AAAISYODTULZTR-DARAHFNDSA-N','AAAQKTZKLRYKHR-UHFFFAOYSA-N','AAARTTJTRNAYHQ-NXEZZACHSA-N','AAARTTJTRNAYHQ-VHSXEESVSA-N',
-    'AAASFPHGEWHGIB-UHFFFAOYSA-N','AAAXMNYUNVCMCJ-UHFFFAOYSA-N','AABOCLLAUKSOSG-RKDXNWHRSA-N','QGMWDUUHVVLHNP-JQXSQYPDSA-N',
-    'GJNXTRPTZOVADS-PWRGDLIESA-N','UNPSXBKCCZEIRN-UHFFFAOYSA-N'
-];
-
-async function loadCompound(inchiKey){
-    try{
-        const resp = await fetch(`${GITHUB_RAW_BASE}${inchiKey}.json`);
-        if(!resp.ok) throw new Error(`HTTP ${resp.status}`);
-        return await resp.json();
-    }catch(err){ console.error(err); return null; }
-}
-
-// --- RANDOM LOADING WITH PAGINATION ---
-async function loadRandomCompounds() {
-    showLoading(true);
-    hideError();
-    currentPage = 1;
-
-    const compounds = [];
-    const keysToLoad = [...sampleInchiKeys].sort(() => 0.5 - Math.random()).slice(0, PAGE_SIZE);
-
-    for (const key of keysToLoad) {
-        const data = await loadCompound(key);
-        if (data) {
-            compounds.push({ inchiKey: key, data: data });
+    const GITHUB_RAW_BASE = 'https://raw.githubusercontent.com/pb-commits/nmrshift2db/main/';
+    let currentCompounds = [];
+    const PAGE_SIZE = 30;
+    let currentPage = 1;
+    let allInchiKeys = []; // Holds all keys from GitHub
+    
+    // Theme Management
+    function initializeTheme() {
+        const savedTheme = localStorage.getItem('nmr-theme') || 'light';
+        document.documentElement.setAttribute('data-theme', savedTheme);
+        updateThemeToggle(savedTheme);
+    }
+    function toggleTheme() {
+        const currentTheme = document.documentElement.getAttribute('data-theme') || 'light';
+        const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-theme', newTheme);
+        localStorage.setItem('nmr-theme', newTheme);
+        updateThemeToggle(newTheme);
+    }
+    function updateThemeToggle(theme) {
+        document.querySelector('.theme-icon').textContent = theme === 'dark' ? '☀️' : '🌙';
+        document.querySelector('.theme-text').textContent = theme === 'dark' ? 'Light' : 'Dark';
+    }
+    
+    // --- FETCH ALL INCHI KEYS FROM GITHUB ---
+    async function fetchAllKeys() {
+        if (allInchiKeys.length) return allInchiKeys;
+        try {
+            const response = await fetch('https://api.github.com/repos/pb-commits/nmrshift2db/contents/');
+            const files = await response.json();
+            allInchiKeys = files
+                .filter(f => f.name.endsWith('.json'))
+                .map(f => f.name.replace('.json',''));
+            return allInchiKeys;
+        } catch (err) {
+            console.error('Error fetching all InChI keys:', err);
+            return [];
         }
     }
-
-    currentCompounds = compounds;
-    renderPage();
-    updateStats(compounds);
-    showLoading(false);
-}
-
-// --- SEARCH WITH PAGINATION ---
-async function searchCompounds() {
-    const query = document.getElementById('searchInput').value.trim();
-    if (!query) {
-        loadRandomCompounds();
-        return;
+    
+    // --- LOAD SINGLE COMPOUND ---
+    async function loadCompound(inchiKey){
+        try{
+            const resp = await fetch(`${GITHUB_RAW_BASE}${inchiKey}.json`);
+            if(!resp.ok) throw new Error(`HTTP ${resp.status}`);
+            return await resp.json();
+        }catch(err){ console.error(err); return null; }
     }
-
-    showLoading(true);
-    hideError();
-    currentPage = 1;
-
-    const compounds = [];
-    for (const key of sampleInchiKeys) {
-        const data = await loadCompound(key);
-        if (data) {
-            const searchLower = query.toLowerCase();
-            if (key.toLowerCase().includes(searchLower) ||
-                (data.SMILES && data.SMILES.toLowerCase().includes(searchLower)) ||
-                (data['nmrshiftdb2 ID'] && data['nmrshiftdb2 ID'].toString().includes(query))) {
-                compounds.push({ inchiKey: key, data: data });
+    
+    // --- RANDOM LOADING WITH PAGINATION ---
+    async function loadRandomCompounds() {
+        showLoading(true);
+        hideError();
+        currentPage = 1;
+    
+        const keys = await fetchAllKeys();
+        const shuffled = [...keys].sort(() => 0.5 - Math.random());
+        const keysToLoad = shuffled.slice(0, PAGE_SIZE);
+    
+        const compounds = [];
+        for (const key of keysToLoad) {
+            const data = await loadCompound(key);
+            if (data) compounds.push({ inchiKey: key, data });
+        }
+    
+        currentCompounds = compounds;
+        renderPage();
+        updateStats(compounds);
+        showLoading(false);
+    }
+    
+    // --- SEARCH WITH PAGINATION ---
+    async function searchCompounds() {
+        const query = document.getElementById('searchInput').value.trim();
+        showLoading(true);
+        hideError();
+        currentPage = 1;
+    
+        if (!query) {
+            loadRandomCompounds();
+            return;
+        }
+    
+        const keys = await fetchAllKeys();
+        const compounds = [];
+    
+        for (const key of keys) {
+            const data = await loadCompound(key);
+            if (data) {
+                const searchLower = query.toLowerCase();
+                if (key.toLowerCase().includes(searchLower) ||
+                    (data.SMILES && data.SMILES.toLowerCase().includes(searchLower)) ||
+                    (data['nmrshiftdb2 ID'] && data['nmrshiftdb2 ID'].toString().includes(query))) {
+                    compounds.push({ inchiKey: key, data });
+                }
             }
         }
+    
+        if (!compounds.length) showError(`No compounds found matching "${query}".`);
+        currentCompounds = compounds;
+        renderPage();
+        updateStats(compounds);
+        showLoading(false);
     }
-
-    if (compounds.length === 0) {
-        showError(`No compounds found matching "${query}". Try an exact InChI key or browse random compounds.`);
+    
+    // --- PAGINATION RENDERING ---
+    function renderPage() {
+        const start = (currentPage - 1) * PAGE_SIZE;
+        const end = start + PAGE_SIZE;
+        displayCompounds(currentCompounds.slice(start, end));
+        renderPagination();
     }
-
-    currentCompounds = compounds;
-    renderPage();
-    updateStats(compounds);
-    showLoading(false);
-}
-
-// --- PAGINATION RENDERING ---
-function renderPage() {
-    const start = (currentPage - 1) * PAGE_SIZE;
-    const end = start + PAGE_SIZE;
-    displayCompounds(currentCompounds.slice(start, end));
-    renderPagination();
-}
-
-function renderPagination() {
-    const totalPages = Math.ceil(currentCompounds.length / PAGE_SIZE);
-    const container = document.getElementById('pagination');
-    container.innerHTML = '';
-
-    if (totalPages <= 1) return;
-
-    for (let i = 1; i <= totalPages; i++) {
-        const btn = document.createElement('button');
-        btn.textContent = i;
-        btn.disabled = i === currentPage;
-        btn.onclick = () => { currentPage = i; renderPage(); };
-        container.appendChild(btn);
+    
+    function renderPagination() {
+        const totalPages = Math.ceil(currentCompounds.length / PAGE_SIZE);
+        const container = document.getElementById('pagination');
+        container.innerHTML = '';
+        if (totalPages <= 1) return;
+    
+        for (let i = 1; i <= totalPages; i++) {
+            const btn = document.createElement('button');
+            btn.textContent = i;
+            btn.disabled = i === currentPage;
+            btn.onclick = () => { currentPage = i; renderPage(); };
+            container.appendChild(btn);
+        }
     }
-}
-
-// --- COMPOUND DISPLAY ---
-function displayCompounds(compounds) {
-    const container = document.getElementById('compounds');
-    if (compounds.length === 0) {
-        container.innerHTML = '<p style="text-align:center;color:#666;">No compounds to display.</p>';
-        return;
-    }
-
-    container.innerHTML = compounds.map(compound => {
-        const data = compound.data;
-        const hasNMR = {
-            '1H': Object.keys(data).some(k => k.includes('Spectrum 1H')),
-            '13C': Object.keys(data).some(k => k.includes('Spectrum 13C')),
-            '31P': Object.keys(data).some(k => k.includes('Spectrum 31P')),
-            '19F': Object.keys(data).some(k => k.includes('Spectrum 19F'))
-        };
-        return `
-            <div class="compound-card" onclick="showCompoundDetails('${compound.inchiKey}')">
-                <div class="compound-id">${compound.inchiKey}</div>
-                <div class="compound-smiles">${data.SMILES || 'No SMILES available'}</div>
-                <div class="compound-info">
-                    <span class="info-label">NMR ID:</span>
-                    <span>${data['nmrshiftdb2 ID'] || 'N/A'}</span>
-                    <span class="info-label">Temperature:</span>
-                    <span>${data['Temperature [K]'] || 'N/A'}</span>
-                    <span class="info-label">Solvent:</span>
-                    <span>${data.Solvent || 'N/A'}</span>
-                    <span class="info-label">Field Strength:</span>
-                    <span>${data['Field Strength [MHz]'] || 'N/A'}</span>
+    
+    // --- COMPOUND DISPLAY ---
+    function displayCompounds(compounds) {
+        const container = document.getElementById('compounds');
+        if (!compounds.length) {
+            container.innerHTML = '<p style="text-align:center;color:#666;">No compounds to display.</p>';
+            return;
+        }
+    
+        container.innerHTML = compounds.map(c => {
+            const data = c.data;
+            const hasNMR = {
+                '1H': Object.keys(data).some(k => k.includes('Spectrum 1H')),
+                '13C': Object.keys(data).some(k => k.includes('Spectrum 13C')),
+                '31P': Object.keys(data).some(k => k.includes('Spectrum 31P')),
+                '19F': Object.keys(data).some(k => k.includes('Spectrum 19F'))
+            };
+            return `
+                <div class="compound-card" onclick="showCompoundDetails('${c.inchiKey}')">
+                    <div class="compound-id">${c.inchiKey}</div>
+                    <div class="compound-smiles">${data.SMILES || 'No SMILES available'}</div>
+                    <div class="compound-info">
+                        <span class="info-label">NMR ID:</span><span>${data['nmrshiftdb2 ID'] || 'N/A'}</span>
+                        <span class="info-label">Temperature:</span><span>${data['Temperature [K]'] || 'N/A'}</span>
+                        <span class="info-label">Solvent:</span><span>${data.Solvent || 'N/A'}</span>
+                        <span class="info-label">Field Strength:</span><span>${data['Field Strength [MHz]'] || 'N/A'}</span>
+                    </div>
+                    <div class="nmr-badges">
+                        <span class="nmr-badge ${hasNMR['1H'] ? 'available' : ''}">¹H NMR</span>
+                        <span class="nmr-badge ${hasNMR['13C'] ? 'available' : ''}">¹³C NMR</span>
+                        <span class="nmr-badge ${hasNMR['31P'] ? 'available' : ''}">³¹P NMR</span>
+                        <span class="nmr-badge ${hasNMR['19F'] ? 'available' : ''}">¹⁹F NMR</span>
+                    </div>
                 </div>
-                <div class="nmr-badges">
-                    <span class="nmr-badge ${hasNMR['1H'] ? 'available' : ''}">¹H NMR</span>
-                    <span class="nmr-badge ${hasNMR['13C'] ? 'available' : ''}">¹³C NMR</span>
-                    <span class="nmr-badge ${hasNMR['31P'] ? 'available' : ''}">³¹P NMR</span>
-                    <span class="nmr-badge ${hasNMR['19F'] ? 'available' : ''}">¹⁹F NMR</span>
-                </div>
-            </div>
-        `;
-    }).join('');
-}
-</script>
+            `;
+        }).join('');
+    }
+    
+    // --- STATS ---
+    function updateStats(compounds) {
+        document.getElementById('loadedCompounds').textContent = compounds.length;
+        let with1H = 0, with13C = 0;
+        compounds.forEach(c => {
+            const data = c.data;
+            if (Object.keys(data).some(k => k.includes('Spectrum 1H'))) with1H++;
+            if (Object.keys(data).some(k => k.includes('Spectrum 13C'))) with13C++;
+        });
+        document.getElementById('with1H').textContent = with1H;
+        document.getElementById('with13C').textContent = with13C;
+    }
+    
+    // --- MODAL ---
+    function showCompoundDetails(inchiKey) {
+        const compound = currentCompounds.find(c => c.inchiKey === inchiKey);
+        if (!compound) return;
+        document.getElementById('modalTitle').textContent = `Compound: ${inchiKey}`;
+        document.getElementById('modalContent').innerHTML = `<div class="json-viewer">${JSON.stringify(compound.data, null, 2)}</div>`;
+        document.getElementById('compoundModal').style.display = 'block';
+    }
+    function closeModal() { document.getElementById('compoundModal').style.display = 'none'; }
+    
+    // --- LOADING / ERROR ---
+    function showLoading(show) { document.getElementById('loading').style.display = show ? 'block' : 'none'; }
+    function showError(msg) { const e=document.getElementById('error'); e.textContent=msg; e.style.display='block'; }
+    function hideError() { document.getElementById('error').style.display='none'; }
+    
+    // --- INIT ---
+    document.getElementById('searchInput').addEventListener('keypress', e => { if(e.key==='Enter') searchCompounds(); });
+    window.onclick = e => { if(e.target === document.getElementById('compoundModal')) closeModal(); };
+    
+    initializeTheme();
+    loadRandomCompounds();
+    </script>
+    
 </body>
 </html>
 
