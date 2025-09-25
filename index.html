@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NMR Chemical Shift Database Viewer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg-primary: #f8f9fa;
+            --bg-secondary: #ffffff;
+            --text-primary: #333;
+            --text-secondary: #666;
+            --text-muted: #888;
+            --border-color: #e9ecef;
+            --shadow: rgba(0,0,0,0.1);
+            --shadow-hover: rgba(0,0,0,0.15);
+            --accent: #667eea;
+            --accent-hover: #5a6fd8;
+            --disabled-bg: #f8f9fa;
+            --disabled-text: #adb5bd;
+            --disabled-border: #e9ecef;
+        }
+
+        [data-theme="dark"] {
+            --bg-primary: #1a1a1a;
+            --bg-secondary: #2d2d2d;
+            --text-primary: #ffffff;
+            --text-secondary: #cccccc;
+            --text-muted: #999999;
+            --border-color: #404040;
+            --shadow: rgba(0,0,0,0.3);
+            --shadow-hover: rgba(0,0,0,0.4);
+            --accent: #7c3aed;
+            --accent-hover: #6d28d9;
+            --disabled-bg: #1a1a1a;
+            --disabled-text: #666666;
+            --disabled-border: #333333;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: var(--text-primary);
+            background-color: var(--bg-primary);
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 2rem 0;
+            margin-bottom: 2rem;
+            border-radius: 10px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            text-align: center;
+        }
+
+        .subtitle {
+            text-align: center;
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .search-section {
+            background: var(--bg-secondary);
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px var(--shadow);
+            margin-bottom: 2rem;
+        }
+
+        .search-box {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .filter-section {
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .filter-row {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .filter-group {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .filter-group label {
+            font-weight: 600;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        .filter-group select {
+            padding: 0.5rem;
+            border: 2px solid var(--border-color);
+            border-radius: 5px;
+            background: var(--bg-secondary);
+            color: var(--text-primary);
+            font-size: 0.9rem;
+            transition: border-color 0.3s ease;
+        }
+
+        .filter-group select:focus {
+            outline: none;
+            border-color: var(--accent);
+        }
+
+        .filter-group select:hover:not(:disabled) {
+            border-color: var(--accent);
+        }
+
+        .filter-group select option {
+            padding: 0.5rem;
+            background: var(--bg-secondary);
+            color: var(--text-primary);
+        }
+
+        .filter-group select option:disabled {
+            background: var(--disabled-bg);
+            color: var(--disabled-text);
+            font-style: italic;
+        }
+
+        .filter-group select:disabled {
+            background: var(--disabled-bg);
+            color: var(--disabled-text);
+            border-color: var(--disabled-border);
+            cursor: not-allowed;
+        }
+
+        .filter-group.disabled label {
+            color: var(--disabled-text);
+        }
+
+        input[type="text"] {
+            flex: 1;
+            padding: 0.75rem;
+            border: 2px solid var(--border-color);
+            border-radius: 5px;
+            font-size: 1rem;
+            background: var(--bg-secondary);
+            color: var(--text-primary);
+            transition: border-color 0.3s ease;
+        }
+
+        input[type="text"]:focus {
+            outline: none;
+            border-color: var(--accent);
+        }
+
+        button {
+            padding: 0.75rem 1.5rem;
+            background: var(--accent);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background: var(--accent-hover);
+        }
+
+        button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .stat-card {
+            background: var(--bg-secondary);
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px var(--shadow);
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 2rem;
+            font-weight: bold;
+            color: var(--accent);
+        }
+
+        .compound-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .compound-card {
+            background: var(--bg-secondary);
+            border-radius: 10px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 10px var(--shadow);
+            transition: transform 0.3s, box-shadow 0.3s;
+            cursor: pointer;
+        }
+
+        .compound-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 20px var(--shadow-hover);
+        }
+
+        .compound-id {
+            font-family: monospace;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin-bottom: 0.5rem;
+        }
+
+        .compound-smiles {
+            font-family: monospace;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            margin-bottom: 1rem;
+            word-break: break-all;
+        }
+
+        .compound-info {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0.5rem;
+            font-size: 0.9rem;
+        }
+
+        .info-label {
+            font-weight: bold;
+            color: var(--text-secondary);
+        }
+
+        .nmr-badges {
+            margin-top: 1rem;
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        .nmr-badge {
+            padding: 0.25rem 0.5rem;
+            border-radius: 15px;
+            font-size: 0.75rem;
+            font-weight: bold;
+        }
+
+        .nmr-badge.available {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 2rem;
+            color: var(--text-secondary);
+        }
+
+        .error {
+            background: #f8d7da;
+            color: #721c24;
+            padding: 1rem;
+            border-radius: 5px;
+            margin: 1rem 0;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+        }
+
+        .modal-content {
+            background-color: var(--bg-secondary);
+            margin: 5% auto;
+            padding: 2rem;
+            border-radius: 10px;
+            width: 90%;
+            max-width: 800px;
+            max-height: 80vh;
+            overflow-y: auto;
+        }
+
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .close:hover {
+            color: #000;
+        }
+
+        .json-viewer {
+            background: var(--bg-primary);
+            padding: 1rem;
+            border-radius: 5px;
+            font-family: monospace;
+            font-size: 0.9rem;
+            white-space: pre-wrap;
+            max-height: 400px;
+            overflow-y: auto;
+            border: 1px solid var(--border-color);
+        }
+
+        .theme-toggle {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: var(--bg-secondary);
+            border: 2px solid var(--border-color);
+            border-radius: 50px;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.9rem;
+            color: var(--text-primary);
+            box-shadow: 0 2px 10px var(--shadow);
+            transition: all 0.3s ease;
+            z-index: 1000;
+        }
+
+        .theme-toggle:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px var(--shadow-hover);
+        }
+
+        .theme-icon {
+            font-size: 1.2rem;
+            transition: transform 0.3s ease;
+        }
+
+        .theme-toggle:hover .theme-icon {
+            transform: rotate(20deg);
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 4px;
+            background: var(--border-color);
+            border-radius: 2px;
+            margin: 1rem 0;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: var(--accent);
+            transition: width 0.3s ease;
+            width: 0%;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            
+            .search-box {
+                flex-direction: column;
+            }
+            
+            .filter-row {
+                grid-template-columns: 1fr;
+            }
+            
+            .compound-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Theme Toggle Button -->
+    <div class="theme-toggle" onclick="toggleTheme()">
+        <span class="theme-icon">🌙</span>
+        <span class="theme-text">Dark</span>
+    </div>
+    
+    <div class="container">
+        <header>
+            <h1>NMR Chemical Shift Database</h1>
+            <p class="subtitle">Browse and search 57,000+ chemical compounds with NMR data</p>
+        </header>
+
+        <div class="search-section">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search by InChI key, SMILES, or NMR ID...">
+                <button onclick="searchCompounds()">Search</button>
+                <button onclick="loadFilteredCompounds()">Apply Filter</button>
+            </div>
+            
+            <div class="filter-section">
+                <div class="filter-row">
+                    <div class="filter-group" id="nmrFilterGroup">
+                        <label for="nmrFilter">NMR Type:</label>
+                        <select id="nmrFilter" onchange="updateFilterAvailability()">
+                            <option value="">All NMR Types</option>
+                            <option value="1H">¹H NMR</option>
+                            <option value="13C">¹³C NMR</option>
+                            <option value="31P">³¹P NMR</option>
+                            <option value="19F">¹⁹F NMR</option>
+                            <option value="15N">¹⁵N NMR</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-group" id="solventFilterGroup">
+                        <label for="solventFilter">Solvent:</label>
+                        <select id="solventFilter" onchange="updateFilterAvailability()">
+                            <option value="">All Solvents</option>
+                            <option value="Chloroform-D1 (CDCl3)">CDCl₃</option>
+                            <option value="Dimethylsulphoxide-D6 (DMSO-D6, C2D6SO)">DMSO-d₆</option>
+                            <option value="Methanol-D4 (CD3OD)">CD₃OD</option>
+                            <option value="Unknown">Unknown Solvent</option>
+                            <option value="Unreported">Unreported Solvent</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-group" id="fieldFilterGroup">
+                        <label for="fieldFilter">Field Strength:</label>
+                        <select id="fieldFilter" onchange="updateFilterAvailability()">
+                            <option value="">All Field Strengths</option>
+                            <option value="100">100 MHz</option>
+                            <option value="141">141 MHz</option>
+                            <option value="125">125 MHz</option>
+                            <option value="75">75 MHz</option>
+                            <option value="400">400 MHz</option>
+                            <option value="500">500 MHz</option>
+                            <option value="300">300 MHz</option>
+                            <option value="150">150 MHz</option>
+                            <option value="600">600 MHz</option>
+                            <option value="700">700 MHz</option>
+                            <option value="Unknown">Unknown Field Strength</option>
+                            <option value="Unreported">Unreported Field Strength</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label for="limitFilter">Show:</label>
+                        <select id="limitFilter">
+                            <option value="5">5 compounds</option>
+                            <option value="10">10 compounds</option>
+                            <option value="15">15 compounds</option>
+                            <option value="20">20 compounds</option>
+                            <option value="25">25 compounds</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="progress-bar" id="progressBar" style="display: none;">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+            
+            <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 1rem;">
+                💡 Now using all 56,938 files for filtering! Select filters and click "Apply Filter" to see results.
+            </p>
+        </div>
+
+        <div class="stats">
+            <div class="stat-card">
+                <div class="stat-number" id="totalCompounds">56,938</div>
+                <div>Total Compounds</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="loadedCompounds">0</div>
+                <div>Loaded Compounds</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="searchedCompounds">0</div>
+                <div>Searched Compounds</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">5</div>
+                <div>NMR Types</div>
+            </div>
+        </div>
+
+        <div id="loading" class="loading" style="display: none;">
+            <p>Loading compounds...</p>
+        </div>
+
+        <div id="error" class="error" style="display: none;"></div>
+
+        <div id="compoundGrid" class="compound-grid"></div>
+    </div>
+
+    <div id="compoundModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2 id="modalTitle">Compound Details</h2>
+            <div id="modalContent"></div>
+        </div>
+    </div>
+
+    <script>
+        // Configuration
+        const LOCAL_FILES = true;
+        const GITHUB_RAW_BASE = 'https://raw.githubusercontent.com/pb-commits/nmrshift2db/main/';
+        
+        let allCompounds = [];
+        let filteredCompounds = [];
+        let availableFiles = [];
+        let isSearching = false;
+
+        // Theme Management
+        function initializeTheme() {
+            const savedTheme = localStorage.getItem('nmr-theme') || 'light';
+            document.documentElement.setAttribute('data-theme', savedTheme);
+            updateThemeToggle(savedTheme);
+        }
+
+        function toggleTheme() {
+            const currentTheme = document.documentElement.getAttribute('data-theme') || 'light';
+            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+            
+            document.documentElement.setAttribute('data-theme', newTheme);
+            localStorage.setItem('nmr-theme', newTheme);
+            updateThemeToggle(newTheme);
+        }
+
+        function updateThemeToggle(theme) {
+            const themeIcon = document.querySelector('.theme-icon');
+            const themeText = document.querySelector('.theme-text');
+            
+            if (theme === 'dark') {
+                themeIcon.textContent = '☀️';
+                themeText.textContent = 'Light';
+            } else {
+                themeIcon.textContent = '🌙';
+                themeText.textContent = 'Dark';
+            }
+        }
+
+        // Filter availability management
+        function updateFilterAvailability() {
+            // For now, keep all filters available since we're using all files
+            // This can be enhanced later with actual combination analysis
+        }
+
+        // Load all available files
+        async function loadAllAvailableFiles() {
+            try {
+                const response = await fetch('all_available_files.txt');
+                if (response.ok) {
+                    const text = await response.text();
+                    availableFiles = text.trim().split('\n').filter(f => f.trim());
+                    console.log(`Loaded ${availableFiles.length} files for filtering`);
+                    updateStats();
+                } else {
+                    console.error('Could not load file list, using fallback');
+                    // Fallback to a sample if the file doesn't exist
+                    availableFiles = [
+                        'AAAISYODTULZTR-DARAHFNDSA-N.json',
+                        'AAAQKTZKLRYKHR-UHFFFAOYSA-N.json',
+                        'AAARTTJTRNAYHQ-NXEZZACHSA-N.json',
+                        'AAARTTJTRNAYHQ-VHSXEESVSA-N.json',
+                        'AAASFPHGEWHGIB-UHFFFAOYSA-N.json'
+                    ];
+                }
+            } catch (error) {
+                console.error('Error loading file list:', error);
+                // Use fallback
+                availableFiles = [
+                    'AAAISYODTULZTR-DARAHFNDSA-N.json',
+                    'AAAQKTZKLRYKHR-UHFFFAOYSA-N.json',
+                    'AAARTTJTRNAYHQ-NXEZZACHSA-N.json'
+                ];
+            }
+        }
+
+        async function loadCompound(filename) {
+            try {
+                let url;
+                if (LOCAL_FILES) {
+                    url = filename;
+                } else {
+                    url = `${GITHUB_RAW_BASE}${filename}`;
+                }
+                
+                const response = await fetch(url);
+                if (response.ok) {
+                    return await response.json();
+                }
+                return null;
+            } catch (error) {
+                console.error(`Error loading ${filename}:`, error);
+                return null;
+            }
+        }
+
+        async function loadFilteredCompounds() {
+            if (isSearching) return;
+            
+            isSearching = true;
+            showLoading(true);
+            hideError();
+            showProgress(true);
+            
+            const nmrFilter = document.getElementById('nmrFilter').value;
+            const solventFilter = document.getElementById('solventFilter').value;
+            const fieldFilter = document.getElementById('fieldFilter').value;
+            const limitFilter = parseInt(document.getElementById('limitFilter').value);
+            
+            const compounds = [];
+            let searched = 0;
+            let matched = 0;
+            const totalFiles = availableFiles.length;
+            
+            // Shuffle files for random results
+            const shuffledFiles = [...availableFiles].sort(() => Math.random() - 0.5);
+            
+            for (const filename of shuffledFiles) {
+                if (matched >= limitFilter) break;
+                
+                searched++;
+                
+                // Update progress
+                if (searched % 100 === 0) {
+                    const progress = (searched / totalFiles) * 100;
+                    updateProgress(progress);
+                    document.getElementById('searchedCompounds').textContent = searched;
+                }
+                
+                const data = await loadCompound(filename);
+                if (data) {
+                    // Apply filters
+                    let passesFilter = true;
+                    
+                    if (nmrFilter && !hasNMRType(data, nmrFilter)) {
+                        passesFilter = false;
+                    }
+                    
+                    if (solventFilter && !hasSolvent(data, solventFilter)) {
+                        passesFilter = false;
+                    }
+                    
+                    if (fieldFilter && !hasFieldStrength(data, fieldFilter)) {
+                        passesFilter = false;
+                    }
+                    
+                    if (passesFilter) {
+                        const inchiKey = filename.replace('.json', '');
+                        compounds.push({
+                            inchiKey: inchiKey,
+                            data: data,
+                            filename: filename
+                        });
+                        matched++;
+                    }
+                }
+                
+                // Add small delay to prevent browser freezing
+                if (searched % 50 === 0) {
+                    await new Promise(resolve => setTimeout(resolve, 1));
+                }
+            }
+            
+            allCompounds = compounds;
+            displayCompounds(compounds);
+            updateStats();
+            showLoading(false);
+            showProgress(false);
+            isSearching = false;
+            
+            if (compounds.length === 0) {
+                showError(`No compounds found matching the selected filters after searching ${searched} files. Try adjusting your criteria.`);
+            } else {
+                console.log(`Found ${compounds.length} compounds matching filters after searching ${searched} files`);
+            }
+        }
+
+        function hasNMRType(data, nmrType) {
+            // Check for spectrum data with the specific NMR type
+            for (const key in data) {
+                if (key.includes('Spectrum') && key.includes(nmrType)) {
+                    const spectrum = data[key];
+                    if (spectrum && spectrum.trim() && spectrum !== '0:Unreported ') {
+                        return true;
+                    }
+                }
+            }
+            return false;
+        }
+
+        function hasSolvent(data, solvent) {
+            const solventValue = data['Solvent'] || '';
+            if (!solventValue || solventValue === '0:Unreported ') {
+                return solvent === 'Unreported';
+            }
+            if (solventValue === '0:Unknown ') {
+                return solvent === 'Unknown';
+            }
+            return solventValue.includes(solvent);
+        }
+
+        function hasFieldStrength(data, field) {
+            const fieldValue = data['Field Strength [MHz]'] || '';
+            if (!fieldValue || fieldValue === '0:Unreported ') {
+                return field === 'Unreported';
+            }
+            if (fieldValue === '0:Unknown ') {
+                return field === 'Unknown';
+            }
+            return fieldValue.includes(field);
+        }
+
+        async function searchCompounds() {
+            const query = document.getElementById('searchInput').value.trim();
+            if (!query) {
+                loadFilteredCompounds();
+                return;
+            }
+
+            if (isSearching) return;
+            
+            isSearching = true;
+            showLoading(true);
+            hideError();
+            showProgress(true);
+
+            const compounds = [];
+            let searched = 0;
+            const totalFiles = availableFiles.length;
+            
+            for (const filename of availableFiles) {
+                searched++;
+                
+                // Update progress
+                if (searched % 100 === 0) {
+                    const progress = (searched / totalFiles) * 100;
+                    updateProgress(progress);
+                    document.getElementById('searchedCompounds').textContent = searched;
+                }
+                
+                const data = await loadCompound(filename);
+                if (data) {
+                    const searchLower = query.toLowerCase();
+                    const inchiKey = filename.replace('.json', '');
+                    
+                    if (inchiKey.toLowerCase().includes(searchLower) ||
+                        (data.SMILES && data.SMILES.toLowerCase().includes(searchLower)) ||
+                        (data['nmrshiftdb2 ID'] && data['nmrshiftdb2 ID'].toString().includes(query))) {
+                        compounds.push({
+                            inchiKey: inchiKey,
+                            data: data,
+                            filename: filename
+                        });
+                    }
+                }
+                
+                // Add small delay to prevent browser freezing
+                if (searched % 50 === 0) {
+                    await new Promise(resolve => setTimeout(resolve, 1));
+                }
+            }
+
+            allCompounds = compounds;
+            displayCompounds(compounds);
+            updateStats();
+            showLoading(false);
+            showProgress(false);
+            isSearching = false;
+            
+            if (compounds.length === 0) {
+                showError(`No compounds found matching "${query}" after searching ${searched} files.`);
+            } else {
+                console.log(`Found ${compounds.length} compounds matching "${query}" after searching ${searched} files`);
+            }
+        }
+
+        function displayCompounds(compounds) {
+            const grid = document.getElementById('compoundGrid');
+            grid.innerHTML = '';
+
+            compounds.forEach(compound => {
+                const card = createCompoundCard(compound);
+                grid.appendChild(card);
+            });
+        }
+
+        function createCompoundCard(compound) {
+            const card = document.createElement('div');
+            card.className = 'compound-card';
+            card.onclick = () => showCompoundDetails(compound);
+
+            const data = compound.data;
+            const nmrTypes = getNMRTypes(data);
+            
+            card.innerHTML = `
+                <div class="compound-id">${compound.inchiKey}</div>
+                <div class="compound-smiles">${data.SMILES || 'No SMILES available'}</div>
+                <div class="compound-info">
+                    <div><span class="info-label">ID:</span> ${data['nmrshiftdb2 ID'] || 'N/A'}</div>
+                    <div><span class="info-label">Solvent:</span> ${formatSolvent(data['Solvent']) || 'N/A'}</div>
+                    <div><span class="info-label">Temperature:</span> ${formatTemperature(data['Temperature [K]']) || 'N/A'}</div>
+                    <div><span class="info-label">Field:</span> ${formatField(data['Field Strength [MHz]']) || 'N/A'}</div>
+                </div>
+                <div class="nmr-badges">
+                    ${nmrTypes.map(type => `<span class="nmr-badge available">${type}</span>`).join('')}
+                </div>
+            `;
+
+            return card;
+        }
+
+        function getNMRTypes(data) {
+            const types = [];
+            
+            for (const key in data) {
+                if (key.includes('Spectrum')) {
+                    if (key.includes('1H')) types.push('¹H');
+                    else if (key.includes('13C')) types.push('¹³C');
+                    else if (key.includes('31P')) types.push('³¹P');
+                    else if (key.includes('19F')) types.push('¹⁹F');
+                    else if (key.includes('15N')) types.push('¹⁵N');
+                    else if (key.includes('11B')) types.push('¹¹B');
+                }
+            }
+            
+            return [...new Set(types)]; // Remove duplicates
+        }
+
+        function formatSolvent(solvent) {
+            if (!solvent || solvent === '0:Unreported ') return null;
+            if (solvent === '0:Unknown ') return 'Unknown';
+            
+            // Extract the actual solvent name
+            const match = solvent.match(/([A-Za-z0-9\-\(\)]+)/);
+            return match ? match[1] : solvent;
+        }
+
+        function formatTemperature(temp) {
+            if (!temp || temp === '0:Unreported ') return null;
+            if (temp === '0:Unknown ') return 'Unknown';
+            
+            // Extract numeric value
+            const match = temp.match(/(\d+)/);
+            return match ? match[1] + ' K' : temp;
+        }
+
+        function formatField(field) {
+            if (!field || field === '0:Unreported ') return null;
+            if (field === '0:Unknown ') return 'Unknown';
+            
+            // Extract numeric value
+            const match = field.match(/(\d+)/);
+            return match ? match[1] + ' MHz' : field;
+        }
+
+        function showCompoundDetails(compound) {
+            const modal = document.getElementById('compoundModal');
+            const title = document.getElementById('modalTitle');
+            const content = document.getElementById('modalContent');
+            
+            title.textContent = `Compound: ${compound.inchiKey}`;
+            content.innerHTML = `
+                <div class="json-viewer">${JSON.stringify(compound.data, null, 2)}</div>
+            `;
+            
+            modal.style.display = 'block';
+        }
+
+        function closeModal() {
+            document.getElementById('compoundModal').style.display = 'none';
+        }
+
+        function showLoading(show) {
+            document.getElementById('loading').style.display = show ? 'block' : 'none';
+        }
+
+        function showProgress(show) {
+            document.getElementById('progressBar').style.display = show ? 'block' : 'none';
+        }
+
+        function updateProgress(percentage) {
+            document.getElementById('progressFill').style.width = percentage + '%';
+        }
+
+        function showError(message) {
+            const errorEl = document.getElementById('error');
+            errorEl.textContent = message;
+            errorEl.style.display = 'block';
+        }
+
+        function hideError() {
+            document.getElementById('error').style.display = 'none';
+        }
+
+        function updateStats() {
+            document.getElementById('totalCompounds').textContent = availableFiles.length.toLocaleString();
+            document.getElementById('loadedCompounds').textContent = allCompounds.length;
+        }
+
+        // Event listeners
+        document.getElementById('searchInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                searchCompounds();
+            }
+        });
+
+        // Close modal when clicking outside
+        window.onclick = function(event) {
+            const modal = document.getElementById('compoundModal');
+            if (event.target === modal) {
+                closeModal();
+            }
+        }
+
+        // Initialize everything
+        async function initialize() {
+            initializeTheme();
+            await loadAllAvailableFiles();
+            updateFilterAvailability();
+            // Don't auto-load compounds since we now have 56k+ files
+            // User should select filters and click "Apply Filter"
+        }
+
+        // Start the application
+        initialize();
+    </script>
+</body>
+</html>
