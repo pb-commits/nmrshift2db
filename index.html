@@ -924,30 +924,18 @@
         }
 
         function formatSolvent(solvent) {
-            if (!solvent || solvent === '0:Unreported ') return null;
-            if (solvent === '0:Unknown ') return 'Unknown';
-            
-            // Extract the actual solvent name
-            const match = solvent.match(/([A-Za-z0-9\-\(\)]+)/);
-            return match ? match[1] : solvent;
+            if (!solvent || solvent.startsWith("0:")) return "Unreported";
+            return solvent.replace(/^0:/, "");
         }
 
         function formatTemperature(temp) {
-            if (!temp || temp === '0:Unreported ') return null;
-            if (temp === '0:Unknown ') return 'Unknown';
-            
-            // Extract numeric value
-            const match = temp.match(/(\d+)/);
-            return match ? match[1] + ' K' : temp;
+            if (!temp || temp.startsWith("0:")) return "Unreported";
+            return `${temp} K`;
         }
 
         function formatField(field) {
-            if (!field || field === '0:Unreported ') return null;
-            if (field === '0:Unknown ') return 'Unknown';
-            
-            // Extract numeric value
-            const match = field.match(/(\d+)/);
-            return match ? match[1] + ' MHz' : field;
+            if (!field || field.startsWith("0:")) return "Unreported";
+            return `${field} MHz`;
         }
 
         function showCompoundDetails(compound) {
@@ -1036,7 +1024,10 @@
                     statsDiv.style.opacity = '0.7';
                 }
             }, 5000);
-        }            document.getElementById('totalCompounds').textContent = availableFiles.length.toLocaleString();
+        }
+
+        function updateStats() {
+            document.getElementById('totalCompounds').textContent = availableFiles.length.toLocaleString();
             document.getElementById('loadedCompounds').textContent = allCompounds.length;
         }
 
@@ -1045,6 +1036,15 @@
             if (e.key === 'Enter') {
                 searchCompounds();
             }
+        });
+
+        // Debounced search for better performance
+        let searchTimeout;
+        document.getElementById('searchInput').addEventListener('input', function() {
+            clearTimeout(searchTimeout);
+            searchTimeout = setTimeout(() => {
+                searchCompounds();
+            }, 250);
         });
 
         // Close modal when clicking outside
