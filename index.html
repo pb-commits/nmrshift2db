@@ -582,14 +582,16 @@
         // Load all available files
         async function loadAllAvailableFiles() {
             try {
+                console.log('Loading available files from:', `${GITHUB_RAW_BASE}all_available_files.txt`);
                 const response = await fetch(`${GITHUB_RAW_BASE}all_available_files.txt`);
                 if (response.ok) {
                     const text = await response.text();
                     availableFiles = text.trim().split('\n').filter(f => f.trim());
                     console.log(`Loaded ${availableFiles.length} files for filtering`);
+                    console.log('First 5 files:', availableFiles.slice(0, 5));
                     updateStats();
                 } else {
-                    console.error('Could not load file list, using fallback');
+                    console.error('Could not load file list, response status:', response.status);
                     // Fallback to a sample if the file doesn't exist
                     availableFiles = [
                         'AAAISYODTULZTR-DARAHFNDSA-N.json',
@@ -632,6 +634,12 @@
 
         async function loadRandomCompounds() {
             if (isSearching) return;
+            
+            console.log('loadRandomCompounds called, availableFiles length:', availableFiles.length);
+            if (availableFiles.length === 0) {
+                console.error('No available files loaded yet');
+                return;
+            }
             
             isSearching = true;
             showLoading(true);
@@ -806,8 +814,11 @@
         }
 
         async function searchCompounds() {
+            console.log('searchCompounds called');
             const query = document.getElementById('searchInput').value.trim();
+            console.log('Search query:', query);
             if (!query) {
+                console.log('No query, loading filtered compounds');
                 loadFilteredCompounds();
                 return;
             }
@@ -1057,11 +1068,20 @@
 
         // Initialize everything
         async function initialize() {
+            console.log('Initializing application...');
             initializeTheme();
+            console.log('Theme initialized');
+            
             await loadAllAvailableFiles();
+            console.log('Available files loaded, count:', availableFiles.length);
+            
             updateFilterAvailability();
+            console.log('Filter availability updated');
+            
             // Preload 25 compounds on startup for immediate user experience
+            console.log('Starting to load random compounds...');
             await loadRandomCompounds();
+            console.log('Initialization complete');
         }
 
         // Start the application
