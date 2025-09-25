@@ -645,7 +645,7 @@
             const compounds = [];
             let searched = 0;
             let matched = 0;
-            const totalFiles = availableFiles.length;
+            const maxSearchFiles = 100; // Limit to 100 files for performance
             
             // Shuffle files for random results
             const shuffledFiles = [...availableFiles].sort(() => Math.random() - 0.5);
@@ -656,8 +656,8 @@
                 searched++;
                 
                 // Update progress
-                if (searched % 100 === 0) {
-                    const progress = (searched / totalFiles) * 100;
+                if (searched % 10 === 0) {
+                    const progress = (searched / maxSearchFiles) * 100;
                     updateProgress(progress);
                     document.getElementById('searchedCompounds').textContent = searched;
                 }
@@ -761,14 +761,16 @@
 
             const compounds = [];
             let searched = 0;
-            const totalFiles = availableFiles.length;
+            const maxSearchFiles = 100; // Limit to 100 files for performance
             
-            for (const filename of availableFiles) {
+            const shuffledFiles = [...availableFiles].sort(() => Math.random() - 0.5);
+            for (let i = 0; i < Math.min(maxSearchFiles, shuffledFiles.length); i++) {
+                const filename = shuffledFiles[i];
                 searched++;
                 
                 // Update progress
-                if (searched % 100 === 0) {
-                    const progress = (searched / totalFiles) * 100;
+                if (searched % 10 === 0) {
+                    const progress = (searched / maxSearchFiles) * 100;
                     updateProgress(progress);
                     document.getElementById('searchedCompounds').textContent = searched;
                 }
@@ -928,7 +930,50 @@
         }
 
         function updateStats() {
-            document.getElementById('totalCompounds').textContent = availableFiles.length.toLocaleString();
+
+        function showFilterStatistics(nmrFilter, solventFilter, fieldFilter, foundCount, searchedCount) {
+            let statsMessage = `Searched ${searchedCount} files and found ${foundCount} compounds`;
+            
+            if (nmrFilter) {
+                statsMessage += ` with ${nmrFilter} NMR`;
+            }
+            if (solventFilter) {
+                statsMessage += ` in ${solventFilter}`;
+            }
+            if (fieldFilter) {
+                statsMessage += ` at ${fieldFilter}`;
+            }
+            
+            // Show this as a temporary message below the search box
+            const searchSection = document.querySelector('.search-section');
+            let statsDiv = document.getElementById('filterStats');
+            if (!statsDiv) {
+                statsDiv = document.createElement('div');
+                statsDiv.id = 'filterStats';
+                statsDiv.style.cssText = `
+                    background: var(--bg-secondary);
+                    padding: 1rem;
+                    margin-top: 1rem;
+                    border-radius: 5px;
+                    border-left: 4px solid var(--accent);
+                    color: var(--text-secondary);
+                    font-size: 0.9rem;
+                `;
+                searchSection.appendChild(statsDiv);
+            }
+            
+            statsDiv.innerHTML = `
+                <strong>Filter Results:</strong> ${statsMessage}
+                <br><small>💡 Tip: Results are from a random sample of 100 files for faster searching</small>
+            `;
+            
+            // Auto-hide after 5 seconds
+            setTimeout(() => {
+                if (statsDiv) {
+                    statsDiv.style.opacity = '0.7';
+                }
+            }, 5000);
+        }            document.getElementById('totalCompounds').textContent = availableFiles.length.toLocaleString();
             document.getElementById('loadedCompounds').textContent = allCompounds.length;
         }
 
