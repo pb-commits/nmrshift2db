@@ -544,6 +544,35 @@
         let availableFiles = [];
         let isSearching = false;
 
+        // Sample of available InChI keys (you can expand this list)
+        const sampleInchiKeys = [
+            'AAAISYODTULZTR-DARAHFNDSA-N',
+            'AAAQKTZKLRYKHR-UHFFFAOYSA-N',
+            'AAARTTJTRNAYHQ-NXEZZACHSA-N',
+            'AAARTTJTRNAYHQ-VHSXEESVSA-N',
+            'AAASFPHGEWHGIB-UHFFFAOYSA-N',
+            'AAAXMNYUNVCMCJ-UHFFFAOYSA-N',
+            'AABOCLLAUKSOSG-RKDXNWHRSA-N',
+            'QGMWDUUHVVLHNP-JQXSQYPDSA-N',
+            'GJNXTRPTZOVADS-PWRGDLIESA-N',
+            'UNPSXBKCCZEIRN-UHFFFAOYSA-N',
+            'RWSOTUBLDIXVET-UHFFFAOYSA-N',
+            'QNAYBMKLOCPYGJ-REOHCLBHSA-N',
+            'DNXYHXRTXLWOOD-UHFFFAOYSA-N',
+            'YMWUJEATGCHHMB-UHFFFAOYSA-N',
+            'XLYOFNOQVPJJNP-UHFFFAOYSA-N',
+            'HXNDBMDIDCEJMP-UHFFFAOYSA-N',
+            'VYMDGNCVAMGZFE-UHFFFAOYSA-N',
+            'KZSNJWFQEVHDMF-UHFFFAOYSA-N',
+            'RYYVLZVUVIJVGH-UHFFFAOYSA-N',
+            'HXNDBMDIDCEJMP-UHFFFAOYSA-N',
+            'KZSNJWFQEVHDMF-UHFFFAOYSA-N',
+            'RYYVLZVUVIJVGH-UHFFFAOYSA-N',
+            'YMWUJEATGCHHMB-UHFFFAOYSA-N',
+            'XLYOFNOQVPJJNP-UHFFFAOYSA-N',
+            'HXNDBMDIDCEJMP-UHFFFAOYSA-N'
+        ];
+
         // Theme Management
         function initializeTheme() {
             const savedTheme = localStorage.getItem('nmr-theme') || 'light';
@@ -612,75 +641,34 @@
             }
         }
 
-        async function loadCompound(filename) {
+        async function loadCompound(inchiKey) {
             try {
-                let url;
-                if (LOCAL_FILES) {
-                    url = filename;
-                } else {
-                    url = `${GITHUB_RAW_BASE}nmr-json/${filename}`;
-                }
-                
-                const response = await fetch(url);
-                if (response.ok) {
-                    return await response.json();
-                }
-                return null;
+                const response = await fetch(`${GITHUB_RAW_BASE}nmr-json/${inchiKey}.json`);
+                if (!response.ok) throw new Error(`HTTP ${response.status}`);
+                return await response.json();
             } catch (error) {
-                console.error(`Error loading ${filename}:`, error);
+                console.error(`Error loading ${inchiKey}:`, error);
                 return null;
             }
         }
 
         async function loadRandomCompounds() {
-            if (isSearching) return;
-            
-            console.log('loadRandomCompounds called, availableFiles length:', availableFiles.length);
-            if (availableFiles.length === 0) {
-                console.error('No available files loaded yet');
-                return;
-            }
-            
-            isSearching = true;
             showLoading(true);
             hideError();
-            showProgress(true);
             
             const compounds = [];
-            let searched = 0;
-            const totalFiles = availableFiles.length;
-            const maxRandom = Math.min(25, totalFiles); // Load exactly 25 random compounds
+            const keysToLoad = [...sampleInchiKeys].sort(() => 0.5 - Math.random()).slice(0, 25);
             
-            // Shuffle files for random results
-            const shuffledFiles = [...availableFiles].sort(() => Math.random() - 0.5);
-            
-            for (let i = 0; i < Math.min(maxRandom, shuffledFiles.length); i++) {
-                const filename = shuffledFiles[i];
-                searched++;
-                
-                // Update progress
-                if (searched % 5 === 0) {
-                    const progress = (searched / maxRandom) * 100;
-                    updateProgress(progress);
-                    document.getElementById('searchedCompounds').textContent = searched;
-                }
-                
-                const data = await loadCompound(filename);
+            for (const key of keysToLoad) {
+                const data = await loadCompound(key);
                 if (data) {
-                    const inchiKey = filename.replace('.json', '');
                     compounds.push({
-                        inchiKey: inchiKey,
-                        data: data,
-                        filename: filename
+                        inchiKey: key,
+                        data: data
                     });
                 }
-                
-                // Add small delay to prevent browser freezing
-                if (searched % 5 === 0) {
-                    await new Promise(resolve => setTimeout(resolve, 1));
-                }
             }
-
+            
             allCompounds = compounds;
             currentPage = 1;
             totalPages = Math.ceil(compounds.length / itemsPerPage);
@@ -688,10 +676,6 @@
             updatePagination();
             updateStats();
             showLoading(false);
-            showProgress(false);
-            isSearching = false;
-            
-            console.log(`Loaded ${compounds.length} random compounds from ${searched} files`);
         }
 
         async function loadFilteredCompounds() {
@@ -814,12 +798,9 @@
         }
 
         async function searchCompounds() {
-            console.log('searchCompounds called');
             const query = document.getElementById('searchInput').value.trim();
-            console.log('Search query:', query);
             if (!query) {
-                console.log('No query, loading filtered compounds');
-                loadFilteredCompounds();
+                loadRandomCompounds();
                 return;
             }
 
@@ -1066,26 +1047,9 @@
             }
         }
 
-        // Initialize everything
-        async function initialize() {
-            console.log('Initializing application...');
-            initializeTheme();
-            console.log('Theme initialized');
-            
-            await loadAllAvailableFiles();
-            console.log('Available files loaded, count:', availableFiles.length);
-            
-            updateFilterAvailability();
-            console.log('Filter availability updated');
-            
-            // Preload 25 compounds on startup for immediate user experience
-            console.log('Starting to load random compounds...');
-            await loadRandomCompounds();
-            console.log('Initialization complete');
-        }
-
-        // Start the application
-        initialize();
+        // Initialize theme and load initial data
+        initializeTheme();
+        loadRandomCompounds();
     </script>
 </body>
 </html>
