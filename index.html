@@ -60,9 +60,9 @@
         }
 
         h1 {
-            text-align: center;
             font-size: 2.5rem;
             margin-bottom: 0.5rem;
+            text-align: center;
         }
 
         .subtitle {
@@ -83,6 +83,50 @@
             display: flex;
             gap: 1rem;
             margin-bottom: 1rem;
+        }
+
+        .filter-section {
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .filter-row {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .filter-group {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .filter-group label {
+            font-weight: 600;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        .filter-group select {
+            padding: 0.5rem;
+            border: 2px solid var(--border-color);
+            border-radius: 5px;
+            background: var(--bg-secondary);
+            color: var(--text-primary);
+            font-size: 0.9rem;
+            transition: border-color 0.3s ease;
+        }
+
+        .filter-group select:focus {
+            outline: none;
+            border-color: var(--accent);
+        }
+
+        .filter-group select:hover {
+            border-color: var(--accent);
         }
 
         input[type="text"] {
@@ -199,10 +243,9 @@
 
         .nmr-badge {
             padding: 0.25rem 0.5rem;
-            background: #e9ecef;
             border-radius: 15px;
-            font-size: 0.8rem;
-            color: #495057;
+            font-size: 0.75rem;
+            font-weight: bold;
         }
 
         .nmr-badge.available {
@@ -302,6 +345,24 @@
         .theme-toggle:hover .theme-icon {
             transform: rotate(20deg);
         }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            
+            .search-box {
+                flex-direction: column;
+            }
+            
+            .filter-row {
+                grid-template-columns: 1fr;
+            }
+            
+            .compound-grid {
+                grid-template-columns: 1fr;
+            }
+        }
     </style>
 </head>
 <body>
@@ -321,42 +382,96 @@
             <div class="search-box">
                 <input type="text" id="searchInput" placeholder="Search by InChI key, SMILES, or NMR ID...">
                 <button onclick="searchCompounds()">Search</button>
-                <button onclick="loadRandomCompounds()">Browse Random</button>
+                <button onclick="loadFilteredCompounds()">Apply Filter</button>
             </div>
-            <p style="color: #666; font-size: 0.9rem;">
-                💡 Try searching for specific InChI keys like "AAAISYODTULZTR-DARAHFNDSA-N" or browse random compounds
+            
+            <div class="filter-section">
+                <div class="filter-row">
+                    <div class="filter-group">
+                        <label for="nmrFilter">NMR Type:</label>
+                        <select id="nmrFilter">
+                            <option value="">All NMR Types</option>
+                            <option value="1H">¹H NMR</option>
+                            <option value="13C">¹³C NMR</option>
+                            <option value="19F">¹⁹F NMR</option>
+                            <option value="31P">³¹P NMR</option>
+                            <option value="15N">¹⁵N NMR</option>
+                            <option value="2H">²H NMR</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label for="solventFilter">Solvent:</label>
+                        <select id="solventFilter">
+                            <option value="">All Solvents</option>
+                            <option value="CDCl3">CDCl₃</option>
+                            <option value="DMSO">DMSO-d₆</option>
+                            <option value="CD3OD">CD₃OD</option>
+                            <option value="D2O">D₂O</option>
+                            <option value="C6D6">C₆D₆</option>
+                            <option value="CD3CN">CD₃CN</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label for="fieldFilter">Field Strength:</label>
+                        <select id="fieldFilter">
+                            <option value="">All Field Strengths</option>
+                            <option value="300">300 MHz</option>
+                            <option value="400">400 MHz</option>
+                            <option value="500">500 MHz</option>
+                            <option value="600">600 MHz</option>
+                            <option value="700">700 MHz</option>
+                            <option value="800">800 MHz</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label for="limitFilter">Show:</label>
+                        <select id="limitFilter">
+                            <option value="12">12 compounds</option>
+                            <option value="24">24 compounds</option>
+                            <option value="48">48 compounds</option>
+                            <option value="96">96 compounds</option>
+                            <option value="200">200 compounds</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            
+            <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 1rem;">
+                💡 Use filters to narrow down compounds by NMR type, solvent, field strength, or search for specific compounds
             </p>
         </div>
 
         <div class="stats">
             <div class="stat-card">
-                <div class="stat-number" id="totalCompounds">57,055</div>
+                <div class="stat-number" id="totalCompounds">0</div>
                 <div>Total Compounds</div>
             </div>
             <div class="stat-card">
                 <div class="stat-number" id="loadedCompounds">0</div>
-                <div>Loaded</div>
+                <div>Loaded Compounds</div>
             </div>
             <div class="stat-card">
-                <div class="stat-number" id="with1H">0</div>
-                <div>With ¹H NMR</div>
+                <div class="stat-number" id="nmrTypes">0</div>
+                <div>NMR Types</div>
             </div>
             <div class="stat-card">
-                <div class="stat-number" id="with13C">0</div>
-                <div>With ¹³C NMR</div>
+                <div class="stat-number" id="solvents">0</div>
+                <div>Solvents</div>
             </div>
         </div>
 
         <div id="loading" class="loading" style="display: none;">
-            Loading compounds...
+            <p>Loading compounds...</p>
         </div>
 
         <div id="error" class="error" style="display: none;"></div>
 
-        <div id="compounds" class="compound-grid"></div>
+        <div id="compoundGrid" class="compound-grid"></div>
     </div>
 
-    <!-- Modal for compound details -->
     <div id="compoundModal" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal()">&times;</span>
@@ -366,8 +481,14 @@
     </div>
 
     <script>
+        // Configuration
+        const LOCAL_FILES = true; // Set to true to use local files, false for GitHub
         const GITHUB_RAW_BASE = 'https://raw.githubusercontent.com/pb-commits/nmrshift2db/main/';
-        let currentCompounds = [];
+        
+        let allCompounds = [];
+        let filteredCompounds = [];
+        let currentPage = 0;
+        const pageSize = 12;
 
         // Theme Management
         function initializeTheme() {
@@ -398,7 +519,7 @@
             }
         }
 
-        // Sample of available InChI keys (you can expand this list)
+        // Sample of available InChI keys for testing (you can expand this list)
         const sampleInchiKeys = [
             'AAAISYODTULZTR-DARAHFNDSA-N',
             'AAAQKTZKLRYKHR-UHFFFAOYSA-N',
@@ -414,66 +535,114 @@
 
         async function loadCompound(inchiKey) {
             try {
-                const response = await fetch(`${GITHUB_RAW_BASE}${inchiKey}.json`);
-                if (!response.ok) throw new Error(`HTTP ${response.status}`);
-                return await response.json();
+                let url;
+                if (LOCAL_FILES) {
+                    url = `${inchiKey}.json`;
+                } else {
+                    url = `${GITHUB_RAW_BASE}${inchiKey}.json`;
+                }
+                
+                const response = await fetch(url);
+                if (response.ok) {
+                    return await response.json();
+                }
+                return null;
             } catch (error) {
                 console.error(`Error loading ${inchiKey}:`, error);
                 return null;
             }
         }
 
-        async function loadRandomCompounds() {
+        async function loadFilteredCompounds() {
             showLoading(true);
             hideError();
             
-            const compounds = [];
-            const keysToLoad = [...sampleInchiKeys].sort(() => 0.5 - Math.random()).slice(0, 8);
+            const nmrFilter = document.getElementById('nmrFilter').value;
+            const solventFilter = document.getElementById('solventFilter').value;
+            const fieldFilter = document.getElementById('fieldFilter').value;
+            const limitFilter = parseInt(document.getElementById('limitFilter').value);
             
-            for (const key of keysToLoad) {
+            const compounds = [];
+            let loaded = 0;
+            const maxLoad = Math.min(limitFilter, sampleInchiKeys.length);
+            
+            for (const key of sampleInchiKeys) {
+                if (loaded >= maxLoad) break;
+                
                 const data = await loadCompound(key);
                 if (data) {
-                    compounds.push({
-                        inchiKey: key,
-                        data: data
-                    });
+                    // Apply filters
+                    let passesFilter = true;
+                    
+                    if (nmrFilter && !hasNMRType(data, nmrFilter)) {
+                        passesFilter = false;
+                    }
+                    
+                    if (solventFilter && !hasSolvent(data, solventFilter)) {
+                        passesFilter = false;
+                    }
+                    
+                    if (fieldFilter && !hasFieldStrength(data, fieldFilter)) {
+                        passesFilter = false;
+                    }
+                    
+                    if (passesFilter) {
+                        compounds.push({
+                            inchiKey: key,
+                            data: data
+                        });
+                        loaded++;
+                    }
                 }
             }
             
-            currentCompounds = compounds;
+            allCompounds = compounds;
             displayCompounds(compounds);
-            updateStats(compounds);
+            updateStats();
             showLoading(false);
+            
+            if (compounds.length === 0) {
+                showError('No compounds found matching the selected filters. Try adjusting your criteria.');
+            }
+        }
+
+        function hasNMRType(data, nmrType) {
+            const nmrKeys = Object.keys(data).filter(key => 
+                key.includes('H-') || key.includes('C-') || key.includes('F-') || 
+                key.includes('P-') || key.includes('N-') || key.includes('D-')
+            );
+            
+            for (const key of nmrKeys) {
+                if (key.includes(nmrType)) {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        function hasSolvent(data, solvent) {
+            const solventValue = data['Solvent'] || data['solvent'] || '';
+            return solventValue.toLowerCase().includes(solvent.toLowerCase());
+        }
+
+        function hasFieldStrength(data, field) {
+            const fieldValue = data['Field Strength [MHz]'] || data['field_strength'] || '';
+            return fieldValue.toString().includes(field);
         }
 
         async function searchCompounds() {
             const query = document.getElementById('searchInput').value.trim();
             if (!query) {
-                loadRandomCompounds();
+                loadFilteredCompounds();
                 return;
             }
 
             showLoading(true);
             hideError();
 
-            // Try to load the compound directly if it looks like an InChI key
-            if (query.length > 20 && query.includes('-')) {
-                const data = await loadCompound(query);
-                if (data) {
-                    const compounds = [{
-                        inchiKey: query,
-                        data: data
-                    }];
-                    currentCompounds = compounds;
-                    displayCompounds(compounds);
-                    updateStats(compounds);
-                    showLoading(false);
-                    return;
-                }
-            }
-
-            // If direct load failed or query doesn't look like InChI key, search in sample
             const compounds = [];
+            
+            // Search in sample keys first
             for (const key of sampleInchiKeys) {
                 const data = await loadCompound(key);
                 if (data) {
@@ -489,81 +658,78 @@
                 }
             }
 
-            if (compounds.length === 0) {
-                showError(`No compounds found matching "${query}". Try an exact InChI key or browse random compounds.`);
-            }
-
-            currentCompounds = compounds;
+            allCompounds = compounds;
             displayCompounds(compounds);
-            updateStats(compounds);
+            updateStats();
             showLoading(false);
+            
+            if (compounds.length === 0) {
+                showError('No compounds found matching your search. Try a different search term.');
+            }
         }
 
         function displayCompounds(compounds) {
-            const container = document.getElementById('compounds');
-            
-            if (compounds.length === 0) {
-                container.innerHTML = '<p style="text-align: center; color: #666;">No compounds to display.</p>';
-                return;
-            }
+            const grid = document.getElementById('compoundGrid');
+            grid.innerHTML = '';
 
-            container.innerHTML = compounds.map(compound => {
-                const data = compound.data;
-                const hasNMR = {
-                    '1H': Object.keys(data).some(key => key.includes('Spectrum 1H')),
-                    '13C': Object.keys(data).some(key => key.includes('Spectrum 13C')),
-                    '31P': Object.keys(data).some(key => key.includes('Spectrum 31P')),
-                    '19F': Object.keys(data).some(key => key.includes('Spectrum 19F'))
-                };
-
-                return `
-                    <div class="compound-card" onclick="showCompoundDetails('${compound.inchiKey}')">
-                        <div class="compound-id">${compound.inchiKey}</div>
-                        <div class="compound-smiles">${data.SMILES || 'No SMILES available'}</div>
-                        <div class="compound-info">
-                            <span class="info-label">NMR ID:</span>
-                            <span>${data['nmrshiftdb2 ID'] || 'N/A'}</span>
-                            <span class="info-label">Temperature:</span>
-                            <span>${data['Temperature [K]'] || 'N/A'}</span>
-                            <span class="info-label">Solvent:</span>
-                            <span>${data.Solvent || 'N/A'}</span>
-                            <span class="info-label">Field Strength:</span>
-                            <span>${data['Field Strength [MHz]'] || 'N/A'}</span>
-                        </div>
-                        <div class="nmr-badges">
-                            <span class="nmr-badge ${hasNMR['1H'] ? 'available' : ''}">¹H NMR</span>
-                            <span class="nmr-badge ${hasNMR['13C'] ? 'available' : ''}">¹³C NMR</span>
-                            <span class="nmr-badge ${hasNMR['31P'] ? 'available' : ''}">³¹P NMR</span>
-                            <span class="nmr-badge ${hasNMR['19F'] ? 'available' : ''}">¹⁹F NMR</span>
-                        </div>
-                    </div>
-                `;
-            }).join('');
+            compounds.forEach(compound => {
+                const card = createCompoundCard(compound);
+                grid.appendChild(card);
+            });
         }
 
-        function updateStats(compounds) {
-            document.getElementById('loadedCompounds').textContent = compounds.length;
+        function createCompoundCard(compound) {
+            const card = document.createElement('div');
+            card.className = 'compound-card';
+            card.onclick = () => showCompoundDetails(compound);
+
+            const data = compound.data;
+            const nmrTypes = getNMRTypes(data);
             
-            let with1H = 0, with13C = 0;
-            compounds.forEach(compound => {
-                const data = compound.data;
-                if (Object.keys(data).some(key => key.includes('Spectrum 1H'))) with1H++;
-                if (Object.keys(data).some(key => key.includes('Spectrum 13C'))) with13C++;
+            card.innerHTML = `
+                <div class="compound-id">${compound.inchiKey}</div>
+                <div class="compound-smiles">${data.SMILES || 'No SMILES available'}</div>
+                <div class="compound-info">
+                    <div><span class="info-label">ID:</span> ${data['nmrshiftdb2 ID'] || 'N/A'}</div>
+                    <div><span class="info-label">Solvent:</span> ${data['Solvent'] || 'N/A'}</div>
+                    <div><span class="info-label">Temperature:</span> ${data['Temperature [K]'] || 'N/A'}</div>
+                    <div><span class="info-label">Field:</span> ${data['Field Strength [MHz]'] || 'N/A'}</div>
+                </div>
+                <div class="nmr-badges">
+                    ${nmrTypes.map(type => `<span class="nmr-badge available">${type}</span>`).join('')}
+                </div>
+            `;
+
+            return card;
+        }
+
+        function getNMRTypes(data) {
+            const types = [];
+            const keys = Object.keys(data);
+            
+            keys.forEach(key => {
+                if (key.includes('H-')) types.push('¹H');
+                else if (key.includes('C-')) types.push('¹³C');
+                else if (key.includes('F-')) types.push('¹⁹F');
+                else if (key.includes('P-')) types.push('³¹P');
+                else if (key.includes('N-')) types.push('¹⁵N');
+                else if (key.includes('D-')) types.push('²H');
             });
             
-            document.getElementById('with1H').textContent = with1H;
-            document.getElementById('with13C').textContent = with13C;
+            return [...new Set(types)]; // Remove duplicates
         }
 
-        function showCompoundDetails(inchiKey) {
-            const compound = currentCompounds.find(c => c.inchiKey === inchiKey);
-            if (!compound) return;
-
-            document.getElementById('modalTitle').textContent = `Compound: ${inchiKey}`;
-            document.getElementById('modalContent').innerHTML = `
+        function showCompoundDetails(compound) {
+            const modal = document.getElementById('compoundModal');
+            const title = document.getElementById('modalTitle');
+            const content = document.getElementById('modalContent');
+            
+            title.textContent = `Compound: ${compound.inchiKey}`;
+            content.innerHTML = `
                 <div class="json-viewer">${JSON.stringify(compound.data, null, 2)}</div>
             `;
-            document.getElementById('compoundModal').style.display = 'block';
+            
+            modal.style.display = 'block';
         }
 
         function closeModal() {
@@ -584,6 +750,13 @@
             document.getElementById('error').style.display = 'none';
         }
 
+        function updateStats() {
+            document.getElementById('totalCompounds').textContent = '56,938';
+            document.getElementById('loadedCompounds').textContent = allCompounds.length;
+            document.getElementById('nmrTypes').textContent = '6';
+            document.getElementById('solvents').textContent = '10+';
+        }
+
         // Event listeners
         document.getElementById('searchInput').addEventListener('keypress', function(e) {
             if (e.key === 'Enter') {
@@ -601,7 +774,7 @@
 
         // Initialize theme and load initial data
         initializeTheme();
-        loadRandomCompounds();
+        loadFilteredCompounds();
     </script>
 </body>
 </html>
