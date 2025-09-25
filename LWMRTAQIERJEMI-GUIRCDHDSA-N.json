@@ -1,0 +1,12 @@
+{
+  "INChI key": "LWMRTAQIERJEMI-GUIRCDHDSA-N",
+  "INChI": "InChI=1S/C19H27F3N2O9S2Si/c1-9(2)18(3,4)36(5,6)29-8-11-12(32-17(26)34)13-15(30-11)24-7-10(14(25)23-16(24)31-13)33-35(27,28)19(20,21)22/h7,9,11-13,15H,8H2,1-6H3,(H,26,34)/t11-,12-,13+,15-/m1/s1",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "4.56;0.0;7|5.73;0.0;5|5.83;0.0;6|6.45;0.0;1|7.6;0.0;8|",
+  "nmrshiftdb2 ID": 20168411,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 21914,
+  "SMILES": "CC(C)C(C)(C)[Si](C)(C)OC[C@H]1O[C@@H]2[C@@H](Oc3nc(=O)c(OS(=O)(=O)C(F)(F)F)cn32)[C@@H]1OC(O)=S"
+}

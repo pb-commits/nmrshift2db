@@ -1,0 +1,12 @@
+{
+  "INChI key": "ORPHOKOVVUFNKE-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C11H13NO/c1-9-4-6-10(7-5-9)12-8-2-3-11(12)13/h4-7H,2-3,8H2,1H3",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20123544,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "18.0;0.0T;2|20.8;0.0Q;10|32.6;0.0T;1|48.8;0.0T;3|120.0;0.0D;5|120.0;0.0D;9|129.3;0.0D;6|129.3;0.0D;8|134.1;0.0S;7|136.8;0.0S;4|174.0;0.0S;0|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 18046,
+  "SMILES": "Cc1ccc(N2CCCC2=O)cc1"
+}

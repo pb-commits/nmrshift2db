@@ -1,0 +1,12 @@
+{
+  "INChI key": "MZATYLGRYGUEOD-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C12H18O2/c1-5-9-6-12(3,4)7-10(14)11(9)8(2)13/h5-7H2,1-4H3",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 76439,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "12.2;0.0Q;9|27.7;0.0Q;10|27.7;0.0Q;11|28.0;0.0T;8|31.9;0.0Q;7|32.9;0.0S;3|43.6;0.0T;2|51.1;0.0T;4|138.0;0.0S;0|162.6;0.0S;1|197.6;0.0S;5|204.0;0.0S;6|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 1862,
+  "SMILES": "CCC1=C(C(C)=O)C(=O)CC(C)(C)C1"
+}

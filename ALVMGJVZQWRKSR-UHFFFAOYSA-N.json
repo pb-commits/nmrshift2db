@@ -1,0 +1,14 @@
+{
+  "INChI key": "ALVMGJVZQWRKSR-UHFFFAOYSA-N",
+  "Spectrum 73Ge 2": "-10.6;0.0S;10|",
+  "INChI": "InChI=1S/C10H16Ge/c1-9-6-5-7-10(8-9)11(2,3)4/h5-8H,1-4H3",
+  "Temperature [K]": "0:293 1:293 2:293 ",
+  "nmrshiftdb2 ID": 30083703,
+  "Spectrum 1H 1": "0.82;0.0;1|0.82;0.0;1|0.82;0.0;1|0.82;0.0;2|0.82;0.0;2|0.82;0.0;2|0.82;0.0;3|0.82;0.0;3|0.82;0.0;3|2.8;0.0;9|2.8;0.0;9|2.8;0.0;9|7.7;0.0;4|7.7;0.0;8|7.7;0.0;7|7.7;0.0;6|",
+  "Field Strength [MHz]": "0:75.428 1:299.942 2:500 ",
+  "Spectrum 13C 0": "-1.8;0.0Q;3|21.5;0.0Q;9|127.8;0.0D;7|129.0;0.0D;6|129.9;0.0D;8|133.6;0.0D;4|137.3;0.0S;5|142.4;0.0S;0|-1.8;0.0Q;1|-1.8;0.0Q;2|",
+  "Solvent": "0:Chloroform-D1 (CDCl3) 1:Chloroform-D1 (CDCl3) 2:Chloroform-D1 (CDCl3) ",
+  "Assignment Method": "0:Unknown 1:Unknown 2:Unknown ",
+  "_molecule_index": 42044,
+  "SMILES": "Cc1ccc[c]([Ge]([CH3])([CH3])[CH3])c1"
+}

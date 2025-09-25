@@ -1,0 +1,12 @@
+{
+  "INChI key": "XBUZXTTYWGYLJR-CBNSAOLUSA-N",
+  "INChI": "InChI=1S/C38H48N2O9/c1-40-19-35(20-44-2)16-15-25(45-3)38-23-17-36(43)26(46-4)18-37(28(31(38)40)29(47-5)30(35)38,49-34(42)22-13-9-10-14-24(22)39)27(23)32(36)48-33(41)21-11-7-6-8-12-21/h6-14,23,25-32,43H,15-20,39H2,1-5H3/t23-,25+,26+,27-,28+,29+,30-,31?,32-,35+,36+,37-,38+/m1/s1",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "2.6;0.0;19|4.96;0.0;16|6.24;0.0;40|6.41;0.0;41|7.0;0.0;39|7.15;0.0;44|7.3;0.0;45|7.37;0.0;38|7.89;0.0;43|",
+  "nmrshiftdb2 ID": 20177664,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 29414,
+  "SMILES": "COC[C@@]12CC[C@H](OC)[C@]34C([C@H]([C@H](OC)[C@H]13)[C@@]1(OC(=O)c3ccccc3N)C[C@H](OC)[C@@]3(O)C[C@@H]4[C@@H]1[C@H]3OC(=O)c1ccccc1)N(C)C2"
+}

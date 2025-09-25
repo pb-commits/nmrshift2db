@@ -1,0 +1,16 @@
+{
+  "INChI key": "XBLVHTDFJBKJLG-UHFFFAOYSA-N",
+  "Program": "1:ACD/Labs C+H NMR Predictors and DB, 2020.1.0 2:HOSE code using nmrshiftdb2 data ",
+  "INChI": "InChI=1S/C8H9NO2/c1-2-11-8(10)7-4-3-5-9-6-7/h3-6H,2H2,1H3",
+  "Temperature [K]": "0:313 3:Unreported ",
+  "nmrshiftdb2 ID": 10008606,
+  "Field Strength [MHz]": "0:23 3:60 ",
+  "Spectrum 1H 3": "1.4;0.0;7|1.4;0.0;7|1.4;0.0;7|4.38;0.0;6|4.38;0.0;6|7.35;0.0;3|8.27;0.0;2|8.73;0.0;4|9.19;0.0;0|",
+  "Spectrum 13C 1": "14.2;0.0Q;7|61.47;0.0T;6|165.71;0.0S;5|126.0;0.0S;1|136.86;0.0D;2|123.32;0.0D;3|153.39;0.0D;4|150.77;0.0D;0|",
+  "Spectrum 13C 0": "14.1;0.0Q;7|61.3;0.0T;6|124.1;0.0D;3|137.0;0.0S;1|150.4;0.0D;2|150.4;0.0D;0|153.9;0.0D;4|165.2;0.0S;5|",
+  "Solvent": "0:Dimethylsulphoxide-D6 (DMSO-D6, C2D6SO) 3:TETRACHLORO-METHANE (CCl4) ",
+  "Assignment Method": "3:1D shift positions ",
+  "Spectrum 13C 2": "14.1;0.0Q;7|61.3;0.0T;6|165.2;0.0S;5|137.0;0.0S;1|150.4;0.0D;0|150.4;0.0D;2|124.1;0.0D;3|153.9;0.0D;4|",
+  "_molecule_index": 3604,
+  "SMILES": "CCOC(=O)c1cccnc1"
+}

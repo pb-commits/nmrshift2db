@@ -1,0 +1,12 @@
+{
+  "INChI key": "SCEYDUVRUKKZKZ-UXHICEINSA-N",
+  "INChI": "InChI=1S/C21H28N2S2/c1-3-20-10-6-11-23(2)19(20)17-15-8-4-5-9-16(15)22-18(17)21(14-20)24-12-7-13-25-21/h4-5,8-9,19,22H,3,6-7,10-14H2,1-2H3/t19-,20+/m1/s1",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "0.73;0.0;23|1.48;0.0;22|1.58;0.0;9|1.75;0.0;8|2.01;0.0;2|2.17;0.0;2|2.19;0.0;24|2.86;0.0;1|2.92;0.0;25|2.97;0.0;10|3.29;0.0;6|3.32;0.0;3|3.38;0.0;1|7.11;0.0;19|7.19;0.0;18|7.36;0.0;17|7.58;0.0;20|8.55;0.0;15|",
+  "nmrshiftdb2 ID": 20172836,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 25620,
+  "SMILES": "CC[C@@]12CCCN(C)[C@@H]1c1c([nH]c3ccccc13)C1(C2)SCCCS1"
+}

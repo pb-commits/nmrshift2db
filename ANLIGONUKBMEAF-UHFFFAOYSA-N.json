@@ -1,0 +1,12 @@
+{
+  "INChI key": "ANLIGONUKBMEAF-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C12H8Br2O2/c13-8-4-5-10-9(7-8)12(14)11(16-10)3-1-2-6-15/h4-5,7,15H,2,6H2",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20182166,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "24.2;0.0T;10|60.6;0.0T;11|70.9;0.0S;8|98.4;0.0S;9|101.7;0.0S;7|112.9;0.0D;3|117.0;0.0S;1|122.6;0.0D;0|129.3;0.0S;5|129.5;0.0D;2|138.2;0.0S;6|151.1;0.0S;4|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 31937,
+  "SMILES": "OCCC#Cc1oc2ccc(Br)cc2c1Br"
+}

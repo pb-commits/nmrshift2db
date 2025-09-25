@@ -1,0 +1,13 @@
+{
+  "INChI key": "ATROHALUCMTWTB-WYMLVPIESA-N",
+  "INChI": "InChI=1S/C12H15N2O3PS/c1-3-15-18(19,16-4-2)17-14-12(10-13)11-8-6-5-7-9-11/h5-9H,3-4H2,1-2H3/b14-12+",
+  "Temperature [K]": "0:Unreported 1:Unreported ",
+  "nmrshiftdb2 ID": 20209100,
+  "Spectrum 1H 1": "1.408;0.0;11|4.33;0.0;8|4.35;0.0;8|7.497;0.0;16|7.571;0.0;17|7.901;0.0;13|",
+  "Field Strength [MHz]": "0:Unreported 1:Unreported ",
+  "Spectrum 13C 0": "15.95;0.0Q;11|65.97;0.0T;8|108.25;0.0S;18|127.19;0.0D;12|127.19;0.0D;13|127.74;0.0S;9|129.1;0.0D;15|129.1;0.0D;16|132.71;0.0D;17|140.26;0.0S;14|",
+  "Solvent": "0:Unreported 1:Unreported ",
+  "Assignment Method": "0:Unreported 1:Unreported ",
+  "_molecule_index": 36080,
+  "SMILES": "CCOP(=S)(OCC)O/N=C(\\C#N)c1ccccc1"
+}

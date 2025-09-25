@@ -1,0 +1,12 @@
+{
+  "INChI key": "NLWCCWFKMFCLMT-QGOAFFKASA-N",
+  "INChI": "InChI=1S/C15H12Cl2N2O5/c1-8-7-11(20)12(16)15(2,17)13(8)18-24-14(21)9-3-5-10(6-4-9)19(22)23/h3-7,12H,1-2H3/b18-13+",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20180249,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "23.6;0.0Q;13|25.8;0.0Q;14|62.6;0.0D;1|69.7;0.0S;2|124.6;0.0D;9|124.6;0.0D;11|131.2;0.0D;8|131.2;0.0D;12|131.7;0.0D;5|133.6;0.0S;7|144.0;0.0S;4|151.6;0.0S;10|156.1;0.0S;3|161.0;0.0S;6|180.4;0.0S;0|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 30031,
+  "SMILES": "CC1=CC(=O)C(Cl)C(C)(Cl)/C1=N/OC(=O)c1ccc([N+](=O)[O-])cc1"
+}

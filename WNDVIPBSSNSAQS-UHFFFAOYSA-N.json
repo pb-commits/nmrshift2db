@@ -1,0 +1,13 @@
+{
+  "INChI key": "WNDVIPBSSNSAQS-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C14H16O5/c1-18-13(16)12(14(17)19-2)11(8-9-15)10-6-4-3-5-7-10/h3-7,9,11-12H,8H2,1-2H3",
+  "Temperature [K]": "0:296 1:296 ",
+  "nmrshiftdb2 ID": 60001987,
+  "Spectrum 1H 1": "7.25;0.0m;0|7.25;0.0m;1|7.25;0.0m;2|7.25;0.0m;3|7.25;0.0m;5|4.02;0.0ddd;6|2.92;0.0m;7|2.92;0.0m;7|3.75;0.0d;8|3.74;0.0s;15|3.74;0.0s;15|3.74;0.0s;15|3.5;0.0s;16|3.5;0.0s;16|3.5;0.0s;16|9.6;0.0t;17|",
+  "Field Strength [MHz]": "0:75.0 1:300.0 ",
+  "Spectrum 13C 0": "128.91;0.0D;0|127.72;0.0D;1|128.91;0.0D;2|128.1;0.0D;3|139.82;0.0S;4|128.1;0.0D;5|39.64;0.0D;6|47.35;0.0T;7|57.4;0.0D;8|168.5;0.0S;9|167.96;0.0S;10|52.91;0.0Q;15|52.63;0.0Q;16|200.08;0.0D;17|",
+  "Solvent": "0:Chloroform-D1 (CDCl3) 1:Chloroform-D1 (CDCl3) ",
+  "Assignment Method": "0:1H standard spectrum, H,H COSY, H,H NOESY, H,C HMQC/HSQC, H,C HMBC, 13C APT 1:1H standard spectrum, H,H COSY, H,H NOESY, H,C HMQC/HSQC, H,C HMBC, 13C APT ",
+  "_molecule_index": 43380,
+  "SMILES": "COC(=O)C(C(=O)OC)C(CC=O)c1ccccc1"
+}

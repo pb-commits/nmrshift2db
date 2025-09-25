@@ -1,0 +1,13 @@
+{
+  "INChI key": "FEMOMIGRRWSMCU-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C9H6O4/c10-7-5-3-1-2-4-6(5)8(11)9(7,12)13/h1-4,12-13H",
+  "Temperature [K]": "0:Unreported 1:Unreported ",
+  "nmrshiftdb2 ID": 20097607,
+  "Field Strength [MHz]": "0:Unreported 1:Unreported ",
+  "Spectrum 13C 1": "124.6;0.0D;2|124.6;0.0D;3|138.0;0.0D;0|138.0;0.0D;1|138.6;0.0S;4|138.6;0.0S;5|87.3;0.0S;8|197.4;0.0S;6|197.4;0.0S;7|",
+  "Spectrum 13C 0": "87.57;0.0S;8|123.8;0.0D;2|137.14;0.0D;0|138.42;0.0S;4|196.96;0.0S;6|",
+  "Solvent": "0:Unreported 1:Unreported ",
+  "Assignment Method": "0:Unreported 1:Unreported ",
+  "_molecule_index": 17059,
+  "SMILES": "O=C1c2ccccc2C(=O)C1(O)O"
+}

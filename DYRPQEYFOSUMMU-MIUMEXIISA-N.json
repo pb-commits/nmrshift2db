@@ -1,0 +1,12 @@
+{
+  "INChI key": "DYRPQEYFOSUMMU-MIUMEXIISA-N",
+  "INChI": "InChI=1S/C15H18NO5P/c1-15(2)18-13-12-11(17-14(13)19-15)10-8-16(22(20-10)21-12)9-6-4-3-5-7-9/h3-7,10-14H,8H2,1-2H3/t10?,11-,12+,13-,14-,22?/m1/s1",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "1.26;0.0;14|3.4;0.0;13|4.18;0.0;25|4.25;0.0;24|4.59;0.0;22|5.05;0.0;10|6.13;0.0;23|",
+  "nmrshiftdb2 ID": 20165456,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 20397,
+  "SMILES": "CC1(C)O[C@H]2O[C@@H]3C4CN(c5ccccc5)P(O4)O[C@@H]3[C@H]2O1"
+}

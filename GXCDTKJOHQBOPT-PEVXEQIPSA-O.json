@@ -1,0 +1,12 @@
+{
+  "INChI key": "GXCDTKJOHQBOPT-PEVXEQIPSA-O",
+  "INChI": "InChI=1S/C22H31N2/c1-16-8-10-17(11-9-16)21-6-4-7-22-18-13-19(15-24(21)22)20-5-2-3-12-23(20)14-18/h8-11,18-20,22H,2-7,12-15H2,1H3/q+1/p+1/t18?,19?,20-,22+/m0/s1",
+  "Temperature [K]": "0:Unknown ",
+  "nmrshiftdb2 ID": 30085468,
+  "Field Strength [MHz]": "0:Unknown ",
+  "Spectrum 13C 0": "20.0;0.0t;3|22.8;0.0t;14|23.2;0.0t;15|23.5;0.0t;7|27.1;0.0d;6|30.0;0.0t;4|31.3;0.0d;8|32.1;0.0t;13|48.3;0.0t;12|49.4;0.0t;9|56.0;0.0t;16|59.2;0.0d;10|64.3;0.0d;5|204.3;0.0s;1|",
+  "Solvent": "0:Deuteriumoxide (D2O) ",
+  "Assignment Method": "0:Unknown ",
+  "_molecule_index": 42142,
+  "SMILES": "Cc1ccc(C2=[N+]3C[C@@H]4C[C@@H](C[NH+]5CCCC[C@@H]45)[C@H]3CCC2)cc1"
+}

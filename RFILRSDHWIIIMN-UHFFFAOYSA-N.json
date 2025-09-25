@@ -1,0 +1,15 @@
+{
+  "INChI key": "RFILRSDHWIIIMN-UHFFFAOYSA-N",
+  "Program": "1:ACD/Labs C+H NMR Predictors and DB, 2020.1.0 2:HOSE code using nmrshiftdb2 data ",
+  "INChI": "InChI=1S/C14H9NO2/c1-2-4-12-10(3-1)11-6-14-13(16-8-17-14)5-9(11)7-15-12/h1-7H,8H2",
+  "Temperature [K]": "0:298 ",
+  "nmrshiftdb2 ID": 60001982,
+  "Field Strength [MHz]": "0:150.0 ",
+  "Spectrum 13C 1": "126.81;0.0D;2|129.57;0.0D;3|120.99;0.0D;4|124.56;0.0S;5|143.67;0.0S;0|128.58;0.0D;1|148.85;0.0D;15|123.17;0.0S;7|106.0;0.0D;8|148.07;0.0S;9|147.42;0.0S;13|102.33;0.0D;14|128.19;0.0S;6|101.78;0.0T;11|",
+  "Spectrum 13C 0": "143.61;0.0S;0|129.37;0.0D;1|127.9;0.0D;2|126.53;0.0D;3|122.92;0.0D;4|123.9;0.0S;5|129.43;0.0S;6|122.74;0.0S;7|105.22;0.0D;8|147.99;0.0S;9|102.16;0.0T;11|151.34;0.0S;13|100.23;0.0D;14|151.7;0.0D;15|",
+  "Solvent": "0:Dimethylsulphoxide-D6 (DMSO-D6, C2D6SO) ",
+  "Assignment Method": "0:1H standard spectrum, H,H COSY, H,H NOESY, H,C HMQC/HSQC, H,C HMBC, 13C APT ",
+  "Spectrum 13C 2": "127.9;0.0D;2|126.53;0.0D;3|122.92;0.0D;4|123.9;0.0S;5|143.61;0.0S;0|129.37;0.0D;1|151.7;0.0D;15|122.74;0.0S;7|105.22;0.0D;8|147.99;0.0S;9|151.34;0.0S;13|100.23;0.0D;14|129.43;0.0S;6|102.16;0.0T;11|",
+  "_molecule_index": 43375,
+  "SMILES": "c1ccc2c(c1)ncc1cc3c(cc12)OCO3"
+}

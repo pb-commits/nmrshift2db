@@ -1,0 +1,13 @@
+{
+  "INChI key": "NCKJIJSEWKIXAT-QURGRASLSA-N",
+  "INChI": "InChI=1S/C26H22P2/c1-5-13-23(14-6-1)27(24-15-7-2-8-16-24)21-22-28(25-17-9-3-10-18-25)26-19-11-4-12-20-26/h1-22H/b22-21+",
+  "Temperature [K]": "0:Unreported 1:Unreported ",
+  "nmrshiftdb2 ID": 20209716,
+  "Spectrum 1H 1": "6.731;0.0;6|7.31;0.0;21|7.31;0.0;25|7.368;0.0;13|",
+  "Field Strength [MHz]": "0:Unreported 1:Unreported ",
+  "Spectrum 13C 0": "128.54;0.0D;21|128.83;0.0D;25|133.29;0.0D;13|137.25;0.0S;3|142.44;0.0D;6|",
+  "Solvent": "0:Unreported 1:Unreported ",
+  "Assignment Method": "0:Unreported 1:Unreported ",
+  "_molecule_index": 36683,
+  "SMILES": "C(=C/P(c1ccccc1)c1ccccc1)\\P(c1ccccc1)c1ccccc1"
+}

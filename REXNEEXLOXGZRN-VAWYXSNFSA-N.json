@@ -1,0 +1,12 @@
+{
+  "INChI key": "REXNEEXLOXGZRN-VAWYXSNFSA-N",
+  "INChI": "InChI=1S/C33H24N/c1-3-7-27(8-4-1)29-15-13-25(14-16-29)11-12-26-19-21-34-22-20-30-17-18-31(24-32(30)33(34)23-26)28-9-5-2-6-10-28/h1-24H/q+1/b12-11+",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "7.42;0.0;31|7.52;0.0;32|7.55;0.0;25|7.65;0.0;24|7.78;0.0;33|7.88;0.0;17|7.88;0.0;18|8.04;0.0;23|8.28;0.0;3|8.33;0.0;13|8.47;0.0;12|8.55;0.0;7|8.89;0.0;4|9.35;0.0;10|9.4;0.0;6|9.7;0.0;9|",
+  "nmrshiftdb2 ID": 20171303,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 24089,
+  "SMILES": "C(=C/c1cc[n+]2ccc3ccc(-c4ccccc4)cc3c2c1)\\c1ccc(-c2ccccc2)cc1"
+}

@@ -1,0 +1,12 @@
+{
+  "INChI key": "MYSDIAKLRUULGO-LRMGWDNHSA-N",
+  "INChI": "InChI=1S/C13H10Br2N2/c14-10-6-5-7(11(10)15)13-12(6)16-8-3-1-2-4-9(8)17-13/h1-4,6-7,10-11H,5H2/t6-,7+,10-,11-/m1/s1",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20181734,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "43.5;0.0T;12|52.4;0.0D;8|54.0;0.0D;10|54.2;0.0D;11|54.4;0.0D;9|141.6;0.0S;5|141.9;0.0S;4|158.8;0.0S;7|159.0;0.0S;6|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 31508,
+  "SMILES": "Br[C@H]1[C@H](Br)[C@H]2C[C@@H]1c1nc3ccccc3nc12"
+}

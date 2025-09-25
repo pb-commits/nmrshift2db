@@ -1,0 +1,12 @@
+{
+  "INChI key": "AMMUDPNADRMCNA-OIVXANJASA-N",
+  "INChI": "InChI=1S/C11H15BrO3/c1-10(2)5-6(13)9(12)11(3)7(10)4-8(14)15-11/h4,6,9,13H,5H2,1-3H3/t6-,9+,11-/m0/s1",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20028205,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "26.0;0.0Q;10|27.0;0.0Q;9|30.7;0.0Q;8|35.4;0.0S;0|40.8;0.0T;1|59.0;0.0D;3|72.1;0.0D;2|85.5;0.0S;4|115.6;0.0D;6|171.6;0.0S;7|177.8;0.0S;5|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 12096,
+  "SMILES": "CC1(C)C[C@H](O)[C@@H](Br)[C@@]2(C)OC(=O)C=C12"
+}

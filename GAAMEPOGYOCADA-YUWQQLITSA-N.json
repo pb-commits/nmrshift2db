@@ -1,0 +1,12 @@
+{
+  "INChI key": "GAAMEPOGYOCADA-YUWQQLITSA-N",
+  "INChI": "InChI=1S/C40H48O8/c1-3-43-40(44-4-2)39(47-28-33-23-15-8-16-24-33)38-35(41)37(46-27-32-21-13-7-14-22-32)36(45-26-31-19-11-6-12-20-31)34(48-38)29-42-25-30-17-9-5-10-18-30/h5-24,34-41H,3-4,25-29H2,1-2H3/t34-,35-,36+,37-,38-,39+/m1/s1",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "1.11;0.0;44|1.15;0.0;47|3.28;0.0;48|3.57;0.0;5|3.57;0.0;32|3.75;0.0;3|3.84;0.0;4|4.11;0.0;6|4.27;0.0;2|4.45;0.0;8|5.04;0.0;41|",
+  "nmrshiftdb2 ID": 20171838,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 24623,
+  "SMILES": "CCOC(OCC)[C@@H](OCc1ccccc1)[C@@H]1O[C@H](COCc2ccccc2)[C@H](OCc2ccccc2)[C@H](OCc2ccccc2)[C@H]1O"
+}

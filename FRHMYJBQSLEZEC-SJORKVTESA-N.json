@@ -1,0 +1,12 @@
+{
+  "INChI key": "FRHMYJBQSLEZEC-SJORKVTESA-N",
+  "INChI": "InChI=1S/C17H17N3O/c1-3-7-13(8-4-1)16-18-12-11-15-19-21-17(20(15)16)14-9-5-2-6-10-14/h1-10,16-18H,11-12H2/t16-,17+/m1/s1",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20180008,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "22.6;0.0T;4|40.3;0.0T;3|71.1;0.0D;2|93.5;0.0D;1|151.8;0.0S;0|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 29793,
+  "SMILES": "c1ccc([C@@H]2NCCC3=NO[C@@H](c4ccccc4)N32)cc1"
+}

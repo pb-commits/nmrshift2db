@@ -1,0 +1,12 @@
+{
+  "INChI key": "LDILABMATBGJNV-BVPBIZIASA-N",
+  "INChI": "InChI=1S/C20H21N3O2/c1-13-18(15-11-7-4-8-12-15)23(20(25)22(13)2)19(24)17-16(21-17)14-9-5-3-6-10-14/h3-13,16-18,21H,1-2H3/t13-,16+,17-,18-/m1/s1",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "0.81;0.0;18|2.23;0.0;0|2.82;0.0;17|3.0;0.0;2|3.99;0.0;14|4.22;0.0;1|5.3;0.0;15|",
+  "nmrshiftdb2 ID": 20172809,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 25593,
+  "SMILES": "C[C@@H]1[C@H](c2ccccc2)N(C(=O)[C@@H]2N[C@H]2c2ccccc2)C(=O)N1C"
+}

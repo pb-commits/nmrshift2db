@@ -1,0 +1,12 @@
+{
+  "INChI key": "UPXODAXLEDYPLC-QBHOUYDASA-N",
+  "INChI": "InChI=1S/C27H29NO3S/c1-6-26(5)14-15-27(29)22(16-26)20-17-28(32(30,31)19-12-10-18(2)11-13-19)23-9-7-8-21(24(20)23)25(27,3)4/h6-13,16-17,29H,1,14-15H2,2-5H3/t26-,27?/m0/s1",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "1.64;0.0;20|2.3;0.0;31|4.99;0.0;32|4.99;0.0;33|5.81;0.0;34|6.1;0.0;9|6.97;0.0;13|7.5;0.0;12|7.63;0.0;14|",
+  "nmrshiftdb2 ID": 20169161,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 22661,
+  "SMILES": "C=C[C@]1(C)C=C2c3cn(S(=O)(=O)c4ccc(C)cc4)c4cccc(c34)C(C)(C)C2(O)CC1"
+}

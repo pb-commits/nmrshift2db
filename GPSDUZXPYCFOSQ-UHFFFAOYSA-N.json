@@ -1,0 +1,16 @@
+{
+  "INChI key": "GPSDUZXPYCFOSQ-UHFFFAOYSA-N",
+  "Program": "2:CSEARCH ",
+  "INChI": "InChI=1S/C8H8O2/c1-6-3-2-4-7(5-6)8(9)10/h2-5H,1H3,(H,9,10)",
+  "Temperature [K]": "0:Unreported 1:298 3:Unreported ",
+  "nmrshiftdb2 ID": 10009010,
+  "Field Strength [MHz]": "0:Unreported 1:Unreported 3:Unreported ",
+  "Spectrum 1H 3": "2.41;0.0;7|7.356;0.0;4|7.41;0.0;3|7.93;0.0;5|7.94;0.0;1|12.7;0.0;9|",
+  "Spectrum 13C 1": "20.7;0.488Q;7|125.2;0.629D;5|126.9;0.847D;4|128.5;0.801D;1|129.5;0.281S;0|131.9;1.0D;3|136.3;0.334S;2|165.7;0.249S;6|",
+  "Spectrum 13C 0": "20.7;0.0Q;7|127.9;0.0D;5|128.5;0.0D;1|129.5;0.0S;0|131.9;0.0D;3|136.3;0.0S;2|165.7;0.0S;6|",
+  "Solvent": "0:Unreported 1:Dimethylsulphoxide-D6 (DMSO-D6, C2D6SO) 3:Unreported ",
+  "Assignment Method": "0:Unreported 1:1D shift positions 3:Unreported ",
+  "Spectrum 13C 2": "127.8;0.0S;0|129.8;0.0D;1|137.7;0.0S;2|130.1;0.0D;3|128.2;0.0D;4|127.5;0.0D;5|168.5;0.0S;6|21.2;0.0Q;7|",
+  "_molecule_index": 3974,
+  "SMILES": "Cc1cccc(C(=O)O)c1"
+}

@@ -1,0 +1,12 @@
+{
+  "INChI key": "BRCMACBRELYHEW-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C12H11N3/c1-7-8(2)15-12-10(14-7)4-3-9-5-6-13-11(9)12/h3-6,13H,1-2H3",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 10018275,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "22.8;0.0Q;13|22.9;0.0Q;14|104.1;0.0D;12|120.1;0.0D;9|123.7;0.0D;8|123.9;0.0D;11|126.1;0.0S;7|129.7;0.0S;6|130.8;0.0S;4|138.7;0.0S;5|150.2;0.0S;2|150.6;0.0S;1|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 6259,
+  "SMILES": "Cc1nc2ccc3cc[nH]c3c2nc1C"
+}

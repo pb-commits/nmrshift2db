@@ -1,0 +1,12 @@
+{
+  "INChI key": "KBWPLFDFMWOYGP-LXOFRAJOSA-N",
+  "INChI": "InChI=1S/C23H32N2O3/c1-9-16(4)23(8)20(26)25(21(27)28-22(5,6)7)19(15(2)3)18(24-23)17-13-11-10-12-14-17/h9-16,19H,1H2,2-8H3/t16?,19-,23+/m1/s1",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "0.78;0.0;22|0.79;0.0;13|1.46;0.0;19|1.46;0.0;24|1.89;0.0;21|1.9;0.0;12|2.73;0.0;20|5.01;0.0;28|5.01;0.0;29|5.43;0.0;2|5.92;0.0;30|",
+  "nmrshiftdb2 ID": 20174954,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 27384,
+  "SMILES": "C=CC(C)[C@]1(C)N=C(c2ccccc2)[C@@H](C(C)C)N(C(=O)OC(C)(C)C)C1=O"
+}

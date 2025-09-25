@@ -1,0 +1,12 @@
+{
+  "INChI key": "DJRUNSNTSJSQJB-SUVMELESSA-N",
+  "INChI": "InChI=1S/C16H28N2/c1-3-7-17-11-14-9-13(15(17)5-1)10-18(12-17)8-4-2-6-16(14)18/h13-16H,1-12H2/q+2/t13?,14?,15-,16+,17?,18?",
+  "Temperature [K]": "0:Unknown ",
+  "nmrshiftdb2 ID": 30085432,
+  "Field Strength [MHz]": "0:Unknown ",
+  "Spectrum 13C 0": "17.7;0.0t;15|18.7;0.0t;14|20.5;0.0t;12|21.1;0.0t;13|22.4;0.0t;9|22.8;0.0t;17|24.0;0.0t;16|29.8;0.0d;3|29.8;0.0d;4|48.7;0.0t;7|61.2;0.0t;10|62.1;0.0t;11|65.9;0.0t;8|68.9;0.0d;5|68.9;0.0d;6|",
+  "Solvent": "0:Unknown ",
+  "Assignment Method": "0:Unknown ",
+  "_molecule_index": 42106,
+  "SMILES": "C1CC[N@@+]23C[C@@H]4C[C@@H](C[N+]5(CCCC[C@@H]45)C2)[C@H]3C1"
+}

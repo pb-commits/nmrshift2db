@@ -1,0 +1,12 @@
+{
+  "INChI key": "ZEDKTAYFDATZGW-DEKFOEGESA-N",
+  "INChI": "InChI=1S/C12H15N3O5/c13-4-1-2-7-10(18)8(6-16)20-11(7)15-5-3-9(17)14-12(15)19/h3,5,7-8,10-11,16,18H,1-2,6H2,(H,14,17,19)/t7-,8-,10+,11-/m1/s1",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20230397,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "153.0;0.0S;0|142.7;0.0D;1|103.8;0.0D;2|166.4;0.0S;3|89.3;0.0D;4|73.3;0.0D;5|48.8;0.0D;6|63.7;0.0T;7|22.1;0.0T;8|16.0;0.0T;9|121.2;0.0S;10|89.5;0.0D;11|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 39891,
+  "SMILES": "N#CCC[C@@H]1[C@H](O)[C@@H](CO)O[C@H]1n1ccc(=O)[nH]c1=O"
+}

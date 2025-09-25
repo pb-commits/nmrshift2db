@@ -1,0 +1,12 @@
+{
+  "INChI key": "FWOZSTFAXJAMFE-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C9H16O4/c1-6(11)4-8-5-7(2-3-10)9(12)13-8/h6-8,10-11H,2-5H2,1H3",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20000442,
+  "Field Strength [MHz]": "0:100 ",
+  "Spectrum 13C 0": "24.3;0.0Q;7|36.0;0.0T;0|36.1;0.0T;4|40.0;0.0D;3|44.9;0.0T;5|60.9;0.0T;8|65.3;0.0D;6|84.5;0.0D;1|179.2;0.0S;2|",
+  "Solvent": "0:Methanol-D4 (CD3OD) ",
+  "Assignment Method": "0:COSY+Hetcor+longrange Hetcor ",
+  "_molecule_index": 10353,
+  "SMILES": "CC(O)CC1CC(CCO)C(=O)O1"
+}

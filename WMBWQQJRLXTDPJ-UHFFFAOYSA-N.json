@@ -1,0 +1,11 @@
+{
+  "INChI key": "WMBWQQJRLXTDPJ-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C11H14/c1-2-6-11-8-4-3-7-10(11,5-1)9-11/h1-4H,5-9H2",
+  "Temperature [K]": "0:313 ",
+  "nmrshiftdb2 ID": 10005656,
+  "Field Strength [MHz]": "0:23 ",
+  "Spectrum 13C 0": "12.8;0.0T;10|20.2;0.0S;0|20.2;0.0S;5|32.0;0.0T;1|32.0;0.0T;4|32.0;0.0T;4|32.0;0.0T;9|127.4;0.0D;2|127.4;0.0D;3|127.4;0.0D;7|127.4;0.0D;8|",
+  "Solvent": "0:TETRACHLORO-METHANE (CCl4) ",
+  "_molecule_index": 3300,
+  "SMILES": "C1=CCC23CC=CCC2(C1)C3"
+}

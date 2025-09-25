@@ -1,0 +1,13 @@
+{
+  "INChI key": "RIGFMUNSTCPGNP-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C10H9NO6/c12-9(13)5-10(14)17-6-7-1-3-8(4-2-7)11(15)16/h1-4H,5-6H2,(H,12,13)",
+  "Temperature [K]": "0:Unreported 1:Unreported ",
+  "nmrshiftdb2 ID": 20208408,
+  "Spectrum 1H 1": "3.539;0.0;14|5.316;0.0;8|7.668;0.0;9|8.242;0.0;12|12.9;0.0;2|",
+  "Field Strength [MHz]": "0:Unreported 1:Unreported ",
+  "Spectrum 13C 0": "41.39;0.0T;14|64.8;0.0T;8|123.49;0.0D;12|128.38;0.0D;9|143.6;0.0S;7|147.06;0.0S;11|166.67;0.0S;15|167.93;0.0S;16|",
+  "Solvent": "0:Unreported 1:Unreported ",
+  "Assignment Method": "0:Unreported 1:Unreported ",
+  "_molecule_index": 35402,
+  "SMILES": "O=C(O)CC(=O)OCc1ccc([N+](=O)[O-])cc1"
+}

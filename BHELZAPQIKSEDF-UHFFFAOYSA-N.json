@@ -1,0 +1,19 @@
+{
+  "rawdata 13C 1": "http://www.nmrshiftdb.org/download/NmrshiftdbServlet/40255155_13C.zip?spectrumid=40255155&nmrshiftdbaction=exportspec&format=rawdata",
+  "Temperature [K]": "0:Unreported 1:298 2:300.012 3:300.012 4:300.012 ",
+  "Spectrum 1H 2": "6.09;0.0ddt;1|5.38;0.0ddt;0|5.16;0.0ddt;0|4.07;0.0ddd;2|",
+  "Field Strength [MHz]": "0:Unreported 1:62.532501220703125 2:250.1300048828125 3:250.1300048828125 4:250.1300048828125 ",
+  "Spectrum H,H-COSY 3": "",
+  "Assignment Method": "0:Unreported 1:1H, H,C-HSQC, H,H-COSY, 1H 2:1H, H,C-HSQC, H,H-COSY, 1H ",
+  "rawdata H,H-COSY 3": "http://www.nmrshiftdb.org/download/NmrshiftdbServlet/40255157_H,H-COSY.zip?spectrumid=40255157&nmrshiftdbaction=exportspec&format=rawdata",
+  "rawdata 1H 2": "http://www.nmrshiftdb.org/download/NmrshiftdbServlet/40255156_1H.zip?spectrumid=40255156&nmrshiftdbaction=exportspec&format=rawdata",
+  "INChI key": "BHELZAPQIKSEDF-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C3H5Br/c1-2-3-4/h2H,1,3H2",
+  "nmrshiftdb2 ID": 10016598,
+  "Spectrum 13C 1": "134.46;0.0D;1|118.07;0.0T;0|32.66;0.0T;2|",
+  "Spectrum 13C 0": "32.6;0.0T;2|118.8;0.0T;0|134.4;0.0D;1|",
+  "Solvent": "0:Unreported 1:Acetone-D6 ((CD3)2CO) 2:Acetone-D6 ((CD3)2CO) 3:Acetone-D6 ((CD3)2CO) 4:Acetone-D6 ((CD3)2CO) ",
+  "Spectrum H,C-HSQC 4": "",
+  "_molecule_index": 5106,
+  "SMILES": "C=CCBr"
+}

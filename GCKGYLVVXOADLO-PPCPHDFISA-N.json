@@ -1,0 +1,12 @@
+{
+  "INChI key": "GCKGYLVVXOADLO-PPCPHDFISA-N",
+  "INChI": "InChI=1S/C13H14O2Se/c1-13-7-9-11(10(15-13)12(13)14-9)16-8-5-3-2-4-6-8/h2-6,9-12H,7H2,1H3/t9-,10+,11-,12-,13-/m0/s1",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "1.41;0.0;15|1.66;0.0;7|3.66;0.0;5|4.76;0.0;1|4.99;0.0;4|5.09;0.0;2|",
+  "nmrshiftdb2 ID": 20168936,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 22437,
+  "SMILES": "C[C@]12C[C@@H]3O[C@H]1[C@H](O2)[C@H]3[Se]c1ccccc1"
+}

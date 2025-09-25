@@ -1,0 +1,12 @@
+{
+  "INChI key": "OUSHINHNEUBSTP-DGTMBMJNSA-N",
+  "INChI": "InChI=1S/C14H24O/c1-9(2)12-6-4-10(3)13-7-5-11(15)8-14(12)13/h10-15H,1,4-8H2,2-3H3/t10-,11-,12+,13+,14+/m1/s1",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 10023457,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "18.8;0.0Q;12|20.0;0.0Q;10|28.8;0.0T;0|32.2;0.0T;7|35.5;0.0T;8|35.8;0.0T;1|37.1;0.0D;9|40.5;0.0T;3|42.4;0.0D;4|48.0;0.0D;5|52.4;0.0D;6|71.0;0.0D;2|111.0;0.0T;13|148.4;0.0S;11|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 8705,
+  "SMILES": "C=C(C)[C@@H]1CC[C@@H](C)[C@@H]2CC[C@@H](O)C[C@H]21"
+}

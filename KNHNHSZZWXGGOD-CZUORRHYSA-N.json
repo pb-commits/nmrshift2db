@@ -1,0 +1,12 @@
+{
+  "INChI key": "KNHNHSZZWXGGOD-CZUORRHYSA-N",
+  "INChI": "InChI=1S/C17H20N2O4S/c1-3-23-17(20)15-11-13-5-4-6-16(13)19(18-15)24(21,22)14-9-7-12(2)8-10-14/h4,6-10,13,16H,3,5,11H2,1-2H3/t13-,16-/m1/s1",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "1.29;0.0;22|1.68;0.0;3|2.0;0.0;8|2.4;0.0;23|4.71;0.0;25|5.88;0.0;6|5.88;0.0;7|7.3;0.0;18|7.86;0.0;19|",
+  "nmrshiftdb2 ID": 20167440,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 20946,
+  "SMILES": "CCOC(=O)C1=NN(S(=O)(=O)c2ccc(C)cc2)[C@@H]2C=CC[C@@H]2C1"
+}

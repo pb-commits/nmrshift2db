@@ -1,0 +1,15 @@
+{
+  "INChI key": "WTQWDNIIFGEBSZ-WGBDABJCSA-N",
+  "Program": "1:ACD/Labs C+H NMR Predictors and DB, 2020.1.0 2:HOSE code using nmrshiftdb2 data ",
+  "INChI": "InChI=1S/C14H20O4/c1-9-4-2-3-5-10-11(8-14(17)18-9)13(16)7-6-12(10)15/h6-7,9-11,13,16H,2-5,8H2,1H3/t9-,10+,11+,13-/m0/s1",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 21126,
+  "Field Strength [MHz]": "0:125 ",
+  "Spectrum 13C 1": "18.7;0.0Q;13|74.8;0.0D;12|30.8;0.0T;11|24.1;0.0T;10|22.6;0.0T;9|24.2;0.0T;1|47.8;0.0D;0|202.6;0.0S;8|130.7;0.0D;7|149.6;0.0D;6|67.2;0.0D;5|37.9;0.0D;4|39.9;0.0T;3|173.9;0.0S;2|",
+  "Spectrum 13C 0": "18.7;0.0Q;13|22.6;0.0T;9|24.1;0.0T;10|24.2;0.0T;1|30.8;0.0T;11|37.9;0.0D;4|39.9;0.0T;3|47.8;0.0D;0|67.2;0.0D;5|74.8;0.0D;12|130.7;0.0D;7|149.6;0.0D;6|173.9;0.0S;2|202.6;0.0S;8|",
+  "Solvent": "0:Methanol-D4 (CD3OD) ",
+  "Assignment Method": "0:COSY+Hetcor+longrange Hetcor ",
+  "Spectrum 13C 2": "18.7;0.0Q;13|74.8;0.0D;12|30.8;0.0T;11|24.1;0.0T;10|22.6;0.0T;9|24.2;0.0T;1|47.8;0.0D;0|202.6;0.0S;8|130.7;0.0D;7|149.6;0.0D;6|67.2;0.0D;5|37.9;0.0D;4|39.9;0.0T;3|173.9;0.0S;2|",
+  "_molecule_index": 1025,
+  "SMILES": "C[C@H]1CCCC[C@H]2C(=O)C=C[C@H](O)[C@@H]2CC(=O)O1"
+}

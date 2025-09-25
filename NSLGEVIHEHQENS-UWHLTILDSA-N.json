@@ -1,0 +1,12 @@
+{
+  "INChI key": "NSLGEVIHEHQENS-UWHLTILDSA-N",
+  "INChI": "InChI=1S/C21H24N2O8/c1-11(22-27)15-5-6-17-16(9-15)7-8-23(17)21-20(31-14(4)26)19(30-13(3)25)18(10-28-21)29-12(2)24/h5-9,18-21,27H,10H2,1-4H3/t18-,19-,20+,21+/m0/s1",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "3.88;0.0;30|5.27;0.0;3|5.43;0.0;5|5.43;0.0;4|5.45;0.0;1|5.74;0.0;2|6.58;0.0;14|7.29;0.0;13|7.48;0.0;12|7.78;0.0;11|7.95;0.0;9|",
+  "nmrshiftdb2 ID": 20170469,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 23262,
+  "SMILES": "CC(=O)O[C@@H]1[C@@H](OC(C)=O)[C@H](n2ccc3cc(C(C)=NO)ccc32)OC[C@@H]1OC(C)=O"
+}

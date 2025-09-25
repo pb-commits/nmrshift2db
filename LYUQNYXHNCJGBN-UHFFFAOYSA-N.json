@@ -1,0 +1,21 @@
+{
+  "NMRBasisSet": "0:6-31+GD 6-31+GD  2:6-31+GD 6-31+GD  ",
+  "Spectrum 19F 0": "-112.0;0.0;4|-101.0;0.0;3|",
+  "Temperature [K]": "1:Unreported ",
+  "Field Strength [MHz]": "1:Unreported ",
+  "NMRMethod": "0:Unreported 2:Unreported ",
+  "NMRProgram": "0:G03 2:G03 ",
+  "Assignment Method": "1:Unreported ",
+  "GeomMethod": "0:/ /  2:/ /  ",
+  "INChI key": "LYUQNYXHNCJGBN-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C2H5BF2/c1-2-3(4)5/h2H2,1H3",
+  "nmrshiftdb2 ID": 20071948,
+  "NMRLocalis": "0:GIAO 2:GIAO ",
+  "NMRStandard": "0:C1CL3F1 2:B2H6 ",
+  "Spectrum 11B 1": "28.6;0.0S;2|",
+  "Solvent": "1:Unreported ",
+  "Spectrum 11B 2": "21.9;0.0;2|",
+  "GeomBasisSet": "0:unknown unknown  2:unknown unknown  ",
+  "_molecule_index": 16526,
+  "SMILES": "CCB(F)F"
+}

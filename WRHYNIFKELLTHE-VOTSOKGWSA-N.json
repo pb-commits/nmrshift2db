@@ -1,0 +1,12 @@
+{
+  "INChI key": "WRHYNIFKELLTHE-VOTSOKGWSA-N",
+  "INChI": "InChI=1S/C13H18N5O5P/c1-4-22-24(21,23-5-2)7-6-18-8-14-10-11(18)16-13(15-9(3)19)17-12(10)20/h6-8H,4-5H2,1-3H3,(H2,15,16,17,19,20)/b7-6+",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "1.26;0.0;22|2.29;0.0;19|4.1;0.0;21|7.13;0.0;25|8.27;0.0;24|9.72;0.0;6|11.65;0.0;2|12.09;0.0;9|",
+  "nmrshiftdb2 ID": 20173331,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 26114,
+  "SMILES": "CCOP(=O)(/C=C/n1cnc2c(=O)[nH]c(NC(C)=O)nc21)OCC"
+}

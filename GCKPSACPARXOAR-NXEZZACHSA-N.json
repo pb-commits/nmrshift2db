@@ -1,0 +1,12 @@
+{
+  "INChI key": "GCKPSACPARXOAR-NXEZZACHSA-N",
+  "INChI": "InChI=1S/C13H21NO6/c1-5-18-11(16)10-6-9(19-8-15)7-14(10)12(17)20-13(2,3)4/h8-10H,5-7H2,1-4H3/t9-,10-/m1/s1",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20191971,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "14.5;0.0Q;11|28.6;0.0Q;7|28.6;0.0Q;8|28.6;0.0Q;9|36.4;0.0T;1|52.3;0.0T;3|58.1;0.0D;0|61.6;0.0T;10|71.5;0.0D;2|81.0;0.0S;6|154.1;0.0S;5|160.4;0.0D;12|172.7;0.0S;4|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 32959,
+  "SMILES": "CCOC(=O)[C@H]1C[C@@H](OC=O)CN1C(=O)OC(C)(C)C"
+}

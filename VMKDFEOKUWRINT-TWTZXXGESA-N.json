@@ -1,0 +1,11 @@
+{
+  "INChI key": "VMKDFEOKUWRINT-TWTZXXGESA-N",
+  "INChI": "InChI=1S/C14H16ClNO8/c15-5-1-2-6-7(3-5)22-14(12(21)16-6)24-13-11(20)10(19)9(18)8(4-17)23-13/h1-3,8-11,13-14,17-20H,4H2,(H,16,21)/t8-,9-,10+,11-,13+,14-/m1/s1",
+  "Temperature [K]": "0:298 ",
+  "nmrshiftdb2 ID": 10003451,
+  "Field Strength [MHz]": "0:100 ",
+  "Spectrum 13C 0": "61.0;0.0T;11|69.7;0.0D;9|73.2;0.0D;7|76.7;0.0D;10|77.5;0.0D;8|94.5;0.0D;23|102.7;0.0D;6|117.1;0.0D;14|118.7;0.0D;15|123.4;0.0D;13|126.1;0.0S;12|127.1;0.0S;17|141.6;0.0S;16|160.0;0.0S;19|",
+  "Solvent": "0:Dimethylsulphoxide-D6 (DMSO-D6, C2D6SO) ",
+  "_molecule_index": 3253,
+  "SMILES": "O=C1Nc2ccc(Cl)cc2OC1O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O"
+}

@@ -1,0 +1,12 @@
+{
+  "INChI key": "FMJCUZKYLCGXIG-NRPADANISA-O",
+  "INChI": "InChI=1S/C10H16INO4/c1-6(13)16-8-5-10(12,9(14)15-2)4-3-7(8)11/h7-8H,3-5,12H2,1-2H3/p+1/t7-,8-,10-/m0/s1",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "2.08;0.0;2|2.08;0.0;3|2.11;0.0;13|2.33;0.0;2|2.33;0.0;3|2.79;0.0;5|3.87;0.0;15|4.25;0.0;1|5.29;0.0;0|7.9;0.0;12|",
+  "nmrshiftdb2 ID": 20177827,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 29577,
+  "SMILES": "COC(=O)[C@]1([NH3+])CC[C@H](I)[C@@H](OC(C)=O)C1"
+}

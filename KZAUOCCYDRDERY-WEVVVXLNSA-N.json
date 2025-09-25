@@ -1,0 +1,13 @@
+{
+  "INChI key": "KZAUOCCYDRDERY-WEVVVXLNSA-N",
+  "INChI": "InChI=1S/C7H13N3O3S/c1-8-7(12)13-9-5(14-4)6(11)10(2)3/h1-4H3,(H,8,12)/b9-5+",
+  "Temperature [K]": "0:Unreported 1:Unreported ",
+  "nmrshiftdb2 ID": 20208457,
+  "Spectrum 1H 1": "2.323;0.0;11|2.889;0.0;13|3.075;0.0;9|3.098;0.0;8|6.01;0.0;6|",
+  "Field Strength [MHz]": "0:Unreported 1:Unreported ",
+  "Spectrum 13C 0": "13.41;0.0Q;11|27.63;0.0Q;13|34.53;0.0Q;8|37.93;0.0Q;9|154.44;0.0S;12|157.33;0.0S;7|159.21;0.0S;10|",
+  "Solvent": "0:Unreported 1:Unreported ",
+  "Assignment Method": "0:Unreported 1:Unreported ",
+  "_molecule_index": 35450,
+  "SMILES": "CNC(=O)O/N=C(/SC)C(=O)N(C)C"
+}

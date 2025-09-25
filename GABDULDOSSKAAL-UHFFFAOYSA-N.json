@@ -1,0 +1,12 @@
+{
+  "INChI key": "GABDULDOSSKAAL-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C12H15ClO2/c1-7-6-11(15)12(9(3)14)8(2)10(7)4-5-13/h6,15H,4-5H2,1-3H3",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20230026,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "158.2;0.0S;0|117.4;0.0D;1|143.9;0.0S;2|127.2;0.0S;3|136.7;0.0S;4|122.9;0.0S;5|206.2;0.0S;6|32.6;0.0Q;7|19.2;0.0Q;8|32.8;0.0T;9|42.1;0.0T;10|20.7;0.0Q;11|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 39521,
+  "SMILES": "CC(=O)c1c(O)cc(C)c(CCCl)c1C"
+}

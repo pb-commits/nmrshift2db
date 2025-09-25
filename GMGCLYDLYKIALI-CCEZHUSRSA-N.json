@@ -1,0 +1,12 @@
+{
+  "INChI key": "GMGCLYDLYKIALI-CCEZHUSRSA-N",
+  "INChI": "InChI=1S/C20H15N/c1-2-8-16(9-3-1)14-15-21-19-12-6-4-10-17(19)18-11-5-7-13-20(18)21/h1-15H/b15-14+",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20181994,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "110.4;0.0D;3|110.4;0.0D;8|119.8;0.0D;19|120.2;0.0D;1|120.2;0.0D;10|120.6;0.0D;0|120.6;0.0D;11|123.2;0.0D;12|124.0;0.0S;5|124.0;0.0S;7|125.8;0.0D;2|125.8;0.0D;9|126.2;0.0D;14|126.2;0.0D;18|127.1;0.0D;16|128.8;0.0D;15|128.8;0.0D;17|136.2;0.0S;13|139.5;0.0S;4|139.5;0.0S;6|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 31767,
+  "SMILES": "C(=C/n1c2ccccc2c2ccccc21)\\c1ccccc1"
+}

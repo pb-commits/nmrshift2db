@@ -1,0 +1,12 @@
+{
+  "INChI key": "OILSNEWXHGOFAO-ONEGZZNKSA-N",
+  "INChI": "InChI=1S/C22H17BrN/c1-16-2-7-19-11-13-24-12-10-18(15-22(24)21(19)14-16)4-3-17-5-8-20(23)9-6-17/h2-15H,1H3/q+1/b4-3+",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "2.7;0.0;22|7.71;0.0;20|7.75;0.0;21|7.98;0.0;12|8.14;0.0;13|8.22;0.0;3|8.44;0.0;7|8.83;0.0;4|8.94;0.0;10|9.36;0.0;6|9.47;0.0;9|",
+  "nmrshiftdb2 ID": 20175783,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 27844,
+  "SMILES": "Cc1ccc2cc[n+]3ccc(/C=C/c4ccc(Br)cc4)cc3c2c1"
+}

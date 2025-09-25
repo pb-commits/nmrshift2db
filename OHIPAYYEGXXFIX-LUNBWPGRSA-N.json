@@ -1,0 +1,12 @@
+{
+  "INChI key": "OHIPAYYEGXXFIX-LUNBWPGRSA-N",
+  "INChI": "InChI=1S/C11H16O6/c1-4-6-3-5(12)7(13)11(4)8(16-6)10(2,15)17-9(11)14/h4-8,12-13,15H,3H2,1-2H3/t4-,5+,6+,7+,8-,10?,11+/m1/s1",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20133653,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "14.5;0.0Q;9|17.0;0.0Q;10|35.6;0.0T;1|41.2;0.0D;3|67.8;0.0S;4|73.4;0.0D;0|79.7;0.0D;5|82.0;0.0D;2|86.6;0.0D;6|108.7;0.0S;7|174.1;0.0S;8|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 18419,
+  "SMILES": "C[C@@H]1[C@@H]2C[C@H](O)[C@H](O)[C@@]13C(=O)OC(C)(O)[C@H]3O2"
+}

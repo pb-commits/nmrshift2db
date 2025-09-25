@@ -1,0 +1,12 @@
+{
+  "INChI key": "AWKULGZEOFJMAU-KTXPOFAQSA-N",
+  "INChI": "InChI=1S/C52H57N3O4/c1-51(2)39-58-52(3,4)55(51)50(57)59-49(47(45-33-21-10-22-34-45)54(37-42-27-15-7-16-28-42)38-43-29-17-8-18-30-43)48(56)46(44-31-19-9-20-32-44)53(35-40-23-11-5-12-24-40)36-41-25-13-6-14-26-41/h5-34,46-49,56H,35-39H2,1-4H3/t46-,47-,48-,49+/m0/s1",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "2.94;0.0;15|3.09;0.0;26|3.35;0.0;24|4.57;0.0;13|5.9;0.0;12|6.49;0.0;14|",
+  "nmrshiftdb2 ID": 20174426,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 26858,
+  "SMILES": "CC1(C)COC(C)(C)N1C(=O)O[C@@H]([C@@H](O)[C@H](c1ccccc1)N(Cc1ccccc1)Cc1ccccc1)[C@H](c1ccccc1)N(Cc1ccccc1)Cc1ccccc1"
+}

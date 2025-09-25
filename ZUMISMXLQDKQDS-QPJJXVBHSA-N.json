@@ -1,0 +1,13 @@
+{
+  "INChI key": "ZUMISMXLQDKQDS-QPJJXVBHSA-N",
+  "INChI": "InChI=1S/C8H16O2/c1-4-7-8(9-5-2)10-6-3/h4,7-8H,5-6H2,1-3H3/b7-4+",
+  "Temperature [K]": "0:Unreported 1:Unreported ",
+  "nmrshiftdb2 ID": 20208964,
+  "Spectrum 1H 1": "1.216;0.0;6|1.731;0.0;9|3.493;0.0;3|3.636;0.0;3|4.82;0.0;2|5.531;0.0;8|5.821;0.0;5|",
+  "Field Strength [MHz]": "0:Unreported 1:Unreported ",
+  "Spectrum 13C 0": "15.26;0.0Q;6|17.59;0.0Q;9|60.99;0.0T;3|101.94;0.0D;2|128.88;0.0D;8|129.74;0.0D;5|",
+  "Solvent": "0:Unreported 1:Unreported ",
+  "Assignment Method": "0:Unreported 1:Unreported ",
+  "_molecule_index": 35945,
+  "SMILES": "C/C=C/C(OCC)OCC"
+}

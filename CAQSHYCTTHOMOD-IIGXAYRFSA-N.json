@@ -1,0 +1,12 @@
+{
+  "INChI key": "CAQSHYCTTHOMOD-IIGXAYRFSA-N",
+  "INChI": "InChI=1S/C56H36N7O6P/c64-70(65)61-49-41-25-21-39(68-35-17-9-3-10-18-35)31-47(41)56(61)60-54-44-28-24-40(69-36-19-11-4-12-20-36)32-48(44)55(63(54)70)58-51-42-26-22-38(67-34-15-7-2-8-16-34)30-46(42)52(57-51)59-53-43-27-23-37(29-45(43)50(49)62(53)70)66-33-13-5-1-6-14-33/h1-32,41,47,64-65H/b58-51+,59-53-",
+  "Temperature [K]": "0:Unknown ",
+  "Spectrum 31P 0": "-201.3;0.0S;39|",
+  "nmrshiftdb2 ID": 80030641,
+  "Field Strength [MHz]": "0:Unknown ",
+  "Solvent": "0:Unknown ",
+  "Assignment Method": "0:Unknown ",
+  "_molecule_index": 49725,
+  "SMILES": "OP12(O)N3C4=Nc5c6ccc(Oc7ccccc7)cc6c(n51)/N=C1/N=C(/N=c5/c6ccc(Oc7ccccc7)cc6c(n52)=C3C2C=CC(Oc3ccccc3)=CC42)c2cc(Oc3ccccc3)ccc21"
+}

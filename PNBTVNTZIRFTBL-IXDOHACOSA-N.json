@@ -1,0 +1,12 @@
+{
+  "INChI key": "PNBTVNTZIRFTBL-IXDOHACOSA-N",
+  "INChI": "InChI=1S/C19H18N2O4/c22-17-15-16(18(23)25-17)21(12-14-9-5-2-6-10-14)19(24)20(15)11-13-7-3-1-4-8-13/h1-10,15-17,22H,11-12H2/t15-,16+,17-/m1/s1",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "3.87;0.0;26|4.04;0.0;25|4.51;0.0;9|4.94;0.0;17|5.1;0.0;8|5.47;0.0;1|7.3;0.0;14|7.3;0.0;13|",
+  "nmrshiftdb2 ID": 20171410,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 24196,
+  "SMILES": "O=C1O[C@@H](O)[C@H]2[C@@H]1N(Cc1ccccc1)C(=O)N2Cc1ccccc1"
+}

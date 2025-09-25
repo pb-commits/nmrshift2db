@@ -1,0 +1,12 @@
+{
+  "INChI key": "PEYVIGYBFCLZGD-LGHSUXABSA-N",
+  "INChI": "InChI=1S/C31H48O7/c1-16-7-10-31(35-15-16)17(2)28-26(38-31)12-22-20-11-24(34)23-13-25(36-18(3)32)27(37-19(4)33)14-30(23,6)21(20)8-9-29(22,28)5/h16-17,20-28,34H,7-15H2,1-6H3/t16?,17-,20?,21?,22?,23?,24+,25+,26?,27+,28?,29-,30+,31+/m0/s1",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "0.74;0.0;25|0.94;0.0;28|1.01;0.0;26|1.02;0.0;29|1.1;0.0;20|1.96;0.0;36|1.98;0.0;37|3.82;0.0;9|4.36;0.0;1|4.9;0.0;22|4.9;0.0;23|",
+  "nmrshiftdb2 ID": 20176826,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 28579,
+  "SMILES": "CC(=O)O[C@@H]1CC2[C@H](O)CC3C4CC5O[C@]6(CCC(C)CO6)[C@@H](C)C5[C@@]4(C)CCC3[C@@]2(C)C[C@H]1OC(C)=O"
+}

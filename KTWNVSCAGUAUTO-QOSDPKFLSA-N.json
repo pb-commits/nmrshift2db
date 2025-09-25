@@ -1,0 +1,12 @@
+{
+  "INChI key": "KTWNVSCAGUAUTO-QOSDPKFLSA-N",
+  "INChI": "InChI=1S/C35H41N2O4P/c1-8-29-36-24-25-37(29)30(32(38)40-34(2,3)4)31(33(39)41-35(5,6)7)42(26-18-12-9-13-19-26,27-20-14-10-15-21-27)28-22-16-11-17-23-28/h9-25,30H,8H2,1-7H3/b33-31+",
+  "Temperature [K]": "0:Unknown ",
+  "Spectrum 31P 0": "23.05;0.0S;22|",
+  "nmrshiftdb2 ID": 80030422,
+  "Field Strength [MHz]": "0:Unknown ",
+  "Solvent": "0:Unknown ",
+  "Assignment Method": "0:Unknown ",
+  "_molecule_index": 49515,
+  "SMILES": "CCc1nccn1C(C(=O)OC(C)(C)C)/C(=C(/[O-])OC(C)(C)C)[P+](c1ccccc1)(c1ccccc1)c1ccccc1"
+}

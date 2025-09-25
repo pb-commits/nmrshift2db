@@ -1,0 +1,12 @@
+{
+  "INChI key": "MMJLIEREEJXFMU-YECRGUBPSA-N",
+  "INChI": "InChI=1S/C20H23NO5/c1-11-3-2-4-15-16(26-15)10-25-13-7-5-12(6-8-13)9-14-19(23)17(18(11)22)20(24)21-14/h5-8,11,14-16,22H,2-4,9-10H2,1H3,(H,21,24)/b18-17-/t11-,14+,15+,16+/m0/s1",
+  "Temperature [K]": "0:298 ",
+  "nmrshiftdb2 ID": 21128,
+  "Field Strength [MHz]": "0:150 ",
+  "Spectrum 13C 0": "18.3;0.0Q;14|25.4;0.0T;10|34.3;0.0T;9|36.4;0.0T;11|36.6;0.0T;19|37.6;0.0D;12|56.8;0.0D;7|62.9;0.0D;8|63.8;0.0D;17|66.7;0.0T;6|103.5;0.0S;15|115.9;0.0D;1|115.9;0.0D;3|128.2;0.0S;5|132.6;0.0D;0|132.6;0.0D;4|157.6;0.0S;2|176.8;0.0S;16|193.1;0.0S;13|197.5;0.0S;18|",
+  "Solvent": "0:Methanol-D4 (CD3OD) ",
+  "Assignment Method": "0:COSY+Hetcor+longrange Hetcor ",
+  "_molecule_index": 1027,
+  "SMILES": "C[C@H]1CCC[C@H]2O[C@@H]2COc2ccc(cc2)C[C@H]2NC(=O)/C(=C/1O)C2=O"
+}

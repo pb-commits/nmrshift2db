@@ -1,0 +1,12 @@
+{
+  "INChI key": "UICUVRXJURMTPU-LXNLAFDPSA-N",
+  "INChI": "InChI=1S/C24H30O8/c1-12-15-8-16(31-13(2)25)17-23(11-30-21(28)24(17,9-15)19(12)27)7-5-6-22(4)10-29-20(18(22)23)32-14(3)26/h15-18,20H,1,5-11H2,2-4H3/t15-,16-,17+,18-,20-,22+,23-,24+/m1/s1",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "0.97;0.0;20|2.13;0.0;30|2.17;0.0;31|2.88;0.0;9|3.16;0.0;8|3.84;0.0;1|4.45;0.0;13|5.28;0.0;6|5.6;0.0;34|6.18;0.0;35|6.35;0.0;14|",
+  "nmrshiftdb2 ID": 20171598,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 24383,
+  "SMILES": "C=C1C(=O)[C@]23C[C@H]1C[C@@H](OC(C)=O)[C@H]2[C@@]1(CCC[C@@]2(C)CO[C@H](OC(C)=O)[C@H]21)COC3=O"
+}

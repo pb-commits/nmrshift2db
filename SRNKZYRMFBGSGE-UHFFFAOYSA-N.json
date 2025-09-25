@@ -1,0 +1,14 @@
+{
+  "INChI key": "SRNKZYRMFBGSGE-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C5H4N4/c1-2-6-5-7-4-8-9(5)3-1/h1-4H",
+  "Temperature [K]": "0:303 1:Unreported 2:Unreported ",
+  "nmrshiftdb2 ID": 2218,
+  "Field Strength [MHz]": "0:125.7 1:Unreported 2:Unreported ",
+  "Spectrum 13C 1": "111.1;0.0D;0|137.6;0.0D;3|154.9;0.0S;5|155.7;0.0D;1|156.0;0.0D;7|",
+  "Spectrum 13C 0": "111.6;0.0D;0|138.0;0.0D;3|156.0;0.0S;5|156.1;0.0D;1|156.7;0.0D;7|",
+  "Solvent": "0:Dimethylformamide-D7 (DMF-D7, CDON(CD3)2 ) 1:Unreported 2:Unreported ",
+  "Assignment Method": "1:Unreported 2:Unreported ",
+  "Spectrum 13C 2": "110.9;0.0D;0|137.4;0.0D;3|154.6;0.0S;5|155.5;0.0D;1|155.8;0.0D;7|",
+  "_molecule_index": 28,
+  "SMILES": "c1cnc2ncnn2c1"
+}

@@ -1,0 +1,12 @@
+{
+  "INChI key": "OGXRBXPEGCXCCR-UZIIXKGZSA-N",
+  "INChI": "InChI=1S/C22H34O4/c1-15(2)8-6-9-16(3)10-7-11-22(5)14-18(23)12-17(4)21(22)19(24)13-20(25)26/h7-8,10-11,18-19,23-24H,6,9,12-14H2,1-5H3,(H,25,26)/b11-7+,16-10+/t18-,19-,22+/m0/s1",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 21114,
+  "Field Strength [MHz]": "0:125 ",
+  "Spectrum 13C 0": "16.4;0.0Q;16|17.6;0.0Q;21|17.9;0.0Q;6|23.5;0.0Q;10|24.2;0.0S;0|25.1;0.0T;17|26.3;0.0Q;20|40.2;0.0T;15|42.2;0.0T;8|44.5;0.0T;3|48.9;0.0T;1|60.7;0.0D;7|67.0;0.0D;2|122.3;0.0D;13|122.8;0.0D;18|127.0;0.0D;12|132.6;0.0D;11|132.9;0.0S;4|133.9;0.0S;19|138.5;0.0S;5|140.7;0.0S;14|177.0;0.0S;9|",
+  "Solvent": "0:Pyridin-D5 (C5D5N) + Methanol-D4 (CD3OD) ",
+  "Assignment Method": "0:COSY+Hetcor+longrange Hetcor ",
+  "_molecule_index": 1013,
+  "SMILES": "CC(C)=CCC/C(C)=C/C=C/[C@]1(C)C[C@@H](O)CC(C)=C1[C@@H](O)CC(=O)O"
+}

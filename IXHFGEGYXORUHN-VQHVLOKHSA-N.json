@@ -1,0 +1,15 @@
+{
+  "INChI key": "IXHFGEGYXORUHN-VQHVLOKHSA-N",
+  "Program": "1:CSEARCH ",
+  "INChI": "InChI=1S/C9H18O2Si/c1-8(2)7-9(10-3)11-12(4,5)6/h7H,1H2,2-6H3/b9-7+",
+  "Temperature [K]": "0:298 2:Unreported ",
+  "nmrshiftdb2 ID": 20247985,
+  "Field Strength [MHz]": "0:100.0 2:Unreported ",
+  "Spectrum 13C 1": "161.3;0.0S;0|86.7;0.0D;1|141.7;0.0S;2|22.9;0.0Q;3|107.5;0.0T;4|55.2;0.0Q;5|0.1;0.0Q;6|0.1;0.0Q;7|0.1;0.0Q;8|",
+  "Spectrum 13C 0": "0.43;0.0Q;6|0.43;0.0Q;7|0.43;0.0Q;8|23.9;0.0Q;3|54.67;0.0Q;5|81.84;0.0D;1|108.44;0.0T;4|140.26;0.0S;2|157.6;0.0S;0|",
+  "Solvent": "0:Benzene-D6 (C6D6) 2:Unreported ",
+  "Assignment Method": "0:1D shift positions 2:Unreported ",
+  "Spectrum 13C 2": "23.9;0.0Q;3|140.2;0.0S;2|81.8;0.0D;1|157.6;0.0S;0|54.7;0.0Q;5|108.4;0.0T;4|0.4;0.0Q;6|0.4;0.0Q;7|0.4;0.0Q;8|",
+  "_molecule_index": 41242,
+  "SMILES": "C=C(C)/C=C(\\OC)O[Si](C)(C)C"
+}

@@ -1,0 +1,12 @@
+{
+  "INChI key": "FALUXMVPGFKLAM-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C15H27NO4/c1-15(2,3)20-14(18)16-12(13(17)19-4)10-11-8-6-5-7-9-11/h11-12H,5-10H2,1-4H3,(H,16,18)",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20230104,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "32.4;0.0T;0|34.0;0.0T;4|33.7;0.0D;5|40.3;0.0T;6|51.3;0.0D;7|174.4;0.0S;8|52.1;0.0Q;9|155.4;0.0S;10|79.8;0.0S;11|28.3;0.0Q;12|28.3;0.0Q;13|28.3;0.0Q;14|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 39599,
+  "SMILES": "COC(=O)C(CC1CCCCC1)NC(=O)OC(C)(C)C"
+}

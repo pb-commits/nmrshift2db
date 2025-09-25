@@ -1,0 +1,12 @@
+{
+  "INChI key": "SWZLSTQTRUQMPU-ACCUITESSA-N",
+  "INChI": "InChI=1S/C18H14O2/c1-13(11-14-7-3-2-4-8-14)16-12-20-17-10-6-5-9-15(17)18(16)19/h2-12H,1H3/b13-11+",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 10019032,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "17.7;0.0Q;11|118.0;0.0D;4|124.4;0.0S;2|125.1;0.0D;0|126.2;0.0D;1|126.8;0.0D;17|128.2;0.0D;18|129.2;0.0D;19|129.3;0.0S;7|130.5;0.0D;12|131.5;0.0S;13|133.5;0.0D;5|137.3;0.0S;10|152.0;0.0D;8|156.2;0.0S;3|176.9;0.0S;6|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 7013,
+  "SMILES": "C/C(=C\\c1ccccc1)c1coc2ccccc2c1=O"
+}

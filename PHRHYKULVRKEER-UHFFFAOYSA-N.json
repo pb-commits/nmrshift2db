@@ -1,0 +1,12 @@
+{
+  "INChI key": "PHRHYKULVRKEER-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C15H16N4/c1-18-6-7-19-13-5-3-2-4-12(13)8-15(10-16,11-17)14(19)9-18/h2-5,14H,6-9H2,1H3",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20181532,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "35.2;0.0S;7|37.4;0.0T;6|43.9;0.0Q;14|46.4;0.0T;11|54.0;0.0T;10|57.5;0.0T;9|57.7;0.0D;8|115.6;0.0S;4|143.9;0.0S;5|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 31308,
+  "SMILES": "CN1CCN2c3ccccc3CC(C#N)(C#N)C2C1"
+}

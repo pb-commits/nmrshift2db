@@ -1,0 +1,22 @@
+{
+  "NMRBasisSet": "0:6-31+GD 6-31+GD  2:6-31+GD 6-31+GD  3:6-31+GD 6-31+GD  ",
+  "Spectrum 19F 0": "-151.0;0.0;4|-150.0;0.0;9|-145.0;0.0;5|-145.0;0.0;8|-143.0;0.0;6|-143.0;0.0;7|76.0;0.0;1|",
+  "Temperature [K]": "1:Unreported ",
+  "Field Strength [MHz]": "1:Unreported ",
+  "NMRMethod": "0:Unreported 2:Unreported 3:Unreported ",
+  "NMRProgram": "0:G03 2:G03 3:G03 ",
+  "Assignment Method": "1:Unreported ",
+  "GeomMethod": "0:RB3LYP RB3LYP  2:RB3LYP RB3LYP  3:RB3LYP RB3LYP  ",
+  "Spectrum 29Si 3": "-62.0;0.0;3|-61.9;0.0;2|",
+  "INChI key": "HWBCRDVOEMMIBV-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/BF7Si2/c2-1(9(3,4)5)10(6,7)8",
+  "nmrshiftdb2 ID": 50120174,
+  "NMRLocalis": "0:GIAO 2:GIAO 3:GIAO ",
+  "NMRStandard": "0:C1CL3F1 2:B2H6 3:C1CL3F1 ",
+  "Spectrum 11B 1": "23.4;0.0;0|",
+  "Solvent": "1:Unreported ",
+  "Spectrum 11B 2": "72.4;0.0;0|",
+  "GeomBasisSet": "0:6-31+GD 6-31+GD  2:6-31+GD 6-31+GD  3:6-31+GD 6-31+GD  ",
+  "_molecule_index": 43337,
+  "SMILES": "FB([Si](F)(F)F)[Si](F)(F)F"
+}

@@ -1,0 +1,12 @@
+{
+  "INChI key": "AIHPRUSTMMUAMT-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C12H9ClO3/c1-6(14)11-7(2)16-10-4-3-8(13)5-9(10)12(11)15/h3-5H,1-2H3",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 10018728,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "19.7;0.0Q;10|32.0;0.0Q;15|119.8;0.0D;0|123.7;0.0D;3|123.7;0.0D;4|125.0;0.0S;7|131.9;0.0S;2|134.2;0.0D;1|153.8;0.0S;5|168.8;0.0S;8|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 6710,
+  "SMILES": "CC(=O)c1c(C)oc2ccc(Cl)cc2c1=O"
+}

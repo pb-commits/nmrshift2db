@@ -1,0 +1,12 @@
+{
+  "INChI key": "NARILGBFTYTFAY-VCHYOVAHSA-N",
+  "INChI": "InChI=1S/C17H16N4O2/c1-18-10-12-9-13-15(20(2)17(23)21(3)16(13)22)19-14(12)11-7-5-4-6-8-11/h4-10H,1-3H3/b18-10+",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20226968,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "160.9;0.0S;0|151.5;0.0S;1|150.6;0.0S;2|109.7;0.0S;3|162.7;0.0S;4|125.7;0.0S;5|138.0;0.0D;6|29.6;0.0Q;7|28.5;0.0Q;8|137.5;0.0S;9|130.2;0.0D;10|130.2;0.0D;14|128.5;0.0D;11|128.5;0.0D;13|129.8;0.0D;12|158.7;0.0D;15|48.4;0.0Q;16|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 39176,
+  "SMILES": "C/N=C/c1cc2c(=O)n(C)c(=O)n(C)c2nc1-c1ccccc1"
+}

@@ -1,0 +1,11 @@
+{
+  "INChI key": "RROOHAHINGDEJR-IENWSFKZSA-N",
+  "INChI": "InChI=1S/C11H22O9/c1-10(18,7(15)3-13)5-19-11(4-14)9(17)8(16)6(2-12)20-11/h6-9,12-18H,2-5H2,1H3/t6?,7-,8?,9?,10+,11?/m1/s1",
+  "Temperature [K]": "0:298 ",
+  "nmrshiftdb2 ID": 3285,
+  "Field Strength [MHz]": "0:125 ",
+  "Spectrum 13C 0": "20.13;0.0Q;17|62.78;0.0T;9|63.11;0.0T;5|63.7;0.0T;15|68.25;0.0T;12|74.38;0.0S;13|75.26;0.0D;14|76.17;0.0D;0|79.24;0.0D;1|83.67;0.0D;4|105.3;0.0S;2|",
+  "Solvent": "0:Pyridin-D5 (C5D5N) ",
+  "_molecule_index": 463,
+  "SMILES": "C[C@](O)(COC1(CO)OC(CO)C(O)C1O)[C@H](O)CO"
+}

@@ -1,0 +1,13 @@
+{
+  "INChI key": "HLSBTOHZBUYMFU-ZCXUNETKSA-N",
+  "INChI": "InChI=1S/C18H16/c1-3-7-15-13(5-1)9-11-17(15)18-12-10-14-6-2-4-8-16(14)18/h1-8H,9-12H2/b18-17-",
+  "Temperature [K]": "0:Unreported 1:Unreported ",
+  "nmrshiftdb2 ID": 11261,
+  "Field Strength [MHz]": "0:150.94 1:Unreported ",
+  "Spectrum 13C 1": "31.3;0.0T;0|31.3;0.0T;9|35.4;0.0T;3|35.4;0.0T;12|123.9;0.0D;8|123.9;0.0D;17|125.9;0.0D;5|125.9;0.0D;14|126.2;0.0D;7|126.2;0.0D;16|127.9;0.0D;6|127.9;0.0D;15|135.7;0.0S;2|135.7;0.0S;11|141.3;0.0S;4|141.3;0.0S;13|149.0;0.0S;1|149.0;0.0S;10|",
+  "Spectrum 13C 0": "31.3;0.0T;0|31.3;0.0T;9|35.4;0.0T;3|35.4;0.0T;12|123.9;0.0D;8|123.9;0.0D;17|125.9;0.0D;5|125.9;0.0D;14|126.2;0.0D;7|126.2;0.0D;16|127.9;0.0D;6|127.9;0.0D;15|135.7;0.0S;2|135.7;0.0S;11|141.3;0.0S;4|141.3;0.0S;13|149.0;0.0S;1|149.0;0.0S;10|",
+  "Solvent": "0:Chloroform-D1 (CDCl3) 1:Unreported ",
+  "Assignment Method": "0:COSY+Hetcor+longrange Hetcor 1:Unreported ",
+  "_molecule_index": 853,
+  "SMILES": "c1ccc2c(c1)CC/C2=C1\\CCc2ccccc21"
+}

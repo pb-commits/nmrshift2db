@@ -1,0 +1,12 @@
+{
+  "INChI key": "OPWSCJLEWBELEH-VAWYXSNFSA-N",
+  "INChI": "InChI=1S/C9H11N3O2S2/c1-15-6-3-5(13)4-7(16-2)8(6)11-12-9(10)14/h3-4,13H,1-2H3,(H2,10,14)/b12-11+",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 30101286,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "14.9;0.0Q;7|14.9;0.0Q;8|107.3;0.0D;0|107.3;0.0D;2|136.1;0.0S;4|143.5;0.0S;3|143.5;0.0S;5|161.1;0.0S;6|163.7;0.0S;1|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 42768,
+  "SMILES": "CSc1cc(O)cc(SC)c1/N=N/C(N)=O"
+}

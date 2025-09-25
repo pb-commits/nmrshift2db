@@ -1,0 +1,12 @@
+{
+  "INChI key": "UQEVWDFJTNHYAU-PFONDFGASA-N",
+  "INChI": "InChI=1S/C12H17BrN2O/c1-2-3-7-11(13)10-14-15(16)12-8-5-4-6-9-12/h4-6,8-9,11H,2-3,7,10H2,1H3/b15-14-",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20051825,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "13.8;0.0Q;11|22.1;0.0T;10|28.7;0.0T;9|36.9;0.0T;8|52.1;0.0D;7|59.5;0.0T;6|122.2;0.0D;1|122.2;0.0D;3|128.8;0.0D;0|128.8;0.0D;4|131.5;0.0D;5|147.0;0.0S;2|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 15153,
+  "SMILES": "CCCCC(Br)C/N=[N+](\\[O-])c1ccccc1"
+}

@@ -1,0 +1,12 @@
+{
+  "INChI key": "FRHOPYOVAJCEMC-FLIBITNWSA-N",
+  "INChI": "InChI=1S/C12H13N3O/c1-8(13)11-9(2)14-15(12(11)16)10-6-4-3-5-7-10/h3-7H,13H2,1-2H3/b11-8-",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 88842,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "20.6;0.0Q;11|99.6;0.0S;1|119.6;0.0D;8|124.4;0.0D;6|128.7;0.0D;5|139.2;0.0S;3|165.9;0.0S;2|119.6;0.0D;4|128.7;0.0D;7|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 2480,
+  "SMILES": "CC1=NN(c2ccccc2)C(=O)/C1=C(/C)N"
+}

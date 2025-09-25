@@ -1,0 +1,12 @@
+{
+  "INChI key": "FIEXSOIYAFYLCC-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C22H18O4/c1-15-11-21(25)17(13-19(15)23)9-7-5-3-4-6-8-10-18-14-20(24)16(2)12-22(18)26/h11-14H,7-10H2,1-2H3",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20182171,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "15.1;0.0Q;6|15.1;0.0Q;21|18.9;0.0T;8|18.9;0.0T;13|27.8;0.0T;7|27.8;0.0T;14|67.5;0.0S;10|67.5;0.0S;11|76.5;0.0S;9|76.5;0.0S;12|133.2;0.0D;5|133.2;0.0D;16|133.3;0.0D;2|133.3;0.0D;19|145.2;0.0S;1|145.2;0.0S;18|145.9;0.0S;4|145.9;0.0S;15|186.7;0.0S;0|186.7;0.0S;17|187.2;0.0S;3|187.2;0.0S;20|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 31942,
+  "SMILES": "CC1=CC(=O)C(CCC#CC#CCCC2=CC(=O)C(C)=CC2=O)=CC1=O"
+}

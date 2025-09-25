@@ -1,0 +1,12 @@
+{
+  "INChI key": "OEVMVMVZIMEKAM-GINZOMEDSA-N",
+  "INChI": "InChI=1S/C19H26O3/c1-18-8-7-14-12(13(18)5-6-17(18)22)4-3-11-9-15(20)16(21)10-19(11,14)2/h9-10,12-14,17,21-22H,3-8H2,1-2H3/t12-,13-,14-,17-,18-,19-/m0/s1",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20146211,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "11.2;0.0Q;18|19.7;0.0Q;17|23.0;0.0T;15|23.6;0.0T;11|30.4;0.0T;14|32.8;0.0T;6|33.5;0.0T;7|35.5;0.0D;8|36.4;0.0T;10|43.2;0.0S;13|44.2;0.0S;5|50.1;0.0D;12|53.7;0.0D;9|81.4;0.0D;16|121.0;0.0D;3|124.5;0.0D;0|146.1;0.0S;1|173.0;0.0S;4|181.6;0.0S;2|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 19479,
+  "SMILES": "C[C@]12CC[C@H]3[C@@H](CCC4=CC(=O)C(O)=C[C@@]43C)[C@@H]1CC[C@@H]2O"
+}

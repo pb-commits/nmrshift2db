@@ -1,0 +1,17 @@
+{
+  "Temperature [K]": "0:Unreported 1:Unreported 2:Unreported 3:Unreported 4:294 5:Unreported ",
+  "Field Strength [MHz]": "0:Unreported 1:Unreported 2:Unreported 3:Unreported 4:150.0 5:Unreported ",
+  "Assignment Method": "0:Unreported 1:Unreported 2:Unreported 3:Unreported 4:DEPT, COSY, HSQC, HMBC, 19F 5:Unreported ",
+  "INChI key": "IPWBFGUBXWMIPR-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C6H4BrF/c7-5-3-1-2-4-6(5)8/h1-4H",
+  "nmrshiftdb2 ID": 20028172,
+  "Spectrum 19F 5": "-107.7;1.0;6|",
+  "Spectrum 13C 1": "109.1;0.0S;0|116.5;0.0D;3|125.3;0.0D;2|128.9;0.0D;5|133.6;0.0D;1|159.1;0.0S;4|",
+  "Spectrum 13C 0": "109.1;0.0S;0|116.4;0.0D;3|125.0;0.0D;2|132.0;0.0D;5|133.5;0.0D;1|159.1;0.0S;4|",
+  "Spectrum 13C 3": "108.95;0.0S;0|116.44;0.0D;3|125.2;0.0D;2|128.89;0.0D;5|133.51;0.0D;1|159.01;0.0S;4|",
+  "Solvent": "0:Unreported 1:Unreported 2:TETRACHLORO-METHANE (CCl4) 3:Unreported 4:Chloroform-D1 (CDCl3) 5:acetonitril ",
+  "Spectrum 13C 2": "109.1;1.0S;0|116.23;1.0D;3|124.73;1.0D;2|128.37;1.0D;5|133.4;1.0D;1|159.04;1.0S;4|",
+  "Spectrum 13C 4": "116.514;0.0D;3|128.913;0.0D;5|125.237;0.0D;2|133.555;0.0D;1|109.019;0.0S;0|159.058;0.0S;4|",
+  "_molecule_index": 12063,
+  "SMILES": "Fc1ccccc1Br"
+}

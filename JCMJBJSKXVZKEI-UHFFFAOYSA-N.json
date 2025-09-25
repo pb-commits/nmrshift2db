@@ -1,0 +1,11 @@
+{
+  "INChI key": "JCMJBJSKXVZKEI-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C8H14N2O2/c1-7(2)5(11)10-8(3,4)6(12)9-7/h1-4H3,(H,9,12)(H,10,11)",
+  "Temperature [K]": "0:298 ",
+  "nmrshiftdb2 ID": 10009004,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "28.2;1.0Q;4|28.2;1.0Q;5|28.2;1.0Q;6|28.2;1.0Q;7|57.7;0.453725S;1|57.7;0.453725S;3|173.7;0.282167S;0|173.7;0.282167S;2|",
+  "Solvent": "0:Formic Acid-D2 (DCOOD) ",
+  "_molecule_index": 3968,
+  "SMILES": "CC1(C)NC(=O)C(C)(C)NC1=O"
+}

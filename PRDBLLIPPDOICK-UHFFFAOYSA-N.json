@@ -1,0 +1,13 @@
+{
+  "INChI key": "PRDBLLIPPDOICK-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C8H8F3N/c9-8(10,11)7-3-1-6(5-12)2-4-7/h1-4H,5,12H2",
+  "Temperature [K]": "0:Unreported 1:Unreported ",
+  "nmrshiftdb2 ID": 20209292,
+  "Spectrum 1H 1": "1.66;0.0;3|3.909;0.0;8|7.42;0.0;6|7.56;0.0;9|",
+  "Field Strength [MHz]": "0:Unreported 1:Unreported ",
+  "Spectrum 13C 0": "46.02;0.0T;8|124.55;0.0S;11|125.55;0.0D;9|127.5;0.0D;6|129.15;0.0S;5|147.35;0.0S;4|",
+  "Solvent": "0:Unreported 1:Unreported ",
+  "Assignment Method": "0:Unreported 1:Unreported ",
+  "_molecule_index": 36269,
+  "SMILES": "NCc1ccc(C(F)(F)F)cc1"
+}

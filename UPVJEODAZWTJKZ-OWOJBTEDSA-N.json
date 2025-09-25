@@ -1,0 +1,12 @@
+{
+  "INChI key": "UPVJEODAZWTJKZ-OWOJBTEDSA-N",
+  "Spectrum 19F 0": "-120.1;0.0S;3|-120.1;0.0S;4|",
+  "INChI": "InChI=1S/C2Cl2F2/c3-1(5)2(4)6/b2-1+",
+  "Temperature [K]": "0:298 ",
+  "nmrshiftdb2 ID": 60007559,
+  "Field Strength [MHz]": "0:141.5094416011653 ",
+  "Solvent": "0:Chloroform-D1 (CDCl3) ",
+  "Assignment Method": "0:1H, H,H-COSY, H,H-NOESY, H,C-HMQC, H,C-HMBC, DEPTQ, 1H, 13C, 1H, H,H-COSY ",
+  "_molecule_index": 43575,
+  "SMILES": "F/C(Cl)=C(/F)Cl"
+}

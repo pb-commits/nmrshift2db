@@ -1,0 +1,12 @@
+{
+  "INChI key": "PELLUIPPBKHUAB-GRYCIOLGSA-N",
+  "INChI": "InChI=1S/C13H24O2/c1-5-13(14)15-12-8-10(4)6-7-11(12)9(2)3/h9-12H,5-8H2,1-4H3/t10-,11+,12-/m1/s1",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20208517,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "9.3;0.0Q;14|16.42;0.0Q;11|20.76;0.0Q;10|22.04;0.0Q;9|23.58;0.0T;4|26.37;0.0D;8|27.99;0.0T;13|31.41;0.0D;5|34.35;0.0T;7|41.02;0.0T;6|47.12;0.0D;2|73.94;0.0D;3|174.04;0.0S;12|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 35508,
+  "SMILES": "CCC(=O)O[C@@H]1C[C@H](C)CC[C@H]1C(C)C"
+}

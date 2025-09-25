@@ -1,0 +1,12 @@
+{
+  "INChI key": "MYBGCMMMPMKFIL-VHSXEESVSA-N",
+  "INChI": "InChI=1S/C11H16O3/c1-3-7-8-5-6-9(13-4-2)10(8)14-11(7)12/h9-10H,3-6H2,1-2H3/t9-,10+/m0/s1",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20028216,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "12.6;0.0Q;8|15.8;0.0Q;10|18.4;0.0T;7|20.4;0.0T;4|32.7;0.0T;0|67.1;0.0T;9|75.5;0.0D;1|86.0;0.0D;2|133.9;0.0S;6|166.5;0.0S;3|177.4;0.0S;5|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 12107,
+  "SMILES": "CCO[C@H]1CCC2=C(CC)C(=O)O[C@H]21"
+}

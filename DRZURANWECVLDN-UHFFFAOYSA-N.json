@@ -1,0 +1,12 @@
+{
+  "INChI key": "DRZURANWECVLDN-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C16H14N2O4/c19-16(20)13-5-2-6-14(18(21)22)15(13)17-12-8-7-10-3-1-4-11(10)9-12/h2,5-9,17H,1,3-4H2,(H,19,20)",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20032343,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "25.1;0.0T;13|31.7;0.0T;14|32.4;0.0T;15|114.6;0.0D;12|116.6;0.0D;1|118.4;0.0D;8|119.2;0.0S;3|124.6;0.0D;11|130.9;0.0D;0|136.7;0.0D;2|138.9;0.0S;10|139.4;0.0S;4|139.4;0.0S;7|139.6;0.0S;5|144.8;0.0S;9|168.8;0.0S;6|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 12619,
+  "SMILES": "O=C(O)c1cccc([N+](=O)[O-])c1Nc1ccc2c(c1)CCC2"
+}

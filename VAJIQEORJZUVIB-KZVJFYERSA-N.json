@@ -1,0 +1,12 @@
+{
+  "INChI key": "VAJIQEORJZUVIB-KZVJFYERSA-N",
+  "INChI": "InChI=1S/C9H17NO4/c11-5-9-2-1-3-10(9)4-6(12)7(13)8(9)14/h6-8,11-14H,1-5H2/t6-,7+,8-,9-/m0/s1",
+  "Temperature [K]": "0:298 ",
+  "nmrshiftdb2 ID": 40131210,
+  "Field Strength [MHz]": "0:31.25 ",
+  "Spectrum 13C 0": "76.5;0.0D;2|73.2;0.0S;4|73.0;0.0D;3|71.0;0.0D;1|63.6;0.0T;8|55.9;0.0T;0|53.8;0.0T;7|26.1;0.0T;5|21.0;0.0T;6|",
+  "Solvent": "0:Methanol-D4 (CD3OD) ",
+  "Assignment Method": "0:1H standard spectrum; 13C standard spectrum ",
+  "_molecule_index": 43308,
+  "SMILES": "OC[C@]12CCCN1C[C@H](O)[C@@H](O)[C@@H]2O"
+}

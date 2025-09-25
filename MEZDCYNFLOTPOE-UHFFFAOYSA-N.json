@@ -1,0 +1,12 @@
+{
+  "INChI key": "MEZDCYNFLOTPOE-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C15H12N4O2S/c16-6-9-11(8-4-2-1-3-5-8)12(14(18)21)15-19(13(9)17)10(20)7-22-15/h1-5,11H,7,17H2,(H2,18,21)",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 89194,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "32.5;0.0T;5|39.3;0.0D;1|65.6;0.0S;2|105.0;0.0S;0|119.4;0.0S;8|143.4;0.0S;9|144.2;0.0S;4|148.0;0.0S;3|167.0;0.0S;7|174.0;0.0S;6|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 2595,
+  "SMILES": "N#CC1=C(N)N2C(=O)CSC2=C(C(N)=O)C1c1ccccc1"
+}

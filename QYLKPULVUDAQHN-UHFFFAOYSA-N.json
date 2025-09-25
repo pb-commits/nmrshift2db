@@ -1,0 +1,12 @@
+{
+  "INChI key": "QYLKPULVUDAQHN-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C19H25N3O3/c1-15-17(19(25-21-15)16-6-3-2-4-7-16)14-18(23)20-8-5-9-22-10-12-24-13-11-22/h2-4,6-7H,5,8-14H2,1H3,(H,20,23)",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 77251,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "10.3;0.0Q;18|24.9;0.0T;12|31.1;0.0T;9|39.0;0.0T;11|56.6;0.0T;14|56.6;0.0T;17|57.1;0.0T;13|66.5;0.0T;15|66.5;0.0T;16|107.8;0.0S;1|160.9;0.0S;0|166.6;0.0S;2|169.0;0.0S;10|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 2209,
+  "SMILES": "Cc1noc(-c2ccccc2)c1CC(=O)NCCCN1CCOCC1"
+}

@@ -1,0 +1,14 @@
+{
+  "INChI key": "RAXNUTINVDSFEU-NKWVEPMBSA-N",
+  "Program": "1:HOSE code using nmrshiftdb2 data ",
+  "INChI": "InChI=1S/C8H8O3/c9-6-2-1-5-3-8(10)11-7(5)4-6/h1-3,6-7,9H,4H2/t6-,7+/m0/s1",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 10018842,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 1": "173.8;0.0S;6|112.1;0.0D;7|163.1;0.0S;4|121.7;0.0D;3|137.8;0.0D;2|64.2;0.0D;1|37.1;0.0T;0|76.5;0.0D;5|",
+  "Spectrum 13C 0": "37.1;0.0T;0|64.2;0.0D;1|76.5;0.0D;5|112.1;0.0D;7|121.7;0.0D;3|137.8;0.0D;2|163.1;0.0S;4|173.8;0.0S;6|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 6823,
+  "SMILES": "O=C1C=C2C=C[C@H](O)C[C@H]2O1"
+}

@@ -1,0 +1,11 @@
+{
+  "INChI key": "PCVJQTVUJJJSRQ-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C16H20Cl2N6/c17-15-20-12-11(13(21-15)23-7-3-1-4-8-23)19-16(18)22-14(12)24-9-5-2-6-10-24/h1-10H2",
+  "Temperature [K]": "0:298 ",
+  "nmrshiftdb2 ID": 10008981,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "24.6;0.0T;8|24.6;0.0T;13|26.5;0.0T;7|26.5;0.0T;9|26.5;0.0T;12|26.5;0.0T;14|49.5;0.0T;6|49.5;0.0T;10|49.5;0.0T;11|49.5;0.0T;15|137.4;0.0S;4|137.4;0.0S;5|153.8;0.0S;1|153.8;0.0S;3|160.6;0.0S;0|160.6;0.0S;2|",
+  "Solvent": "0:Dimethylformamide-D7 (DMF-D7, CDON(CD3)2 ) ",
+  "_molecule_index": 3945,
+  "SMILES": "Clc1nc(N2CCCCC2)c2nc(Cl)nc(N3CCCCC3)c2n1"
+}

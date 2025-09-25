@@ -1,0 +1,13 @@
+{
+  "INChI key": "WOZHZOLFFPSEAM-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C7H8O6/c1-3(6(10)11)4(7(12)13)2-5(8)9/h4H,1-2H2,(H,8,9)(H,10,11)(H,12,13)",
+  "Temperature [K]": "0:Unreported 1:Unreported ",
+  "nmrshiftdb2 ID": 20096793,
+  "Spectrum 1H 1": "2.752;0.0;3|2.993;0.0;3|3.982;0.0;2|5.933;0.0;0|6.422;0.0;0|",
+  "Field Strength [MHz]": "0:Unreported 1:Unreported ",
+  "Spectrum 13C 0": "36.24;0.0T;3|44.68;0.0D;2|130.47;0.0T;0|138.06;0.0S;1|170.04;0.0S;10|176.56;0.0S;7|176.94;0.0S;4|",
+  "Solvent": "0:Unreported 1:Unreported ",
+  "Assignment Method": "0:Unreported 1:Unreported ",
+  "_molecule_index": 16769,
+  "SMILES": "C=C(C(=O)O)C(CC(=O)O)C(=O)O"
+}

@@ -1,0 +1,12 @@
+{
+  "INChI key": "ANFHDPPIEBXGFL-ANGAUAEMSA-N",
+  "INChI": "InChI=1S/C15H20O4/c1-6-10(3)11-9-19-14(17)15(4,7-2)13(16)12(11)8-18-5/h6,8-9H,7H2,1-5H3/b10-6+,12-8+",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20221542,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "169.1;0.0S;0|133.5;0.0D;1|125.4;0.0S;2|112.5;0.0S;3|195.3;0.0S;4|63.3;0.0S;5|163.2;0.0D;6|63.0;0.0Q;7|130.2;0.0S;8|123.6;0.0D;9|14.0;0.0Q;10|14.4;0.0Q;11|27.6;0.0T;12|9.5;0.0Q;13|19.7;0.0Q;14|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 38630,
+  "SMILES": "C/C=C(\\C)C1=COC(=O)C(C)(CC)C(=O)/C1=C/OC"
+}

@@ -1,0 +1,12 @@
+{
+  "INChI key": "PFWCRCJQTVIGBP-VDPFUSCOSA-N",
+  "INChI": "InChI=1S/C15H22O2/c1-8(2)15-6-5-9(3)11-7-12(16)10(4)13(11)14(15)17-15/h8-9,11,14H,5-7H2,1-4H3/t9-,11-,14-,15?/m0/s1",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 10020942,
+  "Field Strength [MHz]": "0:125 ",
+  "Spectrum 13C 0": "7.9;0.0Q;10|10.2;0.0Q;14|18.11;0.0Q;13|18.14;0.0Q;12|20.9;0.0T;2|29.0;0.0T;4|32.8;0.0D;5|36.9;0.0D;11|40.5;0.0T;7|43.3;0.0D;6|59.7;0.0D;0|70.1;0.0S;1|141.1;0.0S;9|167.9;0.0S;3|208.5;0.0S;8|",
+  "Solvent": "0:Chloroform-D1 (CDCl3) ",
+  "Assignment Method": "0:COSY+Hetcor+longrange Hetcor ",
+  "_molecule_index": 7470,
+  "SMILES": "CC1=C2[C@@H](CC1=O)[C@@H](C)CC[C@@]1(C(C)C)O[C@@H]21"
+}

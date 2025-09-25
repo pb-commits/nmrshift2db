@@ -1,0 +1,12 @@
+{
+  "INChI key": "VEMKENVALVHGMQ-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C11H34N3OPSSi3/c1-17(2)13(19(6,7)8)16(15,12-18(3,4)5)14(17)20(9,10)11/h15H,1-11H3",
+  "Temperature [K]": "0:Unknown ",
+  "Spectrum 31P 0": "6.8;0.0S;7|",
+  "nmrshiftdb2 ID": 80037119,
+  "Field Strength [MHz]": "0:Unknown ",
+  "Solvent": "0:Unknown ",
+  "Assignment Method": "0:Unknown ",
+  "_molecule_index": 55775,
+  "SMILES": "C[Si](C)(C)N=[P@SP2]1(O)N([Si](C)(C)C)[S@SP1](C)(C)N1[Si](C)(C)C"
+}

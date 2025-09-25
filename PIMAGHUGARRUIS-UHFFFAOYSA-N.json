@@ -1,0 +1,12 @@
+{
+  "INChI key": "PIMAGHUGARRUIS-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C15H9BrO/c16-14-9-7-13(8-10-14)15(17)11-6-12-4-2-1-3-5-12/h1-5,7-10H",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20109346,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "87.0;0.0S;7|92.5;0.0S;8|120.7;0.0S;9|124.9;0.0S;5|128.2;0.0D;1|128.2;0.0D;3|128.5;0.0D;11|128.5;0.0D;13|131.5;0.0D;12|131.8;0.0D;0|131.8;0.0D;4|132.8;0.0D;10|132.8;0.0D;14|136.7;0.0S;2|175.3;0.0S;6|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 17321,
+  "SMILES": "O=C(C#Cc1ccccc1)c1ccc(Br)cc1"
+}

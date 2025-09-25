@@ -1,0 +1,12 @@
+{
+  "INChI key": "SCLIMDGKTXKLOR-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C18H19N3O/c1-13(2)21-17(22)16(14-9-5-3-6-10-14)20-18(21)19-15-11-7-4-8-12-15/h3-13,16H,1-2H3,(H,19,20)",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 10023002,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "19.2;0.0Q;16|19.3;0.0Q;17|44.5;0.0D;15|60.7;0.0D;1|122.2;0.0D;10|122.2;0.0D;14|123.2;0.0D;12|126.4;0.0D;5|126.4;0.0D;9|128.7;0.0D;7|129.0;0.0D;6|129.0;0.0D;8|129.5;0.0D;11|129.5;0.0D;13|133.2;0.0S;3|147.7;0.0S;4|149.3;0.0S;0|171.4;0.0S;2|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 8387,
+  "SMILES": "CC(C)N1C(=O)C(c2ccccc2)N=C1Nc1ccccc1"
+}

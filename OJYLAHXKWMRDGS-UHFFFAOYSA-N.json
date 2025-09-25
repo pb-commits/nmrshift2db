@@ -1,0 +1,16 @@
+{
+  "INChI key": "OJYLAHXKWMRDGS-UHFFFAOYSA-N",
+  "Program": "2:ACD/Labs C+H NMR Predictors and DB, 2020.1.0 3:HOSE code using nmrshiftdb2 data ",
+  "INChI": "InChI=1S/C11H14O3/c1-8(12)3-4-9-5-6-10(13)11(7-9)14-2/h5-7,13H,3-4H2,1-2H3",
+  "Temperature [K]": "0:298 1:Unreported ",
+  "nmrshiftdb2 ID": 2471,
+  "Field Strength [MHz]": "0:50 1:Unreported ",
+  "Spectrum 13C 1": "111.1;0.0D;2|132.8;0.0S;6|146.5;0.0S;4|143.9;0.0S;3|114.4;0.0D;0|120.7;0.0D;1|55.8;0.0Q;5|30.0;0.0T;7|45.4;0.0T;8|208.3;0.0S;9|29.4;0.0Q;10|",
+  "Spectrum 13C 0": "29.85;0.0T;7|30.15;0.0Q;10|46.8;0.0T;8|56.19;0.0Q;5|112.86;0.0D;2|115.93;0.0D;0|121.43;0.0D;1|133.67;0.0S;6|145.39;0.0S;3|148.45;0.0S;4|211.03;0.0S;9|",
+  "Spectrum 13C 3": "55.97;0.0Q;5|147.98;0.0S;4|111.85;0.0D;2|133.17;0.0S;6|29.94;0.0T;7|46.0;0.0T;8|209.47;0.0S;9|29.72;0.0Q;10|121.01;0.0D;1|115.53;0.0D;0|144.43;0.0S;3|",
+  "Solvent": "0:Methanol-D4 (CD3OD) 1:Unreported ",
+  "Assignment Method": "1:Unreported ",
+  "Spectrum 13C 2": "55.8;0.0Q;5|146.5;0.0S;4|111.1;0.0D;2|132.8;0.0S;6|30.0;0.0T;7|45.4;0.0T;8|208.3;0.0S;9|29.4;0.0Q;10|120.7;0.0D;1|114.4;0.0D;0|143.9;0.0S;3|",
+  "_molecule_index": 267,
+  "SMILES": "COc1cc(CCC(C)=O)ccc1O"
+}

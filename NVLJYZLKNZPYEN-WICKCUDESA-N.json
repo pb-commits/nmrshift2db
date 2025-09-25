@@ -1,0 +1,12 @@
+{
+  "INChI key": "NVLJYZLKNZPYEN-WICKCUDESA-N",
+  "INChI": "InChI=1S/C20H34O3/c1-14-7-8-15-17(2,3)9-6-10-19(15,5)20(14)12-11-18(4,23-20)13-16(21)22/h14-15H,6-13H2,1-5H3,(H,21,22)/t14-,15?,18-,19-,20+/m0/s1",
+  "Temperature [K]": "0:298 ",
+  "nmrshiftdb2 ID": 5382,
+  "Field Strength [MHz]": "0:75.0 ",
+  "Spectrum 13C 0": "17.6;0.0T;0|18.62;0.0T;6|18.7;0.0Q;16|18.86;0.0Q;10|22.16;0.0Q;17|28.01;0.0Q;22|29.09;0.0T;13|30.03;0.0T;7|30.27;0.0S;2|34.03;0.0T;3|34.07;0.0Q;18|38.72;0.0T;12|39.56;0.0D;9|42.24;0.0T;1|42.5;0.0S;4|47.07;0.0T;14|49.58;0.0D;5|81.3;0.0S;11|96.7;0.0S;8|172.6;0.0S;15|",
+  "Solvent": "0:Chloroform-D1 (CDCl3) ",
+  "Assignment Method": "0:1H, H,H-COSY, H,H-NOESY, H,C-HMQC, H,C-HMBC, DEPTQ, 1H, 13C, 1H, H,H-COSY ",
+  "_molecule_index": 561,
+  "SMILES": "C[C@H]1CCC2C(C)(C)CCC[C@]2(C)[C@@]12CC[C@@](C)(CC(=O)O)O2"
+}

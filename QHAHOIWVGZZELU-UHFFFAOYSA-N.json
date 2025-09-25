@@ -1,0 +1,13 @@
+{
+  "INChI key": "QHAHOIWVGZZELU-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/Cl6OSi2/c1-8(2,3)7-9(4,5)6",
+  "Temperature [K]": "0:Unreported 1:Unreported ",
+  "nmrshiftdb2 ID": 80039369,
+  "Field Strength [MHz]": "0:Unreported 1:Unreported ",
+  "Spectrum 29Si 0": "-46.8;0.0S;1|-46.8;0.0S;5|",
+  "Solvent": "0:30% in C6F6 1:C6D6 ",
+  "Assignment Method": "0:Unreported 1:Unreported ",
+  "Spectrum 29Si 1": "-45.45;0.0S;1|-45.45;0.0S;5|",
+  "_molecule_index": 57854,
+  "SMILES": "Cl[Si](Cl)(Cl)O[Si](Cl)(Cl)Cl"
+}

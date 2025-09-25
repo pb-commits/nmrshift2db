@@ -1,0 +1,12 @@
+{
+  "INChI key": "OTYXCPKBEDHOLE-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C12H14O2/c1-10(14)8-12(2,9-13)11-6-4-3-5-7-11/h3-7,9H,8H2,1-2H3",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20191866,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "21.8;0.0Q;8|27.9;0.0Q;11|48.9;0.0T;9|53.3;0.0S;6|125.8;0.0D;0|125.8;0.0D;4|126.9;0.0D;2|128.6;0.0D;1|128.6;0.0D;3|137.1;0.0S;5|201.3;0.0D;7|206.7;0.0S;10|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 32854,
+  "SMILES": "CC(=O)CC(C)(C=O)c1ccccc1"
+}

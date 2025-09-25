@@ -1,0 +1,12 @@
+{
+  "INChI key": "AMDPNECWKZZEBQ-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C15H12N2OS/c18-13-15(17-14(19)16-13,11-7-3-1-4-8-11)12-9-5-2-6-10-12/h1-10H,(H2,16,17,18,19)",
+  "Temperature [K]": "0:318 ",
+  "Spectrum 1H 0": "7.38;0.0;8|7.38;0.0;7|7.38;0.0;13|7.38;0.0;12|7.38;0.0;4|7.38;0.0;6|7.38;0.0;14|7.38;0.0;11|7.38;0.0;5|7.38;0.0;10|",
+  "nmrshiftdb2 ID": 21122,
+  "Field Strength [MHz]": "0:60 ",
+  "Solvent": "0:Chloroform-D1 (CDCl3) + Dimethylsulphoxide (DMSO-D6, C2D6SO) ",
+  "Assignment Method": "0:1D shift positions ",
+  "_molecule_index": 1021,
+  "SMILES": "O=C1NC(=S)NC1(c1ccccc1)c1ccccc1"
+}

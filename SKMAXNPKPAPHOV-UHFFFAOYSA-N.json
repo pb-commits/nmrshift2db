@@ -1,0 +1,12 @@
+{
+  "INChI key": "SKMAXNPKPAPHOV-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C40H34O12/c1-19(41)49-33-17-29-27(11-9-23-13-25(45-5)15-31(47-7)35(23)29)37(39(33)51-21(3)43)38-28-12-10-24-14-26(46-6)16-32(48-8)36(24)30(28)18-34(50-20(2)42)40(38)52-22(4)44/h9-18H,1-8H3",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "1.91;0.0;38|2.36;0.0;39|6.79;0.0;6|6.81;0.0;8|7.07;0.0;11|7.38;0.0;10|9.61;0.0;2|",
+  "nmrshiftdb2 ID": 20164933,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 19874,
+  "SMILES": "COc1cc(OC)c2c(ccc3c(-c4c(OC(C)=O)c(OC(C)=O)cc5c4ccc4cc(OC)cc(OC)c45)c(OC(C)=O)c(OC(C)=O)cc32)c1"
+}

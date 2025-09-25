@@ -1,0 +1,12 @@
+{
+  "INChI key": "JPSDMFZLILTENY-SCRDCRAPSA-N",
+  "INChI": "InChI=1S/C14H16O/c1-2-4-13(5-3-1)15-14-10-11-6-8-12(14)9-7-11/h1-6,8,11-12,14H,7,9-10H2/t11-,12+,14-/m0/s1",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 10019103,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "18.0;0.0T;14|25.5;0.0T;13|29.9;0.0D;0|33.6;0.0T;5|34.3;0.0D;3|74.4;0.0D;4|115.7;0.0D;12|120.3;0.0D;10|129.4;0.0D;11|131.3;0.0D;2|136.3;0.0D;1|158.1;0.0S;7|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 7083,
+  "SMILES": "C1=C[C@@H]2CC[C@H]1C[C@@H]2Oc1ccccc1"
+}

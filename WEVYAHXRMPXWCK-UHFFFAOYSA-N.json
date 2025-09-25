@@ -1,0 +1,21 @@
+{
+  "Temperature [K]": "0:Unreported 1:Unknown 2:Unreported 3:297 4:297 5:297 6:297 7:297 8:297 9:297 ",
+  "Spectrum 1H 2": "1.97;0.0;0|1.97;0.0;0|1.97;0.0;0|",
+  "Field Strength [MHz]": "0:Unreported 1:Unknown 2:Unreported 3:300.1 4:300.1 5:300.1 6:300.1 7:300.1 8:300.1 9:300.1 ",
+  "Spectrum 1H 3": "2.1;0.0;0|2.1;0.0;0|2.1;0.0;0|",
+  "Spectrum 1H 4": "2.05;0.0;0|2.05;0.0;0|2.05;0.0;0|",
+  "Spectrum 1H 5": "2.07;0.0;0|2.07;0.0;0|2.07;0.0;0|",
+  "Spectrum 1H 6": "1.55;0.0;0|1.55;0.0;0|1.55;0.0;0|",
+  "Assignment Method": "0:Unreported 1:Unknown 2:Unreported 3:1D shift positions 4:1D shift positions 5:1D shift positions 6:1D shift positions 7:1D shift positions 8:1D shift positions 9:1D shift positions ",
+  "Spectrum 1H 7": "1.96;0.0;0|1.96;0.0;0|1.96;0.0;0|",
+  "Spectrum 1H 8": "2.03;0.0;0|2.03;0.0;0|2.03;0.0;0|",
+  "Spectrum 1H 9": "2.06;0.0;0|2.06;0.0;0|2.06;0.0;0|",
+  "INChI key": "WEVYAHXRMPXWCK-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C2H3N/c1-2-3/h1H3",
+  "nmrshiftdb2 ID": 10017065,
+  "Spectrum 13C 1": "2.03;0.0Q;0|116.67;0.0S;1|",
+  "Spectrum 13C 0": "0.3;0.0Q;0|117.7;0.0S;1|",
+  "Solvent": "0:Unreported 1:Unknown 2:Unreported 3:Chloroform-D1 (CDCl3) 4:Acetone-D6 ((CD3)2CO) 5:(CD3)2SO 6:Benzene-D6 (C6D6) 7:Acetonitrile-D3 (CD3CN) 8:Methanol-D4 (CD3OD) 9:Deuteriumoxide (D2O) ",
+  "_molecule_index": 5552,
+  "SMILES": "CC#N"
+}

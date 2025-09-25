@@ -1,0 +1,12 @@
+{
+  "INChI key": "DRTOXILBQUAXBN-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C19H13N3O/c1-12-15-11-16-14-9-5-6-10-17(14)22(13-7-3-2-4-8-13)18(16)20-19(15)23-21-12/h2-11H,1H3",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 88862,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "10.9;0.0Q;18|107.9;0.0S;9|110.9;0.0D;3|115.2;0.0S;5|120.4;0.0D;1|120.8;0.0S;6|121.6;0.0D;0|122.2;0.0D;8|127.2;0.0D;2|127.3;0.0D;16|128.2;0.0D;14|129.7;0.0D;15|135.4;0.0S;11|141.6;0.0S;7|153.2;0.0S;4|155.8;0.0S;17|168.8;0.0S;10|129.7;0.0D;13|127.3;0.0D;12|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 2499,
+  "SMILES": "Cc1noc2nc3c(cc12)c1ccccc1n3-c1ccccc1"
+}

@@ -1,0 +1,15 @@
+{
+  "Spectrum 31P 2": "20.3;0.0S;1|",
+  "INChI key": "GTTBQSNGUYHPNK-UHFFFAOYSA-N",
+  "Program": "0:ACD/Labs C+H NMR Predictors and DB, 2020.1.0 1:HOSE code using nmrshiftdb2 data ",
+  "INChI": "InChI=1S/CH5O4P/c2-1-6(3,4)5/h2H,1H2,(H2,3,4,5)",
+  "Temperature [K]": "2:Unknown ",
+  "nmrshiftdb2 ID": 70073167,
+  "Field Strength [MHz]": "2:Unknown ",
+  "Spectrum 13C 1": "64.6;0.0T;4|",
+  "Spectrum 13C 0": "64.92;0.0T;4|",
+  "Solvent": "2:Unknown ",
+  "Assignment Method": "2:Unknown ",
+  "_molecule_index": 44383,
+  "SMILES": "O=P(O)(O)CO"
+}

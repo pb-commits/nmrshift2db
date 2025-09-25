@@ -1,0 +1,12 @@
+{
+  "INChI key": "VTZFJOWSZIKCAT-HTAVTVPLSA-N",
+  "INChI": "InChI=1S/C14H18N2O/c1-2-4-12-11-7-10(8-15-12)13-5-3-6-14(17)16(13)9-11/h2-3,5-6,10-12,15H,1,4,7-9H2/t10?,11?,12-/m1/s1",
+  "Temperature [K]": "0:Unknown ",
+  "nmrshiftdb2 ID": 30085462,
+  "Field Strength [MHz]": "0:Unknown ",
+  "Spectrum 13C 0": "21.1;0.0t;7|30.0;0.0d;8|35.0;0.0d;6|47.4;0.0t;9|51.2;0.0t;12|58.0;0.0d;10|105.1;0.0d;4|116.9;0.0d;2|138.9;0.0d;3|150.9;0.0s;5|163.6;0.0s;1|",
+  "Solvent": "0:Chloroform-D1 (CDCl3) ",
+  "Assignment Method": "0:Unknown ",
+  "_molecule_index": 42136,
+  "SMILES": "C=CC[C@H]1NC[C@@H]2C[C@H]1Cn1c2cccc1=O"
+}

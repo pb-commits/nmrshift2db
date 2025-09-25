@@ -1,0 +1,12 @@
+{
+  "INChI key": "PVVLNRSGNUTYNS-XKLHFPRASA-N",
+  "INChI": "InChI=1S/C15H22O3/c1-10-7-12(16)9-11(2)13(17)5-6-15(3,4)14(18)8-10/h5-6,8-9,12,14,16,18H,7H2,1-4H3/b6-5+,10-8+,11-9+/t12-,14+/m0/s1",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20119799,
+  "Field Strength [MHz]": "0:100 ",
+  "Spectrum 13C 0": "12.1;0.0S;9|17.3;0.0D;7|17.6;0.0q;19|26.9;0.0q;18|43.8;0.0D;14|50.2;0.0T;1|65.6;0.0D;0|76.0;0.0D;11|128.0;0.0S;12|130.9;0.0Q;8|135.8;0.0S;5|140.7;0.0Q;6|147.8;0.0D;2|161.4;0.0Q;17|206.5;0.0D;10|",
+  "Solvent": "0:Methanol-D4 (CD3OD) ",
+  "Assignment Method": "0:COSY,HMBC,HMQC ",
+  "_molecule_index": 17667,
+  "SMILES": "C/C1=C\\[C@@H](O)C(C)(C)/C=C/C(=O)/C(C)=C/[C@@H](O)C1"
+}

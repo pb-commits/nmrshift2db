@@ -1,0 +1,12 @@
+{
+  "INChI key": "RMRWAEBLIUMMJR-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C15H13N3OS/c1-18-14-9(8-16-18)3-5-12-15(14)20-13-7-10(19-2)4-6-11(13)17-12/h3-8,17H,1-2H3",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 10018062,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "38.74;0.0Q;18|55.52;0.0Q;20|94.13;0.0S;8|111.9;0.0D;0|111.9;0.0D;10|113.8;0.0D;2|115.3;0.0D;3|116.81;0.0S;5|119.9;0.0D;11|121.0;0.0S;12|132.9;0.0D;15|136.6;0.0S;4|136.9;0.0S;13|142.8;0.0S;7|155.2;0.0S;1|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 6071,
+  "SMILES": "COc1ccc2c(c1)Sc1c(ccc3cnn(C)c13)N2"
+}

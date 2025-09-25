@@ -1,0 +1,13 @@
+{
+  "INChI key": "REACWASHYHDPSQ-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C9H14N/c1-2-3-7-10-8-5-4-6-9-10/h4-6,8-9H,2-3,7H2,1H3/q+1",
+  "Temperature [K]": "0:Unreported 1:Unreported ",
+  "nmrshiftdb2 ID": 20209396,
+  "Spectrum 1H 1": "0.968;0.0;4|1.442;0.0;3|2.07;0.0;1|5.038;0.0;2|8.223;0.0;8|8.623;0.0;9|9.666;0.0;6|",
+  "Field Strength [MHz]": "0:Unreported 1:Unreported ",
+  "Spectrum 13C 0": "13.59;0.0Q;4|19.31;0.0T;3|33.89;0.0T;1|61.64;0.0T;2|128.57;0.0D;8|145.25;0.0D;6|145.32;0.0D;9|",
+  "Solvent": "0:Unreported 1:Unreported ",
+  "Assignment Method": "0:Unreported 1:Unreported ",
+  "_molecule_index": 36369,
+  "SMILES": "CCCC[n+]1ccccc1"
+}

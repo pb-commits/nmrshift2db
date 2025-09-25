@@ -1,0 +1,13 @@
+{
+  "INChI key": "PVOAHINGSUIXLS-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C5H12N2/c1-7-4-2-6-3-5-7/h6H,2-5H2,1H3",
+  "Temperature [K]": "0:313 1:Unreported ",
+  "nmrshiftdb2 ID": 10008634,
+  "Field Strength [MHz]": "0:23 1:Unreported ",
+  "Spectrum 13C 1": "46.9;0.0T;0|46.9;0.0T;3|47.5;0.0Q;4|57.0;0.0T;1|57.0;0.0T;2|",
+  "Spectrum 13C 0": "46.1;1.0T;0|46.1;1.0T;3|46.7;0.443Q;4|56.5;0.896T;1|56.5;0.896T;2|",
+  "Solvent": "0:Chloroform-D1 (CDCl3) 1:Unreported ",
+  "Assignment Method": "1:Unreported ",
+  "_molecule_index": 3631,
+  "SMILES": "CN1CCNCC1"
+}

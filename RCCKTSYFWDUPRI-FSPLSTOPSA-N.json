@@ -1,0 +1,12 @@
+{
+  "INChI key": "RCCKTSYFWDUPRI-FSPLSTOPSA-N",
+  "INChI": "InChI=1S/C7H15NO3/c1-4(2)7(8)5(9)3-6(10)11/h4-5,7,9H,3,8H2,1-2H3,(H,10,11)/t5-,7-/m0/s1",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20026341,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "18.1;0.0Q;0|21.1;0.0Q;6|29.6;0.0D;1|41.9;0.0T;4|63.0;0.0D;2|68.0;0.0D;3|178.0;0.0S;5|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 11108,
+  "SMILES": "CC(C)[C@H](N)[C@@H](O)CC(=O)O"
+}

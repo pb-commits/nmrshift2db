@@ -1,0 +1,12 @@
+{
+  "INChI key": "OTELZUDIOOKGDK-KCHLEUMXSA-N",
+  "INChI": "InChI=1S/C31H24N2O3/c1-36-21-17-15-19(16-18-21)28-26-27(30(35)33(29(26)34)20-9-3-2-4-10-20)31(32-28)24-13-7-5-11-22(24)23-12-6-8-14-25(23)31/h2-18,26-28,32H,1H3/t26-,27-,28-/m0/s1",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "3.63;0.0;37|3.81;0.0;35|4.02;0.0;36|5.51;0.0;7|",
+  "nmrshiftdb2 ID": 20169309,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 22809,
+  "SMILES": "COc1ccc([C@@H]2NC3(c4ccccc4-c4ccccc43)[C@@H]3C(=O)N(c4ccccc4)C(=O)[C@@H]32)cc1"
+}

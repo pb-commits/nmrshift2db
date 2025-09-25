@@ -1,0 +1,12 @@
+{
+  "Spectrum 17O 0": "22.0;0.0S;20|22.0;0.0S;19|",
+  "INChI key": "NXVXTKNVQOCGPM-UHFFFAOYSA-L",
+  "INChI": "InChI=1S/C10H13O2.C6H5.2ClH.Sn/c1-11-7-9-4-3-5-10(6-9)8-12-2;1-2-4-6-5-3-1;;;/h3-5H,7-8H2,1-2H3;1-5H;2*1H;/q;;;;+2/p-2",
+  "Temperature [K]": "0:295 ",
+  "nmrshiftdb2 ID": 30084827,
+  "Field Strength [MHz]": "0:67.82 ",
+  "Solvent": "0:Chloroform-D1 (CDCl3) ",
+  "Assignment Method": "0:Unknown ",
+  "_molecule_index": 42060,
+  "SMILES": "COCc1cccc(COC)[c]1[Sn]([Cl])([Cl])[c]1ccccc1"
+}

@@ -1,0 +1,12 @@
+{
+  "INChI key": "ZKYHASQEEMESEY-GXSYLFEOSA-N",
+  "INChI": "InChI=1S/C13H14Cl4O3/c1-19-13(20-2)11(16)6-4-3-5-7(18)8(6)12(13,17)10(15)9(11)14/h6,8H,3-5H2,1-2H3/t6-,8-,11-,12+/m1/s1",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "1.92;0.0;2|2.06;0.0;1|2.45;0.0;3|3.26;0.0;20|3.39;0.0;21|3.58;0.0;19|3.64;0.0;17|",
+  "nmrshiftdb2 ID": 20165136,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 20077,
+  "SMILES": "COC1(OC)[C@@]2(Cl)C(Cl)=C(Cl)[C@]1(Cl)[C@@H]1CCCC(=O)[C@@H]12"
+}

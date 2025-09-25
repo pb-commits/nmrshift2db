@@ -1,0 +1,12 @@
+{
+  "INChI key": "OGTWOVJVPQYEOS-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C11H13IO4/c1-6(13)7-5-8(14-2)10(15-3)11(16-4)9(7)12/h5H,1-4H3",
+  "Temperature [K]": "0:298 ",
+  "Spectrum 1H 0": "6.75;0.0s;5|3.86;0.0s;6|3.86;0.0s;6|3.86;0.0s;6|3.85;0.0s;7|3.85;0.0s;7|3.85;0.0s;7|3.85;0.0s;8|3.85;0.0s;8|3.85;0.0s;8|2.6;0.0s;10|2.6;0.0s;10|2.6;0.0s;10|",
+  "nmrshiftdb2 ID": 40019088,
+  "Field Strength [MHz]": "0:300 ",
+  "Solvent": "0:Chloroform-D1 (CDCl3) ",
+  "Assignment Method": "0:1D shift positions ",
+  "_molecule_index": 43148,
+  "SMILES": "COc1cc(C(C)=O)c(I)c(OC)c1OC"
+}

@@ -1,0 +1,12 @@
+{
+  "INChI key": "BOLINPLOSJXBAC-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C12H20O/c1-7-5-10-11(12(10,3)4)6-9(7)8(2)13/h5,8-11,13H,6H2,1-4H3",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 10018610,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "14.8;0.0Q;9|18.4;0.0D;5|20.1;0.0T;4|21.2;0.0Q;11|23.2;0.0D;0|23.5;0.0Q;7|24.1;0.0S;6|27.5;0.0Q;8|45.3;0.0D;3|69.0;0.0D;10|122.3;0.0D;1|137.4;0.0S;2|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 6593,
+  "SMILES": "CC1=CC2C(CC1C(C)O)C2(C)C"
+}

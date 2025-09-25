@@ -1,0 +1,12 @@
+{
+  "INChI key": "FRDWBYRDTKNHAO-ACCUITESSA-N",
+  "INChI": "InChI=1S/C26H36N2O5/c1-18(29)32-25-23(28-16-8-5-9-17-28)22-20(33-26(25,2)3)12-10-19(24(22)31)11-13-21(30)27-14-6-4-7-15-27/h10-13,23,25,31H,4-9,14-17H2,1-3H3/b13-11+",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "1.18;0.0;11|1.3;0.0;10|1.57;0.0;18|2.13;0.0;26|4.19;0.0;3|5.47;0.0;2|6.31;0.0;7|7.03;0.0;34|7.28;0.0;6|7.89;0.0;33|",
+  "nmrshiftdb2 ID": 20174517,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 26949,
+  "SMILES": "CC(=O)OC1C(N2CCCCC2)c2c(ccc(/C=C/C(=O)N3CCCCC3)c2O)OC1(C)C"
+}

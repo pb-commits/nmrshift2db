@@ -1,0 +1,12 @@
+{
+  "INChI key": "VOJAZOZVTDLSTP-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C11H19O2PS2Si.C2H6.H5N/c1-12-10-5-7-11(8-6-10)14(15,16)13-9-17(2,3)4;1-2;/h5-8H,9H2,1-4H3,(H,15,16);1-2H3;1H5",
+  "Temperature [K]": "0:Unknown ",
+  "Spectrum 31P 0": "110.14;0.0S;8|",
+  "nmrshiftdb2 ID": 80026489,
+  "Field Strength [MHz]": "0:Unknown ",
+  "Solvent": "0:Unknown ",
+  "Assignment Method": "0:Unknown ",
+  "_molecule_index": 45630,
+  "SMILES": "CC.COc1ccc(P(=S)(S)OC[Si](C)(C)C)cc1.N"
+}

@@ -1,0 +1,12 @@
+{
+  "INChI key": "SIPCFXFCVTUAID-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C4H3NO2S/c6-5(7)4-1-2-8-3-4/h1-3H",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "7.36;0.0;0|7.58;0.0;1|8.24;0.0;2|",
+  "nmrshiftdb2 ID": 9752,
+  "Field Strength [MHz]": "0:60 ",
+  "Solvent": "0:TETRACHLORO-METHANE (CCl4) ",
+  "Assignment Method": "0:1D shift positions ",
+  "_molecule_index": 753,
+  "SMILES": "O=[N+]([O-])c1ccsc1"
+}

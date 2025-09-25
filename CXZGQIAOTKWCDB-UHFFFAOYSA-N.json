@@ -1,0 +1,14 @@
+{
+  "INChI key": "CXZGQIAOTKWCDB-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C5HF9O2/c6-2(7,1(15)16)3(8,9)4(10,11)5(12,13)14/h(H,15,16)",
+  "Temperature [K]": "0:301 1:Unreported 2:298 ",
+  "nmrshiftdb2 ID": 4291,
+  "Field Strength [MHz]": "0:125.72 1:Unreported 2:141.5094416011653 ",
+  "Spectrum 13C 1": "108.2;0.0S;2|108.9;0.0S;1|109.9;0.0S;3|117.3;0.0S;0|163.0;0.0S;4|",
+  "Spectrum 13C 0": "108.172;0.0S;3|108.651;0.0S;1|109.887;0.0S;2|117.277;0.0S;0|163.018;0.0S;4|",
+  "Solvent": "0:Deuteriumoxide (D2O) 1:Unreported 2:Chloroform-D1 (CDCl3) ",
+  "Assignment Method": "1:Unreported 2:1H, H,H-COSY, H,H-NOESY, H,C-HMQC, H,C-HMBC, DEPTQ, 1H, 13C, 1H, H,H-COSY ",
+  "Spectrum 19F 2": "-83.328;1.0S;13|-83.328;1.0S;14|-83.328;1.0S;15|-127.695;0.666667S;11|-127.695;0.666667S;12|-125.15;0.666667S;9|-125.15;0.666667S;10|-121.0;0.666667S;7|-121.0;0.666667S;8|",
+  "_molecule_index": 530,
+  "SMILES": "O=C(O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F"
+}

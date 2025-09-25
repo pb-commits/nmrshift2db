@@ -1,0 +1,13 @@
+{
+  "INChI key": "YSATULIFMAJVRY-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C10H16N2O/c13-9-5-2-1-4-8(9)10-11-6-3-7-12-10/h11-12H,1-7H2",
+  "Temperature [K]": "0:Unreported 1:Unreported ",
+  "nmrshiftdb2 ID": 89189,
+  "Spectrum 1H 1": "1.77;0.0;6|1.77;0.0;3|3.18;0.0;2|3.18;0.0;4|6.27;0.0;11|12.17;0.0;12|",
+  "Field Strength [MHz]": "0:Unreported 1:Unreported ",
+  "Spectrum 13C 0": "20.6;0.0T;3|23.7;0.0T;8|24.0;0.0T;9|36.4;0.0T;6|38.7;0.0T;4|88.3;0.0S;0|160.1;0.0S;1|182.4;0.0S;5|23.7;0.0T;7|38.7;0.0T;2|",
+  "Solvent": "0:Unreported 1:Unreported ",
+  "Assignment Method": "0:Unreported 1:Unreported ",
+  "_molecule_index": 2590,
+  "SMILES": "O=C1CCCCC1=C1NCCCN1"
+}

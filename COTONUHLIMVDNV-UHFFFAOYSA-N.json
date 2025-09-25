@@ -1,0 +1,12 @@
+{
+  "INChI key": "COTONUHLIMVDNV-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C16H16/c1-3-13-7-9-15-5-2-6-16(12-15)10-8-14(4-1)11-13/h1-6,11-12H,7-10H2",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 10016533,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "41.4;0.0T;6|41.4;0.0T;7|41.4;0.0T;14|41.4;0.0T;15|125.1;0.0D;1|125.1;0.0D;5|125.1;0.0D;11|125.1;0.0D;13|128.6;0.0D;0|128.6;0.0D;12|136.3;0.0D;3|136.3;0.0D;9|138.6;0.0S;2|138.6;0.0S;4|138.6;0.0S;8|138.6;0.0S;10|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 5054,
+  "SMILES": "c1cc2cc(c1)CCc1cccc(c1)CC2"
+}

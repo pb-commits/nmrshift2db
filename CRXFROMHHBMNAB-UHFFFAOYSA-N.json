@@ -1,0 +1,13 @@
+{
+  "INChI key": "CRXFROMHHBMNAB-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C4H5NO2/c1-5-3-4(6)7-2/h3H2,2H3",
+  "Temperature [K]": "0:Unreported 1:Unreported ",
+  "nmrshiftdb2 ID": 20031270,
+  "Field Strength [MHz]": "0:Unreported 1:Unreported ",
+  "Spectrum 13C 1": "43.4;0.0T;1|53.3;0.0Q;3|161.1;0.0S;0|164.5;0.0S;2|",
+  "Spectrum 13C 0": "43.3;0.0T;1|53.3;0.0Q;3|161.1;0.0S;0|164.4;0.0S;2|",
+  "Solvent": "0:Unreported 1:Unreported ",
+  "Assignment Method": "0:Unreported 1:Unreported ",
+  "_molecule_index": 12525,
+  "SMILES": "[C-]#[N+]CC(=O)OC"
+}

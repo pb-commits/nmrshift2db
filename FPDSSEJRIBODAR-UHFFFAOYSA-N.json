@@ -1,0 +1,12 @@
+{
+  "INChI key": "FPDSSEJRIBODAR-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C9H10F7O5P.C4H9NO/c10-7(11,8(12,13)9(14,15)16)6(18,22(19,20)21)4-2-1-3-5(4)17;1-3-6-4-2-5-1/h4,18H,1-3H2,(H2,19,20,21);5H,1-4H2",
+  "Temperature [K]": "0:Unknown ",
+  "Spectrum 31P 0": "10.4;0.0S;8|",
+  "nmrshiftdb2 ID": 80027029,
+  "Field Strength [MHz]": "0:Unknown ",
+  "Solvent": "0:Unknown ",
+  "Assignment Method": "0:Unknown ",
+  "_molecule_index": 46162,
+  "SMILES": "C1COCC[NH2+]1.O=C1CCCC1C(O)(C(F)(F)C(F)(F)C(F)(F)F)P(=O)([O-])O"
+}

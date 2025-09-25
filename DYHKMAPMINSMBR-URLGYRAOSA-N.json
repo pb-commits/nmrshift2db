@@ -1,0 +1,12 @@
+{
+  "INChI key": "DYHKMAPMINSMBR-URLGYRAOSA-N",
+  "INChI": "InChI=1S/C7H13NO5/c8-4-3(9)1-2(7(12)13)5(10)6(4)11/h2-6,9-11H,1,8H2,(H,12,13)/t2-,3+,4+,5+,6+/m1/s1",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20180183,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "30.0;0.0T;0|48.1;0.0D;1|56.7;0.0D;4|65.5;0.0D;5|70.2;0.0D;2|70.4;0.0D;3|180.6;0.0S;6|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 29966,
+  "SMILES": "N[C@@H]1[C@H](O)[C@@H](O)[C@H](C(=O)O)C[C@@H]1O"
+}

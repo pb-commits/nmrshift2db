@@ -1,0 +1,14 @@
+{
+  "INChI key": "KIFRTCOTROBDII-UHFFFAOYSA-N",
+  "Program": "1:HOSE code using nmrshiftdb2 data ",
+  "INChI": "InChI=1S/C11H9BrN2O2/c1-14-4-5-2-3-13-8-6(5)9(14)11(16)10(15)7(8)12/h4,13H,2-3H2,1H3",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20143963,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 1": "35.5;0.0Q;10|129.4;0.0D;9|123.6;0.0S;6|116.7;0.0S;4|123.5;0.0S;3|171.7;0.0S;2|168.7;0.0S;1|87.3;0.0S;0|150.4;0.0S;5|42.0;0.0T;8|18.9;0.0T;7|",
+  "Spectrum 13C 0": "18.9;0.0T;7|35.5;0.0Q;10|42.0;0.0T;8|87.3;0.0S;0|116.7;0.0S;4|123.5;0.0S;3|123.6;0.0S;6|129.4;0.0D;9|150.4;0.0S;5|168.7;0.0S;1|171.1;0.0S;2|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 18980,
+  "SMILES": "Cn1cc2c3c1C(=O)C(=O)C(Br)=C3NCC2"
+}

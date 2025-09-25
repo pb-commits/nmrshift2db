@@ -1,0 +1,21 @@
+{
+  "rawdata H,C-HSQC 3": "http://www.nmrshiftdb.org/download/NmrshiftdbServlet/40255061_H,C-HSQC.zip?spectrumid=40255061&nmrshiftdbaction=exportspec&format=rawdata",
+  "rawdata H,C-HSQC 4": "http://www.nmrshiftdb.org/download/NmrshiftdbServlet/40255062_H,C-HSQC.zip?spectrumid=40255062&nmrshiftdbaction=exportspec&format=rawdata",
+  "Temperature [K]": "0:298 1:298 2:297.9707 3:298 4:298 ",
+  "Spectrum 1H 0": "4.18;0.0dd;1|6.48;0.0dd;0|4.27;0.0dd;1|",
+  "Spectrum 1H 1": "4.18;0.0dd;1|6.48;0.0dd;0|4.27;0.0dd;1|",
+  "Field Strength [MHz]": "0:250.0 1:600.0 2:250.0 3:250.1300048828125 4:600.0 ",
+  "rawdata H,H-COSY 2": "http://www.nmrshiftdb.org/download/NmrshiftdbServlet/40255060_H,H-COSY.zip?spectrumid=40255060&nmrshiftdbaction=exportspec&format=rawdata",
+  "Spectrum H,H-COSY 2": "",
+  "Assignment Method": "0:1H, 1H, H,H-COSY, H,C-HSQC, 1H, 1H, H,C-HSQC, H,H-COSY 1:1H, 1H, H,H-COSY, H,C-HSQC, 1H, 1H, H,C-HSQC, H,H-COSY ",
+  "rawdata 1H 1": "http://www.nmrshiftdb.org/download/NmrshiftdbServlet/40255058_1H.zip?spectrumid=40255058&nmrshiftdbaction=exportspec&format=rawdata",
+  "rawdata 1H 0": "http://www.nmrshiftdb.org/download/NmrshiftdbServlet/40255057_1H.zip?spectrumid=40255057&nmrshiftdbaction=exportspec&format=rawdata",
+  "INChI key": "DVTKTUMRXCKEEG-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C2H3Br2Cl/c3-1-2(4)5/h2H,1H2",
+  "nmrshiftdb2 ID": 40265446,
+  "Solvent": "0:Dimethylsulphoxide-D6 (DMSO-D6, C2D6SO) 1:Dimethylsulphoxide-D6 (DMSO-D6, C2D6SO) 2:Dimethylsulphoxide-D6 (DMSO-D6, C2D6SO) 3:Dimethylsulphoxide-D6 (DMSO-D6, C2D6SO) 4:Dimethylsulphoxide-D6 (DMSO-D6, C2D6SO) ",
+  "Spectrum H,C-HSQC 3": "",
+  "Spectrum H,C-HSQC 4": "",
+  "_molecule_index": 43329,
+  "SMILES": "ClC(Br)CBr"
+}

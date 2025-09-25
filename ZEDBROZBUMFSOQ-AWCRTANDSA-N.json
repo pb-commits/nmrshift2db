@@ -1,0 +1,12 @@
+{
+  "INChI key": "ZEDBROZBUMFSOQ-AWCRTANDSA-N",
+  "INChI": "InChI=1S/C32H27N3O2/c1-34(2)21-18-16-20(17-19-21)29-27-28(31(37)35(30(27)36)22-10-4-3-5-11-22)32(33-29)25-14-8-6-12-23(25)24-13-7-9-15-26(24)32/h3-19,27-29,33H,1-2H3/t27-,28-,29-/m0/s1",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "2.18;0.0;0|2.95;0.0;36|3.6;0.0;38|3.99;0.0;37|5.48;0.0;7|",
+  "nmrshiftdb2 ID": 20168056,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 21562,
+  "SMILES": "CN(C)c1ccc([C@@H]2NC3(c4ccccc4-c4ccccc43)[C@@H]3C(=O)N(c4ccccc4)C(=O)[C@@H]32)cc1"
+}

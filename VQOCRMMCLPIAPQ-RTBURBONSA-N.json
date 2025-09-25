@@ -1,0 +1,12 @@
+{
+  "INChI key": "VQOCRMMCLPIAPQ-RTBURBONSA-N",
+  "INChI": "InChI=1S/C19H27N3O3/c1-4-6-12-18-16(23)21(3)15-11-9-8-10-14(15)19(18,25)20-17(24)22(18)13-7-5-2/h8-11,25H,4-7,12-13H2,1-3H3,(H,20,24)/t18-,19-/m1/s1",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20218032,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "126.1;0.0D;0|123.0;0.0D;1|129.6;0.0D;2|114.5;0.0D;3|136.5;0.0S;4|125.7;0.0S;5|170.7;0.0S;6|69.1;0.0S;7|82.6;0.0S;8|158.9;0.0S;9|29.4;0.0Q;10|40.4;0.0T;11|32.7;0.0T;12|19.9;0.0T;13|13.9;0.0Q;14|13.9;0.0Q;18|31.3;0.0T;15|24.5;0.0T;16|22.6;0.0T;17|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 38070,
+  "SMILES": "CCCCN1C(=O)N[C@@]2(O)c3ccccc3N(C)C(=O)[C@@]12CCCC"
+}

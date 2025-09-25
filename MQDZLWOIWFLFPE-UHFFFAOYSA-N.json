@@ -1,0 +1,12 @@
+{
+  "INChI key": "MQDZLWOIWFLFPE-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C9H15BrCl3NO3Si/c10-8(7-9(11,12)13)18-15-4-1-14(2-5-16-18)3-6-17-18/h8H,1-7H2",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "2.9;0.0;1|2.9;0.0;1|2.9;0.0;2|2.9;0.0;2|2.9;0.0;3|2.9;0.0;3|3.1;0.0;7|3.1;0.0;7|3.3;0.0;18|3.7;0.0;0|3.7;0.0;0|3.7;0.0;5|3.7;0.0;5|3.7;0.0;6|3.7;0.0;6|",
+  "nmrshiftdb2 ID": 20160560,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Dimethylsulphoxide-D6 (DMSO-D6, C2D6SO) ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 19779,
+  "SMILES": "ClC(Cl)(Cl)CC(Br)[Si]12OCCN(CCO1)CCO2"
+}

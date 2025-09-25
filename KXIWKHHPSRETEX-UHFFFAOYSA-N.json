@@ -1,0 +1,12 @@
+{
+  "INChI key": "KXIWKHHPSRETEX-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C44H37O6P/c45-51(46)49-43-39(29-19-23-35(24-20-29)47-33-13-3-1-4-14-33)27-31-11-7-9-17-37(31)41(43)42-38-18-10-8-12-32(38)28-40(44(42)50-51)30-21-25-36(26-22-30)48-34-15-5-2-6-16-34/h1-6,13-16,19-28H,7-12,17-18H2,(H,45,46)",
+  "Temperature [K]": "0:Unknown ",
+  "Spectrum 31P 0": "2.8;0.0S;48|",
+  "nmrshiftdb2 ID": 80030596,
+  "Field Strength [MHz]": "0:Unknown ",
+  "Solvent": "0:Unknown ",
+  "Assignment Method": "0:Unknown ",
+  "_molecule_index": 49684,
+  "SMILES": "O=P1(O)Oc2c(-c3ccc(Oc4ccccc4)cc3)cc3c(c2-c2c4c(cc(-c5ccc(Oc6ccccc6)cc5)c2O1)CCCC4)CCCC3"
+}

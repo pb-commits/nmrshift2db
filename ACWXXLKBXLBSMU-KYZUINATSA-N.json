@@ -1,0 +1,12 @@
+{
+  "INChI key": "ACWXXLKBXLBSMU-KYZUINATSA-N",
+  "INChI": "InChI=1S/C12H19F6O3PS2/c1-10(2,3)8-4-23-9(24-5-8)22(19,20-6-11(13,14)15)21-7-12(16,17)18/h8-9H,4-7H2,1-3H3/t8-,9-",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20212594,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "27.0;0.0Q;9|27.0;0.0Q;10|27.0;0.0Q;11|30.2;0.0T;0|30.2;0.0T;2|34.3;0.0S;8|38.8;0.0D;3|45.2;0.0D;1|63.4;0.0T;4|63.4;0.0T;5|122.4;0.0S;6|122.4;0.0S;7|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 37150,
+  "SMILES": "CC(C)(C)[C@H]1CS[C@H](P(=O)(OCC(F)(F)F)OCC(F)(F)F)SC1"
+}

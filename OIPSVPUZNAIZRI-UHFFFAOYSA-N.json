@@ -1,0 +1,12 @@
+{
+  "INChI key": "OIPSVPUZNAIZRI-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C18H28N2/c1-3-9-15(10-4-1)19-17-13-7-8-14-18(17)20-16-11-5-2-6-12-16/h7-8,13-16,19-20H,1-6,9-12H2",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20179889,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "25.0;0.0T;9|25.0;0.0T;11|25.0;0.0T;14|25.0;0.0T;16|26.2;0.0T;10|26.2;0.0T;15|33.5;0.0T;8|33.5;0.0T;12|33.5;0.0T;13|33.5;0.0T;17|52.2;0.0D;6|52.2;0.0D;7|114.2;0.0D;0|114.2;0.0D;3|119.1;0.0D;1|119.1;0.0D;2|136.9;0.0S;4|136.9;0.0S;5|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 29675,
+  "SMILES": "c1ccc(NC2CCCCC2)c(NC2CCCCC2)c1"
+}

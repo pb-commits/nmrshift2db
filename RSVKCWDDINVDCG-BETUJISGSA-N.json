@@ -1,0 +1,12 @@
+{
+  "INChI key": "RSVKCWDDINVDCG-BETUJISGSA-N",
+  "INChI": "InChI=1S/C13H15NO4/c1-2-8-13(14(15)16)9-17-12(18-10-13)11-6-4-3-5-7-11/h2-7,12H,1,8-10H2/t12-,13+",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20180017,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "37.8;0.0T;10|70.6;0.0T;7|70.6;0.0T;9|85.6;0.0S;8|101.9;0.0D;6|121.8;0.0T;12|126.1;0.0D;2|126.1;0.0D;4|127.9;0.0D;0|128.3;0.0D;1|128.3;0.0D;5|129.4;0.0D;11|136.8;0.0S;3|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 29802,
+  "SMILES": "C=CC[C@]1([N+](=O)[O-])CO[C@@H](c2ccccc2)OC1"
+}

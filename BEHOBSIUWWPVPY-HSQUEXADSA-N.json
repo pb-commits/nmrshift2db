@@ -1,0 +1,12 @@
+{
+  "INChI key": "BEHOBSIUWWPVPY-HSQUEXADSA-N",
+  "INChI": "InChI=1S/C26H40O6/c1-11-23(8)14-15(27)26-24(9)16(28-22(6,7)31-26)12-13-20(2,3)18(24)17-19(25(26,10)32-23)30-21(4,5)29-17/h11,16-19H,1,12-14H2,2-10H3/t16-,17-,18-,19-,23-,24-,25+,26-/m0/s1",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "1.05;0.0;20|1.18;0.0;21|2.6;0.0;32|2.61;0.0;18|4.31;0.0;2|4.31;0.0;11|4.64;0.0;6|5.17;0.0;33|6.01;0.0;35|",
+  "nmrshiftdb2 ID": 20176958,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 28711,
+  "SMILES": "C=C[C@@]1(C)CC(=O)[C@@]23OC(C)(C)O[C@H]4CCC(C)(C)[C@H]([C@@H]5OC(C)(C)O[C@@H]5[C@@]2(C)O1)[C@]43C"
+}

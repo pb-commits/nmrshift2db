@@ -1,0 +1,12 @@
+{
+  "INChI key": "BASMBFQDVLITHK-MZOOLBHASA-N",
+  "INChI": "InChI=1S/C24H31N3O11S/c1-6-33-21(29)16-17(22(30)34-7-2)27(26-25-16)18-19(36-23-20(18)37-24(4,5)38-23)15(28)12-35-39(31,32)14-10-8-13(3)9-11-14/h8-11,15,18-20,23,28H,6-7,12H2,1-5H3/t15-,18+,19-,20-,23-/m1/s1",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "2.44;0.0;38|2.8;0.0;8|4.12;0.0;17|4.43;0.0;36|4.43;0.0;33|5.04;0.0;3|5.73;0.0;2|6.2;0.0;7|7.33;0.0;28|7.73;0.0;27|",
+  "nmrshiftdb2 ID": 20171800,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 24585,
+  "SMILES": "CCOC(=O)c1nnn([C@@H]2[C@H]3OC(C)(C)O[C@H]3O[C@@H]2[C@H](O)COS(=O)(=O)c2ccc(C)cc2)c1C(=O)OCC"
+}

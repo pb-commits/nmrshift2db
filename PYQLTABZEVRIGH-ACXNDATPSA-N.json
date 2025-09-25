@@ -1,0 +1,12 @@
+{
+  "INChI key": "PYQLTABZEVRIGH-ACXNDATPSA-N",
+  "INChI": "InChI=1S/C20H26O4/c1-14-9-10-16(20(2,3)15-7-5-4-6-8-15)17(13-14)24-19(23)12-11-18(21)22/h4-8,11-12,14,16-17H,9-10,13H2,1-3H3,(H,21,22)/b12-11-/t14-,16-,17-/m1/s1",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "0.9;0.0;9|1.23;0.0;16|1.32;0.0;11|1.7;0.0;1|1.7;0.0;2|4.92;0.0;0|5.33;0.0;24|6.12;0.0;25|7.22;0.0;21|7.22;0.0;20|14.8;0.0;23|",
+  "nmrshiftdb2 ID": 20176013,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 28073,
+  "SMILES": "C[C@@H]1CC[C@@H](C(C)(C)c2ccccc2)[C@H](OC(=O)/C=C\\C(=O)O)C1"
+}

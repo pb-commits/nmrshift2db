@@ -1,0 +1,12 @@
+{
+  "INChI key": "LMXOFDADTPCMEM-WSOSLHDDSA-N",
+  "INChI": "InChI=1S/C13H20N2O7/c1-3-21-13-14-11(20)6(2)4-15(13)12-10(19)9(18)8(17)7(5-16)22-12/h4,7-10,12,16-19H,3,5H2,1-2H3/t7-,8-,9+,10-,12-/m1/s1",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20221452,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "76.6;0.0D;0|69.5;0.0D;1|77.7;0.0D;2|72.5;0.0D;3|96.3;0.0D;4|60.4;0.0T;5|134.9;0.0D;6|118.0;0.0S;7|167.0;0.0S;8|161.0;0.0S;9|13.5;0.0Q;10|62.8;0.0T;11|14.0;0.0Q;12|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 38540,
+  "SMILES": "CCOc1nc(=O)c(C)cn1[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O"
+}

@@ -1,0 +1,12 @@
+{
+  "INChI key": "FIBRZYOROMWVIM-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C19H19BrN6/c1-25(2)6-7-26-12-23-17-10-16-15(9-18(17)26)19(22-11-21-16)24-14-5-3-4-13(20)8-14/h3-5,8-12H,6-7H2,1-2H3,(H,21,22,24)",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "2.22;0.0;16|2.79;0.0;14|4.47;0.0;13|7.32;0.0;21|7.4;0.0;22|7.97;0.0;23|8.06;0.0;1|8.25;0.0;19|8.6;0.0;5|9.8;0.0;17|",
+  "nmrshiftdb2 ID": 20169365,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 22865,
+  "SMILES": "CN(C)CCn1cnc2cc3ncnc(Nc4cccc(Br)c4)c3cc21"
+}

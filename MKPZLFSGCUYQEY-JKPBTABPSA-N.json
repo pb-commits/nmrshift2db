@@ -1,0 +1,14 @@
+{
+  "INChI key": "MKPZLFSGCUYQEY-JKPBTABPSA-N",
+  "Program": "1:ACD/Labs C+H NMR Predictors and DB, 2020.1.0 ",
+  "INChI": "InChI=1S/C10H14O4/c1-7-6-9(12)3-2-8(11)4-5-10(13)14-7/h2-5,7-9,11-12H,6H2,1H3/b3-2+,5-4-/t7-,8-,9-/m1/s1",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 10017479,
+  "Field Strength [MHz]": "0:150 ",
+  "Spectrum 13C 1": "22.4;0.0Q;9|70.9;0.0D;7|44.7;0.0T;8|73.4;0.0D;6|139.4;0.0D;5|131.8;0.0D;0|73.0;0.0D;1|138.7;0.0D;2|123.7;0.0D;3|170.9;0.0S;4|",
+  "Spectrum 13C 0": "22.4;0.0Q;9|44.7;0.0T;8|70.9;0.0D;7|73.0;0.0D;1|73.6;0.0D;6|123.7;0.0D;3|131.8;0.0D;0|138.7;0.0D;2|139.4;0.0D;5|170.9;0.0S;4|",
+  "Solvent": "0:Methanol-D4 (CD3OD) ",
+  "Assignment Method": "0:COSY+Hetcor+longrange Hetcor ",
+  "_molecule_index": 5615,
+  "SMILES": "C[C@@H]1C[C@H](O)/C=C/[C@@H](O)/C=C\\C(=O)O1"
+}

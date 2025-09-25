@@ -1,0 +1,12 @@
+{
+  "INChI key": "WAOYYDRELAGSPG-HZPDHXFCSA-N",
+  "INChI": "InChI=1S/C16H14/c1-3-7-13-11(5-1)9-15-14-8-4-2-6-12(14)10-16(13)15/h1-8,15-16H,9-10H2/t15-,16-/m1/s1",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20181408,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "29.5;0.0T;4|29.5;0.0T;7|49.5;0.0D;2|49.5;0.0D;3|124.3;0.0D;11|124.3;0.0D;12|125.1;0.0D;8|125.1;0.0D;13|127.3;0.0D;9|127.3;0.0D;14|127.6;0.0D;10|127.6;0.0D;15|143.3;0.0S;0|143.3;0.0S;5|147.4;0.0S;1|147.4;0.0S;6|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 31184,
+  "SMILES": "c1ccc2c(c1)C[C@@H]1c3ccccc3C[C@H]21"
+}

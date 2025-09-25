@@ -1,0 +1,12 @@
+{
+  "INChI key": "IGZFDDWTAAZKKR-JEGUDAGUSA-N",
+  "INChI": "InChI=1S/C19H28O9/c1-8-14-11(28-16(8)22)7-17(4,23)12-6-13(26-9(2)20)18(5,24)19(12,25)15(14)27-10(3)21/h8,11-15,23-25H,6-7H2,1-5H3/t8-,11+,12-,13-,14+,15-,17+,18?,19?/m0/s1",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "1.35;0.0;25|2.05;0.0;10|2.05;0.0;7|2.6;0.0;7|2.7;0.0;28|2.74;0.0;12|2.85;0.0;29|4.67;0.0;3|5.0;0.0;30|5.25;0.0;6|",
+  "nmrshiftdb2 ID": 20167863,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 21369,
+  "SMILES": "CC(=O)O[C@H]1C[C@@H]2C(O)([C@@H](OC(C)=O)[C@@H]3[C@H](C)C(=O)O[C@@H]3C[C@@]2(C)O)C1(C)O"
+}

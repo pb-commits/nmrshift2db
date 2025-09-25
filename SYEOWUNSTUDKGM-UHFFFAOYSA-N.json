@@ -1,0 +1,13 @@
+{
+  "INChI key": "SYEOWUNSTUDKGM-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C7H12O4/c1-5(4-7(10)11)2-3-6(8)9/h5H,2-4H2,1H3,(H,8,9)(H,10,11)",
+  "Temperature [K]": "0:Unreported 1:Unreported ",
+  "nmrshiftdb2 ID": 20112354,
+  "Spectrum 1H 1": "0.879;0.0;8|1.388;0.0;5|1.551;0.0;5|1.832;0.0;4|2.016;0.0;6|2.22;0.0;6|2.22;0.0;7|12.0;0.0;0|12.0;0.0;1|",
+  "Field Strength [MHz]": "0:Unreported 1:Unreported ",
+  "Spectrum 13C 0": "19.14;0.0Q;8|29.25;0.0D;4|31.16;0.0T;7|31.35;0.0T;5|40.97;0.0T;6|173.62;0.0S;9|174.33;0.0S;10|",
+  "Solvent": "0:Unreported 1:Unreported ",
+  "Assignment Method": "0:Unreported 1:Unreported ",
+  "_molecule_index": 17573,
+  "SMILES": "CC(CCC(=O)O)CC(=O)O"
+}

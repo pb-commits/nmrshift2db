@@ -1,0 +1,12 @@
+{
+  "INChI key": "FUOPUWHYIPCHBN-VGUOSERISA-N",
+  "INChI": "InChI=1S/C21H26N2O3/c1-3-21-12-16(20(25)26-2)23-15-7-5-4-6-13(15)14-8-10-22(11-9-17(21)24)19(21)18(14)23/h4-7,16-17,19,24H,3,8-12H2,1-2H3/t16-,17-,19-,21-/m1/s1",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 10019329,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "7.9;0.0Q;22|17.0;0.0T;12|29.5;0.0T;15|30.8;0.0T;21|35.3;0.0T;18|38.8;0.0T;16|40.2;0.0S;13|51.3;0.0T;11|52.5;0.0Q;26|55.7;0.0D;17|56.6;0.0D;9|70.1;0.0D;14|103.9;0.0S;2|109.7;0.0D;8|118.3;0.0D;5|119.7;0.0D;6|121.0;0.0D;7|128.3;0.0S;3|173.5;0.0S;23|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 7306,
+  "SMILES": "CC[C@@]12C[C@H](C(=O)OC)n3c4c(c5ccccc53)CCN(CC[C@H]1O)[C@H]42"
+}

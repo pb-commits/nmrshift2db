@@ -1,0 +1,14 @@
+{
+  "INChI key": "AQRLNPVMDITEJU-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C6H16Si/c1-4-7(5-2)6-3/h7H,4-6H2,1-3H3",
+  "Temperature [K]": "0:Unreported 1:Unreported 2:Unknown ",
+  "nmrshiftdb2 ID": 20188611,
+  "Spectrum 1H 1": "0.591;0.0;2|0.98;0.0;3|3.621;0.0;6|",
+  "Field Strength [MHz]": "0:Unreported 1:Unreported 2:Unknown ",
+  "Spectrum 13C 0": "2.56;0.0T;0|8.18;0.0Q;1|",
+  "Solvent": "0:Unreported 1:Unreported 2:Unknown ",
+  "Assignment Method": "0:Unreported 1:Unreported 2:1D shift positions ",
+  "Spectrum 29Si 2": "0.2;0.0D;6|",
+  "_molecule_index": 32550,
+  "SMILES": "CC[SiH](CC)CC"
+}

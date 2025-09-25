@@ -1,0 +1,22 @@
+{
+  "NMRBasisSet": "1:6-31G* 2:6-31G* 3:6-31G* ",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 2": "1.9966;0.0;8|2.177;0.0;8|2.6773;0.0;8|6.6501;0.0;7|7.4363;0.0;0|7.5606;0.0;2|7.7166;0.0;1|8.1837;0.0;3|",
+  "Field Strength [MHz]": "0:Unreported ",
+  "NMRMethod": "1:Hartree-Fock 2:Hartree-Fock 3:Hartree-Fock ",
+  "NMRProgram": "1:Spartan 2:Spartan 3:Spartan ",
+  "Assignment Method": "0:Unreported ",
+  "GeomMethod": "1:Hartree-Fock 2:Hartree-Fock 3:Hartree-Fock ",
+  "INChI key": "VFLOQABPXXBZGJ-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C9H8OS/c1-7-6-8-4-2-3-5-9(8)11(7)10/h2-6H,1H3",
+  "Spectrum 17O 3": "341.39;0.0;9|",
+  "nmrshiftdb2 ID": 10023864,
+  "NMRLocalis": "1:HF-GIAO NMR 2:HF-GIAO NMR 3:HF-GIAO NMR ",
+  "NMRStandard": "1:Unreported 2:Unreported 3:Unreported ",
+  "Spectrum 13C 1": "14.1579;0.0Q;8|120.215;0.0D;0|124.198;0.0D;2|124.37;0.0D;7|127.115;0.0D;3|130.317;0.0D;1|135.77;0.0S;5|142.026;0.0S;4|148.099;0.0S;6|",
+  "Spectrum 13C 0": "12.8;0.0Q;8|123.2;0.0D;2|126.1;0.0D;3|127.6;0.0D;0|128.7;0.0D;7|132.0;0.0D;1|138.2;0.0S;5|144.8;0.0S;4|150.6;0.0S;6|",
+  "Solvent": "0:Unreported ",
+  "GeomBasisSet": "1:6-31G* 2:6-31G* 3:6-31G* ",
+  "_molecule_index": 9053,
+  "SMILES": "CC1=Cc2ccccc2S1=O"
+}

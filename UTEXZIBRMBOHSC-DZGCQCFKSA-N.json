@@ -1,0 +1,12 @@
+{
+  "INChI key": "UTEXZIBRMBOHSC-DZGCQCFKSA-N",
+  "INChI": "InChI=1S/C16H22O3SeSi/c1-21(2,3)10-9-19-13-11-14(16(18)15(13)17)20-12-7-5-4-6-8-12/h4-8,11,13,15,17H,9-10H2,1-3H3/t13-,15+/m0/s1",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20212611,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "-1.4;0.0Q;7|-1.4;0.0Q;8|-1.4;0.0Q;9|18.3;0.0T;6|67.8;0.0T;5|80.0;0.0D;3|82.9;0.0D;4|124.5;0.0S;10|129.0;0.0D;13|129.7;0.0D;12|129.7;0.0D;14|135.8;0.0D;11|135.8;0.0D;15|138.9;0.0S;1|151.9;0.0D;2|201.3;0.0S;0|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 37166,
+  "SMILES": "C[Si](C)(C)CCO[C@H]1C=C([Se]c2ccccc2)C(=O)[C@@H]1O"
+}

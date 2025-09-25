@@ -1,0 +1,12 @@
+{
+  "INChI key": "KLEYADLSRYOXMC-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C10H11FO3/c1-14-8-4-2-7(9(11)6-8)3-5-10(12)13/h2,4,6H,3,5H2,1H3,(H,12,13)",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20191733,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "23.7;0.0T;6|34.4;0.0T;7|55.5;0.0Q;9|101.7;0.0D;1|109.7;0.0D;3|118.8;0.0S;5|130.7;0.0D;4|159.5;0.0S;2|161.6;0.0S;0|179.0;0.0S;8|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 32723,
+  "SMILES": "COc1ccc(CCC(=O)O)c(F)c1"
+}

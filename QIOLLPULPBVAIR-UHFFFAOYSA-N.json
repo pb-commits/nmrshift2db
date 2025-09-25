@@ -1,0 +1,11 @@
+{
+  "INChI key": "QIOLLPULPBVAIR-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C11H14O2/c1-12-10-4-6-11(7-5-10)13-8-9-2-3-9/h4-7,9H,2-3,8H2,1H3",
+  "Temperature [K]": "0:298 ",
+  "nmrshiftdb2 ID": 10009079,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "3.2;0.953T;9|3.2;0.953T;10|10.6;0.381D;8|55.5;0.39Q;6|72.3;0.453T;7|114.7;1.0D;1|114.7;1.0D;5|115.7;0.912D;2|115.7;0.912D;4|153.4;0.14S;3|154.0;0.185S;0|",
+  "Solvent": "0:Chloroform-D1 (CDCl3) ",
+  "_molecule_index": 4043,
+  "SMILES": "COc1ccc(OCC2CC2)cc1"
+}

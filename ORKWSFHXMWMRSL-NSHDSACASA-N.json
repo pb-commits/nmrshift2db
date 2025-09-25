@@ -1,0 +1,12 @@
+{
+  "INChI key": "ORKWSFHXMWMRSL-NSHDSACASA-N",
+  "INChI": "InChI=1S/C13H16N2O7S/c1-3-8-14(11(9-16)13(17)22-2)23(20,21)12-7-5-4-6-10(12)15(18)19/h3-7,11,16H,1,8-9H2,2H3/t11-/m0/s1",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "2.4;0.0;20|3.64;0.0;22|4.09;0.0;19|4.17;0.0;12|4.77;0.0;16|5.25;0.0;23|5.91;0.0;25|",
+  "nmrshiftdb2 ID": 20176284,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 28341,
+  "SMILES": "C=CCN([C@@H](CO)C(=O)OC)S(=O)(=O)c1ccccc1[N+](=O)[O-]"
+}

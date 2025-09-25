@@ -1,0 +1,16 @@
+{
+  "INChI key": "LYGJENNIWJXYER-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/CH3NO2/c1-2(3)4/h1H3",
+  "Temperature [K]": "0:Unreported 1:Unknown 2:318 3:Unreported 4:297 ",
+  "nmrshiftdb2 ID": 10017004,
+  "Spectrum 1H 2": "4.35;0.0;0|4.35;0.0;0|4.35;0.0;0|",
+  "Field Strength [MHz]": "0:Unreported 1:Unknown 2:60 3:Unreported 4:300.1 ",
+  "Spectrum 1H 3": "4.3;0.0;0|4.3;0.0;0|4.3;0.0;0|",
+  "Spectrum 13C 1": "62.57;0.0Q;0|",
+  "Spectrum 1H 4": "2.94;0.0;0|2.94;0.0;0|2.94;0.0;0|",
+  "Spectrum 13C 0": "61.2;0.0Q;0|",
+  "Solvent": "0:Unreported 1:Unknown 2:Chloroform-D1 (CDCl3) 3:Unreported 4:Benzene-D6 (C6D6) ",
+  "Assignment Method": "0:Unreported 1:Unknown 2:1D shift positions 3:Unreported 4:1D shift positions ",
+  "_molecule_index": 5495,
+  "SMILES": "C[N+](=O)[O-]"
+}

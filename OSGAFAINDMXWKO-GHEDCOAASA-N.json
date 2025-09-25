@@ -1,0 +1,12 @@
+{
+  "INChI key": "OSGAFAINDMXWKO-GHEDCOAASA-N",
+  "INChI": "InChI=1S/C27H23NO7/c1-2-22(33-25(29)19-12-6-3-7-13-19)24(35-27(31)21-16-10-5-11-17-21)23(18-28-32)34-26(30)20-14-8-4-9-15-20/h2-18,22-24,32H,1H2/b28-18-/t22-,23+,24+/m1/s1",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "5.43;0.0;35|5.43;0.0;36|5.95;0.0;38|5.95;0.0;14|6.13;0.0;9|6.52;0.0;10|6.79;0.0;37|8.07;0.0;4|8.07;0.0;20|",
+  "nmrshiftdb2 ID": 20172009,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 24794,
+  "SMILES": "C=C[C@@H](OC(=O)c1ccccc1)[C@H](OC(=O)c1ccccc1)[C@H](/C=N\\O)OC(=O)c1ccccc1"
+}

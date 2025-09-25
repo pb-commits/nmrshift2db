@@ -1,0 +1,12 @@
+{
+  "INChI key": "AYSQMVFJGFFLHA-CRNSPECLSA-N",
+  "INChI": "InChI=1S/C26H27N3O6S/c1-17(30)28-21-23(35-26(36)29-13-12-27-16-29)22-20(15-32-24(34-22)19-10-6-3-7-11-19)33-25(21)31-14-18-8-4-2-5-9-18/h2-13,16,20-25H,14-15H2,1H3,(H,28,30)/t20-,21-,22-,23-,24-,25+/m1/s1",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "1.83;0.0;30|4.33;0.0;2|5.0;0.0;1|5.56;0.0;6|6.25;0.0;3|",
+  "nmrshiftdb2 ID": 20171052,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 23838,
+  "SMILES": "CC(=O)N[C@H]1[C@@H](OCc2ccccc2)O[C@@H]2CO[C@@H](c3ccccc3)O[C@H]2[C@@H]1OC(=S)n1ccnc1"
+}

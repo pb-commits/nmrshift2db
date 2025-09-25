@@ -1,0 +1,12 @@
+{
+  "INChI key": "PEBDUCGLTUAFFG-FPODKLOTSA-N",
+  "INChI": "InChI=1S/C33H32N3O4P/c1-4-39-32(37)30(36-29-23-24(3)21-22-28(29)34-35-36)31(33(38)40-5-2)41(25-15-9-6-10-16-25,26-17-11-7-12-18-26)27-19-13-8-14-20-27/h6-23,30H,4-5H2,1-3H3/b33-31-",
+  "Temperature [K]": "0:Unknown ",
+  "Spectrum 31P 0": "24.45;0.0S;12|",
+  "nmrshiftdb2 ID": 80030330,
+  "Field Strength [MHz]": "0:Unknown ",
+  "Solvent": "0:Unknown ",
+  "Assignment Method": "0:Unknown ",
+  "_molecule_index": 49427,
+  "SMILES": "CCOC(=O)C(/C(=C(\\[O-])OCC)[P+](c1ccccc1)(c1ccccc1)c1ccccc1)n1nnc2ccc(C)cc21"
+}

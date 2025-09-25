@@ -1,0 +1,12 @@
+{
+  "INChI key": "PAVRUDCYLRUMFT-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C12H9N3/c13-6-10-8-15-12(11(10)7-14)9-4-2-1-3-5-9/h1-5,10,15H,8H2",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20052164,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "32.6;0.0D;1|49.5;0.0T;0|69.3;0.0S;2|119.1;0.0S;5|120.2;0.0S;4|128.4;0.0S;6|164.2;0.0S;3|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 15258,
+  "SMILES": "N#CC1=C(c2ccccc2)NCC1C#N"
+}

@@ -1,0 +1,12 @@
+{
+  "Spectrum 17O 0": "219.1;0.0S;16|",
+  "INChI key": "UQQWYCWUHZTXSJ-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C15H14OS/c1-11-5-3-7-13(9-11)15(17-16)14-8-4-6-12(2)10-14/h3-10H,1-2H3",
+  "Temperature [K]": "0:313 ",
+  "nmrshiftdb2 ID": 20148803,
+  "Field Strength [MHz]": "0:50 ",
+  "Solvent": "0:MeCN ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 19751,
+  "SMILES": "Cc1cccc(C(=S=O)c2cccc(C)c2)c1"
+}

@@ -1,0 +1,13 @@
+{
+  "INChI key": "LUCWPSJSOVIBAO-WYMLVPIESA-N",
+  "INChI": "InChI=1S/C12H9N5O3/c1-20-10-4-2-9(3-5-10)16-12(14)8(7-13)6-11(15-16)17(18)19/h2-6,14H,1H3/b14-12+",
+  "Temperature [K]": "0:Unreported 1:Unreported ",
+  "Spectrum 1H 0": "3.89;0.0;18|7.1;0.0;10|7.35;0.0;11|7.42;0.0;20|8.09;0.0;3|",
+  "nmrshiftdb2 ID": 20175586,
+  "Spectrum 1H 1": "3.86;0.0;18|7.01;0.0;10|7.52;0.0;11|7.84;0.0;20|8.04;0.0;3|",
+  "Field Strength [MHz]": "0:Unreported 1:Unreported ",
+  "Solvent": "0:Unreported 1:Unreported ",
+  "Assignment Method": "0:Unreported 1:Unreported ",
+  "_molecule_index": 27647,
+  "SMILES": "[H]/N=c1\\c(C#N)cc([N+](=O)[O-])nn1-c1ccc(OC)cc1"
+}

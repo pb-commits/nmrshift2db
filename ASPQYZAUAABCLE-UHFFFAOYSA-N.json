@@ -1,0 +1,14 @@
+{
+  "INChI key": "ASPQYZAUAABCLE-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C8H10Cl2O2/c1-5-3-4-8(2,7(10)11)12-6(5)9/h3-4H2,1-2H3",
+  "Temperature [K]": "0:Unreported 1:298 2:Unreported ",
+  "nmrshiftdb2 ID": 30000421,
+  "Spectrum 1H 2": "1.61;1.0;6|1.61;1.0;6|1.61;1.0;6|1.74;0.62;7|1.74;0.62;7|1.74;0.62;7|1.89;0.08;1|2.03;0.06;2|2.12;0.02;2|2.43;0.08;1|",
+  "Field Strength [MHz]": "0:100.62 1:100.6 2:400 ",
+  "Spectrum 13C 1": "18.1;0.0Q;7|24.3;0.0Q;6|25.0;0.0T;2|30.4;0.0T;1|86.5;0.0S;0|105.0;0.0S;3|136.1;0.0S;4|176.8;0.0S;5|",
+  "Spectrum 13C 0": "18.13;0.57Q;7|24.35;1.0Q;6|24.98;0.94T;2|30.35;0.94T;1|86.5;0.28S;0|105.0;0.22S;3|136.09;0.08S;4|176.79;0.12S;5|",
+  "Solvent": "0:Chloroform-D1 (CDCl3) 1:Chloroform-D1 (CDCl3) 2:Chloroform-D1 (CDCl3) ",
+  "Assignment Method": "0:hmqc  /  hmbc 1:hmqc  /  hmbc 2:hmqc / hmbc ",
+  "_molecule_index": 41560,
+  "SMILES": "CC1=C(Cl)OC(C)(C(=O)Cl)CC1"
+}

@@ -1,0 +1,12 @@
+{
+  "INChI key": "QARBMVPHQWIHKH-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/CH3ClO2S/c1-5(2,3)4/h1H3",
+  "Temperature [K]": "0:318 ",
+  "Spectrum 1H 0": "3.7;0.0;0|3.7;0.0;0|3.7;0.0;0|",
+  "nmrshiftdb2 ID": 10020858,
+  "Field Strength [MHz]": "0:60 ",
+  "Solvent": "0:Chloroform-D1 (CDCl3) ",
+  "Assignment Method": "0:1D shift positions ",
+  "_molecule_index": 7462,
+  "SMILES": "CS(=O)(=O)Cl"
+}

@@ -1,0 +1,13 @@
+{
+  "INChI key": "LYXOWKPVTCPORE-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C19H14O/c20-19(17-9-5-2-6-10-17)18-13-11-16(12-14-18)15-7-3-1-4-8-15/h1-14H",
+  "Temperature [K]": "0:Unreported 1:Unreported ",
+  "nmrshiftdb2 ID": 20200111,
+  "Spectrum 1H 1": "7.396;0.0;16|7.47;0.0;17|7.49;0.0;15|7.584;0.0;19|7.637;0.0;11|7.692;0.0;4|7.83;0.0;12|7.886;0.0;6|",
+  "Field Strength [MHz]": "0:Unreported 1:Unreported ",
+  "Spectrum 13C 0": "126.93;0.0D;4|127.28;0.0D;11|128.15;0.0D;16|128.27;0.0D;17|128.94;0.0D;15|129.96;0.0D;6|130.69;0.0D;12|132.33;0.0D;19|136.24;0.0S;2|137.76;0.0S;9|139.98;0.0S;3|145.21;0.0S;1|196.25;0.0S;8|",
+  "Solvent": "0:Unreported 1:Unreported ",
+  "Assignment Method": "0:Unreported 1:Unreported ",
+  "_molecule_index": 33289,
+  "SMILES": "O=C(c1ccccc1)c1ccc(-c2ccccc2)cc1"
+}

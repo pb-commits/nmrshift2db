@@ -1,0 +1,16 @@
+{
+  "INChI key": "SJZAUIVYZWPNAS-UHFFFAOYSA-N",
+  "Program": "2:CSEARCH ",
+  "INChI": "InChI=1S/C9H12O/c1-7-4-5-8(2)9(6-7)10-3/h4-6H,1-3H3",
+  "Temperature [K]": "0:Unreported 1:298 3:Unreported ",
+  "nmrshiftdb2 ID": 20208140,
+  "Field Strength [MHz]": "0:Unreported 1:75 3:Unreported ",
+  "Spectrum 1H 3": "2.168;0.0;7|2.309;0.0;8|3.778;0.0;9|6.62;0.0;4|6.64;0.0;6|6.98;0.0;5|",
+  "Spectrum 13C 1": "15.8;0.0Q;7|21.5;0.0Q;8|55.2;0.0Q;9|123.4;0.0S;1|130.4;0.0D;5|120.8;0.0D;6|136.6;0.0S;3|111.0;0.0D;4|157.6;0.0S;2|",
+  "Spectrum 13C 0": "15.78;0.0Q;7|21.39;0.0Q;8|55.06;0.0Q;9|110.97;0.0D;4|120.83;0.0D;6|123.41;0.0S;1|130.4;0.0D;5|136.54;0.0S;3|157.67;0.0S;2|",
+  "Solvent": "0:Unreported 1:Chloroform-D1 (CDCl3) 3:Unreported ",
+  "Assignment Method": "0:Unreported 1:1D shift positions 3:Unreported ",
+  "Spectrum 13C 2": "125.5;0.0S;1|156.9;0.0S;2|136.7;0.0S;3|114.6;0.0S;4|131.1;0.0D;5|122.1;0.0D;6|15.8;0.0D;7|21.2;0.0Q;8|55.8;0.0Q;9|",
+  "_molecule_index": 35141,
+  "SMILES": "COc1cc(C)ccc1C"
+}

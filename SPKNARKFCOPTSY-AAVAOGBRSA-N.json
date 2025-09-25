@@ -1,0 +1,12 @@
+{
+  "INChI key": "SPKNARKFCOPTSY-AAVAOGBRSA-N",
+  "INChI": "InChI=1S/C10H12O5/c1-5-9(13-5)10-7(14-6(2)11)3-4-8(12)15-10/h3-5,7,9-10H,1-2H3/t5-,7+,9?,10+/m1/s1",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20180872,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "16.0;0.0Q;7|20.6;0.0Q;9|54.6;0.0D;6|54.9;0.0D;5|62.1;0.0D;0|78.9;0.0D;4|124.9;0.0D;2|140.5;0.0D;1|161.5;0.0S;3|169.8;0.0S;8|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 30651,
+  "SMILES": "CC(=O)O[C@H]1C=CC(=O)O[C@@H]1C1O[C@@H]1C"
+}

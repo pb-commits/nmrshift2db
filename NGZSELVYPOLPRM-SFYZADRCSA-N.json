@@ -1,0 +1,12 @@
+{
+  "INChI key": "NGZSELVYPOLPRM-SFYZADRCSA-N",
+  "INChI": "InChI=1S/C10H16N2O3/c1-6(2)11-5-9(14)12-4-7(13)3-8(12)10(11)15/h6-8,13H,3-5H2,1-2H3/t7-,8+/m1/s1",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 30101784,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "37.5;0.0T;6|45.0;0.0D;7|53.8;0.0T;5|57.4;0.0D;3|67.7;0.0D;4|163.6;0.0S;0|167.0;0.0S;2|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 42983,
+  "SMILES": "CC(C)N1CC(=O)N2C[C@H](O)C[C@H]2C1=O"
+}

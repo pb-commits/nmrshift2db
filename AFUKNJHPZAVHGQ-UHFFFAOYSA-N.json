@@ -1,0 +1,14 @@
+{
+  "INChI key": "AFUKNJHPZAVHGQ-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C9H10O3/c1-11-8-3-4-9(12-2)7(5-8)6-10/h3-6H,1-2H3",
+  "Temperature [K]": "0:Unreported 1:294 2:294 ",
+  "nmrshiftdb2 ID": 20033053,
+  "Spectrum 1H 2": "6.93909;0.0d;4|7.13024;0.0dd;3|7.32182;0.0d;1|10.4378;0.0s;6|3.889;0.0s;7|3.889;0.0s;7|3.889;0.0s;7|3.79681;0.0s;8|3.79681;0.0s;8|3.79681;0.0s;8|",
+  "Field Strength [MHz]": "0:Unreported 1:150.0 2:600.0 ",
+  "Spectrum 13C 1": "156.684;0.0S;5|113.304;0.0D;4|123.506;0.0D;3|153.536;0.0S;2|110.313;0.0D;1|124.844;0.0S;0|189.587;0.0D;6|56.1349;0.0Q;7|55.7999;0.0Q;8|",
+  "Spectrum 13C 0": "55.7;0.0Q;8|56.1;0.0Q;7|110.6;0.0D;4|113.3;0.0D;1|123.2;0.0D;3|125.0;0.0S;0|153.6;0.0S;2|156.6;0.0S;5|189.3;0.0D;6|",
+  "Solvent": "0:Unreported 1:Chloroform-D1 (CDCl3) 2:Chloroform-D1 (CDCl3) ",
+  "Assignment Method": "0:Unreported 1:DEPT, COSY, HSQC, HMBC, NOESY 2:1H, 13C, DEPT-135, COSY, HSQC, HMBC, NOESY ",
+  "_molecule_index": 12849,
+  "SMILES": "COc1ccc(OC)c(C=O)c1"
+}

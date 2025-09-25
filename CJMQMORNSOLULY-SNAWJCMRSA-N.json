@@ -1,0 +1,12 @@
+{
+  "INChI key": "CJMQMORNSOLULY-SNAWJCMRSA-N",
+  "INChI": "InChI=1S/C14H13NO7/c1-4-5-8-11(20-6(2)16)10(18)9-12(22-8)14(15-13(9)19)21-7(3)17/h4-5,14H,1-3H3,(H,15,19)/b5-4+",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20242319,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "173.5;0.0S;0|115.9;0.0S;1|167.6;0.0S;2|137.9;0.0S;3|155.6;0.0S;4|75.9;0.0D;5|165.3;0.0S;6|118.4;0.0D;7|138.8;0.0D;8|19.0;0.0Q;9|168.2;0.0S;10|20.3;0.0Q;11|170.7;0.0S;12|20.8;0.0Q;13|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 40880,
+  "SMILES": "C/C=C/c1oc2c(c(=O)c1OC(C)=O)C(=O)NC2OC(C)=O"
+}

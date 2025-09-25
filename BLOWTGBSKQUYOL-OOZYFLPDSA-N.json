@@ -1,0 +1,12 @@
+{
+  "INChI key": "BLOWTGBSKQUYOL-OOZYFLPDSA-N",
+  "INChI": "InChI=1S/C9H11BrO/c10-9-2-1-6-3-7(9)5-8(11)4-6/h1-2,6-7,9H,3-5H2/t6-,7+,9-/m0/s1",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20221393,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "133.2;0.0D;0|50.6;0.0D;1|30.4;0.0D;2|45.6;0.0T;3|208.6;0.0S;4|46.8;0.0T;5|38.9;0.0D;6|127.3;0.0D;7|25.3;0.0T;8|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 38482,
+  "SMILES": "O=C1C[C@H]2C=C[C@H](Br)[C@@H](C1)C2"
+}

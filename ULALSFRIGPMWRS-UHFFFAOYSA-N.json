@@ -1,0 +1,13 @@
+{
+  "INChI key": "ULALSFRIGPMWRS-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C10H6N2O4/c13-11(14)8-5-7-3-1-2-4-9(7)10(6-8)12(15)16/h1-6H",
+  "Temperature [K]": "0:Unreported 1:Unreported ",
+  "nmrshiftdb2 ID": 20208883,
+  "Spectrum 1H 1": "7.84;0.0;15|7.96;0.0;14|8.19;0.0;13|8.6;0.0;12|8.926;0.0;11|9.036;0.0;9|",
+  "Field Strength [MHz]": "0:Unreported 1:Unreported ",
+  "Spectrum 13C 0": "117.45;0.0D;11|123.73;0.0D;12|127.23;0.0S;6|129.54;0.0D;15|129.67;0.0D;13|130.88;0.0D;9|133.17;0.0D;14|133.32;0.0S;7|143.43;0.0S;10|147.13;0.0S;8|",
+  "Solvent": "0:Unreported 1:Unreported ",
+  "Assignment Method": "0:Unreported 1:Unreported ",
+  "_molecule_index": 35868,
+  "SMILES": "O=[N+]([O-])c1cc([N+](=O)[O-])c2ccccc2c1"
+}

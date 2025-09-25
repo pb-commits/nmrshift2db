@@ -1,0 +1,12 @@
+{
+  "INChI key": "XXKSPKJFWZJPKR-AGROOBSYSA-N",
+  "INChI": "InChI=1S/C10H13FO5/c1-6(12)15-5-9-10(16-7(2)13)8(11)3-4-14-9/h3-4,8-10H,5H2,1-2H3/t8?,9-,10-/m0/s1",
+  "Temperature [K]": "0:298 ",
+  "nmrshiftdb2 ID": 20203760,
+  "Field Strength [MHz]": "0:100.21 ",
+  "Spectrum 13C 0": "20.67;0.0Q;9|20.75;0.0Q;6|61.4;0.0T;7|65.5;0.0D;4|72.51;0.0D;3|80.35;0.0D;0|98.52;0.0D;1|146.27;0.0D;2|169.98;0.0S;5|170.58;0.0S;8|",
+  "Solvent": "0:Chloroform-D1 (CDCl3) ",
+  "Assignment Method": "0:cosy, hsqc ",
+  "_molecule_index": 34109,
+  "SMILES": "CC(=O)OC[C@@H]1OC=CC(F)[C@@H]1OC(C)=O"
+}

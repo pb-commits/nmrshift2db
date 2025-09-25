@@ -1,0 +1,13 @@
+{
+  "INChI key": "PXHFLWCSJYTAFU-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C3H5NO2/c5-3-1-6-2-4-3/h1-2H2,(H,4,5)",
+  "Temperature [K]": "0:298 1:Unreported ",
+  "nmrshiftdb2 ID": 10008993,
+  "Field Strength [MHz]": "0:Unreported 1:Unreported ",
+  "Spectrum 13C 1": "66.1;0.0T;2|78.1;0.0T;1|173.1;0.0S;0|",
+  "Spectrum 13C 0": "66.1;0.958T;2|78.1;1.0T;1|173.1;0.256S;0|",
+  "Solvent": "0:Dimethylsulphoxide-D6 (DMSO-D6, C2D6SO) 1:Unreported ",
+  "Assignment Method": "1:Unreported ",
+  "_molecule_index": 3957,
+  "SMILES": "O=C1COCN1"
+}

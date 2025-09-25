@@ -1,0 +1,18 @@
+{
+  "Program": "3:ACD/Labs C+H NMR Predictors and DB, 2020.1.0 4:HOSE code using nmrshiftdb2 data ",
+  "rawdata 13C 1": "http://www.nmrshiftdb.org/download/NmrshiftdbServlet/60001552_13C.zip?spectrumid=60001552&nmrshiftdbaction=exportspec&format=rawdata",
+  "Temperature [K]": "0:313 1:298 2:Unreported ",
+  "Field Strength [MHz]": "0:23 1:75.03250122070312 2:Unreported ",
+  "Assignment Method": "1:1D shift positions 2:Unreported ",
+  "INChI key": "LYCAIKOWRPUZTN-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C2H6O2/c3-1-2-4/h3-4H,1-2H2",
+  "nmrshiftdb2 ID": 10005600,
+  "Spectrum 13C 1": "62.637;0.0T;0|62.637;0.0T;1|",
+  "Spectrum 13C 0": "67.3;0.0T;0|67.3;0.0T;1|",
+  "Spectrum 13C 3": "63.66;0.0T;0|63.66;0.0T;1|",
+  "Solvent": "0:Water (H2O) 1:Deuteriumoxide (D2O) 2:Unreported ",
+  "Spectrum 13C 2": "63.4;0.0T;0|63.4;0.0T;1|",
+  "Spectrum 13C 4": "64.19;0.0T;0|64.19;0.0T;1|",
+  "_molecule_index": 3270,
+  "SMILES": "OCCO"
+}

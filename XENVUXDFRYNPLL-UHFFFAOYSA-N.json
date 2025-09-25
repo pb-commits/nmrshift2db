@@ -1,0 +1,12 @@
+{
+  "INChI key": "XENVUXDFRYNPLL-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C21H26S2/c1-16(2)21(17(3)4)22-15-20(23-21,18-11-7-5-8-12-18)19-13-9-6-10-14-19/h5-14,16-17H,15H2,1-4H3",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20191637,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "19.7;0.0Q;4|19.7;0.0Q;5|19.7;0.0Q;7|19.7;0.0Q;8|37.5;0.0D;3|37.5;0.0D;6|49.0;0.0T;1|74.1;0.0S;0|84.1;0.0S;2|145.8;0.0S;9|145.8;0.0S;10|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 32627,
+  "SMILES": "CC(C)C1(C(C)C)SCC(c2ccccc2)(c2ccccc2)S1"
+}

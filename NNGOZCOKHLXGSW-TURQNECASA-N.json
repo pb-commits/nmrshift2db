@@ -1,0 +1,12 @@
+{
+  "INChI key": "NNGOZCOKHLXGSW-TURQNECASA-N",
+  "INChI": "InChI=1S/C12H18N2O5S/c1-3-20-12-13-10(18)6(2)4-14(12)11-9(17)8(16)7(5-15)19-11/h4,7-9,11,15-17H,3,5H2,1-2H3/t7-,8-,9-,11-/m1/s1",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "1.28;0.0;17|1.82;0.0;19|3.13;0.0;16|3.63;0.0;13|3.92;0.0;4|4.02;0.0;3|4.12;0.0;2|5.2;0.0;12|5.2;0.0;14|5.53;0.0;11|5.67;0.0;1|7.99;0.0;10|",
+  "nmrshiftdb2 ID": 20177300,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 29050,
+  "SMILES": "CCSc1nc(=O)c(C)cn1[C@@H]1O[C@H](CO)[C@@H](O)[C@H]1O"
+}

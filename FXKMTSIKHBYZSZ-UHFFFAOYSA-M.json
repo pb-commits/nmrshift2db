@@ -1,0 +1,14 @@
+{
+  "Spectrum 17O 1": "173.9;0.0S;4|173.9;0.0S;3|173.9;0.0S;2|",
+  "Spectrum 33S 2": "-6.24;0.0S;5|",
+  "INChI key": "FXKMTSIKHBYZSZ-UHFFFAOYSA-M",
+  "INChI": "InChI=1S/C2H5ClO3S/c3-1-2-7(4,5)6/h1-2H2,(H,4,5,6)/p-1",
+  "Temperature [K]": "0:Unreported 1:Unreported 2:Unreported ",
+  "nmrshiftdb2 ID": 88818,
+  "Field Strength [MHz]": "0:Unreported 1:Unreported 2:Unreported ",
+  "Spectrum 13C 0": "39.3;0.0T;0|53.7;0.0T;1|",
+  "Solvent": "0:Unreported 1:Water (H2O) 2:Water (H2O) ",
+  "Assignment Method": "0:Unreported 1:Unreported 2:Unreported ",
+  "_molecule_index": 2456,
+  "SMILES": "O=S(=O)([O-])CCCl"
+}

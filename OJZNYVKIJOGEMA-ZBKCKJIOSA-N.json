@@ -1,0 +1,12 @@
+{
+  "INChI key": "OJZNYVKIJOGEMA-ZBKCKJIOSA-N",
+  "INChI": "InChI=1S/C8H8Cl2O5/c1-6(2)12-3-4(13-6)8(10)7(3,9)14-5(11)15-8/h3-4H,1-2H3/t3-,4+,7+,8-",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20230537,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "148.5;0.0S;0|100.5;0.0S;1|100.5;0.0S;2|80.9;0.0D;3|80.9;0.0D;4|119.4;0.0S;5|26.8;0.0Q;6|25.7;0.0Q;7|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 40030,
+  "SMILES": "CC1(C)O[C@@H]2[C@H](O1)[C@@]1(Cl)OC(=O)O[C@@]21Cl"
+}

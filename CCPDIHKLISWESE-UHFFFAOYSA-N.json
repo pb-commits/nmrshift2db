@@ -1,0 +1,12 @@
+{
+  "INChI key": "CCPDIHKLISWESE-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C19H10N2O2/c22-18-12-9-20-13-7-3-1-5-10(13)15(12)19(23)17-16(18)11-6-2-4-8-14(11)21-17/h1-9,21H",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20230355,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "122.2;0.0D;0|124.3;0.0D;1|127.0;0.0D;2|114.3;0.0D;3|139.0;0.0S;4|123.6;0.0S;5|132.7;0.0S;6|115.5;0.0S;7|181.1;0.0S;8|180.2;0.0S;9|125.0;0.0S;10|138.7;0.0S;11|147.7;0.0D;12|122.6;0.0S;13|151.2;0.0S;14|130.2;0.0D;15|131.5;0.0D;16|129.8;0.0D;17|127.2;0.0D;18|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 39849,
+  "SMILES": "O=C1c2[nH]c3ccccc3c2C(=O)c2cnc3ccccc3c21"
+}

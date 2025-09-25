@@ -1,0 +1,12 @@
+{
+  "INChI key": "SPLMHQCLYOPLPK-ACCUITESSA-N",
+  "INChI": "InChI=1S/C16H24IO4P/c17-13-11-9-7-5-3-1-2-4-6-8-10-12-15-21-22(19,20)16-14-18/h11,13,18H,1-3,5,7,9,12,14-16H2,(H,19,20)/b13-11+",
+  "Temperature [K]": "0:298 ",
+  "nmrshiftdb2 ID": 40116006,
+  "Field Strength [MHz]": "0:700 ",
+  "Spectrum 13C 0": "35.5;0.0T;11|35.5;0.0T;15|24.5;0.0T;14|73.6;0.0D;13|146.5;0.0D;12|28.0;0.0T;8|28.0;0.0T;10|28.2;0.0T;9|27.9;0.0T;7|18.2;0.0T;6|77.1;0.0S;5|64.8;0.0S;4|66.1;0.0S;3|73.1;0.0S;2|21.2;0.0T;1|61.9;0.0T;0|",
+  "Solvent": "0:Methanol-D4 (CD3OD) ",
+  "Assignment Method": "0:1D shift position & HSQC ",
+  "_molecule_index": 43251,
+  "SMILES": "O=P(O)(CCO)OCCC#CC#CCCCCCC/C=C/I"
+}

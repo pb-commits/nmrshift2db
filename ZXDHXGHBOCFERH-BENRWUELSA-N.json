@@ -1,0 +1,13 @@
+{
+  "INChI key": "ZXDHXGHBOCFERH-BENRWUELSA-N",
+  "INChI": "InChI=1S/C15H18O/c1-15(2,3)10-12-9-8-11-6-4-5-7-13(11)14(12)16/h4-7,10H,8-9H2,1-3H3/b12-10-",
+  "Temperature [K]": "0:Unreported 1:Unreported ",
+  "nmrshiftdb2 ID": 10021668,
+  "Spectrum 1H 1": "1.2;0.0;12|1.2;0.0;13|1.2;0.0;14|2.68;0.0;7|3.0;0.0;6|5.92;0.0;10|7.2;0.0;3|7.3;0.0;1|7.42;0.0;2|8.07;0.0;0|",
+  "Field Strength [MHz]": "0:Unreported 1:Unreported ",
+  "Spectrum 13C 0": "30.27;0.0Q;12|30.27;0.0Q;13|30.27;0.0Q;14|31.7;0.0T;6|33.4;0.0S;11|36.87;0.0T;7|126.72;0.0D;1|127.66;0.0D;0|128.54;0.0D;3|132.93;0.0D;2|134.9;0.0S;5|134.9;0.0S;8|143.67;0.0S;4|149.68;0.0D;10|190.8;0.0S;9|",
+  "Solvent": "0:Unreported 1:Unreported ",
+  "Assignment Method": "0:Unreported 1:Unreported ",
+  "_molecule_index": 7641,
+  "SMILES": "CC(C)(C)/C=C1/CCc2ccccc2C1=O"
+}

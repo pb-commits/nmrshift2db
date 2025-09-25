@@ -1,0 +1,12 @@
+{
+  "INChI key": "WCERSCDESMAMAK-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C17H19NO4S/c1-17(2,3)22-16(20)18-14-10-9-13(23-14)15(19)21-11-12-7-5-4-6-8-12/h4-10H,11H2,1-3H3,(H,18,20)",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20182442,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "28.3;0.0Q;7|28.3;0.0Q;8|28.3;0.0Q;9|66.5;0.0T;10|82.4;0.0S;6|110.5;0.0D;1|122.7;0.0S;4|128.1;0.0D;12|128.1;0.0D;16|128.2;0.0D;14|128.6;0.0D;13|128.6;0.0D;15|132.9;0.0D;3|136.0;0.0S;11|147.9;0.0S;2|152.0;0.0S;0|163.0;0.0S;5|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 32211,
+  "SMILES": "CC(C)(C)OC(=O)Nc1ccc(C(=O)OCc2ccccc2)s1"
+}

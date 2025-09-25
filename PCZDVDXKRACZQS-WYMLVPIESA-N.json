@@ -1,0 +1,12 @@
+{
+  "INChI key": "PCZDVDXKRACZQS-WYMLVPIESA-N",
+  "INChI": "InChI=1S/C16H20OSe/c1-13(2)8-7-9-14(3)12-16(17)18-15-10-5-4-6-11-15/h4-6,8,10-12H,7,9H2,1-3H3/b14-12+",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20179843,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "17.7;0.0Q;0|20.3;0.0Q;7|25.6;0.0Q;2|25.9;0.0T;4|40.7;0.0T;5|122.6;0.0D;3|124.4;0.0D;8|127.3;0.0S;10|128.6;0.0D;13|129.2;0.0D;12|129.2;0.0D;14|132.8;0.0S;1|135.8;0.0D;11|135.8;0.0D;15|157.8;0.0S;6|189.5;0.0S;9|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 29629,
+  "SMILES": "CC(C)=CCC/C(C)=C/C(=O)[Se]c1ccccc1"
+}

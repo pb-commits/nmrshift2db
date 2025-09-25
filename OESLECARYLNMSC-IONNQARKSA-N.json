@@ -1,0 +1,12 @@
+{
+  "INChI key": "OESLECARYLNMSC-IONNQARKSA-N",
+  "INChI": "InChI=1S/C14H16O6/c1-7-2-9(15)5-11(17)14-8(4-13(19)20-7)3-10(16)6-12(14)18/h3,6-7,9,15-16,18H,2,4-5H2,1H3/t7-,9+/m0/s1",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20050503,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "19.5;0.0Q;13|37.8;0.0T;12|42.0;0.0T;9|52.5;0.0T;7|54.1;0.0D;8|68.2;0.0D;10|101.2;0.0D;1|109.8;0.0D;3|119.7;0.0S;5|135.5;0.0S;4|156.8;0.0S;0|159.1;0.0S;2|169.2;0.0S;11|205.0;0.0S;6|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 14822,
+  "SMILES": "C[C@H]1C[C@@H](O)CC(=O)c2c(O)cc(O)cc2CC(=O)O1"
+}

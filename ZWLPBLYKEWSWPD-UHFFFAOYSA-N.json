@@ -1,0 +1,17 @@
+{
+  "Program": "2:ACD/Labs C+H NMR Predictors and DB, 2020.1.0 3:HOSE code using nmrshiftdb2 data ",
+  "Temperature [K]": "0:298 1:Unreported 4:Unreported ",
+  "Field Strength [MHz]": "0:Unreported 1:Unreported 4:Unreported ",
+  "Spectrum 1H 4": "2.662;0.0;7|7.26;0.0;2|7.26;0.0;4|7.42;0.0;3|8.07;0.0;5|12.4;0.0;9|",
+  "Assignment Method": "1:Unreported 4:Unreported ",
+  "INChI key": "ZWLPBLYKEWSWPD-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C8H8O2/c1-6-4-2-3-5-7(6)8(9)10/h2-5H,1H3,(H,9,10)",
+  "nmrshiftdb2 ID": 10009009,
+  "Spectrum 13C 1": "21.3;0.0Q;7|124.3;0.0D;4|128.9;0.0D;2|129.2;0.0S;0|130.0;0.0D;5|130.1;0.0D;3|137.7;0.0S;1|167.0;0.0S;6|",
+  "Spectrum 13C 0": "21.2;0.353Q;7|124.3;0.43D;4|128.9;0.469D;2|129.2;0.127S;0|130.0;1.0D;3|130.0;1.0D;5|137.7;0.156S;1|167.0;0.131S;6|",
+  "Spectrum 13C 3": "21.2;0.0Q;7|137.7;0.0S;1|128.9;0.0D;2|130.0;0.0D;3|130.0;0.0D;5|124.3;0.0D;4|129.2;0.0S;0|167.0;0.0S;6|",
+  "Solvent": "0:Dimethylsulphoxide-D6 (DMSO-D6, C2D6SO) 1:Unreported 4:Unreported ",
+  "Spectrum 13C 2": "21.3;0.0Q;7|137.7;0.0S;1|128.9;0.0D;2|132.07;0.0D;3|124.3;0.0D;4|130.82;0.0D;5|129.2;0.0S;0|168.61;0.0S;6|",
+  "_molecule_index": 3973,
+  "SMILES": "Cc1ccccc1C(=O)O"
+}

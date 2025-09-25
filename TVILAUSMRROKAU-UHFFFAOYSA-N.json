@@ -1,0 +1,12 @@
+{
+  "INChI key": "TVILAUSMRROKAU-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C18H16N2OS2/c1-2-3-10-22-18-20-14-9-8-13-15(17(14)23-18)16(21)11-6-4-5-7-12(11)19-13/h4-9H,2-3,10H2,1H3,(H,19,21)",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20182268,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "13.5;0.0Q;17|21.4;0.0T;16|31.1;0.0T;15|32.7;0.0T;14|114.5;0.0S;7|116.6;0.0D;9|118.0;0.0D;3|120.0;0.0S;5|121.9;0.0D;1|125.7;0.0D;0|127.0;0.0D;10|130.7;0.0S;12|133.6;0.0D;2|138.5;0.0S;6|140.3;0.0S;4|148.0;0.0S;11|166.8;0.0S;13|174.1;0.0S;8|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 32039,
+  "SMILES": "CCCCSc1nc2ccc3[nH]c4ccccc4c(=O)c3c2s1"
+}

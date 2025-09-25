@@ -1,0 +1,12 @@
+{
+  "INChI key": "CLCFTMMAZFTTBC-RDTXWAMCSA-N",
+  "INChI": "InChI=1S/C18H14N2O2/c21-15-10-17(22-16-9-5-4-8-13(15)16)14-11-19-20-18(14)12-6-2-1-3-7-12/h1-10,14,18H,11H2/t14-,18-/m1/s1",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 10019004,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "46.1;0.0D;11|80.7;0.0T;13|95.6;0.0D;12|110.9;0.0D;8|117.8;0.0D;3|123.7;0.0S;5|125.5;0.0D;1|125.8;0.0D;0|126.9;0.0D;17|128.6;0.0D;19|129.3;0.0D;18|134.0;0.0D;2|137.0;0.0S;16|156.3;0.0S;4|166.0;0.0S;7|177.6;0.0S;9|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 6985,
+  "SMILES": "O=c1cc([C@H]2CN=N[C@@H]2c2ccccc2)oc2ccccc12"
+}

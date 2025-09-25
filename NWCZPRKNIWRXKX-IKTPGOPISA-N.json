@@ -1,0 +1,13 @@
+{
+  "INChI key": "NWCZPRKNIWRXKX-IKTPGOPISA-N",
+  "INChI": "InChI=1S/C15H24O2/c1-13(17,9-16)5-4-6-14(2)10-7-11-12(8-10)15(11,14)3/h4-5,10-12,16-17H,6-9H2,1-3H3/b5-4+/t10?,11?,12?,13?,14-,15?/m1/s1",
+  "Temperature [K]": "0:Unreported 1:Unreported ",
+  "nmrshiftdb2 ID": 10027666,
+  "Spectrum 1H 1": "0.81;0.0s;7|0.87;0.0m;3|1.02;0.0s;0|1.05;0.0dd;4|1.06;0.0dd;5|1.27;0.0s;12|1.53;0.0brs;6|1.61;0.0brd;5|1.63;0.0td;4|1.89;0.0dd;9|2.0;0.0dd;9|3.42;0.0d;14|3.48;0.0dd;14|5.49;0.0dt;11|5.73;0.0dt;10|0.87;0.0m;2|1.27;0.0s;12|1.02;0.0s;0|0.81;0.0s;7|1.02;0.0s;0|0.81;0.0s;7|1.27;0.0s;12|",
+  "Field Strength [MHz]": "0:150 1:600 ",
+  "Spectrum 13C 0": "10.7;0.0Q;0|17.5;0.0Q;7|19.5;0.0D;3|19.6;0.0D;2|24.4;0.0Q;12|27.0;0.0S;1|31.0;0.0T;4|31.2;0.0T;5|37.3;0.0T;9|38.5;0.0D;6|46.2;0.0S;8|70.1;0.0T;14|73.2;0.0S;13|127.9;0.0D;10|134.9;0.0D;11|",
+  "Solvent": "0:Chloroform-D1 (CDCl3) 1:Chloroform-D1 (CDCl3) ",
+  "Assignment Method": "0:HREIMS,HSQC,1H-1H COSY,HMBC 1:HREIMS,HSQC,1H-1H COSY,HMBC ",
+  "_molecule_index": 10237,
+  "SMILES": "CC(O)(/C=C/C[C@]1(C)C2CC3C(C2)C31C)CO"
+}

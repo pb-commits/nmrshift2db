@@ -1,0 +1,12 @@
+{
+  "INChI key": "MBBWARMHAYMCPA-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C11H10ClNOS/c1-11(2)10(15)13-9(14-11)7-3-5-8(12)6-4-7/h3-6H,1-2H3",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 30100672,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "27.4;0.0Q;3|27.4;0.0Q;4|101.2;0.0S;2|124.0;0.0S;5|129.5;0.0D;7|129.5;0.0D;9|131.8;0.0D;6|131.8;0.0D;10|142.0;0.0S;8|181.8;0.0S;0|233.6;0.0S;1|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 42633,
+  "SMILES": "CC1(C)OC(c2ccc(Cl)cc2)=NC1=S"
+}

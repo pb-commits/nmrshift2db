@@ -1,0 +1,12 @@
+{
+  "INChI key": "DZBPBWWCIKAMER-KOLCDFICSA-N",
+  "INChI": "InChI=1S/C11H16N2/c1-9-5-6-11(13(9)2)10-4-3-7-12-8-10/h3-4,7-9,11H,5-6H2,1-2H3/t9-,11+/m1/s1",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20181055,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "14.9;0.0Q;10|29.9;0.0T;7|31.9;0.0T;8|35.1;0.0Q;9|58.6;0.0D;6|64.5;0.0D;5|123.6;0.0D;3|135.2;0.0D;2|139.8;0.0S;1|148.6;0.0D;4|149.8;0.0D;0|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 30832,
+  "SMILES": "C[C@@H]1CC[C@@H](c2cccnc2)N1C"
+}

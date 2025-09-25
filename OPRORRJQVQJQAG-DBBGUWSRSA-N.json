@@ -1,0 +1,12 @@
+{
+  "INChI key": "OPRORRJQVQJQAG-DBBGUWSRSA-N",
+  "INChI": "InChI=1S/C55H79NO6Si3/c1-19-33-58-52(57)56-46-31-30-43(62-64(17,18)54(12,13)14)35-44(46)49-45(36-59-63(15,16)53(9,10)11)51-50(40(8)48(49)47(56)32-34-65(37(2)3,38(4)5)39(6)7)60-55(61-51,41-26-22-20-23-27-41)42-28-24-21-25-29-42/h19-31,35,37-40,45,47,50-51H,1,33,36H2,2-18H3/t40-,45+,47+,50+,51-/m1/s1",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "1.36;0.0;33|2.84;0.0;5|3.27;0.0;8|4.23;0.0;67|4.7;0.0;48|4.73;0.0;68|5.35;0.0;65|5.55;0.0;12|5.94;0.0;69|6.72;0.0;15|6.82;0.0;13|",
+  "nmrshiftdb2 ID": 20173456,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 26239,
+  "SMILES": "C=CCOC(=O)N1c2ccc(O[Si](C)(C)C(C)(C)C)cc2C2=C([C@@H](C)[C@@H]3OC(c4ccccc4)(c4ccccc4)O[C@@H]3[C@H]2CO[Si](C)(C)C(C)(C)C)[C@@H]1C#C[Si](C(C)C)(C(C)C)C(C)C"
+}

@@ -1,0 +1,12 @@
+{
+  "INChI key": "OVKOXARAERBCAF-LFIBNONCSA-N",
+  "INChI": "InChI=1S/C18H15NO2/c1-13-3-5-15(6-4-13)18(20)11-16(12-19)14-7-9-17(21-2)10-8-14/h3-11H,1-2H3/b16-11+",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20181264,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "21.8;0.0Q;15|55.6;0.0Q;17|114.8;0.0D;11|114.8;0.0D;13|116.5;0.0S;16|124.1;0.0S;8|125.0;0.0S;9|129.7;0.0D;10|129.7;0.0D;14|130.2;0.0D;7|134.5;0.0S;5|145.0;0.0S;2|162.4;0.0S;12|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 31040,
+  "SMILES": "COc1ccc(/C(C#N)=C/C(=O)c2ccc(C)cc2)cc1"
+}

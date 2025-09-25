@@ -1,0 +1,12 @@
+{
+  "INChI key": "WESKDXUXCFNPHE-GEPOTTIUSA-N",
+  "INChI": "InChI=1S/C15H24O2/c1-7(2)9-5-6-15(4)8(3)10-11(9)12(15)14(17)13(10)16/h7,9-14,16-17H,3,5-6H2,1-2,4H3/t9-,10?,11-,12?,13?,14+,15+/m1/s1",
+  "Temperature [K]": "0:298 ",
+  "nmrshiftdb2 ID": 10027410,
+  "Field Strength [MHz]": "0:75.5 ",
+  "Spectrum 13C 0": "20.8;0.0Q;12|20.9;0.0Q;4|21.1;0.0Q;6|25.4;0.0T;2|33.0;0.0D;5|39.9;0.0T;1|41.7;0.0D;0|41.9;0.0D;3|42.9;0.0S;11|54.1;0.0D;8|58.2;0.0D;7|69.3;0.0D;13|74.7;0.0D;14|103.2;0.0T;10|157.1;0.0S;9|",
+  "Solvent": "0:Chloroform-D1 (CDCl3) ",
+  "Assignment Method": "0:2D NMR ",
+  "_molecule_index": 10222,
+  "SMILES": "C=C1C2C(O)[C@@H](O)C3[C@@H]2[C@@H](C(C)C)CC[C@@]13C"
+}

@@ -1,0 +1,12 @@
+{
+  "INChI key": "IPOXERKIEPWMGE-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C13H7NO4/c15-12-8-4-1-2-7-11(8)18-13-9(12)5-3-6-10(13)14(16)17/h1-7H",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20145481,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "117.9;0.0D;0|120.7;0.0S;4|122.8;0.0S;6|123.8;0.0D;9|125.2;0.0D;2|125.8;0.0D;3|130.4;0.0D;10|131.3;0.0D;8|136.0;0.0D;1|138.4;0.0S;11|147.5;0.0S;7|154.6;0.0S;5|174.2;0.0S;12|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 19333,
+  "SMILES": "O=c1c2ccccc2oc2c([N+](=O)[O-])cccc12"
+}

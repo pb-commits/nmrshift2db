@@ -1,0 +1,12 @@
+{
+  "INChI key": "GGHPTGYCVNXBNC-SCRDCRAPSA-N",
+  "INChI": "InChI=1S/C16H19NO5/c1-21-13(18)9-11-12(8-10-6-4-3-5-7-10)15(19)17-14(11)16(20)22-2/h3-7,11-12,14H,8-9H2,1-2H3,(H,17,19)/t11-,12+,14-/m0/s1",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20182685,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "31.2;0.0T;7|32.9;0.0T;5|38.4;0.0D;1|43.5;0.0D;2|58.1;0.0D;0|126.6;0.0D;11|128.4;0.0D;9|128.4;0.0D;13|128.7;0.0D;10|128.7;0.0D;12|138.3;0.0S;8|171.6;0.0S;4|171.9;0.0S;6|177.4;0.0S;3|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 32453,
+  "SMILES": "COC(=O)C[C@@H]1[C@@H](C(=O)OC)NC(=O)[C@@H]1Cc1ccccc1"
+}

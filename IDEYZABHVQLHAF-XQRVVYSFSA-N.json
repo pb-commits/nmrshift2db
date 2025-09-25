@@ -1,0 +1,19 @@
+{
+  "rawdata H,C-HSQC 3": "http://www.nmrshiftdb.org/download/NmrshiftdbServlet/40254840_H,C-HSQC.zip?spectrumid=40254840&nmrshiftdbaction=exportspec&format=rawdata",
+  "Program": "0:ACD/Labs C+H NMR Predictors and DB, 2020.1.0 1:HOSE code using nmrshiftdb2 data ",
+  "Spectrum H,C-HMBC 4": "",
+  "Temperature [K]": "2:298 3:300.1157 4:298 ",
+  "rawdata H,C-HMBC 4": "http://www.nmrshiftdb.org/download/NmrshiftdbServlet/40254841_H,C-HMBC.zip?spectrumid=40254841&nmrshiftdbaction=exportspec&format=rawdata",
+  "Field Strength [MHz]": "2:250.1300048828125 3:250.1300048828125 4:250.1300048828125 ",
+  "rawdata H,H-COSY 2": "http://www.nmrshiftdb.org/download/NmrshiftdbServlet/40254839_H,H-COSY.zip?spectrumid=40254839&nmrshiftdbaction=exportspec&format=rawdata",
+  "Spectrum H,H-COSY 2": "",
+  "INChI key": "IDEYZABHVQLHAF-XQRVVYSFSA-N",
+  "INChI": "InChI=1S/C6H10O/c1-3-4-6(2)5-7/h4-5H,3H2,1-2H3/b6-4-",
+  "nmrshiftdb2 ID": 40265376,
+  "Spectrum 13C 1": "13.96;0.0Q;4|21.92;0.0T;3|125.16;0.0D;1|138.95;0.0S;2|9.2;0.0Q;5|195.25;0.0D;0|",
+  "Spectrum 13C 0": "13.25;0.0Q;4|21.24;0.0T;3|150.57;0.0D;1|136.15;0.0S;2|15.05;0.0Q;5|194.5;0.0D;0|",
+  "Solvent": "2:Chloroform-D1 (CDCl3) 3:Chloroform-D1 (CDCl3) 4:Chloroform-D1 (CDCl3) ",
+  "Spectrum H,C-HSQC 3": "",
+  "_molecule_index": 43328,
+  "SMILES": "CC/C=C(/C)C=O"
+}

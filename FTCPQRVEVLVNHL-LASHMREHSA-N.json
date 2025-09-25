@@ -1,0 +1,12 @@
+{
+  "INChI key": "FTCPQRVEVLVNHL-LASHMREHSA-N",
+  "INChI": "InChI=1S/C22H22N4O7/c1-13(27)24-17-19(33-22(30)15-10-6-3-7-11-15)18(28)16(32-20(17)25-26-23)12-31-21(29)14-8-4-2-5-9-14/h2-11,16-20,28H,12H2,1H3,(H,24,27)/t16-,17-,18-,19-,20-/m1/s1",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "1.91;0.0;20|3.72;0.0;15|3.88;0.0;4|3.95;0.0;5|4.18;0.0;2|4.68;0.0;16|4.86;0.0;1|5.54;0.0;3|6.3;0.0;9|",
+  "nmrshiftdb2 ID": 20171213,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 23999,
+  "SMILES": "CC(=O)N[C@@H]1[C@@H](OC(=O)c2ccccc2)[C@H](O)[C@@H](COC(=O)c2ccccc2)O[C@H]1N=[N+]=[N-]"
+}

@@ -1,0 +1,15 @@
+{
+  "INChI key": "WMQUKDQWMMOHSA-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C7H7NO/c1-6(9)7-2-4-8-5-3-7/h2-5H,1H3",
+  "Temperature [K]": "0:313 1:Unreported 2:294 3:294 ",
+  "nmrshiftdb2 ID": 10008605,
+  "Field Strength [MHz]": "0:23 1:Unreported 2:150.0 3:600.0 ",
+  "Spectrum 1H 3": "7.68623;0.0m;1|7.68623;0.0m;3|8.76799;0.0m;0|8.76799;0.0m;4|2.59059;0.0s;6|2.59059;0.0s;6|2.59059;0.0s;6|",
+  "Spectrum 13C 1": "25.7;0.0Q;6|120.7;0.0D;1|120.7;0.0D;3|141.9;0.0S;2|150.2;0.0D;0|150.2;0.0D;4|196.6;0.0S;5|",
+  "Spectrum 13C 0": "26.8;0.0Q;6|121.5;0.0D;1|121.5;0.0D;3|143.2;0.0S;2|151.2;0.0D;0|151.2;0.0D;4|198.3;0.0S;5|",
+  "Solvent": "0:Dimethylsulphoxide-D6 (DMSO-D6, C2D6SO) 1:Unreported 2:Chloroform-D1 (CDCl3) 3:Chloroform-D1 (CDCl3) ",
+  "Assignment Method": "1:Unreported 2:DEPT,COSY,HSQC, HMBC 3:1H, 13C, DEPT-135, COSY, HSQC, HMBC ",
+  "Spectrum 13C 2": "142.617;0.0S;2|121.174;0.0D;1|121.174;0.0D;3|150.942;0.0D;0|150.942;0.0D;4|197.319;0.0S;5|26.6443;0.0Q;6|",
+  "_molecule_index": 3603,
+  "SMILES": "CC(=O)c1ccncc1"
+}

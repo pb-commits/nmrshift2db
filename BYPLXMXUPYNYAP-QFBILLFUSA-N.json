@@ -1,0 +1,12 @@
+{
+  "INChI key": "BYPLXMXUPYNYAP-QFBILLFUSA-N",
+  "INChI": "InChI=1S/C20H26N2S2/c1-3-19-13-22(2)10-9-16(19)20(23-11-6-12-24-20)18-17(19)14-7-4-5-8-15(14)21-18/h4-5,7-8,16,21H,3,6,9-13H2,1-2H3/t16-,19+/m0/s1",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 10018992,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "9.4;0.0Q;23|22.9;0.0T;17|23.9;0.0T;14|27.6;0.0T;15|28.9;0.0T;22|45.6;0.0S;7|46.2;0.0Q;24|53.7;0.0D;6|54.6;0.0T;18|55.9;0.0S;5|64.3;0.0T;20|112.0;0.0D;11|118.5;0.0D;8|119.6;0.0D;9|121.1;0.0S;3|122.6;0.0D;10|136.1;0.0S;2|140.4;0.0S;1|145.5;0.0S;4|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 6973,
+  "SMILES": "CC[C@@]12CN(C)CC[C@@H]1C1(SCCCS1)c1[nH]c3ccccc3c12"
+}

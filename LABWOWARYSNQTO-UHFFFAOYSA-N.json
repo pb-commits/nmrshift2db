@@ -1,0 +1,12 @@
+{
+  "INChI key": "LABWOWARYSNQTO-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C33H29NO3/c1-3-37-32(36)30-29(35)19-27(22-12-6-4-7-13-22)33(31(30)23-14-8-5-9-15-23)26-17-11-10-16-24(26)25-18-21(2)34-20-28(25)33/h4-18,20,27,31,35H,3,19H2,1-2H3",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "2.62;0.0;33|3.17;0.0;5|3.64;0.0;8|3.87;0.0;35|5.62;0.0;14|6.78;0.0;15|6.98;0.0;16|8.76;0.0;1|12.65;0.0;24|",
+  "nmrshiftdb2 ID": 20168763,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 22264,
+  "SMILES": "CCOC(=O)C1=C(O)CC(c2ccccc2)C2(c3ccccc3-c3cc(C)ncc32)C1c1ccccc1"
+}

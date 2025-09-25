@@ -1,0 +1,12 @@
+{
+  "INChI key": "FKUBAIAESCANMA-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C11H15NO3/c1-7(13)4-5-9-8(6-12)10(14)15-11(9,2)3/h8-9H,4-5H2,1-3H3",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20054383,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "19.9;0.0Q;5|20.5;0.0Q;6|21.8;0.0T;7|29.7;0.0Q;10|38.1;0.0D;1|40.8;0.0T;8|50.6;0.0D;2|87.5;0.0S;3|116.1;0.0S;4|167.2;0.0S;0|207.5;0.0S;9|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 15769,
+  "SMILES": "CC(=O)CCC1C(C#N)C(=O)OC1(C)C"
+}

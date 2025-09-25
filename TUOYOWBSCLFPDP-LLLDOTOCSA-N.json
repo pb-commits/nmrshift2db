@@ -1,0 +1,12 @@
+{
+  "INChI key": "TUOYOWBSCLFPDP-LLLDOTOCSA-N",
+  "INChI": "InChI=1S/C22H30O6/c1-9-13(5)19(24)28-22(8)17-15(26-14(6)23)11-21(7,10-2)16(12(3)4)18(17)27-20(22)25/h9-10,15-18H,2-3,11H2,1,4-8H3/b13-9-/t15-,16-,17+,18-,21-,22-/m0/s1",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "1.04;0.0;14|1.6;0.0;18|1.82;0.0;23|1.9;0.0;27|2.0;0.0;4|2.01;0.0;26|2.05;0.0;22|2.16;0.0;6|3.37;0.0;32|4.76;0.0;30|5.05;0.0;31|5.08;0.0;33|5.1;0.0;28|5.26;0.0;3|5.94;0.0;34|6.2;0.0;35|",
+  "nmrshiftdb2 ID": 20173516,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 26299,
+  "SMILES": "C=C[C@@]1(C)C[C@H](OC(C)=O)[C@@H]2[C@@H](OC(=O)[C@@]2(C)OC(=O)/C(C)=C\\C)[C@@H]1C(=C)C"
+}

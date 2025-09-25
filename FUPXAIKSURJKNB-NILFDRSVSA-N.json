@@ -1,0 +1,14 @@
+{
+  "INChI key": "FUPXAIKSURJKNB-NILFDRSVSA-N",
+  "Program": "1:ACD/Labs C+H NMR Predictors and DB, 2020.1.0 ",
+  "INChI": "InChI=1S/C15H22O2/c1-9-5-6-12-10(2)13(16)14(17)11(3)15(12,4)8-7-9/h7,11,14,17H,5-6,8H2,1-4H3/t11-,14+,15+/m0/s1",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 10020480,
+  "Field Strength [MHz]": "0:75 ",
+  "Spectrum 13C 1": "26.6;0.0Q;14|138.1;0.0S;10|121.6;0.0D;9|39.0;0.0T;7|44.1;0.0S;4|24.2;0.0Q;13|165.9;0.0S;5|125.6;0.0S;3|10.9;0.0Q;11|200.1;0.0S;0|72.7;0.0D;1|46.2;0.0D;2|9.1;0.0Q;12|27.4;0.0T;6|33.0;0.0T;8|",
+  "Spectrum 13C 0": "9.1;0.0Q;12|10.9;0.0Q;11|24.2;0.0Q;13|26.6;0.0Q;14|27.4;0.0T;6|33.0;0.0T;8|39.0;0.0T;7|44.1;0.0S;4|46.2;0.0D;2|72.7;0.0D;1|121.6;0.0D;9|125.6;0.0S;3|138.1;0.0S;10|165.9;0.0S;5|200.1;0.0S;0|",
+  "Solvent": "0:Chloroform-D1 (CDCl3) ",
+  "Assignment Method": "0:COSY+Hetcor ",
+  "_molecule_index": 7437,
+  "SMILES": "CC1=CC[C@@]2(C)C(=C(C)C(=O)[C@H](O)[C@@H]2C)CC1"
+}

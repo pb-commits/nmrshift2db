@@ -1,0 +1,13 @@
+{
+  "INChI key": "HDWRQDAKGPKDFF-FCIGDQIPSA-N",
+  "INChI": "InChI=1S/C15H18O6/c1-15-6-12(18)10(16)5-9(15)8-3-7(20-2)4-11(17)13(8)14(19)21-15/h3-4,9-10,12,16-18H,5-6H2,1-2H3/t9-,10-,12+,15+/m1/s1",
+  "Temperature [K]": "0:Unreported 1:Unreported ",
+  "nmrshiftdb2 ID": 20103715,
+  "Spectrum 1H 1": "1.4;0.0s;7|1.74;0.0q;2|2.05;0.0dd;3|2.3;0.0dt;2|2.4;0.0dd;3|3.06;0.0br d;23|3.84;0.0s;27|3.95;0.0br m;0|4.22;0.0br m;1|6.28;0.0d;9|6.37;0.0d;13|11.3;0.0s;24|1.4;0.0s;7|1.4;0.0s;7|3.84;0.0s;26|3.84;0.0s;25|",
+  "Field Strength [MHz]": "0:100 1:300 ",
+  "Spectrum 13C 0": "21.0;0.0Q;7|28.1;0.0T;2|42.2;0.0T;3|42.5;0.0D;4|56.0;0.0Q;14|69.1;0.0D;1|71.2;0.0D;0|83.3;0.0S;5|99.0;0.0D;9|101.6;0.0S;8|104.1;0.0D;13|142.4;0.0S;6|165.2;0.0S;11|166.5;0.0S;12|169.1;0.0S;10|",
+  "Solvent": "0:Chloroform-D1 (CDCl3) 1:Chloroform-D1 (CDCl3) ",
+  "Assignment Method": "0:HMQC,HMBC 1:HMQC,HMBC ",
+  "_molecule_index": 17198,
+  "SMILES": "COc1cc(O)c2c(c1)[C@H]1C[C@@H](O)[C@@H](O)C[C@]1(C)OC2=O"
+}

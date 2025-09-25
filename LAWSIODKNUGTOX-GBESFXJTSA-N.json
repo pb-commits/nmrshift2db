@@ -1,0 +1,12 @@
+{
+  "INChI key": "LAWSIODKNUGTOX-GBESFXJTSA-N",
+  "INChI": "InChI=1S/C21H25N3O4/c1-13(2)18-20(27-3)23-19(21(22-18)28-4)17(12-24(25)26)16-11-7-9-14-8-5-6-10-15(14)16/h5-11,13,17-19H,12H2,1-4H3/t17-,18-,19+/m0/s1",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "0.58;0.0;27|0.95;0.0;15|2.11;0.0;14|3.63;0.0;7|3.73;0.0;5|3.82;0.0;13|4.37;0.0;28|4.83;0.0;9|5.22;0.0;8|",
+  "nmrshiftdb2 ID": 20165345,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 20286,
+  "SMILES": "COC1=N[C@H]([C@@H](C[N+](=O)[O-])c2cccc3ccccc23)C(OC)=N[C@H]1C(C)C"
+}

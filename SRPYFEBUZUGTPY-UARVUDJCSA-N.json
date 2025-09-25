@@ -1,0 +1,13 @@
+{
+  "INChI key": "SRPYFEBUZUGTPY-UARVUDJCSA-N",
+  "INChI": "InChI=1S/C12H18O5/c1-2-3-6(13)10-7-5(4-16-10)8(14)11-12(17-11)9(7)15/h6,8-15H,2-4H2,1H3/t6?,8-,9-,10-,11+,12-/m1/s1",
+  "Temperature [K]": "0:Unknown 1:Unknown ",
+  "nmrshiftdb2 ID": 10027826,
+  "Spectrum 1H 1": "0.89;0.0t;19|0.89;0.0t;20|0.89;0.0t;21|1.37;0.0m;10|1.42;0.0m;9|1.56;0.0m;10|1.57;0.0m;9|3.33;0.0dd;5|3.42;0.0ddd;2|3.64;0.0m;8|3.84;0.0d;22|4.18;0.0d;17|4.36;0.0br d;6|4.42;0.0m;7|4.43;0.0br d;18|4.64;0.0br m;0|4.73;0.0ddd;7|4.74;0.0m;4|",
+  "Field Strength [MHz]": "0:100 1:400 ",
+  "Spectrum 13C 0": "14.5;0.0Q;11|19.5;0.0T;10|35.7;0.0T;9|55.3;0.0D;2|56.8;0.0D;5|61.7;0.0D;6|64.5;0.0D;0|74.3;0.0D;8|76.0;0.0T;7|90.0;0.0D;4|133.8;0.0S;3|134.3;0.0S;1|",
+  "Solvent": "0:Acetone-D6 ((CD3)2CO) 1:Acetone-D6 ((CD3)2CO) ",
+  "Assignment Method": "0:HRESIMS(HMBC and NOESY) 1:HRESIMS(HMBC and NOESY) ",
+  "_molecule_index": 10251,
+  "SMILES": "CCCC(O)[C@H]1OCC2=C1[C@@H](O)[C@H]1O[C@H]1[C@@H]2O"
+}

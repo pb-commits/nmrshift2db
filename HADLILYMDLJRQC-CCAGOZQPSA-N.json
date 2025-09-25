@@ -1,0 +1,14 @@
+{
+  "INChI key": "HADLILYMDLJRQC-CCAGOZQPSA-N",
+  "INChI": "InChI=1S/C6H6O6/c7-3(5(9)10)1-2-4(8)6(11)12/h1-2,7-8H,(H,9,10)(H,11,12)/b3-1-,4-2-",
+  "Temperature [K]": "0:298 1:298 2:298 ",
+  "nmrshiftdb2 ID": 20190481,
+  "Spectrum 1H 2": "6.42;0.0S;0|9.02;0.0S;9|12.81;0.0S;11|9.02;0.0S;6|12.81;0.0S;8|6.42;0.0S;2|",
+  "Field Strength [MHz]": "0:100.6 1:100.6 2:200.13 ",
+  "Spectrum 13C 1": "105.93;0.0D;0|105.93;0.0D;2|142.5;0.0S;1|142.5;0.0S;4|165.88;0.0S;3|165.88;0.0S;5|",
+  "Spectrum 13C 0": "105.93;0.0D;2|142.5;0.0S;1|165.88;0.0S;3|165.88;0.0S;5|142.5;0.0S;4|105.93;0.0D;0|",
+  "Solvent": "0:Dimethylsulphoxide-D6 (DMSO-D6, C2D6SO) 1:Dimethylsulphoxide-D6 (DMSO-D6, C2D6SO) 2:Dimethylsulphoxide-D6 (DMSO-D6, C2D6SO) ",
+  "Assignment Method": "0:1D shift positions 1:1D shift positions 2:1D shift positions ",
+  "_molecule_index": 32582,
+  "SMILES": "O=C(O)/C(O)=C/C=C(\\O)C(=O)O"
+}

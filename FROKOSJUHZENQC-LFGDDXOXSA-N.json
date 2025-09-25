@@ -1,0 +1,12 @@
+{
+  "INChI key": "FROKOSJUHZENQC-LFGDDXOXSA-N",
+  "INChI": "InChI=1S/C15H24N2O2/c18-14-5-4-13-10-7-11(9-17(13)15(14)19)12-3-1-2-6-16(12)8-10/h10-14,18H,1-9H2/t10?,11?,12-,13+,14-/m0/s1",
+  "Temperature [K]": "0:Unknown ",
+  "nmrshiftdb2 ID": 30085400,
+  "Field Strength [MHz]": "0:Unknown ",
+  "Spectrum 13C 0": "24.2;0.0t;18|24.4;0.0t;13|25.0;0.0t;17|26.2;0.0t;10|27.1;0.0t;9|32.1;0.0D;3|33.2;0.0t;16|34.4;0.0D;4|47.7;0.0t;6|52.7;0.0t;8|55.3;0.0t;14|61.5;0.0d;2|64.0;0.0d;7|67.9;0.0d;11|173.6;0.0s;1|",
+  "Solvent": "0:Chloroform-D1 (CDCl3) ",
+  "Assignment Method": "0:Unknown ",
+  "_molecule_index": 42077,
+  "SMILES": "O=C1[C@@H](O)CC[C@@H]2[C@H]3C[C@@H](CN12)[C@@H]1CCCCN1C3"
+}

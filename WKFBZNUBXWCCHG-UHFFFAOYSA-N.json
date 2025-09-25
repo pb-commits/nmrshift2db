@@ -1,0 +1,21 @@
+{
+  "Spectrum 31P 1": "97.0;0.0S;0|",
+  "NMRBasisSet": "0:6-311+GDP ",
+  "Temperature [K]": "1:Unknown 2:Unreported ",
+  "Spectrum 31P 0": "112.2;0.0S;0|",
+  "Field Strength [MHz]": "1:Unknown 2:Unreported ",
+  "NMRMethod": "0:RHF ",
+  "NMRProgram": "0:GaussianG94 ",
+  "Assignment Method": "1:Unknown 2:Unreported ",
+  "GeomMethod": "0:MP2-FC ",
+  "INChI key": "WKFBZNUBXWCCHG-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/F3P/c1-4(2)3",
+  "nmrshiftdb2 ID": 10026879,
+  "NMRLocalis": "0:GIAO ",
+  "NMRStandard": "0:PH3 ",
+  "Solvent": "1:Unknown 2:Unreported ",
+  "Spectrum 19F 2": "-35.1;0.0S;1|-35.1;0.0S;2|-35.1;0.0S;3|",
+  "GeomBasisSet": "0:6-31+GDP ",
+  "_molecule_index": 10184,
+  "SMILES": "FP(F)F"
+}

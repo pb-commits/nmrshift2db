@@ -1,0 +1,11 @@
+{
+  "INChI key": "BPMLAWBYBLOCCU-KZUDCZAMSA-N",
+  "INChI": "InChI=1S/C15H18N2O5/c1-20-13-5-4-12(18)17(13)14-7-10(8-21-14)9-22-15(19)11-3-2-6-16-11/h2-3,6-7,13-14,16H,4-5,8-9H2,1H3/t13?,14-/m0/s1",
+  "Temperature [K]": "0:298 ",
+  "nmrshiftdb2 ID": 2559,
+  "Field Strength [MHz]": "0:100.6 ",
+  "Spectrum 13C 0": "24.4;0.0T;1|28.8;0.0T;0|53.9;0.0Q;3|58.7;0.0T;13|74.5;0.0T;7|86.5;0.0D;10|87.7;0.0D;2|109.7;0.0D;19|115.6;0.0D;20|121.5;0.0S;17|124.4;0.0D;18|127.4;0.0D;8|134.3;0.0S;12|160.0;0.0S;16|175.1;0.0S;5|",
+  "Solvent": "0:Dimethylsulphoxide-D6 (DMSO-D6, C2D6SO) ",
+  "_molecule_index": 346,
+  "SMILES": "COC1CCC(=O)N1[C@@H]1C=C(COC(=O)c2ccc[nH]2)CO1"
+}

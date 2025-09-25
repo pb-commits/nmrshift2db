@@ -1,0 +1,12 @@
+{
+  "INChI key": "RHYWEHUVSAHRHA-WZRBSPASSA-N",
+  "INChI": "InChI=1S/C13H16N2O2S/c1-13-6-9(16)2-3-10(13)11(7-13)17-12(18)15-5-4-14-8-15/h4-5,8,10-11H,2-3,6-7H2,1H3/t10-,11-,13+/m1/s1",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "1.32;0.0;16|2.08;0.0;12|2.5;0.0;15|2.57;0.0;11|2.78;0.0;18|5.81;0.0;8|7.06;0.0;4|7.6;0.0;3|8.32;0.0;1|",
+  "nmrshiftdb2 ID": 20167617,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 21123,
+  "SMILES": "C[C@@]12CC(=O)CC[C@@H]1[C@H](OC(=S)n1ccnc1)C2"
+}

@@ -1,0 +1,15 @@
+{
+  "INChI key": "DENRZWYUOJLTMF-UHFFFAOYSA-N",
+  "Program": "1:HOSE code using nmrshiftdb2 data ",
+  "INChI": "InChI=1S/C4H10O4S/c1-3-7-9(5,6)8-4-2/h3-4H2,1-2H3",
+  "Temperature [K]": "0:Unreported 2:318 ",
+  "nmrshiftdb2 ID": 10016720,
+  "Spectrum 1H 2": "1.43;0.0;7|1.43;0.0;7|1.43;0.0;7|1.43;0.0;8|1.43;0.0;8|1.43;0.0;8|4.35;0.0;0|4.35;0.0;0|4.35;0.0;4|4.35;0.0;4|",
+  "Field Strength [MHz]": "0:Unreported 2:60 ",
+  "Spectrum 13C 1": "14.5;0.0Q;7|14.5;0.0Q;8|69.6;0.0T;0|69.6;0.0T;4|",
+  "Spectrum 13C 0": "14.5;0.0Q;7|14.5;0.0Q;8|69.6;0.0T;0|69.6;0.0T;4|",
+  "Solvent": "0:Unreported 2:Chloroform-D1 (CDCl3) ",
+  "Assignment Method": "0:Unreported 2:1D shift positions ",
+  "_molecule_index": 5222,
+  "SMILES": "CCOS(=O)(=O)OCC"
+}

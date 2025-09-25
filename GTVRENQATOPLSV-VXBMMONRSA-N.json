@@ -1,0 +1,12 @@
+{
+  "INChI key": "GTVRENQATOPLSV-VXBMMONRSA-N",
+  "INChI": "InChI=1S/C16H15N7O5S4/c1-28-21-9(7-5-31-16(17)19-7)12(24)20-10-13(25)23-11(15(26)27)6(4-30-14(10)23)3-29-8-2-18-22-32-8/h2,4-5,10-11,14H,3H2,1H3,(H2,17,19)(H,20,24)(H,26,27)/b21-9-/t10-,11-,14-/m1/s1",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "3.84;0.0;24|4.48;0.0;12|4.58;0.0;7|5.33;0.0;32|5.39;0.0;4|6.35;0.0;5|6.77;0.0;30|8.9;0.0;18|9.63;0.0;9|",
+  "nmrshiftdb2 ID": 20176731,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 28485,
+  "SMILES": "CO/N=C(\\C(=O)N[C@@H]1C(=O)N2[C@@H](C(=O)O)C(CSc3cnns3)=CS[C@H]12)c1csc(N)n1"
+}

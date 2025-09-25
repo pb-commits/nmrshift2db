@@ -1,0 +1,12 @@
+{
+  "INChI key": "RVSWFOSLVSCQII-DVTUMVOZSA-N",
+  "INChI": "InChI=1S/C12H12N2O3/c15-9-6-8(13-16)10-11(14-17-12(9)10)7-4-2-1-3-5-7/h1-5,9-10,12,15-16H,6H2/b13-8+/t9-,10+,12+/m0/s1",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "3.01;0.0;6|4.51;0.0;5|4.55;0.0;14|4.79;0.0;17|5.08;0.0;18|7.4;0.0;11|7.9;0.0;13|10.05;0.0;16|",
+  "nmrshiftdb2 ID": 20174447,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 26879,
+  "SMILES": "O/N=C1\\C[C@H](O)[C@H]2ON=C(c3ccccc3)[C@@H]12"
+}

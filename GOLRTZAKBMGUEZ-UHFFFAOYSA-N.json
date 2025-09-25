@@ -1,0 +1,12 @@
+{
+  "INChI key": "GOLRTZAKBMGUEZ-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C17H13NO2/c1-10-12-7-8-18-9-13(12)11(2)17-16(10)19-14-5-3-4-6-15(14)20-17/h3-9H,1-2H3",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20133642,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "9.4;0.0Q;16|9.6;0.0Q;15|115.4;0.0S;11|116.2;0.0D;0|116.2;0.0D;3|116.5;0.0D;14|117.2;0.0S;8|123.7;0.0D;2|123.9;0.0D;1|125.3;0.0S;9|133.5;0.0S;10|139.4;0.0S;7|141.0;0.0S;4|141.2;0.0S;5|142.1;0.0S;6|142.2;0.0D;13|148.3;0.0D;12|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 18408,
+  "SMILES": "Cc1c2c(c(C)c3cnccc13)Oc1ccccc1O2"
+}

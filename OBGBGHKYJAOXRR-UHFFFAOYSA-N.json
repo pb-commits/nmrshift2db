@@ -1,0 +1,15 @@
+{
+  "INChI key": "OBGBGHKYJAOXRR-UHFFFAOYSA-N",
+  "Program": "1:ACD/Labs C+H NMR Predictors and DB, 2020.1.0 2:HOSE code using nmrshiftdb2 data ",
+  "INChI": "InChI=1S/C11H8O3/c1-14-10-6-9(12)7-4-2-3-5-8(7)11(10)13/h2-6H,1H3",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20054399,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 1": "56.4;0.0Q;10|160.3;0.0S;9|109.85;0.0D;8|184.75;0.0S;7|132.05;0.0S;1|126.65;0.0D;0|134.3;0.0D;5|133.2;0.0D;4|126.15;0.0D;3|131.05;0.0S;2|180.05;0.0S;6|",
+  "Spectrum 13C 0": "56.4;0.0Q;10|109.8;0.0D;8|126.1;0.0D;3|126.6;0.0D;0|130.9;0.0S;1|131.9;0.0S;2|133.3;0.0D;4|134.4;0.0D;5|160.3;0.0S;9|180.0;0.0S;6|184.7;0.0S;7|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "Spectrum 13C 2": "56.4;0.0Q;10|160.3;0.0S;9|109.8;0.0D;8|184.7;0.0S;7|130.9;0.0S;1|126.6;0.0D;0|133.7;0.0D;5|133.3;0.0D;4|126.1;0.0D;3|131.9;0.0S;2|180.0;0.0S;6|",
+  "_molecule_index": 15785,
+  "SMILES": "COC1=CC(=O)c2ccccc2C1=O"
+}

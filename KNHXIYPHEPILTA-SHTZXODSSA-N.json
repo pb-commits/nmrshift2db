@@ -1,0 +1,12 @@
+{
+  "INChI key": "KNHXIYPHEPILTA-SHTZXODSSA-N",
+  "INChI": "InChI=1S/C15H12Cl6Ge2/c1-15(23(19,20)21)12-8-4-2-6-10(12)14(22(16,17)18)11-7-3-5-9-13(11)15/h2-9,14H,1H3/t14-,15-",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "2.45;0.0;16|5.27;0.0;3|",
+  "nmrshiftdb2 ID": 20164918,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 19859,
+  "SMILES": "C[C@]1([Ge]([Cl])([Cl])[Cl])c2ccccc2[C@H]([Ge]([Cl])([Cl])[Cl])c2ccccc21"
+}

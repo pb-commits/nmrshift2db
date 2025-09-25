@@ -1,0 +1,14 @@
+{
+  "INChI key": "ZDKCZSBZBVIVCB-BALZYMCLSA-N",
+  "Program": "1:HOSE code using nmrshiftdb2 data ",
+  "INChI": "InChI=1S/C15H22O6/c1-2-3-4-5-6-7-9-10(8-16)11(17)12(18)14-13(9)20-15(19)21-14/h6-7,11-14,16-18H,2-5,8H2,1H3/b7-6+/t11-,12-,13-,14+/m0/s1",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20000581,
+  "Field Strength [MHz]": "0:125 ",
+  "Spectrum 13C 1": "13.8;0.0Q;13|22.4;0.0T;12|31.3;0.0T;11|28.6;0.0T;10|33.5;0.0T;9|137.4;0.0D;8|123.3;0.0D;7|127.3;0.0S;4|127.3;0.0S;5|59.8;0.0T;6|67.6;0.0D;0|69.1;0.0D;1|77.2;0.0D;2|154.7;0.0S;14|75.1;0.0D;3|",
+  "Spectrum 13C 0": "13.8;0.0Q;13|22.4;0.0T;12|28.6;0.0T;10|31.3;0.0T;11|33.5;0.0T;9|59.8;0.0T;6|67.6;0.0D;0|69.1;0.0D;1|75.1;0.0D;3|77.2;0.0D;2|123.3;0.0D;7|127.3;0.0S;4|127.3;0.0S;5|137.4;0.0D;8|154.7;0.0S;14|",
+  "Solvent": "0:Chloroform-D1 (CDCl3)+ trace Methanol-D4 (CD3OD) ",
+  "Assignment Method": "0:COSY+Hetcor+longrange Hetcor ",
+  "_molecule_index": 10370,
+  "SMILES": "CCCCC/C=C/C1=C(CO)[C@H](O)[C@H](O)[C@H]2OC(=O)O[C@@H]12"
+}

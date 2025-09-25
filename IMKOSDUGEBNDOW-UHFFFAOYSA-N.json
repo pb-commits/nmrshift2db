@@ -1,0 +1,12 @@
+{
+  "INChI key": "IMKOSDUGEBNDOW-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C16H14Cl2O2/c1-7-5-9(19-3)13-10(20-4)6-8(2)12-14(13)11(7)15(17)16(12)18/h5-6H,1-4H3",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20218735,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "158.52;0.0S;0|158.52;0.0S;9|109.41;0.0D;1|109.41;0.0D;8|137.8;0.0S;2|137.8;0.0S;7|122.57;0.0S;3|122.57;0.0S;6|127.47;0.0S;4|109.98;0.0S;5|123.88;0.0S;10|123.88;0.0S;11|56.26;0.0Q;12|56.26;0.0Q;13|19.17;0.0Q;14|19.17;0.0Q;15|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 38323,
+  "SMILES": "COc1cc(C)c2c3c(c(C)cc(OC)c13)C(Cl)=C2Cl"
+}

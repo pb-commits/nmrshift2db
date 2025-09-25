@@ -1,0 +1,13 @@
+{
+  "INChI key": "CHNUNORXWHYHNE-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C15H18Cl2N2O3/c1-8(2)21-12-7-11(9(16)6-10(12)17)19-14(20)22-13(18-19)15(3,4)5/h6-8H,1-5H3",
+  "Temperature [K]": "0:Unreported 1:Unreported ",
+  "nmrshiftdb2 ID": 20209259,
+  "Spectrum 1H 1": "1.37;0.0;10|1.39;0.0;21|4.549;0.0;16|7.031;0.0;14|7.511;0.0;19|",
+  "Field Strength [MHz]": "0:Unreported 1:Unreported ",
+  "Spectrum 13C 0": "21.89;0.0Q;20|27.05;0.0Q;9|32.98;0.0S;7|73.06;0.0D;16|114.94;0.0D;14|123.14;0.0S;18|126.17;0.0S;17|131.34;0.0S;12|131.45;0.0D;19|152.25;0.0S;13|153.01;0.0S;15|163.49;0.0S;8|",
+  "Solvent": "0:Unreported 1:Unreported ",
+  "Assignment Method": "0:Unreported 1:Unreported ",
+  "_molecule_index": 36236,
+  "SMILES": "CC(C)Oc1cc(-n2nc(C(C)(C)C)oc2=O)c(Cl)cc1Cl"
+}

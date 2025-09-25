@@ -1,0 +1,12 @@
+{
+  "INChI key": "FHARVIOHRQCVJR-PCTBWUICSA-N",
+  "INChI": "InChI=1S/C35H45N5/c1-11-23-20(6)29-16-33-25(13-3)22(8)34(39-33)27(18-40(9)10)35-26(14-4)21(7)30(38-35)17-32-24(12-2)19(5)28(36-32)15-31(23)37-29/h15-17,36,39H,11-14,18H2,1-10H3/b28-15-,29-16-,30-17-,31-15-,32-17-,33-16-,34-27-,35-27-",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "1.76;0.0;26|1.76;0.0;35|1.83;0.0;32|3.52;0.0;29|3.52;0.0;33|3.92;0.0;25|3.92;0.0;34|5.76;0.0;30|9.85;0.0;11|9.85;0.0;21|",
+  "nmrshiftdb2 ID": 20174404,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 26837,
+  "SMILES": "CCC1=C(C)c2cc3[nH]c(c(C)c3CC)c(CN(C)C)c3nc(cc4[nH]c(cc1n2)c(C)c4CC)C(C)=C3CC"
+}

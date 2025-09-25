@@ -1,0 +1,12 @@
+{
+  "INChI key": "BHBNAIDPLPLWMU-YLSOPULTSA-N",
+  "INChI": "InChI=1S/C15H20N5O8P/c1-7-4-9(21)19-29(24,18-7)25-6-8-11-12(28-15(2,3)27-11)13(26-8)20-14(23)17-10(22)5-16-20/h4-5,8,11-13H,6H2,1-3H3,(H,17,22,23)(H2,18,19,21,24)/t8-,11-,12-,13-,29?/m1/s1",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "1.29;0.0;25|1.48;0.0;26|1.93;0.0;18|3.6;0.0;7|4.91;0.0;3|4.91;0.0;21|",
+  "nmrshiftdb2 ID": 20172839,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 25623,
+  "SMILES": "CC1=CC(=O)NP(=O)(OC[C@H]2O[C@@H](n3ncc(=O)[nH]c3=O)[C@@H]3OC(C)(C)O[C@@H]32)N1"
+}

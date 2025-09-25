@@ -1,0 +1,12 @@
+{
+  "INChI key": "COVFYLACFRNJLF-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C9H4BrClN2O2/c10-6-1-5-2-7(11)3-8(13(14)15)9(5)12-4-6/h1-4H",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20143949,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "119.7;0.0S;7|124.3;0.0D;2|129.9;0.0D;0|130.1;0.0S;5|131.0;0.0S;1|135.3;0.0S;4|137.3;0.0D;8|148.2;0.0S;3|153.6;0.0D;6|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 18967,
+  "SMILES": "O=[N+]([O-])c1cc(Cl)cc2cc(Br)cnc12"
+}

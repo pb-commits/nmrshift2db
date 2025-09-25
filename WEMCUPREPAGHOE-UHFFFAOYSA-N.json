@@ -1,0 +1,12 @@
+{
+  "INChI key": "WEMCUPREPAGHOE-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C16H15NO2S/c1-18-12-7-8-13-14(9-12)19-15(10-17-16(13)20)11-5-3-2-4-6-11/h2-9,15H,10H2,1H3,(H,17,20)",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20224156,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "134.8;0.0D;0|110.8;0.0D;1|164.0;0.0S;2|107.2;0.0D;3|154.5;0.0S;4|124.8;0.0S;5|49.7;0.0T;6|87.5;0.0D;7|138.5;0.0S;8|126.2;0.0D;9|126.2;0.0D;13|128.6;0.0D;10|128.6;0.0D;12|128.7;0.0D;11|200.1;0.0S;14|55.6;0.0Q;15|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 38870,
+  "SMILES": "COc1ccc2c(c1)OC(c1ccccc1)CNC2=S"
+}

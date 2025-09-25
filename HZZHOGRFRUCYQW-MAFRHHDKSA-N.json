@@ -1,0 +1,13 @@
+{
+  "INChI key": "HZZHOGRFRUCYQW-MAFRHHDKSA-N",
+  "INChI": "InChI=1S/C17H17NO9/c19-12(20)5-13(21)25-7-11-14(22)15(23)16(24)17(27-11)26-10-6-18-9-4-2-1-3-8(9)10/h1-4,6,11,14,16-18,22,24H,5,7H2,(H,19,20)/t11?,14-,16+,17-/m1/s1",
+  "Temperature [K]": "0:Unreported 1:Unreported ",
+  "nmrshiftdb2 ID": 10025944,
+  "Spectrum 1H 1": "3.04;0.0d;38|3.08;0.0d;39|3.66;0.0ddd;30|4.22;0.0ddd;27|4.29;0.0m;36|4.3;0.0ddd;28|4.77;0.0d;29|5.47;0.0d;19|5.78;0.0d;21|6.96;0.0ddd;32|7.05;0.0ddd;33|7.11;0.0d;35|7.28;0.0d;34|7.54;0.0d;31|10.62;0.0brs;17|4.29;0.0ddd;37|",
+  "Field Strength [MHz]": "0:100 1:500 ",
+  "Spectrum 13C 0": "45.6;0.0T;15|63.1;0.0T;11|72.0;0.0D;9|73.7;0.0D;10|76.6;0.0D;12|104.7;0.0D;8|111.6;0.0D;5|111.6;0.0D;7|117.3;0.0D;2|118.3;0.0D;1|119.5;0.0S;3|121.5;0.0D;0|133.2;0.0S;4|136.4;0.0S;6|168.4;0.0S;14|168.5;0.0S;16|205.0;0.0S;13|",
+  "Solvent": "0:Dimethylsulphoxide-D6 (DMSO-D6, C2D6SO) 1:Dimethylsulphoxide-D6 (DMSO-D6, C2D6SO) ",
+  "Assignment Method": "0:1D shift positions 1:1D shift position, COSY, HMBC, HMQC ",
+  "_molecule_index": 10124,
+  "SMILES": "O=C(O)CC(=O)OCC1O[C@@H](Oc2c[nH]c3ccccc23)[C@@H](O)C(=O)[C@@H]1O"
+}

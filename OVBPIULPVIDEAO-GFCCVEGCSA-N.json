@@ -1,0 +1,12 @@
+{
+  "INChI key": "OVBPIULPVIDEAO-GFCCVEGCSA-N",
+  "INChI": "InChI=1S/C19H19N7O6/c20-19-25-15-14(17(30)26-19)23-11(8-22-15)7-21-10-3-1-9(2-4-10)16(29)24-12(18(31)32)5-6-13(27)28/h1-4,8,12,21H,5-7H2,(H,24,29)(H,27,28)(H,31,32)(H3,20,22,25,26,30)/t12-/m1/s1",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "1.939;0.0;5|2.077;0.0;5|2.344;0.0;6|4.359;0.0;15|4.514;0.0;7|6.668;0.0;2|6.98;0.0;24|7.678;0.0;0|8.17;0.0;25|8.675;0.0;4|",
+  "nmrshiftdb2 ID": 30095884,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 42267,
+  "SMILES": "Nc1nc(O)c2nc(CNc3ccc(C(=O)N[C@H](CCC(=O)O)C(=O)O)cc3)cnc2n1"
+}

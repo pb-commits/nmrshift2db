@@ -1,0 +1,13 @@
+{
+  "INChI key": "GALREMNOAKJEKB-KWOGNLBTSA-O",
+  "INChI": "InChI=1S/C21H29N2/c1-2-7-16(8-3-1)20-10-6-11-21-17-13-18(15-23(20)21)19-9-4-5-12-22(19)14-17/h1-3,7-8,17-19,21H,4-6,9-15H2/q+1/p+1/t17?,18?,19-,21+/m0/s1",
+  "Temperature [K]": "0:Unknown 1:Unknown ",
+  "nmrshiftdb2 ID": 30085467,
+  "Field Strength [MHz]": "0:Unknown 1:Unknown ",
+  "Spectrum 13C 1": "20.2;0.0t;3|23.1;0.0t;14|23.4;0.0t;15|24.0;0.0t;7|27.9;0.0d;6|30.5;0.0t;4|32.1;0.0d;8|32.2;0.0t;13|34.8;0.0t;2|48.4;0.0t;12|51.1;0.0t;9|53.9;0.0t;16|59.8;0.0d;10|64.1;0.0d;5|208.6;0.0s;1|",
+  "Spectrum 13C 0": "19.1;0.0t;3|22.5;0.0t;15|22.9;0.0t;7|23.0;0.0t;14|24.1;0.0d;6|28.9;0.0t;4|30.5;0.0d;8|30.5;0.0t;13|37.4;0.0t;2|44.9;0.0t;12|48.9;0.0t;9|53.5;0.0t;16|57.4;0.0d;10|61.6;0.0d;5|199.4;0.0s;1|",
+  "Solvent": "0:Dimethylsulphoxide-D6 (DMSO-D6, C2D6SO) 1:Deuteriumoxide (D2O) ",
+  "Assignment Method": "0:Unknown 1:Unknown ",
+  "_molecule_index": 42141,
+  "SMILES": "c1ccc(C2=[N+]3C[C@@H]4C[C@@H](C[NH+]5CCCC[C@@H]45)[C@H]3CCC2)cc1"
+}

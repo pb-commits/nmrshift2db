@@ -1,0 +1,12 @@
+{
+  "INChI key": "PFDPPEVCZONEST-CLFYSBASSA-N",
+  "INChI": "InChI=1S/C11H15N3O3/c1-6(2)4-8-10(15)14-9(13-8)7(5-12)11(16)17-3/h6,8,13H,4H2,1-3H3,(H,14,15)/b9-7-",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20181032,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "22.4;0.0Q;10|22.5;0.0Q;9|23.7;0.0D;8|40.1;0.0T;7|51.0;0.0Q;6|55.7;0.0S;3|57.0;0.0D;2|116.7;0.0S;4|162.3;0.0S;0|166.7;0.0S;5|175.3;0.0S;1|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 30809,
+  "SMILES": "COC(=O)/C(C#N)=C1\\NC(=O)C(CC(C)C)N1"
+}

@@ -1,0 +1,12 @@
+{
+  "INChI key": "NRQAVABARUGSML-UHFFFAOYSA-M",
+  "INChI": "InChI=1S/C9H13N3O3S2/c1-9(2)4(7(14)15)12-5(13)3(6(12)17-9)11-8(10)16/h3-4,6H,1-2H3,(H,14,15)(H3,10,11,16)/p-1",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "1.5;0.0;9|1.59;0.0;10|4.24;0.0;3|5.48;0.0;1|5.59;0.0;5|",
+  "nmrshiftdb2 ID": 20177328,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 29078,
+  "SMILES": "CC1(C)SC2C(NC(N)=S)C(=O)N2C1C(=O)[O-]"
+}

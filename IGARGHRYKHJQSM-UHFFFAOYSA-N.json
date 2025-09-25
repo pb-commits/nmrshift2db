@@ -1,0 +1,16 @@
+{
+  "INChI key": "IGARGHRYKHJQSM-UHFFFAOYSA-N",
+  "Program": "2:HOSE code using nmrshiftdb2 data ",
+  "INChI": "InChI=1S/C12H16/c1-3-7-11(8-4-1)12-9-5-2-6-10-12/h1,3-4,7-8,12H,2,5-6,9-10H2",
+  "Temperature [K]": "0:Unreported 1:Unreported 3:Unreported ",
+  "nmrshiftdb2 ID": 10017435,
+  "Field Strength [MHz]": "0:Unreported 1:Unreported 3:Unreported ",
+  "Spectrum 1H 3": "1.33;0.0;9|1.33;0.0;10|1.33;0.0;11|1.84;0.0;9|1.84;0.0;10|1.84;0.0;11|2.47;0.0;6|7.24;0.0;0|7.24;0.0;4|7.24;0.0;5|",
+  "Spectrum 13C 1": "26.6;0.0T;9|27.2;0.0T;8|27.2;0.0T;10|35.1;0.0T;7|35.1;0.0T;11|50.6;0.0D;6|126.2;0.0D;0|127.1;0.0D;2|127.1;0.0D;4|128.6;0.0D;1|128.6;0.0D;5|147.9;0.0S;3|",
+  "Spectrum 13C 0": "26.2;0.0T;9|26.9;0.0T;8|26.9;0.0T;10|34.5;0.0T;7|34.5;0.0T;11|44.6;0.0D;6|125.7;0.0D;0|126.8;0.0D;2|126.8;0.0D;4|128.2;0.0D;1|128.2;0.0D;5|148.0;0.0S;3|",
+  "Solvent": "0:Unreported 1:Unreported 3:Unreported ",
+  "Assignment Method": "0:Unreported 1:Unreported 3:Unreported ",
+  "Spectrum 13C 2": "126.02;0.0D;0|128.46;0.0D;1|128.46;0.0D;5|126.96;0.0D;2|126.96;0.0D;4|147.93;0.0S;3|44.96;0.0D;6|34.88;0.0T;7|34.88;0.0T;11|27.23;0.0T;8|27.23;0.0T;10|26.55;0.0T;9|",
+  "_molecule_index": 5612,
+  "SMILES": "c1ccc(C2CCCCC2)cc1"
+}

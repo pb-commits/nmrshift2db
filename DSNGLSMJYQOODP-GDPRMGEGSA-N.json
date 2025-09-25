@@ -1,0 +1,12 @@
+{
+  "INChI key": "DSNGLSMJYQOODP-GDPRMGEGSA-N",
+  "INChI": "InChI=1S/C11H12O/c12-11-9-4-2-1-3-7(9)5-8-6-10(8)11/h1-4,8,10-12H,5-6H2/t8-,10+,11-/m0/s1",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 88428,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "1.7;0.0T;10|9.5;0.0D;7|18.3;0.0D;8|28.9;0.0T;6|67.7;0.0D;9|125.5;0.0D;1|126.5;0.0D;2|127.4;0.0D;0|128.3;0.0D;3|132.8;0.0S;5|137.1;0.0S;4|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 2327,
+  "SMILES": "O[C@H]1c2ccccc2C[C@H]2C[C@H]21"
+}

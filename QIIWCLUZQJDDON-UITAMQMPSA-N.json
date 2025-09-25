@@ -1,0 +1,12 @@
+{
+  "INChI key": "QIIWCLUZQJDDON-UITAMQMPSA-N",
+  "INChI": "InChI=1S/C11H10O6/c1-17-9(11(15)16)5-6-2-3-8(12)7(4-6)10(13)14/h2-5,12H,1H3,(H,13,14)(H,15,16)/b9-5-",
+  "Temperature [K]": "0:303 ",
+  "Spectrum 1H 0": "6.95;1.0S;1|7.82;1.0D;2|8.15;1.0S;4|6.89;1.0S;10|3.71;3.0;13|3.71;3.0;13|3.71;3.0;13|",
+  "nmrshiftdb2 ID": 60008125,
+  "Field Strength [MHz]": "0:800.0 ",
+  "Solvent": "0:Deuteriumoxide (D2O) ",
+  "Assignment Method": "0:1H, H,H-COSY, H,H-NOESY, H,C-HMQC, H,C-HMBC, DEPTQ, 1H, 13C, 1H, H,H-COSY ",
+  "_molecule_index": 43664,
+  "SMILES": "CO/C(=C\\c1ccc(O)c(C(=O)O)c1)C(=O)O"
+}

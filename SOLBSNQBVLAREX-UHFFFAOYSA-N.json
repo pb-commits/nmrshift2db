@@ -1,0 +1,12 @@
+{
+  "INChI key": "SOLBSNQBVLAREX-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C16H17NO2/c1-17(2)14-10-8-13(9-11-14)16(19)15(18)12-6-4-3-5-7-12/h3-11,15,18H,1-2H3",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20123959,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "39.5;0.0Q;14|39.5;0.0Q;15|74.8;0.0D;7|110.3;0.0D;1|110.3;0.0D;5|121.2;0.0S;3|127.1;0.0D;9|127.1;0.0D;13|127.3;0.0D;11|128.2;0.0D;10|128.2;0.0D;12|130.9;0.0D;2|130.9;0.0D;4|140.7;0.0S;8|153.1;0.0S;0|195.9;0.0S;6|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 18176,
+  "SMILES": "CN(C)c1ccc(C(=O)C(O)c2ccccc2)cc1"
+}

@@ -1,0 +1,12 @@
+{
+  "INChI key": "HOTFWERJOWSCAF-FHEJEKGWSA-N",
+  "INChI": "InChI=1S/C24H30O6/c1-24(2)29-20-18(25)19(26-3)21(27-14-16-10-6-4-7-11-16)22(23(20)30-24)28-15-17-12-8-5-9-13-17/h4-13,18-23,25H,14-15H2,1-3H3/t18-,19-,20-,21+,22-,23-/m0/s1",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "1.45;0.0;9|1.45;0.0;10|2.57;0.0;29|3.41;0.0;6|3.56;0.0;7|3.59;0.0;28|3.84;0.0;5|3.85;0.0;8|4.23;0.0;4|4.43;0.0;3|4.79;0.0;12|4.79;0.0;20|7.34;0.0;14|7.34;0.0;15|",
+  "nmrshiftdb2 ID": 20168264,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 21768,
+  "SMILES": "CO[C@H]1[C@H](O)[C@@H]2OC(C)(C)O[C@@H]2[C@@H](OCc2ccccc2)[C@@H]1OCc1ccccc1"
+}

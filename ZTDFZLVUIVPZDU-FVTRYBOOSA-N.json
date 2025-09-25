@@ -1,0 +1,23 @@
+{
+  "Spectrum H,C-HMBC 3": "",
+  "Spectrum APT 5": "123.6;0.0T;9|125.5;0.0T;8|129.2;0.0D;6|127.5;0.0D;7|76.2;0.0D;10|72.6;0.0D;11|70.0;0.0D;12|59.0;0.0T;14|65.0;0.0T;13|51.7;0.0D;15|47.5;0.0T;16|33.8;0.0T;17|25.7;0.0T;18|16.4;0.0Q;19|169.5;0.0S;0|164.8;0.0S;1|144.2;0.0S;2|141.6;0.0S;3|136.2;0.0S;4|131.8;0.0S;5|",
+  "rawdata APT 5": "http://www.nmrshiftdb.org/download/NmrshiftdbServlet/40254546_APT.zip?spectrumid=40254546&nmrshiftdbaction=exportspec&format=rawdata",
+  "rawdata H,C-HMBC 3": "http://www.nmrshiftdb.org/download/NmrshiftdbServlet/40254550_H,C-HMBC.zip?spectrumid=40254550&nmrshiftdbaction=exportspec&format=rawdata",
+  "Temperature [K]": "0:300 1:300 2:300 3:300 4:300 5:300 ",
+  "Spectrum 1H 0": "6.07;0.0D;29|5.96;0.0S;31|6.21;0.0S;32|5.71;0.0D;30|5.0;0.0D;6|4.84;0.0D;7|5.22;0.0DD;27|5.07;0.0DD;11|4.34;0.0DD;12|4.06;0.0D;14|3.87;0.0D;14|3.48;0.0DD;13|3.27;0.0DD;13|3.29;0.0;28|2.5;0.0D;16|2.5;0.0D;17|2.39;0.0D;16|1.84;0.0;17|2.17;0.0DD;18|2.09;0.0DD;18|1.42;0.0;19|1.42;0.0;19|1.42;0.0;19|",
+  "rawdata H,H-NOESY 4": "http://www.nmrshiftdb.org/download/NmrshiftdbServlet/40254551_H,H-NOESY.zip?spectrumid=40254551&nmrshiftdbaction=exportspec&format=rawdata",
+  "rawdata H,C-HSQC 2": "http://www.nmrshiftdb.org/download/NmrshiftdbServlet/40254549_H,C-HSQC.zip?spectrumid=40254549&nmrshiftdbaction=exportspec&format=rawdata",
+  "rawdata H,H-COSY 1": "http://www.nmrshiftdb.org/download/NmrshiftdbServlet/40254548_H,H-COSY.zip?spectrumid=40254548&nmrshiftdbaction=exportspec&format=rawdata",
+  "Field Strength [MHz]": "0:600.1300048828125 1:600.1300048828125 2:600.1300048828125 3:600.1300048828125 4:600.1300048828125 5:150.9027557373047 ",
+  "Assignment Method": "0:1H, APT, H,H-COSY, H,H-NOESY, H,C-HSQC, H,C-HMBC 5:1H, APT, H,H-COSY, H,H-NOESY, H,C-HSQC, H,C-HMBC ",
+  "Spectrum H,H-COSY 1": "",
+  "rawdata 1H 0": "http://www.nmrshiftdb.org/download/NmrshiftdbServlet/40254547_1H.zip?spectrumid=40254547&nmrshiftdbaction=exportspec&format=rawdata",
+  "INChI key": "ZTDFZLVUIVPZDU-FVTRYBOOSA-N",
+  "INChI": "InChI=1S/C20H26O7/c1-11-5-4-6-14(9-21)8-17-18(13(3)20(25)27-17)16(7-11)26-19(24)12(2)15(23)10-22/h5,8,15-18,21-23H,2-4,6-7,9-10H2,1H3/b11-5+,14-8-/t15-,16?,17+,18+/m0/s1",
+  "nmrshiftdb2 ID": 40265326,
+  "Spectrum H,C-HSQC 2": "",
+  "Solvent": "0:Dimethylsulphoxide-D6 (DMSO-D6, C2D6SO) 1:Dimethylsulphoxide-D6 (DMSO-D6, C2D6SO) 2:Dimethylsulphoxide-D6 (DMSO-D6, C2D6SO) 3:Dimethylsulphoxide-D6 (DMSO-D6, C2D6SO) 4:Dimethylsulphoxide-D6 (DMSO-D6, C2D6SO) 5:Dimethylsulphoxide-D6 (DMSO-D6, C2D6SO) ",
+  "Spectrum H,H-NOESY 4": "",
+  "_molecule_index": 43323,
+  "SMILES": "C=C1C(=O)O[C@@H]2/C=C(/CO)CC/C=C(/C)C[C@H](OC(=O)C(=C)[C@@H](O)CO)[C@@H]12"
+}

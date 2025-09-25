@@ -1,0 +1,13 @@
+{
+  "INChI key": "PFPTYRFVUHDUIN-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C12H10Cl2Ge/c13-15(14,11-7-3-1-4-8-11)12-9-5-2-6-10-12/h1-10H",
+  "Temperature [K]": "0:Unreported 1:Unreported ",
+  "nmrshiftdb2 ID": 20039573,
+  "Spectrum 1H 1": "7.42;0.0;1|7.45;0.0;0|7.67;0.0;2|",
+  "Field Strength [MHz]": "0:Unreported 1:Unreported ",
+  "Spectrum 13C 0": "129.0;0.0D;1|129.0;0.0D;5|129.0;0.0D;8|129.0;0.0D;10|131.7;0.0D;0|131.7;0.0D;9|132.6;0.0D;2|132.6;0.0D;4|132.6;0.0D;7|132.6;0.0D;11|134.3;0.0S;3|134.3;0.0S;6|",
+  "Solvent": "0:Unreported 1:Unreported ",
+  "Assignment Method": "0:Unreported 1:Unreported ",
+  "_molecule_index": 13477,
+  "SMILES": "[Cl][Ge]([Cl])([c]1ccccc1)[c]1ccccc1"
+}

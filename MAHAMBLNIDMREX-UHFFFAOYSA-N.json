@@ -1,0 +1,12 @@
+{
+  "INChI key": "MAHAMBLNIDMREX-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C10H9NO2/c1-11-8-5-3-2-4-7(8)6-9(11)10(12)13/h2-6H,1H3,(H,12,13)",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20054737,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "31.3;0.0Q;8|109.5;0.0D;3|110.3;0.0D;7|120.1;0.0D;1|122.0;0.0D;0|124.4;0.0D;2|125.4;0.0S;5|129.5;0.0S;6|139.2;0.0S;4|163.1;0.0S;9|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 15894,
+  "SMILES": "Cn1c(C(=O)O)cc2ccccc21"
+}

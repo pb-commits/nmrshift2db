@@ -1,0 +1,12 @@
+{
+  "INChI key": "LOAQSXOLUDOOBM-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C26H24F12O2P/c1-19(2,3)13-7-9-17(15(11-13)21(39,23(27,28)29)24(30,31)32)41-18-10-8-14(20(4,5)6)12-16(18)22(40-41,25(33,34)35)26(36,37)38/h7-12H,1-6H3/q-1",
+  "Temperature [K]": "0:Unknown ",
+  "Spectrum 31P 0": "-17.9;0.0S;6|",
+  "nmrshiftdb2 ID": 80037917,
+  "Field Strength [MHz]": "0:Unknown ",
+  "Solvent": "0:Unknown ",
+  "Assignment Method": "0:Unknown ",
+  "_molecule_index": 56573,
+  "SMILES": "CC(C)(C)c1ccc(P2OC(C(F)(F)F)(C(F)(F)F)c3cc(C(C)(C)C)ccc32)c(C([O-])(C(F)(F)F)C(F)(F)F)c1"
+}

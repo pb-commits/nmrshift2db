@@ -1,0 +1,11 @@
+{
+  "INChI key": "QGMAWEIDGADSAC-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C10H18N2O2/c1-5(2)7-9(13)12-8(6(3)4)10(14)11-7/h5-8H,1-4H3,(H,11,14)(H,12,13)",
+  "Temperature [K]": "0:298 ",
+  "nmrshiftdb2 ID": 10009007,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "17.2;0.874477Q;6|17.2;0.874477Q;9|19.0;0.899582Q;5|19.0;0.899582Q;8|32.4;1.0D;4|32.4;1.0D;7|60.6;0.924686D;1|60.6;0.924686D;3|171.3;0.209205S;0|171.3;0.209205S;2|",
+  "Solvent": "0:Formic Acid-D2 (DCOOD) ",
+  "_molecule_index": 3971,
+  "SMILES": "CC(C)C1NC(=O)C(C(C)C)NC1=O"
+}

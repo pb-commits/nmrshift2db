@@ -1,0 +1,12 @@
+{
+  "INChI key": "FRCKPMYTALJFEX-HGLOWAQJSA-N",
+  "INChI": "InChI=1S/C24H43N5O7Si2/c1-13(2)37(14(3)4)33-10-17-20(35-38(36-37,15(5)6)16(7)8)24(32,18(31)9-30)23(34-17)29-12-28-19-21(25)26-11-27-22(19)29/h11-18,20,23,30-32H,9-10H2,1-8H3,(H2,25,26,27)/t17-,18-,20-,23-,24-/m1/s1",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "1.18;0.0;13|1.18;0.0;17|3.7;0.0;8|3.7;0.0;35|4.15;0.0;9|4.15;0.0;20|4.95;0.0;4|5.96;0.0;6|8.01;0.0;28|8.11;0.0;23|",
+  "nmrshiftdb2 ID": 20174892,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 27322,
+  "SMILES": "CC(C)[Si]1(C(C)C)OC[C@H]2O[C@@H](n3cnc4c(N)ncnc43)[C@@](O)([C@H](O)CO)[C@@H]2O[Si](C(C)C)(C(C)C)O1"
+}

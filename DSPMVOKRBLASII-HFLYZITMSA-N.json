@@ -1,0 +1,12 @@
+{
+  "INChI key": "DSPMVOKRBLASII-HFLYZITMSA-N",
+  "INChI": "InChI=1S/C41H42O14/c1-20(42)53-39-31(23-13-16-27(46-4)37(50-8)36(23)54-34(39)21-11-14-25(44-2)28(17-21)47-5)24-19-30(49-7)38(51-9)40-32(24)33(43)41(52-10)35(55-40)22-12-15-26(45-3)29(18-22)48-6/h11-19,31,34,39H,1-10H3/t31-,34-,39-/m1/s1",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "1.96;0.0;46|5.08;0.0;9|5.48;0.0;8|6.15;0.0;7|6.51;0.0;23|6.63;0.0;4|6.77;0.0;5|6.78;0.0;31|6.82;0.0;32|6.94;0.0;28|7.05;0.0;38|7.89;0.0;41|7.93;0.0;37|",
+  "nmrshiftdb2 ID": 20170601,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 23394,
+  "SMILES": "COc1ccc(-c2oc3c(OC)c(OC)cc([C@H]4c5ccc(OC)c(OC)c5O[C@H](c5ccc(OC)c(OC)c5)[C@@H]4OC(C)=O)c3c(=O)c2OC)cc1OC"
+}

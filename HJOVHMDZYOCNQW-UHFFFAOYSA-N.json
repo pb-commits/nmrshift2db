@@ -1,0 +1,20 @@
+{
+  "Program": "3:ACD/Labs C+H NMR Predictors and DB, 2020.1.0 4:HOSE code using nmrshiftdb2 data ",
+  "Temperature [K]": "0:Unreported 1:298 2:294 5:Unreported 6:298 6:300 7:294 ",
+  "Field Strength [MHz]": "0:Unreported 1:75 2:150.0 5:Unreported 7:600.0 ",
+  "Spectrum 1H 5": "1.041;0.0;0|1.041;0.0;9|1.949;0.0;8|2.19;0.0;2|2.195;0.0;7|5.875;0.0;4|",
+  "Spectrum 1H 6": "0.85;0.0;0|0.85;0.0;0|0.85;0.0;0|0.85;0.0;9|0.85;0.0;9|0.85;0.0;9|1.76;0.0;8|1.76;0.0;8|1.76;0.0;8|2.0;0.0;2|2.0;0.0;2|2.0;0.0;7|2.0;0.0;7|5.68;0.0;4|",
+  "Assignment Method": "0:Unreported 1:1H standard spectrum; H,H COSY; H,H NOESY; H,C HMQC/HSQC; H,C HMBC; 13C APT 2:COSY, HSQC, HMBC 5:Unreported 6:H,H COSY; H,H NOESY; H,C HMQC/HSQC; H,C HMBC; 13C standard spectrum; 13C DEPT 135 7:COSY, HSQC, HMBC ",
+  "Spectrum 1H 7": "1.91;0.0;8|1.91;0.0;8|1.91;0.0;8|1.0;0.0;0|1.0;0.0;0|1.0;0.0;0|1.0;0.0;9|1.0;0.0;9|1.0;0.0;9|5.85;0.0;4|2.14;0.0;2|2.17;0.0;7|",
+  "INChI key": "HJOVHMDZYOCNQW-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C9H14O/c1-7-4-8(10)6-9(2,3)5-7/h4H,5-6H2,1-3H3",
+  "nmrshiftdb2 ID": 30097368,
+  "Spectrum 13C 1": "24.162;0.0Q;8|27.937;0.0Q;0|27.937;0.0Q;9|33.142;0.0S;1|44.839;0.0T;2|50.419;0.0T;7|125.062;0.0D;4|159.932;0.0S;3|199.311;0.0S;5|",
+  "Spectrum 13C 0": "24.3;0.0Q;8|28.3;0.0Q;0|28.3;0.0Q;9|33.4;0.0S;1|45.2;0.0T;2|50.8;0.0T;7|125.4;0.0D;4|160.1;0.0S;3|199.4;0.0S;5|",
+  "Spectrum 13C 3": "24.35;0.0Q;8|159.73;0.0S;3|125.37;0.0D;4|198.63;0.0S;5|50.75;0.0T;7|33.4;0.0S;1|28.25;0.0Q;0|28.25;0.0Q;9|45.2;0.0T;2|",
+  "Solvent": "0:Unreported 1:Chloroform-D1 (CDCl3) 2:Chloroform-D1 (CDCl3) 5:Unreported 6:Chloroform-D1 (CDCl3) 7:Chloroform-D1 (CDCl3) ",
+  "Spectrum 13C 2": "24.5;0.0Q;8|28.3;0.0Q;0|28.3;0.0Q;9|125.4;0.0D;4|45.2;0.0T;2|50.7;0.0T;7|160.4;0.0S;3|199.9;0.0S;5|33.5;0.0S;1|",
+  "Spectrum 13C 4": "24.32;0.0Q;8|160.14;0.0S;3|125.29;0.0D;4|199.54;0.0S;5|50.64;0.0T;7|33.35;0.0S;1|28.18;0.0Q;0|28.18;0.0Q;9|45.08;0.0T;2|",
+  "_molecule_index": 42341,
+  "SMILES": "CC1=CC(=O)CC(C)(C)C1"
+}

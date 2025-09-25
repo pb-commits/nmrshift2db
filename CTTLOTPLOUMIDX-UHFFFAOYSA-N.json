@@ -1,0 +1,12 @@
+{
+  "INChI key": "CTTLOTPLOUMIDX-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C16H16O8/c1-5-23-15(18)11-12(17)16(19)24-13(11)8-6-9(20-2)14(22-4)10(7-8)21-3/h6-7H,5H2,1-4H3",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20227397,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "108.5;0.0D;0|108.5;0.0D;4|152.7;0.0S;1|152.7;0.0S;3|145.8;0.0S;2|119.8;0.0S;5|174.4;0.0S;6|152.8;0.0S;7|178.1;0.0S;8|109.3;0.0S;9|161.5;0.0S;10|62.0;0.0T;11|14.1;0.0Q;12|56.4;0.0Q;13|56.4;0.0Q;15|61.3;0.0Q;14|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 39360,
+  "SMILES": "CCOC(=O)C1=C(c2cc(OC)c(OC)c(OC)c2)OC(=O)C1=O"
+}

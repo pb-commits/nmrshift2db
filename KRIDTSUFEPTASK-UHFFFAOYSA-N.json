@@ -1,0 +1,12 @@
+{
+  "INChI key": "KRIDTSUFEPTASK-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C18H16N2O6/c1-5-13-16(18(22)26-4)15(14(10(2)19-13)17(21)25-3)11-7-6-8-12(9-11)20(23)24/h1,6-9,15,19H,2-4H3",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20229952,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "127.0;0.0S;0|111.7;0.0S;1|39.5;0.0D;2|101.8;0.0S;3|145.7;0.0S;4|148.4;0.0S;5|122.8;0.0D;6|148.1;0.0S;7|121.8;0.0D;8|129.0;0.0D;9|134.2;0.0D;10|85.5;0.0S;11|167.1;0.0S;12|51.3;0.0Q;13|19.5;0.0Q;14|76.9;0.0D;15|165.7;0.0S;16|51.6;0.0Q;17|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 39447,
+  "SMILES": "C#CC1=C(C(=O)OC)C(c2cccc([N+](=O)[O-])c2)C(C(=O)OC)=C(C)N1"
+}

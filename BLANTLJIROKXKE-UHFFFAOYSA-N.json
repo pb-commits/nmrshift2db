@@ -1,0 +1,12 @@
+{
+  "INChI key": "BLANTLJIROKXKE-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C12H10N4O2/c1-6-3-4-8-7(5-6)13-9-10(16(8)2)14-12(18)15-11(9)17/h3-5H,1-2H3,(H,15,17,18)",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "2.76;0.0;17|4.65;0.0;14|8.33;0.0;10|8.38;0.0;13|",
+  "nmrshiftdb2 ID": 20165234,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 20175,
+  "SMILES": "Cc1ccc2c(c1)nc1c(=O)[nH]c(=O)nc-1n2C"
+}

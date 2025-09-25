@@ -1,0 +1,13 @@
+{
+  "Spectrum 17O 1": "59.3;0.0S;10|402.9;0.0S;9|",
+  "INChI key": "HFPOUXUCWPUERC-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C7H7NO2S/c1-10-7-4-2-6(3-5-7)8-11-9/h2-5H,1H3",
+  "Temperature [K]": "0:Unreported 1:308 ",
+  "nmrshiftdb2 ID": 20148782,
+  "Field Strength [MHz]": "0:Unreported 1:50 ",
+  "Spectrum 13C 0": "55.4;0.0Q;6|114.2;0.0D;2|114.2;0.0D;4|129.5;0.0D;1|129.5;0.0D;5|137.4;0.0S;0|161.0;0.0S;3|",
+  "Solvent": "0:Unreported 1:TETRACHLORO-METHANE (CCl4) ",
+  "Assignment Method": "0:Unreported 1:Unreported ",
+  "_molecule_index": 19730,
+  "SMILES": "COc1ccc(N=S=O)cc1"
+}

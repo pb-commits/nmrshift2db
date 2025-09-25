@@ -1,0 +1,12 @@
+{
+  "INChI key": "HWSOMOCPRASQIC-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C10H14N2S/c1-7-5-10-12(3-4-13-10)8(2)9(7)6-11/h7,10H,3-5H2,1-2H3",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20230509,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "150.9;0.0S;0|81.0;0.0S;1|28.6;0.0D;2|33.7;0.0T;3|58.5;0.0D;4|29.0;0.0T;5|51.2;0.0T;6|19.7;0.0Q;7|122.9;0.0S;8|21.8;0.0Q;9|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 40002,
+  "SMILES": "CC1=C(C#N)C(C)CC2SCCN12"
+}

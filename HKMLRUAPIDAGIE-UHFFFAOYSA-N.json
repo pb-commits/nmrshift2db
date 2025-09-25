@@ -1,0 +1,14 @@
+{
+  "INChI key": "HKMLRUAPIDAGIE-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C3H4Cl2O2/c1-7-3(6)2(4)5/h2H,1H3",
+  "Temperature [K]": "0:298 1:Unreported 2:Unreported ",
+  "nmrshiftdb2 ID": 10009260,
+  "Spectrum 1H 2": "3.899;0.0;2|5.981;0.0;1|",
+  "Field Strength [MHz]": "0:Unreported 1:Unreported 2:Unreported ",
+  "Spectrum 13C 1": "54.2;0.0Q;2|64.1;0.0D;1|165.0;0.0S;0|",
+  "Spectrum 13C 0": "54.3;0.888Q;2|64.3;1.0D;1|165.1;0.272S;0|",
+  "Solvent": "0:Chloroform-D1 (CDCl3) 1:Unreported 2:Unreported ",
+  "Assignment Method": "1:Unreported 2:Unreported ",
+  "_molecule_index": 4216,
+  "SMILES": "COC(=O)C(Cl)Cl"
+}

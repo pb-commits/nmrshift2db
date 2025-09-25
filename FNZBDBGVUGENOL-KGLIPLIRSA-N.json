@@ -1,0 +1,12 @@
+{
+  "INChI key": "FNZBDBGVUGENOL-KGLIPLIRSA-N",
+  "INChI": "InChI=1S/C14H20ClN/c1-11(2)14-8-13(15)10-16(14)9-12-6-4-3-5-7-12/h3-7,11,13-14H,8-10H2,1-2H3/t13-,14+/m1/s1",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20212503,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "20.0;0.0Q;13|28.4;0.0D;11|36.6;0.0T;2|55.0;0.0D;1|58.9;0.0T;0|62.5;0.0T;4|68.0;0.0D;3|127.3;0.0D;8|128.3;0.0D;7|128.3;0.0D;9|128.8;0.0D;6|128.8;0.0D;10|138.7;0.0S;5|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 37060,
+  "SMILES": "CC(C)[C@@H]1C[C@@H](Cl)CN1Cc1ccccc1"
+}

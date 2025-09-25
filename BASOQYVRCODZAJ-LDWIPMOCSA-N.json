@@ -1,0 +1,12 @@
+{
+  "INChI key": "BASOQYVRCODZAJ-LDWIPMOCSA-N",
+  "INChI": "InChI=1S/C10H13ClO3/c1-6-10(14-9(2,3)13-6)4-7(11)8(12)5-10/h4,6H,5H2,1-3H3/t6-,10+/m1/s1",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20143999,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "13.7;0.0Q;7|26.4;0.0Q;9|27.8;0.0Q;8|42.7;0.0T;1|76.4;0.0D;5|84.0;0.0S;0|109.2;0.0S;6|138.0;0.0S;3|154.0;0.0D;4|196.9;0.0S;2|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 19016,
+  "SMILES": "C[C@H]1OC(C)(C)O[C@]12C=C(Cl)C(=O)C2"
+}

@@ -1,0 +1,15 @@
+{
+  "INChI key": "MTCFGRXMJLQNBG-REOHCLBHSA-N",
+  "Program": "1:ACD/Labs C+H NMR Predictors and DB, 2020.1.0 2:HOSE code using nmrshiftdb2 data ",
+  "INChI": "InChI=1S/C3H7NO3/c4-2(1-5)3(6)7/h2,5H,1,4H2,(H,6,7)/t2-/m0/s1",
+  "Temperature [K]": "0:294 ",
+  "nmrshiftdb2 ID": 60006048,
+  "Field Strength [MHz]": "0:150.0 ",
+  "Spectrum 13C 1": "57.7;0.0D;1|61.9;0.0T;5|174.4;0.0S;0|",
+  "Spectrum 13C 0": "172.385;0.0S;0|56.3474;0.0D;1|60.1336;0.0T;5|",
+  "Solvent": "0:Deuteriumoxide (D2O) ",
+  "Assignment Method": "0:DEPT, COSY, HSQC, HMBC ",
+  "Spectrum 13C 2": "57.4;0.0D;1|61.31;0.0T;5|173.37;0.0S;0|",
+  "_molecule_index": 43502,
+  "SMILES": "N[C@@H](CO)C(=O)O"
+}

@@ -1,0 +1,14 @@
+{
+  "INChI key": "OOVHJUXBXNVAER-YWEYNIOJSA-N",
+  "Program": "1:HOSE code using nmrshiftdb2 data ",
+  "INChI": "InChI=1S/C16H16N2O4/c1-4-8(2)16(21)22-7-11-12-10(5-6-18-11)14(19)9(3)13(17)15(12)20/h4-6H,7,17H2,1-3H3/b8-4-",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20181900,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 1": "15.73;0.0Q;14|137.91;0.0D;13|127.88;0.0S;11|20.6;0.0Q;12|167.96;0.0S;10|65.34;0.0T;9|156.42;0.0S;8|154.63;0.0D;1|118.88;0.0D;0|140.5;0.0S;3|121.8;0.0S;2|180.85;0.0S;4|145.94;0.0S;5|112.81;0.0S;6|9.08;0.0Q;15|181.29;0.0S;7|",
+  "Spectrum 13C 0": "9.1;0.0Q;15|15.7;0.0Q;14|20.6;0.0Q;12|65.3;0.0T;9|112.8;0.0S;6|118.9;0.0D;0|121.8;0.0S;2|127.9;0.0S;11|137.9;0.0D;13|140.5;0.0S;3|145.9;0.0S;5|154.6;0.0D;1|156.2;0.0S;8|168.0;0.0S;10|180.8;0.0S;4|181.3;0.0S;7|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 31674,
+  "SMILES": "C/C=C(/C)C(=O)OCc1nccc2c1C(=O)C(N)=C(C)C2=O"
+}

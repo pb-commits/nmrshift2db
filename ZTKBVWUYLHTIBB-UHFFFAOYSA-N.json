@@ -1,0 +1,13 @@
+{
+  "INChI key": "ZTKBVWUYLHTIBB-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C9H21B/c1-7(2)10(8(3)4)9(5)6/h7-9H,1-6H3",
+  "Temperature [K]": "0:Unreported 1:Unreported ",
+  "nmrshiftdb2 ID": 20027447,
+  "Field Strength [MHz]": "0:Unreported 1:Unreported ",
+  "Spectrum 13C 0": "17.8;0.0Q;0|17.8;0.0Q;3|17.8;0.0Q;5|17.8;0.0Q;6|17.8;0.0Q;7|17.8;0.0Q;8|20.5;0.0D;1|20.5;0.0D;2|20.5;0.0D;4|",
+  "Spectrum 11B 1": "84.0;0.0S;9|",
+  "Solvent": "0:Unreported 1:Tetrahydrofuran-D8 (THF-D8, C4D4O) ",
+  "Assignment Method": "0:Unreported 1:Unreported ",
+  "_molecule_index": 11812,
+  "SMILES": "CC(C)B(C(C)C)C(C)C"
+}

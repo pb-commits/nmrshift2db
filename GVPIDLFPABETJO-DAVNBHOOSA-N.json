@@ -1,0 +1,12 @@
+{
+  "INChI key": "GVPIDLFPABETJO-DAVNBHOOSA-N",
+  "INChI": "InChI=1S/C11H13Cl2NS/c12-9-1-3-11(4-2-9)14-15-7-5-10(13)6-8-15/h1-4,10H,5-8H2/t10-,15?",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20026002,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "29.6;0.0T;7|29.6;0.0T;9|42.8;0.0T;6|42.8;0.0T;10|55.5;0.0D;8|119.6;0.0D;1|119.6;0.0D;5|120.9;0.0S;3|129.0;0.0D;2|129.0;0.0D;4|155.1;0.0S;0|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 10814,
+  "SMILES": "Clc1ccc(N=S2CCC(Cl)CC2)cc1"
+}

@@ -1,0 +1,13 @@
+{
+  "Spectrum 31P 1": "125.0;0.0S;19|",
+  "INChI key": "HVLLSGMXQDNUAL-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C18H15O3P/c1-4-10-16(11-5-1)19-22(20-17-12-6-2-7-13-17)21-18-14-8-3-9-15-18/h1-15H",
+  "Temperature [K]": "0:318 1:Unknown ",
+  "Spectrum 1H 0": "7.2;0.0;4|7.2;0.0;3|7.2;0.0;5|7.2;0.0;7|7.2;0.0;6|7.2;0.0;13|7.2;0.0;17|7.2;0.0;12|7.2;0.0;8|7.2;0.0;14|7.2;0.0;16|7.2;0.0;11|7.2;0.0;9|7.2;0.0;15|7.2;0.0;10|",
+  "nmrshiftdb2 ID": 20000262,
+  "Field Strength [MHz]": "0:60 1:Unknown ",
+  "Solvent": "0:Chloroform-D1 (CDCl3) 1:Unknown ",
+  "Assignment Method": "0:1D shift positions 1:Unknown ",
+  "_molecule_index": 10329,
+  "SMILES": "c1ccc(OP(Oc2ccccc2)Oc2ccccc2)cc1"
+}

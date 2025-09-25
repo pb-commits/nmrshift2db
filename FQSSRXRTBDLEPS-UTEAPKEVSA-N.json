@@ -1,0 +1,12 @@
+{
+  "INChI key": "FQSSRXRTBDLEPS-UTEAPKEVSA-N",
+  "INChI": "InChI=1S/C11H16O4/c1-3-4-7-5-8(12)9-10(15-7)6(2)14-11(9)13/h3-4,6-10,12H,5H2,1-2H3/b4-3+/t6-,7-,8+,9-,10+/m0/s1",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20213439,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "13.6;0.0Q;9|17.8;0.0Q;10|40.0;0.0T;1|46.4;0.0D;3|67.1;0.0D;2|75.5;0.0D;0|76.6;0.0D;4|79.5;0.0D;5|129.4;0.0D;8|173.0;0.0S;6|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 37972,
+  "SMILES": "C/C=C/[C@H]1C[C@@H](O)[C@@H]2C(=O)O[C@@H](C)[C@H]2O1"
+}

@@ -1,0 +1,12 @@
+{
+  "INChI key": "GMCVGMAGOGOINY-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C18H18O6/c1-22-14-8-13(20)15-16(21)11(9-24-18(15)17(14)23-2)7-10-3-5-12(19)6-4-10/h3-6,8,11,19-20H,7,9H2,1-2H3",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 10017728,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "32.0;0.0T;10|48.8;0.0D;7|56.7;0.0Q;23|61.5;0.0Q;25|70.4;0.0T;8|93.8;0.0D;2|103.3;0.0S;4|116.4;0.0D;13|116.4;0.0D;15|129.7;0.0S;11|130.3;0.0S;0|131.0;0.0D;12|131.0;0.0D;16|154.9;0.0S;5|157.2;0.0S;14|161.3;0.0S;3|162.5;0.0S;1|199.8;0.0S;6|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 5743,
+  "SMILES": "COc1cc(O)c2c(c1OC)OCC(Cc1ccc(O)cc1)C2=O"
+}

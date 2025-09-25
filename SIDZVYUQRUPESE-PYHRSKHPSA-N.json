@@ -1,0 +1,12 @@
+{
+  "INChI key": "SIDZVYUQRUPESE-PYHRSKHPSA-N",
+  "INChI": "InChI=1S/C15H18O2/c1-8-12(16)6-9-5-10-11(15(8,9)4)7-14(2,3)13(10)17/h5-6,8,11H,7H2,1-4H3/t8-,11?,15+/m0/s1",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20146205,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "17.9;0.0Q;11|36.0;0.0T;6|47.0;0.0D;9|51.8;0.0S;5|52.9;0.0D;3|62.8;0.0S;2|121.8;0.0D;10|123.6;0.0D;0|158.4;0.0S;4|191.8;0.0S;1|206.9;0.0S;7|212.9;0.0S;8|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 19473,
+  "SMILES": "C[C@H]1C(=O)C=C2C=C3C(=O)C(C)(C)CC3[C@@]21C"
+}

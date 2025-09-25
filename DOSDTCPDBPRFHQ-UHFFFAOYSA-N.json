@@ -1,0 +1,12 @@
+{
+  "INChI key": "DOSDTCPDBPRFHQ-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C10H10O5/c1-14-9(12)6-3-7(10(13)15-2)5-8(11)4-6/h3-5,11H,1-2H3",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20041092,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "52.3;0.0Q;8|52.3;0.0Q;9|120.1;0.0D;1|120.1;0.0D;4|120.3;0.0D;5|131.3;0.0S;2|131.3;0.0S;3|157.8;0.0S;0|165.4;0.0S;6|165.4;0.0S;7|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 13909,
+  "SMILES": "COC(=O)c1cc(O)cc(C(=O)OC)c1"
+}

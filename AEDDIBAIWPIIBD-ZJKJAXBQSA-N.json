@@ -1,0 +1,14 @@
+{
+  "INChI key": "AEDDIBAIWPIIBD-ZJKJAXBQSA-N",
+  "Program": "0:HOSE code using nmrshiftdb2 data ",
+  "INChI": "InChI=1S/C19H18O11/c20-4-11-15(25)17(27)18(28)19(30-11)12-8(23)3-10-13(16(12)26)14(24)5-1-6(21)7(22)2-9(5)29-10/h1-3,11,15,17-23,25-28H,4H2/t11-,15-,17+,18-,19+/m1/s1",
+  "Temperature [K]": "1:298 ",
+  "nmrshiftdb2 ID": 60006003,
+  "Spectrum 1H 1": "3.6;0.0;24|3.4;0.0;24|3.16;0.0;20|3.16;0.0;21|3.16;0.0;22|4.03;0.0;19|4.6;0.0;18|7.41;0.0;0|6.86;0.0;3|6.4;0.0;16|",
+  "Field Strength [MHz]": "1:37.5 ",
+  "Spectrum 13C 0": "179.2;0.0S;11|111.8;0.0S;1|107.7;0.0D;0|143.8;0.0S;5|154.1;0.0S;4|102.7;0.0D;3|150.8;0.0S;2|156.3;0.0S;9|93.3;0.0D;16|163.9;0.0S;15|108.1;0.0S;14|73.1;0.0D;18|81.7;0.0D;22|61.6;0.0T;24|70.7;0.0D;21|79.0;0.0D;20|70.2;0.0D;19|161.8;0.0S;13|101.3;0.0S;10|",
+  "Solvent": "1:Dimethylsulphoxide-D6 (DMSO-D6, C2D6SO) ",
+  "Assignment Method": "1:1H, H,H-COSY, H,H-NOESY, H,C-HMQC, H,C-HMBC, DEPTQ, 1H, 13C, 1H, H,H-COSY ",
+  "_molecule_index": 43490,
+  "SMILES": "O=c1c2cc(O)c(O)cc2oc2cc(O)c([C@@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3O)c(O)c12"
+}

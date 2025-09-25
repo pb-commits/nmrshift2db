@@ -1,0 +1,12 @@
+{
+  "INChI key": "XEKKPJUFIFGIJW-ONEGZZNKSA-N",
+  "INChI": "InChI=1S/C16H22O7/c1-3-4-9-5-6-10(21-2)11(7-9)22-16-15(20)14(19)13(18)12(8-17)23-16/h3-7,12-20H,8H2,1-2H3/b4-3+",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 10021160,
+  "Field Strength [MHz]": "0:125 ",
+  "Spectrum 13C 0": "18.43;0.0Q;8|56.08;0.0Q;9|62.45;0.0T;15|71.44;0.0D;12|74.99;0.0D;14|78.61;0.0D;11|78.98;0.0D;13|102.55;0.0D;10|113.08;0.0D;1|114.02;0.0D;4|120.58;0.0D;0|123.98;0.0D;7|131.22;0.0D;6|131.94;0.0S;5|148.19;0.0S;3|149.34;0.0S;2|",
+  "Solvent": "0:Pyridin-D5 (C5D5N) ",
+  "Assignment Method": "0:longrange Hetcor ",
+  "_molecule_index": 7480,
+  "SMILES": "C/C=C/c1ccc(OC)c(OC2OC(CO)C(O)C(O)C2O)c1"
+}

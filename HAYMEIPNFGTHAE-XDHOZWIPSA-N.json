@@ -1,0 +1,12 @@
+{
+  "INChI key": "HAYMEIPNFGTHAE-XDHOZWIPSA-N",
+  "INChI": "InChI=1S/C17H16N2O2/c1-20-16-9-8-13(10-17(16)21-2)12-19-15(11-18)14-6-4-3-5-7-14/h3-10,12,15H,1-2H3/b19-12+",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20221676,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "109.1;0.0D;0|149.4;0.0S;1|152.3;0.0S;2|110.4;0.0D;3|124.4;0.0D;4|127.9;0.0S;5|162.6;0.0D;6|61.6;0.0D;7|117.2;0.0S;8|134.9;0.0S;9|55.9;0.0Q;10|55.9;0.0Q;11|127.3;0.0D;12|127.3;0.0D;16|129.1;0.0D;13|129.1;0.0D;15|128.9;0.0D;14|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 38764,
+  "SMILES": "COc1ccc(/C=N/C(C#N)c2ccccc2)cc1OC"
+}

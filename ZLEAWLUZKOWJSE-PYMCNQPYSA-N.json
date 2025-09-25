@@ -1,0 +1,12 @@
+{
+  "INChI key": "ZLEAWLUZKOWJSE-PYMCNQPYSA-N",
+  "INChI": "InChI=1S/C15H21NO2/c1-12(9-10-13-6-3-2-4-7-13)16-11-5-8-14(16)15(17)18/h2-4,6-7,12,14H,5,8-11H2,1H3,(H,17,18)/t12?,14-/m0/s1",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20182251,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "15.5;0.0Q;6|23.0;0.0T;2|30.0;0.0T;1|31.2;0.0T;8|33.9;0.0T;7|50.0;0.0T;3|56.7;0.0D;5|63.4;0.0D;0|125.2;0.0D;12|141.2;0.0S;9|173.6;0.0S;4|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 32022,
+  "SMILES": "CC(CCc1ccccc1)N1CCC[C@H]1C(=O)O"
+}

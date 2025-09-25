@@ -1,0 +1,12 @@
+{
+  "INChI key": "VACYOTYBTLYIEB-HGWMRPEMSA-N",
+  "INChI": "InChI=1S/C15H23NO/c1-11-3-5-14-12(2)4-6-15(16(14)9-11)13-7-8-17-10-13/h7-8,10-12,14-15H,3-6,9H2,1-2H3/t11-,12-,14?,15?/m1/s1",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 10017637,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "19.3;0.0Q;10|20.1;0.0Q;11|30.3;0.0T;9|31.2;0.0D;7|33.7;0.0T;8|34.1;0.0T;1|35.2;0.0T;2|36.5;0.0D;0|61.1;0.0D;3|61.5;0.0T;6|69.5;0.0D;5|109.9;0.0D;13|129.5;0.0S;12|139.9;0.0D;16|143.2;0.0D;14|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 5660,
+  "SMILES": "C[C@@H]1CCC2[C@H](C)CCC(c3ccoc3)N2C1"
+}

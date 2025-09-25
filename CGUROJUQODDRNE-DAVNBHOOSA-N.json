@@ -1,0 +1,12 @@
+{
+  "INChI key": "CGUROJUQODDRNE-DAVNBHOOSA-N",
+  "INChI": "InChI=1S/C12H16ClNS/c1-10-6-8-15(9-7-10)14-12-4-2-11(13)3-5-12/h2-5,10H,6-9H2,1H3/t10-,15?",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20026000,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "22.1;0.0Q;11|25.2;0.0T;7|25.2;0.0T;9|30.8;0.0D;8|42.5;0.0T;6|42.5;0.0T;10|119.4;0.0D;1|119.4;0.0D;5|120.0;0.0S;3|128.9;0.0D;2|128.9;0.0D;4|155.7;0.0S;0|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 10812,
+  "SMILES": "CC1CCS(=Nc2ccc(Cl)cc2)CC1"
+}

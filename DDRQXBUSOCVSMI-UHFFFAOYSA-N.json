@@ -1,0 +1,12 @@
+{
+  "INChI key": "DDRQXBUSOCVSMI-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C19H26N2/c1-3-20-18(16-11-7-5-8-12-16)15-19(21-4-2)17-13-9-6-10-14-17/h5-14,18-21H,3-4,15H2,1-2H3",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 10018423,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "15.1;0.0Q;17|15.1;0.0Q;18|41.5;0.0T;15|41.5;0.0T;16|45.6;0.0T;1|60.6;0.0D;0|60.6;0.0D;2|126.8;0.0D;6|126.8;0.0D;12|143.8;0.0S;3|143.8;0.0S;9|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 6406,
+  "SMILES": "CCNC(CC(NCC)c1ccccc1)c1ccccc1"
+}

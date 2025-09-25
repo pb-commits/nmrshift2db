@@ -1,0 +1,12 @@
+{
+  "INChI key": "FFMMILKKBAVNIQ-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C14H14O2S/c1-16-12-9-8-11(13(15)14(12)17-2)10-6-4-3-5-7-10/h3-9,15H,1-2H3",
+  "Temperature [K]": "0:294 ",
+  "nmrshiftdb2 ID": 20041826,
+  "Field Strength [MHz]": "0:100.6 ",
+  "Spectrum 13C 0": "17.9;0.0Q;6|56.0;0.0Q;7|102.8;0.0D;1|108.7;0.0S;5|121.0;0.0S;3|126.7;0.0D;11|128.1;0.0D;10|128.1;0.0D;12|129.0;0.0D;9|129.0;0.0D;13|131.7;0.0D;2|138.0;0.0S;8|154.4;0.0S;4|159.9;0.0S;0|",
+  "Solvent": "0:Chloroform-D1 (CDCl3) ",
+  "Assignment Method": "0:Hetcor+longrange Hetcor ",
+  "_molecule_index": 13987,
+  "SMILES": "COc1ccc(-c2ccccc2)c(O)c1SC"
+}

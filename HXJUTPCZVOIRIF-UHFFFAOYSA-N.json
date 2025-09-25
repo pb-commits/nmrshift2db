@@ -1,0 +1,14 @@
+{
+  "INChI key": "HXJUTPCZVOIRIF-UHFFFAOYSA-N",
+  "Program": "1:HOSE code using nmrshiftdb2 data ",
+  "INChI": "InChI=1S/C4H8O2S/c5-7(6)3-1-2-4-7/h1-4H2",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 10016107,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 1": "51.28;0.0T;2|51.28;0.0T;4|22.84;0.0T;0|22.84;0.0T;1|",
+  "Spectrum 13C 0": "22.7;0.0T;0|22.7;0.0T;1|51.1;0.0T;2|51.1;0.0T;4|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 4668,
+  "SMILES": "O=S1(=O)CCCC1"
+}

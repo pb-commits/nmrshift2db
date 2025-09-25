@@ -1,0 +1,12 @@
+{
+  "INChI key": "NEJLSFASULEQFC-DBNIFQIXSA-N",
+  "INChI": "InChI=1S/C10H12N2O5/c1-4-2-6(14)11-10-12(4)9-8(17-10)7(15)5(3-13)16-9/h2,5,7-9,13,15H,3H2,1H3/t5-,7-,8+,9-/m0/s1",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "2.32;0.0;15|3.32;0.0;13|4.12;0.0;7|4.42;0.0;6|5.21;0.0;5|5.75;0.0;9|6.51;0.0;1|",
+  "nmrshiftdb2 ID": 20168313,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 21816,
+  "SMILES": "Cc1cc(=O)nc2n1[C@H]1O[C@@H](CO)[C@H](O)[C@H]1O2"
+}

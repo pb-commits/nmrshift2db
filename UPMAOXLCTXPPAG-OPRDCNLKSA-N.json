@@ -1,0 +1,12 @@
+{
+  "INChI key": "UPMAOXLCTXPPAG-OPRDCNLKSA-N",
+  "INChI": "InChI=1S/C10H18O/c11-10-6-5-8-3-1-2-4-9(8)7-10/h8-11H,1-7H2/t8-,9-,10-/m1/s1",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20130453,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "26.3;0.0T;1|26.5;0.0T;2|32.0;0.0T;6|33.3;0.0T;0|33.8;0.0T;3|35.6;0.0T;7|41.2;0.0D;5|42.3;0.0D;4|43.0;0.0T;9|70.2;0.0D;8|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 18213,
+  "SMILES": "O[C@@H]1CC[C@H]2CCCC[C@@H]2C1"
+}

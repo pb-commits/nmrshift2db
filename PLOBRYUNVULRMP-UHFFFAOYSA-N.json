@@ -1,0 +1,12 @@
+{
+  "INChI key": "PLOBRYUNVULRMP-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C16H14N4/c1-11-15(13-7-3-5-9-17-13)20-12(2)16(19-11)14-8-4-6-10-18-14/h3-10H,1-2H3",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20204295,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "22.84;0.0Q;14|22.84;0.0Q;15|123.17;0.0D;8|123.17;0.0D;12|124.45;0.0D;6|124.45;0.0D;10|136.73;0.0D;7|136.73;0.0D;11|148.75;0.0D;9|148.75;0.0D;13|148.95;0.0S;0|148.95;0.0S;2|149.32;0.0S;1|149.32;0.0S;3|157.19;0.0S;4|157.19;0.0S;5|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 34349,
+  "SMILES": "Cc1nc(-c2ccccn2)c(C)nc1-c1ccccn1"
+}

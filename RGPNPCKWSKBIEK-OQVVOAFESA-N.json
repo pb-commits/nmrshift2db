@@ -1,0 +1,12 @@
+{
+  "INChI key": "RGPNPCKWSKBIEK-OQVVOAFESA-N",
+  "INChI": "InChI=1S/C17H30O3Si/c1-16(2,3)21(5,6)19-10-13-17(4)12-9-7-8-11(12)14(17)15(18)20-13/h11-14H,7-10H2,1-6H3/t11-,12+,13?,14-,17+/m1/s1",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "0.07;0.0;16|0.87;0.0;18|1.13;0.0;14|1.62;0.0;5|1.62;0.0;6|2.22;0.0;23|2.65;0.0;21|2.74;0.0;22|3.78;0.0;10|4.42;0.0;1|",
+  "nmrshiftdb2 ID": 20177092,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 28843,
+  "SMILES": "CC(C)(C)[Si](C)(C)OCC1OC(=O)[C@H]2[C@@H]3CCC[C@@H]3[C@@]12C"
+}

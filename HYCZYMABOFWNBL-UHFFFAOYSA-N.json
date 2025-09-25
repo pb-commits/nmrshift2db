@@ -1,0 +1,12 @@
+{
+  "INChI key": "HYCZYMABOFWNBL-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C21H15NO5/c1-22-13-5-3-2-4-11(13)14-17(22)21(27)16-15(20(14)26)18(24)10-7-6-9(23)8-12(10)19(16)25/h2-5,24-25H,6-8H2,1H3",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "2.65;0.0;9|3.24;0.0;8|3.62;0.0;11|4.3;0.0;21|7.3;0.0;17|8.44;0.0;18|13.25;0.0;23|13.89;0.0;25|",
+  "nmrshiftdb2 ID": 20176837,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 28590,
+  "SMILES": "Cn1c2c(c3ccccc31)C(=O)c1c(O)c3c(c(O)c1C2=O)CC(=O)CC3"
+}

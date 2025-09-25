@@ -1,0 +1,11 @@
+{
+  "INChI key": "UHDDGONMYAQWBV-VIFPVBQESA-N",
+  "INChI": "InChI=1S/C9H12O3/c1-12-9(6-10)7-2-4-8(11)5-3-7/h2-5,9-11H,6H2,1H3/t9-/m0/s1",
+  "Temperature [K]": "0:298 ",
+  "nmrshiftdb2 ID": 2742,
+  "Field Strength [MHz]": "0:125 ",
+  "Spectrum 13C 0": "56.66;0.0Q;11|67.68;0.0T;8|85.94;0.0D;7|116.24;0.0D;0|116.24;0.0D;2|129.05;0.0D;3|129.05;0.0D;5|130.88;0.0S;4|158.74;0.0S;1|",
+  "Solvent": "0:Pyridin-D5 (C5D5N) ",
+  "_molecule_index": 410,
+  "SMILES": "CO[C@@H](CO)c1ccc(O)cc1"
+}

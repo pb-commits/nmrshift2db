@@ -1,0 +1,12 @@
+{
+  "INChI key": "VIEJGPLASHRUTP-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C14H12O4/c1-7-6-9-12(15)13(16)11-8(14(9)18-7)4-3-5-10(11)17-2/h3-5,7H,6H2,1-2H3",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20213103,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "21.9;0.0Q;12|33.5;0.0T;11|56.4;0.0Q;13|84.1;0.0D;10|114.4;0.0S;8|116.6;0.0D;2|117.3;0.0D;4|118.1;0.0S;0|129.6;0.0S;5|135.8;0.0D;3|161.8;0.0S;1|169.3;0.0S;7|175.5;0.0S;9|180.3;0.0S;6|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 37647,
+  "SMILES": "COc1cccc2c1C(=O)C(=O)C1=C2OC(C)C1"
+}

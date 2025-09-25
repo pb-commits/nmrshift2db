@@ -1,0 +1,12 @@
+{
+  "INChI key": "PYEMNABYODPRPP-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C16H22N4O3/c1-16-7-8-20(14(21)17-2)13(16)19(4)12-6-5-10(9-11(12)16)23-15(22)18-3/h5-6,9,13H,7-8H2,1-4H3,(H,17,21)(H,18,22)",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20181389,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "23.3;0.0Q;15|26.9;0.0Q;12|26.9;0.0Q;13|33.6;0.0Q;14|38.5;0.0T;9|45.7;0.0T;8|50.4;0.0S;7|89.2;0.0D;6|105.8;0.0D;5|116.0;0.0D;0|120.7;0.0D;2|135.1;0.0S;4|142.8;0.0S;3|147.4;0.0S;1|155.6;0.0S;11|157.7;0.0S;10|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 31165,
+  "SMILES": "CNC(=O)Oc1ccc2c(c1)C1(C)CCN(C(=O)NC)C1N2C"
+}

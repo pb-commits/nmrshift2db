@@ -1,0 +1,12 @@
+{
+  "INChI key": "HNZNBJLSILNYST-NAXOPYRSSA-N",
+  "INChI": "InChI=1S/C10H12O4/c1-9-4-3-5(14-9)6-7(11)13-8(12)10(6,9)2/h5-6H,3-4H2,1-2H3/t5-,6+,9+,10+/m0/s1",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20237260,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "89.4;0.0S;0|31.1;0.0T;1|29.8;0.0T;2|80.0;0.0D;3|57.7;0.0D;4|60.0;0.0S;5|171.3;0.0S;6|174.2;0.0S;7|16.3;0.0Q;8|16.9;0.0Q;9|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 40508,
+  "SMILES": "C[C@]12CC[C@H](O1)[C@@H]1C(=O)OC(=O)[C@@]12C"
+}

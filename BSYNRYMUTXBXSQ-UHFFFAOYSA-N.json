@@ -1,0 +1,21 @@
+{
+  "Program": "6:ACD/Labs C+H NMR Predictors and DB, 2020.1.0 7:HOSE code using nmrshiftdb2 data ",
+  "Temperature [K]": "0:Unreported 1:Unreported 2:Unreported 3:298 4:298 5:298 8:298 ",
+  "Field Strength [MHz]": "0:50.18 1:Unreported 2:Unreported 3:500 4:500 5:75.5 8:300 ",
+  "Assignment Method": "0:Unreported 1:Unreported 2:Unreported 3:DEPT,1H-1H COSY,HMQC,HMBC,NOESY 4:COSY, HMQC, HMBC, DEPT 5:1D shift positions 8:1D shift positions ",
+  "Spectrum 1H 8": "7.06;0.0;11|7.53;0.0;4|8.03;0.0;1|8.25;0.0;3|2.29;0.0;8|2.29;0.0;8|2.29;0.0;8|7.3;0.0;2|",
+  "Spectrum 13C 7": "21.01;0.0Q;8|169.18;0.0S;7|150.95;0.0S;5|123.48;0.0D;4|134.17;0.0D;3|125.98;0.0D;2|132.17;0.0D;1|123.13;0.0S;0|168.5;0.0S;6|",
+  "Spectrum 13C 6": "21.0;0.0Q;8|169.7;0.0S;7|151.3;0.0S;5|122.3;0.0D;4|134.8;0.0D;3|126.1;0.0D;2|132.5;0.0D;1|122.2;0.0S;0|170.0;0.0S;6|",
+  "INChI key": "BSYNRYMUTXBXSQ-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C9H8O4/c1-6(10)13-8-5-3-2-4-7(8)9(11)12/h2-5H,1H3,(H,11,12)",
+  "nmrshiftdb2 ID": 20038075,
+  "Spectrum 13C 1": "20.9;0.0Q;8|123.5;0.0D;4|124.1;0.0S;0|125.6;0.0D;2|131.4;0.0D;1|133.3;0.0D;3|150.4;0.0S;5|165.6;0.0S;7|168.9;0.0S;6|",
+  "Spectrum 13C 0": "20.99;0.0Q;8|122.26;1.0S;0|124.01;1.0D;4|126.17;1.0D;2|132.51;1.0D;1|134.9;1.0D;3|151.28;1.0S;5|169.76;1.0S;7|170.2;1.0S;6|",
+  "Spectrum 13C 3": "126.0;0.0D;2|123.7;0.0D;4|134.0;0.0D;3|150.9;0.0S;5|170.0;0.0S;7|132.2;0.0D;1|21.1;0.0Q;8|123.4;0.0S;0|167.3;0.0S;6|",
+  "Solvent": "0:Chloroform-D1 (CDCl3) 1:Unreported 2:Unreported 3:Chloroform-D1 (CDCl3) 4:Chloroform-D1 (CDCl3) 5:Chloroform-D1 (CDCl3) 8:Chloroform-D1 (CDCl3) ",
+  "Spectrum 13C 2": "21.0;0.0Q;8|122.2;0.0S;0|122.3;0.0D;4|126.1;0.0D;2|132.5;0.0D;1|134.8;0.0D;3|151.3;0.0S;5|169.7;0.0S;7|170.0;0.0S;6|",
+  "Spectrum 13C 5": "21.1;0.0Q;8|123.4;0.0S;0|123.7;0.0D;4|126.0;0.0D;2|132.2;0.0D;1|134.0;0.0D;3|150.9;0.0S;5|167.3;0.0S;6|170.0;0.0S;7|",
+  "Spectrum 13C 4": "126.0;0.0D;2|132.2;0.0D;1|170.0;0.0S;7|123.7;0.0D;4|134.0;0.0D;3|167.3;0.0S;6|21.1;0.0Q;8|123.4;0.0S;0|150.9;0.0S;5|",
+  "_molecule_index": 13330,
+  "SMILES": "CC(=O)Oc1ccccc1C(=O)O"
+}

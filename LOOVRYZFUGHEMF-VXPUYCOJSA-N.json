@@ -1,0 +1,13 @@
+{
+  "INChI key": "LOOVRYZFUGHEMF-VXPUYCOJSA-N",
+  "INChI": "InChI=1S/C18H18N2O5/c1-3-24-17(21)13-5-9-15(10-6-13)19-20(23)16-11-7-14(8-12-16)18(22)25-4-2/h5-12H,3-4H2,1-2H3/b20-19-",
+  "Temperature [K]": "0:Unreported 1:Unreported ",
+  "nmrshiftdb2 ID": 20208029,
+  "Spectrum 1H 1": "1.421;0.0;23|1.433;0.0;24|4.409;0.0;21|4.431;0.0;22|8.158;0.0;16|8.18;0.0;18|8.19;0.0;13|8.372;0.0;10|",
+  "Field Strength [MHz]": "0:Unreported 1:Unreported ",
+  "Spectrum 13C 0": "14.33;0.0Q;23|14.33;0.0Q;24|61.24;0.0T;21|61.63;0.0T;22|122.49;0.0D;16|125.3;0.0D;10|130.14;0.0D;13|130.3;0.0D;18|131.06;0.0S;8|133.63;0.0S;12|146.91;0.0S;7|150.83;0.0S;9|165.25;0.0S;19|165.71;0.0S;20|",
+  "Solvent": "0:Unreported 1:Unreported ",
+  "Assignment Method": "0:Unreported 1:Unreported ",
+  "_molecule_index": 35030,
+  "SMILES": "CCOC(=O)c1ccc(/N=[N+](\\[O-])c2ccc(C(=O)OCC)cc2)cc1"
+}

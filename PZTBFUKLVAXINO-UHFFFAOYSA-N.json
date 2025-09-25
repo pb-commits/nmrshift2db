@@ -1,0 +1,12 @@
+{
+  "INChI key": "PZTBFUKLVAXINO-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C37H32NO4P/c1-40-33-24-22-32(23-25-33)37(30-14-6-2-7-15-30,31-16-8-3-9-17-31)38-28-26-36(27-29-38)43(39,41-34-18-10-4-11-19-34)42-35-20-12-5-13-21-35/h2-29,36H,1H3",
+  "Temperature [K]": "0:Unknown ",
+  "Spectrum 31P 0": "15.7;0.0S;25|",
+  "nmrshiftdb2 ID": 80030486,
+  "Field Strength [MHz]": "0:Unknown ",
+  "Solvent": "0:Unknown ",
+  "Assignment Method": "0:Unknown ",
+  "_molecule_index": 49575,
+  "SMILES": "COc1ccc(C(c2ccccc2)(c2ccccc2)N2C=CC(P(=O)(Oc3ccccc3)Oc3ccccc3)C=C2)cc1"
+}

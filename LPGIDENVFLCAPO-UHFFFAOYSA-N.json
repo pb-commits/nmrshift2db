@@ -1,0 +1,12 @@
+{
+  "INChI key": "LPGIDENVFLCAPO-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C15H17NO2/c1-10(2)13(17)15(3,4)14(18)12-7-5-11(9-16)6-8-12/h5-8,10H,1-4H3",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20181618,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "20.6;0.0Q;13|20.6;0.0Q;14|22.9;0.0Q;9|22.9;0.0Q;10|37.0;0.0D;12|62.1;0.0S;8|116.2;0.0S;2|117.7;0.0S;7|129.6;0.0D;0|129.6;0.0D;4|132.3;0.0D;1|132.3;0.0D;3|139.2;0.0S;5|198.4;0.0S;6|214.9;0.0S;11|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 31392,
+  "SMILES": "CC(C)C(=O)C(C)(C)C(=O)c1ccc(C#N)cc1"
+}

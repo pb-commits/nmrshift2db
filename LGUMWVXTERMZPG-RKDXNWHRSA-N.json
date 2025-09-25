@@ -1,0 +1,12 @@
+{
+  "INChI key": "LGUMWVXTERMZPG-RKDXNWHRSA-N",
+  "INChI": "InChI=1S/C10H16OS2/c1-2-8-9(3-1)13-7-10(6-12-8)4-11-5-10/h8-9H,1-7H2/t8-,9-/m1/s1",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20191899,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "22.4;0.0T;7|30.7;0.0T;8|30.7;0.0T;9|40.7;0.0T;1|40.7;0.0T;4|47.4;0.0S;0|59.3;0.0D;2|59.3;0.0D;3|82.0;0.0T;5|82.0;0.0T;6|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 32887,
+  "SMILES": "C1C[C@H]2SCC3(COC3)CS[C@@H]2C1"
+}

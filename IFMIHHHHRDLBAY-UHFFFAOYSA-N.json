@@ -1,0 +1,17 @@
+{
+  "Program": "1:CSEARCH ",
+  "Spectrum 31P 3": "-68.9;0.0S;8|",
+  "Temperature [K]": "0:297 2:297 3:297 4:297 ",
+  "Spectrum 1H 2": "1.06;0.0;5|1.06;0.0;5|1.06;0.0;5|1.06;0.0;6|1.06;0.0;6|1.06;0.0;6|0.14;0.0;0|0.14;0.0;0|0.14;0.0;0|0.14;0.0;1|0.14;0.0;1|0.14;0.0;1|0.14;0.0;3|0.14;0.0;3|0.14;0.0;3|",
+  "Field Strength [MHz]": "0:100.03250122070312 2:400.1300048828125 3:400.1300048828125 4:400.1300048828125 ",
+  "Assignment Method": "0:1D shift position & HMBC 2:1D shift positions 3:1D shift positions 4:1D shift positions ",
+  "Spectrum 29Si 4": "-19.1;0.0S;7|",
+  "INChI key": "IFMIHHHHRDLBAY-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C7H15PSi/c1-8(2)6-7-9(3,4)5/h1-5H3",
+  "nmrshiftdb2 ID": 20251589,
+  "Spectrum 13C 1": "111.0;0.0S;2|102.1;0.0S;4|13.9;0.0Q;5|13.9;0.0Q;6|",
+  "Spectrum 13C 0": "110.9;0.0S;2|110.6;0.0S;4|14.3;0.0Q;5|14.3;0.0Q;6|-0.1;0.0Q;0|-0.1;0.0Q;1|-0.1;0.0Q;3|",
+  "Solvent": "0:Benzene-D6 (C6D6) 2:Benzene-D6 (C6D6) 3:Benzene-D6 (C6D6) 4:Benzene-D6 (C6D6) ",
+  "_molecule_index": 41526,
+  "SMILES": "CP(C)C#C[Si](C)(C)C"
+}

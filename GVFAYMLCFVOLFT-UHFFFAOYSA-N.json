@@ -1,0 +1,11 @@
+{
+  "INChI key": "GVFAYMLCFVOLFT-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C12H19NO8/c13-4-12(2-1-5(15)10(12)19)21-11-9(18)8(17)7(16)6(3-14)20-11/h5-11,14-19H,1-3H2",
+  "Temperature [K]": "0:298 ",
+  "nmrshiftdb2 ID": 2342,
+  "Field Strength [MHz]": "0:100 ",
+  "Spectrum 13C 0": "30.1;0.0T;12|35.2;0.0T;11|62.4;0.0T;9|71.2;0.0D;3|75.0;0.0D;5|76.5;0.0D;13|77.9;0.0D;4|78.2;0.0D;2|84.6;0.0S;15|84.9;0.0D;14|102.1;0.0D;0|119.1;0.0S;19|",
+  "Solvent": "0:Methanol-D4 (CD3OD) ",
+  "_molecule_index": 142,
+  "SMILES": "N#CC1(OC2OC(CO)C(O)C(O)C2O)CCC(O)C1O"
+}

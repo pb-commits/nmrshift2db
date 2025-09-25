@@ -1,0 +1,11 @@
+{
+  "INChI key": "WHOHXJZQBJXAKL-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C4H9NO2S.ClH/c1-7-4(6)3(5)2-8;/h3,8H,2,5H2,1H3;1H",
+  "Temperature [K]": "0:298 ",
+  "nmrshiftdb2 ID": 10008847,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "25.2;0.0T;2|54.1;0.0Q;3|56.0;0.0D;1|169.4;0.0S;0|",
+  "Solvent": "0:Methanol-D4 (CD3OD) ",
+  "_molecule_index": 3828,
+  "SMILES": "COC(=O)C(N)CS.Cl"
+}

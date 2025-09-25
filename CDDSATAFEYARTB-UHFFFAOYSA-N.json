@@ -1,0 +1,12 @@
+{
+  "INChI key": "CDDSATAFEYARTB-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C13H17N3O3/c1-15-8-6-11(7-9-15)14-13(17)10-2-4-12(5-3-10)16(18)19/h2-5,11H,6-9H2,1H3,(H,14,17)",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 90622,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "32.1;0.0T;1|46.1;0.0Q;12|47.1;0.0D;2|54.2;0.0T;4|123.8;0.0D;10|128.1;0.0D;7|140.3;0.0S;6|149.5;0.0S;9|164.8;0.0S;5|123.8;0.0D;8|32.1;0.0T;3|128.1;0.0D;11|54.2;0.0T;0|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 3120,
+  "SMILES": "CN1CCC(NC(=O)c2ccc([N+](=O)[O-])cc2)CC1"
+}

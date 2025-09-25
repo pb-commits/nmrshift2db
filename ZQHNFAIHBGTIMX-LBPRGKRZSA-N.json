@@ -1,0 +1,11 @@
+{
+  "INChI key": "ZQHNFAIHBGTIMX-LBPRGKRZSA-N",
+  "INChI": "InChI=1S/C12H20O2/c1-5-6-7-8-12(4)10(3)9(2)11(13)14-12/h5-8H2,1-4H3/t12-/m0/s1",
+  "Temperature [K]": "0:298 ",
+  "nmrshiftdb2 ID": 4458,
+  "Field Strength [MHz]": "0:125 ",
+  "Spectrum 13C 0": "8.5;0.0Q;10|10.3;0.0Q;12|14.2;0.0Q;9|22.7;0.0T;8|22.9;0.0T;6|23.7;0.0Q;11|32.0;0.0T;7|37.1;0.0T;5|86.7;0.0S;1|123.4;0.0S;4|160.9;0.0S;0|172.7;0.0S;3|",
+  "Solvent": "0:Benzene-D6 (C6D6) ",
+  "_molecule_index": 551,
+  "SMILES": "CCCCC[C@]1(C)OC(=O)C(C)=C1C"
+}

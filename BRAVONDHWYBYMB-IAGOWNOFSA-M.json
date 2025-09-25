@@ -1,0 +1,12 @@
+{
+  "INChI key": "BRAVONDHWYBYMB-IAGOWNOFSA-M",
+  "INChI": "InChI=1S/C19H18N2O4/c22-13-16-17(18(23)24)21(12-15-9-5-2-6-10-15)19(25)20(16)11-14-7-3-1-4-8-14/h1-10,13,16-17H,11-12H2,(H,23,24)/p-1/t16-,17-/m1/s1",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "3.91;0.0;3|4.15;0.0;4|4.8;0.0;13|5.01;0.0;5|7.26;0.0;7|8.97;0.0;25|",
+  "nmrshiftdb2 ID": 20170285,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 23079,
+  "SMILES": "O=C[C@@H]1[C@H](C(=O)[O-])N(Cc2ccccc2)C(=O)N1Cc1ccccc1"
+}

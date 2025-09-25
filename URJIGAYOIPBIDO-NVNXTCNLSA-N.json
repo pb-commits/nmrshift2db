@@ -1,0 +1,12 @@
+{
+  "INChI key": "URJIGAYOIPBIDO-NVNXTCNLSA-N",
+  "INChI": "InChI=1S/C17H14O4/c1-19-12-9-13(20-2)16-14(10-12)21-15(17(16)18)8-11-6-4-3-5-7-11/h3-10H,1-2H3/b15-8-",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20026608,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "56.1;0.0Q;16|56.3;0.0Q;15|89.1;0.0D;0|94.3;0.0D;2|104.1;0.0S;4|109.2;0.0D;8|128.7;0.0D;11|128.7;0.0D;13|129.2;0.0D;12|130.8;0.0D;10|130.8;0.0D;14|132.3;0.0S;9|147.5;0.0S;7|159.0;0.0S;3|168.2;0.0S;5|168.9;0.0S;1|178.9;0.0S;6|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 11321,
+  "SMILES": "COc1cc(OC)c2c(c1)O/C(=C\\c1ccccc1)C2=O"
+}

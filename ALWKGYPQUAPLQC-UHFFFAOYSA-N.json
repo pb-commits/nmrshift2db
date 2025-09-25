@@ -1,0 +1,15 @@
+{
+  "INChI key": "ALWKGYPQUAPLQC-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C12H19N2O2/c1-13(2)12(15)16-11-8-6-7-10(9-11)14(3,4)5/h6-9H,1-5H3/q+1",
+  "Temperature [K]": "0:Unreported 1:Unreported 2:Unreported 3:Unreported ",
+  "nmrshiftdb2 ID": 20200212,
+  "Spectrum 1H 2": "3.031;0.0;8|3.177;0.0;7|3.696;0.0;6|7.42;0.0;13|7.73;0.0;15|7.74;0.0;12|7.796;0.0;14|",
+  "Field Strength [MHz]": "0:Unreported 1:Unreported 2:Unreported 3:Unreported ",
+  "Spectrum 1H 3": "2.997;0.0;8|3.127;0.0;7|3.742;0.0;6|7.292;0.0;13|7.581;0.0;15|7.665;0.0;12|7.837;0.0;14|",
+  "Spectrum 13C 1": "37.14;0.0Q;8|57.98;0.0Q;6|115.35;0.0D;12|118.02;0.0D;14|125.05;0.0D;13|132.29;0.0D;15|148.02;0.0S;11|152.66;0.0S;9|156.68;0.0S;10|",
+  "Spectrum 13C 0": "36.74;0.0Q;8|57.38;0.0Q;6|114.28;0.0D;12|117.0;0.0D;14|124.12;0.0D;13|131.25;0.0D;15|147.88;0.0S;11|152.71;0.0S;9|154.01;0.0S;10|",
+  "Solvent": "0:Unreported 1:Unreported 2:Unreported 3:Unreported ",
+  "Assignment Method": "0:Unreported 1:Unreported 2:Unreported 3:Unreported ",
+  "_molecule_index": 33388,
+  "SMILES": "CN(C)C(=O)Oc1cccc([N+](C)(C)C)c1"
+}

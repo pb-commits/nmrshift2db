@@ -1,0 +1,12 @@
+{
+  "INChI key": "YGFSROUCKJHOJO-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C22H16N4O4P/c1-2-10-18-17(9-1)27-31(28-18,29-19-11-3-4-12-20(19)30-31)25-15-7-5-13-21(25)23-24-22-14-6-8-16-26(22)31/h1-16H/q+1",
+  "Temperature [K]": "0:Unknown ",
+  "Spectrum 31P 0": "-120.0;0.0S;22|",
+  "nmrshiftdb2 ID": 80039075,
+  "Field Strength [MHz]": "0:Unknown ",
+  "Solvent": "0:Unknown ",
+  "Assignment Method": "0:Unknown ",
+  "_molecule_index": 57715,
+  "SMILES": "c1ccc2c(c1)O[P-]13(O2)(Oc2ccccc2O1)[n+]1ccccc1N=Nc1cccc[n+]13"
+}

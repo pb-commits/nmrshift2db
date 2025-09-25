@@ -1,0 +1,15 @@
+{
+  "INChI key": "OSSWBZXPRYZGRO-YKHJJTLOSA-N",
+  "Program": "2:HOSE code using nmrshiftdb2 data ",
+  "INChI": "InChI=1S/C15H24O/c1-11(2)14-8-5-12(3)6-10-15(16)13(4)7-9-14/h5,8,11,14-16H,3-4,6-7,9-10H2,1-2H3/b8-5+/t14-,15+/m0/s1",
+  "Temperature [K]": "0:Unreported 1:Unreported ",
+  "nmrshiftdb2 ID": 20000565,
+  "Field Strength [MHz]": "0:Unreported 1:Unreported ",
+  "Spectrum 13C 1": "76.0;0.0D;0|36.2;0.0T;1|36.1;0.0T;2|146.8;0.0S;3|129.7;0.0D;4|138.0;0.0D;7|52.5;0.0D;8|29.9;0.0T;9|34.5;0.0T;6|112.9;0.0T;11|31.8;0.0D;12|20.7;0.0Q;13|20.5;0.0Q;14|153.5;0.0S;5|110.6;0.0T;10|",
+  "Spectrum 13C 0": "20.5;0.0Q;13|20.7;0.0Q;14|29.9;0.0T;2|31.8;0.0D;12|34.5;0.0T;6|36.1;0.0T;9|36.2;0.0T;1|52.5;0.0D;8|76.0;0.0D;0|110.6;0.0T;10|112.9;0.0T;11|129.7;0.0D;4|138.0;0.0D;7|146.8;0.0S;3|153.5;0.0S;5|",
+  "Solvent": "0:Chloroform-D1 (CDCl3) 1:Unreported ",
+  "Assignment Method": "0:COSY+Hetcor+longrange Hetcor 1:Unreported ",
+  "Spectrum 13C 2": "112.9;0.0T;11|146.8;0.0S;3|129.7;0.0D;4|138.0;0.0D;7|52.5;0.0D;8|31.8;0.0D;12|20.6;0.0Q;13|20.6;0.0Q;14|33.0;0.0T;2|33.0;0.0T;9|34.5;0.0T;6|153.5;0.0S;5|110.6;0.0T;10|76.0;0.0D;0|36.2;0.0T;1|",
+  "_molecule_index": 10367,
+  "SMILES": "C=C1/C=C/[C@H](C(C)C)CCC(=C)[C@H](O)CC1"
+}

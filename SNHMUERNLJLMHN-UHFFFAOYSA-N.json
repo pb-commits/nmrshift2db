@@ -1,0 +1,16 @@
+{
+  "INChI key": "SNHMUERNLJLMHN-UHFFFAOYSA-N",
+  "Program": "2:CSEARCH ",
+  "INChI": "InChI=1S/C6H5I/c7-6-4-2-1-3-5-6/h1-5H",
+  "Temperature [K]": "0:Unreported 1:297 3:297 ",
+  "nmrshiftdb2 ID": 20036225,
+  "Field Strength [MHz]": "0:Unreported 1:100.6 3:400.13 ",
+  "Spectrum 1H 3": "7.09;0.0;2|7.09;0.0;4|7.32;0.0;1|7.32;0.0;5|7.68;0.0;3|",
+  "Spectrum 13C 1": "138.4;0.0D;1|138.4;0.0D;5|131.2;0.0D;2|131.2;0.0D;4|128.5;0.0D;3|94.9;0.0S;0|",
+  "Spectrum 13C 0": "94.4;0.0S;0|127.4;0.0D;3|130.1;0.0D;2|130.1;0.0D;4|137.4;0.0D;1|137.4;0.0D;5|",
+  "Solvent": "0:Unreported 1:Methanol-D4 (CD3OD) 3:Methanol-D4 (CD3OD) ",
+  "Assignment Method": "0:Unreported 1:1D shift positions 3:1D shift positions ",
+  "Spectrum 13C 2": "95.0;0.0S;0|137.7;0.0D;1|130.6;0.0D;2|127.7;0.0D;3|130.6;0.0D;4|137.7;0.0D;5|",
+  "_molecule_index": 13148,
+  "SMILES": "Ic1ccccc1"
+}

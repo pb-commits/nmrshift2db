@@ -1,0 +1,14 @@
+{
+  "INChI key": "GYJVNLBXSXZXIM-UHFFFAOYSA-N",
+  "Program": "0:CSEARCH ",
+  "INChI": "InChI=1S/C11H9BO3/c1-8-6-7-11(13-8)12-14-9-4-2-3-5-10(9)15-12/h2-7H,1H3",
+  "Temperature [K]": "1:Unreported ",
+  "nmrshiftdb2 ID": 20247136,
+  "Field Strength [MHz]": "1:128.39999389648438 ",
+  "Spectrum 13C 0": "113.4;0.0D;0|119.9;0.0D;1|119.9;0.0D;2|113.4;0.0D;3|147.4;0.0S;4|147.4;0.0S;5|156.3;0.0S;7|106.3;0.0D;8|134.0;0.0D;9|14.3;0.0Q;10|",
+  "Spectrum 11B 1": "27.7;0.0S;12|",
+  "Solvent": "1:Methylenchloride-D2 (CD2Cl2) ",
+  "Assignment Method": "1:Unreported ",
+  "_molecule_index": 41237,
+  "SMILES": "Cc1ccc(B2Oc3ccccc3O2)o1"
+}

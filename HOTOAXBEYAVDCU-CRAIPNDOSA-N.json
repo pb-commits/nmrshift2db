@@ -1,0 +1,12 @@
+{
+  "INChI key": "HOTOAXBEYAVDCU-CRAIPNDOSA-N",
+  "INChI": "InChI=1S/C18H18N2/c1-15-12-13-20(17-10-6-3-7-11-17)18(15,14-19)16-8-4-2-5-9-16/h2-11,15H,12-13H2,1H3/t15-,18-/m1/s1",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20224217,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "71.0;0.0S;0|50.0;0.0D;1|31.1;0.0T;2|51.1;0.0T;3|144.4;0.0S;4|114.8;0.0D;5|114.8;0.0D;9|128.7;0.0D;6|128.7;0.0D;8|118.2;0.0D;7|138.0;0.0S;10|125.3;0.0D;11|125.3;0.0D;15|129.0;0.0D;12|129.0;0.0D;14|128.3;0.0D;13|13.6;0.0Q;16|117.9;0.0S;17|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 38931,
+  "SMILES": "C[C@@H]1CCN(c2ccccc2)[C@@]1(C#N)c1ccccc1"
+}

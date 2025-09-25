@@ -1,0 +1,12 @@
+{
+  "INChI key": "DOSOSAUVPGPDEQ-VXMHLZNXSA-N",
+  "INChI": "InChI=1S/C24H24N4O4/c1-17(15-21(29)31-3)25-23-27(19-11-7-5-8-12-19)24(26-18(2)16-22(30)32-4)28(23)20-13-9-6-10-14-20/h5-16H,1-4H3/b17-15+,18-16+,25-23-,26-24+",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "2.25;0.0;29|3.87;0.0;31|6.09;0.0;33|",
+  "nmrshiftdb2 ID": 20171673,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 24458,
+  "SMILES": "COC(=O)/C=C(\\C)N=C1N(c2ccccc2)C(=N/C(C)=C/C(=O)OC)N1c1ccccc1"
+}

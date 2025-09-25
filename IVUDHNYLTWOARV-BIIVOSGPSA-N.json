@@ -1,0 +1,12 @@
+{
+  "INChI key": "IVUDHNYLTWOARV-BIIVOSGPSA-N",
+  "INChI": "InChI=1S/C10H14N2O4S/c1-5-3-12(10(16)11-9(5)15)8-2-6(14)7(4-13)17-8/h3,6-8,13-14H,2,4H2,1H3,(H,11,15,16)/t6-,7-,8+/m0/s1",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20180117,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "12.3;0.0Q;9|43.7;0.0T;7|57.5;0.0D;5|60.2;0.0D;4|61.2;0.0T;8|72.2;0.0D;6|110.4;0.0S;2|137.3;0.0D;3|150.9;0.0S;0|163.4;0.0S;1|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 29902,
+  "SMILES": "Cc1cn([C@H]2C[C@H](O)[C@H](CO)S2)c(=O)[nH]c1=O"
+}

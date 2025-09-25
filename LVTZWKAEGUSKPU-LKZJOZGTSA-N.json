@@ -1,0 +1,12 @@
+{
+  "INChI key": "LVTZWKAEGUSKPU-LKZJOZGTSA-N",
+  "INChI": "InChI=1S/C48H42N2O6/c1-53-42-32-33-50(46(52)49-42)45-44(56-48(38-26-14-5-15-27-38,39-28-16-6-17-29-39)40-30-18-7-19-31-40)43(51)41(55-45)34-54-47(35-20-8-2-9-21-35,36-22-10-3-11-23-36)37-24-12-4-13-25-37/h2-33,41,43-45,51H,34H2,1H3/t41-,43-,44-,45-/m1/s1",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "2.95;0.0;3|3.49;0.0;20|3.96;0.0;31|4.18;0.0;2|4.26;0.0;4|5.74;0.0;9|6.63;0.0;1|7.4;0.0;42|7.4;0.0;41|7.64;0.0;10|",
+  "nmrshiftdb2 ID": 20171526,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 24312,
+  "SMILES": "COc1ccn([C@@H]2O[C@H](COC(c3ccccc3)(c3ccccc3)c3ccccc3)[C@@H](O)[C@H]2OC(c2ccccc2)(c2ccccc2)c2ccccc2)c(=O)n1"
+}

@@ -1,0 +1,16 @@
+{
+  "INChI key": "BNEBXEZRBLYBCZ-UHFFFAOYSA-N",
+  "Program": "1:ACD/Labs C+H NMR Predictors and DB, 2020.1.0 2:HOSE code using nmrshiftdb2 data ",
+  "INChI": "InChI=1S/C10H12O4/c1-5(2)10(14)9-7(12)3-6(11)4-8(9)13/h3-5,11-13H,1-2H3",
+  "Temperature [K]": "0:Unknown 3:255.6 ",
+  "nmrshiftdb2 ID": 30079968,
+  "Field Strength [MHz]": "0:125 3:500 ",
+  "Spectrum 1H 3": "1.12;0.0d;9|1.12;0.0d;9|3.96;0.0sept;7|5.8;0.0s;1|5.8;0.0s;3|1.12;0.0d;8|1.12;0.0d;8|1.12;0.0d;8|1.12;0.0d;9|",
+  "Spectrum 13C 1": "19.65;0.0Q;8|19.65;0.0Q;9|39.81;0.0D;7|211.78;0.0S;6|104.6;0.0S;5|165.7;0.0S;0|165.7;0.0S;2|165.7;0.0S;4|95.85;0.0D;1|95.85;0.0D;3|",
+  "Spectrum 13C 0": "19.6;0.0Q;8|19.6;0.0Q;9|39.9;0.0D;7|95.9;0.0D;3|95.9;0.0D;1|104.6;0.0S;5|165.7;0.0S;4|165.7;0.0S;0|165.8;0.0S;2|211.7;0.0S;6|",
+  "Solvent": "0:Methanol-D4 (CD3OD) 3:Methanol-D4 (CD3OD) ",
+  "Assignment Method": "0:HERIMS 3:HERIMS ",
+  "Spectrum 13C 2": "19.6;0.0Q;8|19.6;0.0Q;9|39.9;0.0D;7|211.7;0.0S;6|104.6;0.0S;5|165.7;0.0S;0|165.7;0.0S;4|95.9;0.0D;1|95.9;0.0D;3|165.8;0.0S;2|",
+  "_molecule_index": 41920,
+  "SMILES": "CC(C)C(=O)c1c(O)cc(O)cc1O"
+}

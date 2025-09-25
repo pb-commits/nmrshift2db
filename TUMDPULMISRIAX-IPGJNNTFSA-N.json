@@ -1,0 +1,12 @@
+{
+  "INChI key": "TUMDPULMISRIAX-IPGJNNTFSA-N",
+  "INChI": "InChI=1S/C16H16N2O4/c1-9(2)16-10-6-4-5-7-12(10)18(15(20)21-3)14(16)22-13(19)11(16)8-17/h4-7,9,11,14H,1-3H3/t11-,14?,16-/m0/s1",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20180444,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "17.9;0.0Q;12|17.9;0.0Q;15|36.6;0.0D;11|42.1;0.0D;9|53.7;0.0Q;14|57.7;0.0S;7|95.3;0.0D;6|113.2;0.0S;10|115.7;0.0D;3|124.3;0.0D;1|124.9;0.0S;5|126.8;0.0D;0|130.9;0.0D;2|141.0;0.0S;4|151.8;0.0S;13|165.3;0.0S;8|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 30224,
+  "SMILES": "COC(=O)N1c2ccccc2[C@]2(C(C)C)C1OC(=O)[C@@H]2C#N"
+}

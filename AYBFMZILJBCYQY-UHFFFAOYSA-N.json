@@ -1,0 +1,12 @@
+{
+  "INChI key": "AYBFMZILJBCYQY-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C22H26O6/c1-22(2)10-15(23)18-16(28-22)7-5-12-9-13(11-27-20(12)18)14-6-8-17(25-3)19(24)21(14)26-4/h5-8,13,15,23-24H,9-11H2,1-4H3",
+  "Temperature [K]": "0:298 ",
+  "Spectrum 1H 0": "1.21;0.0s;13|1.21;0.0s;13|1.21;0.0s;13|1.27;0.0s;12|1.27;0.0s;12|1.27;0.0s;12|2.46;0.0dd;9|2.81;0.0m;9|2.83;0.0m;4|2.92;0.0ddd;4|3.42;0.0m;5|3.72;0.0t;11|3.81;0.0s;20|3.81;0.0s;20|3.81;0.0s;20|3.83;0.0s;21|3.83;0.0s;21|3.83;0.0s;21|3.97;0.0t;6|4.27;0.0ddd;6|6.29;0.0d;1|6.65;0.0d;19|6.72;0.0d;15|6.82;0.0br d;2|",
+  "nmrshiftdb2 ID": 30079981,
+  "Field Strength [MHz]": "0:600 ",
+  "Solvent": "0:CD3CN or CDCL3 ",
+  "Assignment Method": "0:HPLC-SPE-NMR(COSY,HSQC,HMBC,NOESY) ",
+  "_molecule_index": 41929,
+  "SMILES": "COc1ccc(C2COc3c(ccc4c3C(O)CC(C)(C)O4)C2)c(OC)c1O"
+}

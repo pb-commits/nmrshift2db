@@ -1,0 +1,12 @@
+{
+  "INChI key": "PUOXXFILFRGSAF-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C14H17NO2/c1-5-12-14(2,3)13(16)15(12)10-6-8-11(17-4)9-7-10/h5-9,12H,1H2,2-4H3",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20191654,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "17.4;0.0Q;11|22.0;0.0Q;10|54.1;0.0S;1|55.5;0.0Q;9|65.2;0.0D;2|113.9;0.0D;5|113.9;0.0D;7|117.9;0.0D;4|117.9;0.0D;8|119.9;0.0T;13|131.6;0.0S;3|133.7;0.0D;12|155.5;0.0S;6|170.3;0.0S;0|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 32644,
+  "SMILES": "C=CC1N(c2ccc(OC)cc2)C(=O)C1(C)C"
+}

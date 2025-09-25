@@ -1,0 +1,21 @@
+{
+  "NMRBasisSet": "0:6-31+GD 6-31+GD  ",
+  "Temperature [K]": "1:Unreported 2:Unreported ",
+  "Field Strength [MHz]": "1:Unreported 2:Unreported ",
+  "NMRMethod": "0:Unreported ",
+  "NMRProgram": "0:G03 ",
+  "Assignment Method": "1:Unreported 2:Unreported ",
+  "GeomMethod": "0:RB3LYP RB3LYP  ",
+  "INChI key": "UOALEFQKAOQICC-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/BClH2/c1-2/h1H2",
+  "nmrshiftdb2 ID": 30001352,
+  "NMRLocalis": "0:GIAO ",
+  "NMRStandard": "0:B2H6 ",
+  "Spectrum 11B 0": "-14.3;0.0;0|",
+  "Spectrum 11B 1": "5.8;0.0T;0|",
+  "Solvent": "1:Et2O 2:Tetrahydrofuran-D8 (THF-D8, C4D4O) ",
+  "Spectrum 11B 2": "4.3;0.0;0|",
+  "GeomBasisSet": "0:6-31+GD 6-31+GD  ",
+  "_molecule_index": 41802,
+  "SMILES": "BCl"
+}

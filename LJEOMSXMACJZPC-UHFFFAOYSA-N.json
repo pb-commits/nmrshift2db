@@ -1,0 +1,12 @@
+{
+  "INChI key": "LJEOMSXMACJZPC-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C14H24Si/c1-5-7-9-11-13-15(3,4)14-12-10-8-6-2/h5-10H2,1-4H3",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20180176,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "1.1;0.0Q;0|1.1;0.0Q;1|13.9;0.0Q;10|13.9;0.0Q;13|19.8;0.0T;6|19.8;0.0T;7|22.2;0.0T;9|22.2;0.0T;12|30.9;0.0T;8|30.9;0.0T;11|82.1;0.0S;2|82.1;0.0S;4|107.8;0.0S;3|107.8;0.0S;5|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 29959,
+  "SMILES": "CCCCC#C[Si](C)(C)C#CCCCC"
+}

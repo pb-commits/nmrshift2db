@@ -1,0 +1,12 @@
+{
+  "INChI key": "GALFHOWVRBFAIM-JQWIXIFHSA-N",
+  "INChI": "InChI=1S/C12H18O2/c1-8(2)10-4-6-11(7-5-10)12(14)9(3)13/h6,10,12,14H,1,4-5,7H2,2-3H3/t10-,12-/m0/s1",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20179979,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "20.6;0.0Q;11|23.1;0.0T;3|24.7;0.0Q;8|27.2;0.0T;1|30.8;0.0T;0|41.2;0.0D;2|82.2;0.0D;6|109.0;0.0T;10|129.4;0.0D;4|135.0;0.0S;5|149.2;0.0S;9|208.4;0.0S;7|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 29764,
+  "SMILES": "C=C(C)[C@H]1CC=C([C@@H](O)C(C)=O)CC1"
+}

@@ -1,0 +1,12 @@
+{
+  "INChI key": "FBEPLWIKYAOEET-TVCDAZOZSA-N",
+  "INChI": "InChI=1S/C4H8O3S2/c5-1-4-3(6)2-9(7)8-4/h3-6H,1-2H2/t3-,4-,9?/m1/s1",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 11051,
+  "Field Strength [MHz]": "0:125 ",
+  "Spectrum 13C 0": "61.0;0.0D;3|61.4;0.0T;5|70.4;0.0T;1|76.4;0.0D;2|",
+  "Solvent": "0:Methanol-D4 (CD3OD) ",
+  "Assignment Method": "0:Hetcor+longrange Hetcor ",
+  "_molecule_index": 837,
+  "SMILES": "O=S1C[C@@H](O)[C@@H](CO)S1"
+}

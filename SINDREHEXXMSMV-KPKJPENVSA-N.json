@@ -1,0 +1,12 @@
+{
+  "INChI key": "SINDREHEXXMSMV-KPKJPENVSA-N",
+  "INChI": "InChI=1S/C23H18BrClN2O3/c24-18-8-5-17(6-9-18)23-15-21(26(30-23)20-13-10-19(25)11-14-20)12-7-16-3-1-2-4-22(16)27(28)29/h1-14,21,23H,15H2/b12-7+",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "2.96;0.0;3|4.48;0.0;4|5.08;0.0;2|6.26;0.0;30|7.88;0.0;31|",
+  "nmrshiftdb2 ID": 20165572,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 20512,
+  "SMILES": "O=[N+]([O-])c1ccccc1/C=C/C1CC(c2ccc(Br)cc2)ON1c1ccc(Cl)cc1"
+}

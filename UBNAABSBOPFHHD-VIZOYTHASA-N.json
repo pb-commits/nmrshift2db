@@ -1,0 +1,12 @@
+{
+  "INChI key": "UBNAABSBOPFHHD-VIZOYTHASA-N",
+  "INChI": "InChI=1S/C12H13FN6S2/c1-18(15-7-8-3-5-9(13)6-4-8)12(20)19-10(14)16-11(17-19)21-2/h3-7H,1-2H3,(H2,14,16,17)/b15-7+",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 10018594,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "36.9;0.0Q;3|116.5;0.0D;7|116.5;0.0D;9|130.1;0.0S;5|130.2;0.0D;6|130.2;0.0D;10|146.9;0.0D;4|155.8;0.0S;1|159.0;0.0S;0|165.4;0.0S;8|175.1;0.0S;2|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 6577,
+  "SMILES": "CSc1nc(N)n(C(=S)N(C)/N=C/c2ccc(F)cc2)n1"
+}

@@ -1,0 +1,12 @@
+{
+  "INChI key": "VITVVIGARYYOAB-CHWSQXEVSA-N",
+  "INChI": "InChI=1S/C13H17NO/c1-2-6-11(7-3-1)13(12-10-15-12)14-8-4-5-9-14/h1-3,6-7,12-13H,4-5,8-10H2/t12-,13-/m1/s1",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20180081,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "23.1;0.0T;10|23.1;0.0T;11|48.6;0.0T;9|48.6;0.0T;12|52.9;0.0T;8|55.1;0.0D;7|73.1;0.0D;6|140.5;0.0S;5|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 29866,
+  "SMILES": "c1ccc([C@H]([C@H]2CO2)N2CCCC2)cc1"
+}

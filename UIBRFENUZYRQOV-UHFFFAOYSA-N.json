@@ -1,0 +1,15 @@
+{
+  "rawdata Cyclic voltammetry 1": "http://www.nmrshiftdb.org/download/NmrshiftdbServlet/60004074_Cyclic voltammetry.zip?spectrumid=60004074&nmrshiftdbaction=exportspec&format=rawdata",
+  "INChI key": "UIBRFENUZYRQOV-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C30H20/c1-2-29-20-30(3-1)28-18-14-26(15-19-28)24-10-6-22(7-11-24)21-4-8-23(9-5-21)25-12-16-27(29)17-13-25/h1-20H",
+  "Temperature [K]": "0:298 ",
+  "Spectrum 1H 0": "7.34;1.0M;3|7.34;1.0M;6|7.34;1.0M;7|7.34;1.0M;9|7.34;1.0M;10|7.34;1.0M;11|7.34;1.0M;13|7.34;1.0M;14|7.34;1.0M;15|7.34;1.0M;19|7.34;1.0M;22|7.34;1.0M;23|7.34;1.0M;25|7.34;1.0M;26|7.34;1.0M;27|7.06;0.266667D;2|7.06;0.266667D;12|7.06;0.266667D;18|7.06;0.266667D;28|4.8;0.0666667T;29|",
+  "nmrshiftdb2 ID": 60004869,
+  "Field Strength [MHz]": "0:600.0 ",
+  "Spectrum Cyclic voltammetry 1": "",
+  "Solvent": "0:Chloroform-D1 (CDCl3) 1:CH2Cl2 ",
+  "Assignment Method": "0:1D shift positions ",
+  "Machine": "1:Biologic SP-50 ",
+  "_molecule_index": 43429,
+  "SMILES": "c1cc2cc(c1)-c1ccc(cc1)-c1ccc(cc1)-c1ccc(cc1)-c1ccc-2cc1"
+}

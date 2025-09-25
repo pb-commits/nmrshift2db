@@ -1,0 +1,12 @@
+{
+  "INChI key": "TZYMEDVTWOFGEX-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C10H10N2O2S2/c1-14-10(13)7-2-3-8(15-5-11)9(4-7)16-6-12/h7H,2-4H2,1H3",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20181079,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "25.0;0.0T;2|31.6;0.0T;3|34.5;0.0T;0|38.9;0.0D;1|52.3;0.0Q;9|107.2;0.0S;7|107.3;0.0S;6|126.5;0.0S;5|130.3;0.0S;4|172.9;0.0S;8|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 30856,
+  "SMILES": "COC(=O)C1CCC(SC#N)=C(SC#N)C1"
+}

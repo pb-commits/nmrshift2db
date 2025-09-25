@@ -1,0 +1,14 @@
+{
+  "INChI key": "VVRGKRUUYORUTO-UHFFFAOYSA-N",
+  "Program": "1:HOSE code using nmrshiftdb2 data ",
+  "INChI": "InChI=1S/C13H18O4/c1-5-7(2)12(15)9(4)11-6-10(14)8(3)13(16)17-11/h6-7,9,14H,5H2,1-4H3",
+  "Temperature [K]": "0:298 ",
+  "nmrshiftdb2 ID": 20077722,
+  "Field Strength [MHz]": "0:75.5 ",
+  "Spectrum 13C 1": "11.5;0.0Q;3|25.6;0.0T;2|46.8;0.0D;4|16.3;0.0Q;5|211.2;0.0S;11|49.0;0.0D;6|14.4;0.0Q;7|160.4;0.0S;1|101.7;0.0D;0|166.3;0.0S;12|99.6;0.0S;8|8.2;0.0Q;9|167.5;0.0S;10|",
+  "Spectrum 13C 0": "8.2;0.0Q;9|11.5;0.0Q;3|14.4;0.0Q;7|16.3;0.0Q;5|25.6;0.0T;2|46.8;0.0D;4|49.0;0.0D;6|99.6;0.0S;8|101.7;0.0D;0|160.4;0.0S;1|166.3;0.0S;12|167.5;0.0S;10|211.2;0.0S;11|",
+  "Solvent": "0:Methanol-D4 (CD3OD) ",
+  "Assignment Method": "0:2D NMR ",
+  "_molecule_index": 16586,
+  "SMILES": "CCC(C)C(=O)C(C)c1cc(O)c(C)c(=O)o1"
+}

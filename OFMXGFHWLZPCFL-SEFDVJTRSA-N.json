@@ -1,0 +1,23 @@
+{
+  "Spectrum H,C-HMBC 3": "",
+  "rawdata APT 6": "http://www.nmrshiftdb.org/download/NmrshiftdbServlet/40253472_APT.zip?spectrumid=40253472&nmrshiftdbaction=exportspec&format=rawdata",
+  "Spectrum H,C-HMBC 4": "",
+  "Spectrum APT 6": "6.79;0.0Q;29|17.92;0.0Q;27|18.63;0.0Q;25|20.23;0.0Q;24|35.0;0.0Q;15|42.8;0.0D;4|58.22;0.0D;2|59.49;0.0D;1|53.1;0.0D;3|14.64;0.0Q;28|22.26;0.0T;23|18.23;0.0T;26|32.08;0.0Q;18|31.76;0.0Q;19|30.49;0.0T;20|32.42;0.0T;17|32.78;0.0T;16|35.34;0.0T;14|35.63;0.0T;13|36.01;0.0T;12|39.24;0.0T;9|41.29;0.0T;7|41.51;0.0T;6|28.15;0.0S;22|29.98;0.0S;21|39.69;0.0S;8|42.12;0.0S;5|213.11;0.0S;0|37.44;0.0S;11|38.26;0.0S;10|",
+  "Temperature [K]": "0:300 1:300 2:300 3:300 4:300 5:300 6:300 ",
+  "Spectrum 1H 0": "1.35;0.0;20|1.51;0.0;17|1.21;0.0;14|0.878;0.0;29|0.878;0.0;29|0.878;0.0;29|0.726;0.0;28|0.726;0.0;28|0.726;0.0;28|0.874;0.0;27|0.874;0.0;27|0.874;0.0;27|1.394;0.0;26|1.488;0.0;26|1.052;0.0;25|1.052;0.0;25|1.052;0.0;25|1.01;0.0;24|1.01;0.0;24|1.01;0.0;24|1.686;0.0;23|1.965;0.0;23|1.344;0.0;20|1.002;0.0;19|1.002;0.0;19|1.002;0.0;19|1.182;0.0;18|1.182;0.0;18|1.182;0.0;18|1.295;0.0;17|1.475;0.0;16|1.277;0.0;16|0.955;0.0;15|0.955;0.0;15|0.955;0.0;15|1.374;0.0;14|1.459;0.0;13|1.275;0.0;13|1.565;0.0;12|1.362;0.0;12|1.495;0.0;9|0.943;0.0;9|1.757;0.0;7|1.283;0.0;7|2.392;0.0;6|2.288;0.0;6|1.559;0.0;32|1.392;0.0;31|2.244;0.0;2|1.528;0.0;1|",
+  "rawdata H,C-HSQC 2": "http://www.nmrshiftdb.org/download/NmrshiftdbServlet/40253476_H,C-HSQC.zip?spectrumid=40253476&nmrshiftdbaction=exportspec&format=rawdata",
+  "rawdata H,H-COSY 1": "http://www.nmrshiftdb.org/download/NmrshiftdbServlet/40253474_H,H-COSY.zip?spectrumid=40253474&nmrshiftdbaction=exportspec&format=rawdata",
+  "Field Strength [MHz]": "0:600.1300048828125 1:600.1300048828125 2:600.1300048828125 3:600.1300048828125 4:600.1300048828125 5:600.1300048828125 6:150.0 ",
+  "rawdata H,H-NOESY 5": "http://www.nmrshiftdb.org/download/NmrshiftdbServlet/40253475_H,H-NOESY.zip?spectrumid=40253475&nmrshiftdbaction=exportspec&format=rawdata",
+  "Assignment Method": "0:H,C-HMBC, H,C-HSQC, H,H-NOESY, H,H-COSY, APT, 1H 6:H,C-HMBC, H,C-HSQC, H,H-NOESY, H,H-COSY, APT, 1H ",
+  "Spectrum H,H-COSY 1": "",
+  "rawdata 1H 0": "http://www.nmrshiftdb.org/download/NmrshiftdbServlet/40253473_1H.zip?spectrumid=40253473&nmrshiftdbaction=exportspec&format=rawdata",
+  "INChI key": "OFMXGFHWLZPCFL-SEFDVJTRSA-N",
+  "INChI": "InChI=1S/C30H50O/c1-20-21(31)9-10-22-27(20,5)12-11-23-28(22,6)16-18-30(8)24-19-25(2,3)13-14-26(24,4)15-17-29(23,30)7/h20,22-24H,9-19H2,1-8H3/t20-,22?,23-,24+,26+,27+,28-,29+,30-/m0/s1",
+  "nmrshiftdb2 ID": 60001973,
+  "Spectrum H,C-HSQC 2": "",
+  "Solvent": "0:Chloroform-D1 (CDCl3) 1:Chloroform-D1 (CDCl3) 2:Chloroform-D1 (CDCl3) 3:Chloroform-D1 (CDCl3) 4:Chloroform-D1 (CDCl3) 5:Chloroform-D1 (CDCl3) 6:Chloroform-D1 (CDCl3) ",
+  "Spectrum H,H-NOESY 5": "",
+  "_molecule_index": 43366,
+  "SMILES": "C[C@H]1C(=O)CCC2[C@]1(C)CC[C@H]1[C@@]2(C)CC[C@@]2(C)[C@@H]3CC(C)(C)CC[C@]3(C)CC[C@]12C"
+}

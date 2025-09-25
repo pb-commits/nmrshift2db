@@ -1,0 +1,12 @@
+{
+  "INChI key": "NOBONHMYMIDETF-MDZDMXLPSA-N",
+  "INChI": "InChI=1S/C19H28N2O10/c1-5-28-16(24)14(17(25)29-6-2)20-12(22)10-9-11-13(23)21-15(18(26)30-7-3)19(27)31-8-4/h9-10,14-15H,5-8,11H2,1-4H3,(H,20,22)(H,21,23)/b10-9+",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20221340,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "137.1;0.0D;0|126.2;0.0D;1|164.4;0.0S;2|56.5;0.0D;3|56.5;0.0D;12|166.1;0.0S;4|166.1;0.0S;7|62.7;0.0T;5|62.7;0.0T;8|62.7;0.0T;14|62.7;0.0T;17|14.0;0.0Q;6|14.0;0.0Q;9|14.0;0.0Q;15|14.0;0.0Q;18|38.8;0.0T;10|168.7;0.0S;11|166.3;0.0S;13|166.3;0.0S;16|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 38429,
+  "SMILES": "CCOC(=O)C(NC(=O)/C=C/CC(=O)NC(C(=O)OCC)C(=O)OCC)C(=O)OCC"
+}

@@ -1,0 +1,17 @@
+{
+  "Spectrum H,C-HMBC 3": "",
+  "rawdata 13C 0": "http://www.nmrshiftdb.org/download/NmrshiftdbServlet/60000390_13C.zip?spectrumid=60000390&nmrshiftdbaction=exportspec&format=rawdata",
+  "Temperature [K]": "0:298 1:298 2:298 3:298 4:298 ",
+  "Spectrum 1H 1": "1.227;0.0d;9|1.227;0.0d;9|1.227;0.0d;9|1.227;0.0d;10|1.227;0.0d;10|1.227;0.0d;10|1.227;0.0d;11|1.227;0.0d;11|1.227;0.0d;11|1.227;0.0d;12|1.227;0.0d;12|1.227;0.0d;12|1.227;0.0d;13|1.227;0.0d;13|1.227;0.0d;13|1.227;0.0d;14|1.227;0.0d;14|1.227;0.0d;14|1.227;0.0d;15|1.227;0.0d;15|1.227;0.0d;15|1.227;0.0d;16|1.227;0.0d;16|1.227;0.0d;16|4.777;0.0sep;5|4.777;0.0sep;6|4.777;0.0sep;7|4.777;0.0sep;8|",
+  "Field Strength [MHz]": "0:75.03250122070312 1:300.1300048828125 2:300.1300048828125 3:400.3299865722656 4:75.03250122070312 ",
+  "Assignment Method": "0:DEPT,COSY,HSQC, HMBC 1:DEPT,COSY,HSQC, HMBC 4:DEPT,COSY,HSQC, HMBC ",
+  "INChI key": "VXUYXOFXAQZZMF-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/4C3H7O.Ti/c4*1-3(2)4;/h4*3H,1-2H3;/q4*-1;+4",
+  "nmrshiftdb2 ID": 60001939,
+  "Spectrum 13C 0": "26.23;0.0Q;9|26.23;0.0Q;10|26.23;0.0Q;11|26.23;0.0Q;12|26.23;0.0Q;13|26.23;0.0Q;14|26.23;0.0Q;15|26.23;0.0Q;16|77.0;0.0D;5|77.0;0.0D;6|77.0;0.0D;7|77.0;0.0D;8|",
+  "Spectrum H,C-HSQC 2": "",
+  "Solvent": "0:Chloroform-D1 (CDCl3) 1:Chloroform-D1 (CDCl3) 2:Chloroform-D1 (CDCl3) 3:Chloroform-D1 (CDCl3) 4:Chloroform-D1 (CDCl3) ",
+  "Spectrum DEPT135 4": "26.23;0.0Q;9|26.23;0.0Q;10|26.23;0.0Q;11|26.23;0.0Q;12|26.23;0.0Q;13|26.23;0.0Q;14|26.23;0.0Q;15|26.23;0.0Q;16|77.0;0.0D;5|77.0;0.0D;6|77.0;0.0D;7|77.0;0.0D;8|",
+  "_molecule_index": 43362,
+  "SMILES": "CC(C)[O][205Ti]([O]C(C)C)([O]C(C)C)[O]C(C)C"
+}

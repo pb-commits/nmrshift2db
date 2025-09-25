@@ -1,0 +1,12 @@
+{
+  "INChI key": "PULQHACTPOWUDH-AATRIKPKSA-N",
+  "INChI": "InChI=1S/C9H16ClNO4S/c1-7(5-6-16(10,13)14)11-8(12)15-9(2,3)4/h5-7H,1-4H3,(H,11,12)/b6-5+",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 10024904,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "19.4;0.0Q;3|28.1;0.0Q;6|28.1;0.0Q;7|28.1;0.0Q;8|46.5;0.0D;2|132.7;0.0D;0|150.4;0.0D;1|154.6;0.0S;4|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 9719,
+  "SMILES": "CC(/C=C/S(=O)(=O)Cl)NC(=O)OC(C)(C)C"
+}

@@ -1,0 +1,13 @@
+{
+  "INChI key": "JOXIMZWYDAKGHI-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C7H8O3S/c1-6-2-4-7(5-3-6)11(8,9)10/h2-5H,1H3,(H,8,9,10)",
+  "Temperature [K]": "0:298 1:Unreported ",
+  "nmrshiftdb2 ID": 10008880,
+  "Field Strength [MHz]": "0:Unreported 1:Unreported ",
+  "Spectrum 13C 1": "125.8;0.0D;2|125.8;0.0D;4|129.7;0.0D;1|129.7;0.0D;5|140.0;0.0S;3|142.5;0.0S;0|",
+  "Spectrum 13C 0": "20.9;0.298Q;6|125.8;0.837D;2|125.8;0.837D;4|129.7;1.0D;1|129.7;1.0D;5|140.0;0.239S;3|142.5;0.346S;0|",
+  "Solvent": "0:Deuteriumoxide (D2O) 1:Unreported ",
+  "Assignment Method": "1:Unreported ",
+  "_molecule_index": 3855,
+  "SMILES": "Cc1ccc(S(=O)(=O)O)cc1"
+}

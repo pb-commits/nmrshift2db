@@ -1,0 +1,15 @@
+{
+  "INChI key": "HWUUFSKLWCAJDY-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C9H10F4Si/c1-14(2,3)6-4-5(10)7(11)9(13)8(6)12/h4H,1-3H3",
+  "Temperature [K]": "0:298 1:298 2:298 3:298 ",
+  "nmrshiftdb2 ID": 40053483,
+  "Spectrum 1H 1": "-0.67;0.0;6|-0.67;0.0;6|-0.67;0.0;6|-0.67;0.0;7|-0.67;0.0;7|-0.67;0.0;7|-0.67;0.0;8|-0.67;0.0;8|-0.67;0.0;8|5.89;0.0;0|",
+  "Field Strength [MHz]": "0:300 1:300 2:300 3:300 ",
+  "Spectrum 13C 0": "-3.1;0.0Q;7|113.5;0.0D;0|121.9;0.0S;5|139.3;0.0S;3|140.1;0.0S;2|146.4;0.0S;1|150.0;0.0S;4|-3.1;0.0Q;6|-3.1;0.0Q;8|",
+  "Solvent": "0:Acetone-D6 ((CD3)2CO) 1:Acetone-D6 ((CD3)2CO) 2:Chloroform-D1 (CDCl3) 3:Acetone-D6 ((CD3)2CO) ",
+  "Assignment Method": "0:1H-1H COSY,HMQC,HMBC 1:COSY, HMQC, HMBC 2:H/H COSY, NOESY, HMQC, and HMBC 3:1 D shift positions, COSY, HMQC, HMBC ",
+  "Spectrum 19F 2": "-156.32;0.0S;10|-154.92;0.0S;13|-139.41;0.0S;12|-127.84;0.0S;11|",
+  "Spectrum 29Si 3": "-2.72;0.0S;9|",
+  "_molecule_index": 43156,
+  "SMILES": "C[Si](C)(C)c1cc(F)c(F)c(F)c1F"
+}

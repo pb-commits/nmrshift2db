@@ -1,0 +1,13 @@
+{
+  "INChI key": "UKLNPJDLSPMJMQ-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C11H20O/c1-2-3-4-5-10-6-8-11(12)9-7-10/h10H,2-9H2,1H3",
+  "Temperature [K]": "0:Unreported 1:Unreported ",
+  "nmrshiftdb2 ID": 20209191,
+  "Spectrum 1H 1": "0.896;0.0;11|1.31;0.0;4|1.31;0.0;7|1.31;0.0;9|1.31;0.0;10|1.39;0.0;3|1.703;0.0;1|2.049;0.0;3|2.35;0.0;6|",
+  "Field Strength [MHz]": "0:Unreported 1:Unreported ",
+  "Spectrum 13C 0": "14.05;0.0Q;11|22.66;0.0T;10|27.04;0.0T;7|32.12;0.0T;9|32.82;0.0T;2|35.56;0.0T;4|36.12;0.0D;1|40.85;0.0T;5|212.19;0.0S;8|",
+  "Solvent": "0:Unreported 1:Unreported ",
+  "Assignment Method": "0:Unreported 1:Unreported ",
+  "_molecule_index": 36170,
+  "SMILES": "CCCCCC1CCC(=O)CC1"
+}

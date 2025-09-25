@@ -1,0 +1,12 @@
+{
+  "INChI key": "BRLMHJAZZGAMAL-NTEUORMPSA-N",
+  "INChI": "InChI=1S/C19H16BrNO6/c1-2-26-19-14(17(23)13-7-10(20)3-6-16(13)27-19)9-21-11-4-5-12(18(24)25)15(22)8-11/h3-9,19,21-22H,2H2,1H3,(H,24,25)/b14-9+",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "1.01;0.0;22|3.73;0.0;21|5.99;0.0;9|8.19;0.0;27|11.62;0.0;13|",
+  "nmrshiftdb2 ID": 20171832,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 24617,
+  "SMILES": "CCOC1Oc2ccc(Br)cc2C(=O)/C1=C\\Nc1ccc(C(=O)O)c(O)c1"
+}

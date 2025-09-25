@@ -1,0 +1,12 @@
+{
+  "INChI key": "FTTSNEULOCEVGI-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C13H10N2O4/c1-7-5-10-12(19-7)9-4-3-8(15(17)18)6-11(9)14(2)13(10)16/h3-6H,1-2H3",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "2.6;0.0;13|3.7;0.0;15|6.45;0.0;2|7.3;0.0;7|7.8;0.0;9|8.1;0.0;10|",
+  "nmrshiftdb2 ID": 20171106,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 23892,
+  "SMILES": "Cc1cc2c(=O)n(C)c3cc([N+](=O)[O-])ccc3c2o1"
+}

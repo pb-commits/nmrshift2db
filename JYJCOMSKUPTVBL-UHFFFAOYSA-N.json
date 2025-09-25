@@ -1,0 +1,22 @@
+{
+  "rawdata H,C-HSQC 3": "http://www.nmrshiftdb.org/download/NmrshiftdbServlet/40252692_H,C-HSQC.zip?spectrumid=40252692&nmrshiftdbaction=exportspec&format=rawdata",
+  "Spectrum H,C-HMBC 4": "",
+  "Temperature [K]": "0:298 1:298 2:298 3:298 4:298 5:298 ",
+  "rawdata H,C-HMBC 4": "http://www.nmrshiftdb.org/download/NmrshiftdbServlet/40252694_H,C-HMBC.zip?spectrumid=40252694&nmrshiftdbaction=exportspec&format=rawdata",
+  "Spectrum 1H 1": "7.69;0.0d;13|7.5;0.0d;12|7.39;0.0d;11|2.53;0.0s;18|2.53;0.0s;18|2.53;0.0s;18|3.15;0.0d;15|3.36;0.0dd;16|4.76;0.0d;17|7.27;0.0dd;10|7.23;0.0dd;9|7.2;0.0dd;7|7.15;0.0dd;6|7.28;0.0dd;8|",
+  "Field Strength [MHz]": "0:150.0 1:600.0 2:600.0 3:600.0 4:600.0 5:600.0 ",
+  "rawdata H,H-COSY 2": "http://www.nmrshiftdb.org/download/NmrshiftdbServlet/40252693_H,H-COSY.zip?spectrumid=40252693&nmrshiftdbaction=exportspec&format=rawdata",
+  "rawdata H,H-NOESY 5": "http://www.nmrshiftdb.org/download/NmrshiftdbServlet/40252875_H,H-NOESY.zip?spectrumid=40252875&nmrshiftdbaction=exportspec&format=rawdata",
+  "Spectrum H,H-COSY 2": "",
+  "Assignment Method": "0:1H standard spectrum; H,H COSY; H,H NOESY; H,C HSQCed+HMBC 1:1H standard spectrum; H,H COSY; H,H NOESY; H,C HSQCed+HMBC ",
+  "rawdata 1H 1": "http://www.nmrshiftdb.org/download/NmrshiftdbServlet/40252695_1H.zip?spectrumid=40252695&nmrshiftdbaction=exportspec&format=rawdata",
+  "INChI key": "JYJCOMSKUPTVBL-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C19H15NO3/c1-20-17(21)15-14-10-6-2-4-8-12(10)19(23,16(15)18(20)22)13-9-5-3-7-11(13)14/h2-9,14-16,23H,1H3",
+  "nmrshiftdb2 ID": 40248433,
+  "Spectrum 13C 0": "120.43;0.0D;13|120.53;0.0D;12|123.72;0.0D;11|23.78;0.0Q;18|50.12;0.0D;15|47.31;0.0D;16|44.42;0.0D;17|124.23;0.0D;10|126.51;0.0D;9|127.37;0.0D;7|127.39;0.0D;6|126.93;0.0D;8|177.74;0.0S;0|176.31;0.0S;1|76.91;0.0S;14|135.97;0.0S;5|140.12;0.0S;3|142.13;0.0S;2|138.39;0.0S;4|",
+  "Solvent": "0:Chloroform-D1 (CDCl3) 1:Chloroform-D1 (CDCl3) 2:Chloroform-D1 (CDCl3) 3:Chloroform-D1 (CDCl3) 4:Chloroform-D1 (CDCl3) 5:Chloroform-D1 (CDCl3) ",
+  "Spectrum H,C-HSQC 3": "",
+  "Spectrum H,H-NOESY 5": "",
+  "_molecule_index": 43316,
+  "SMILES": "CN1C(=O)C2C3c4ccccc4C(O)(c4ccccc43)C2C1=O"
+}

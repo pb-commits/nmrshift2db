@@ -1,0 +1,12 @@
+{
+  "INChI key": "TVPOFBLINPBLST-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C13H13N5O2S/c1-8-3-5-9(6-4-8)10-7-15-11-12(14)17-21(19,20)18(2)13(11)16-10/h3-7H,1-2H3,(H2,14,17)",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20144364,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "20.5;0.0Q;12|27.5;0.0Q;6|121.2;0.0S;0|127.3;0.0D;7|127.3;0.0D;11|129.4;0.0D;8|129.4;0.0D;10|131.6;0.0S;5|133.1;0.0D;3|141.3;0.0S;9|148.3;0.0S;1|154.2;0.0S;2|157.9;0.0S;4|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 19090,
+  "SMILES": "Cc1ccc(-c2cnc3c(n2)N(C)S(=O)(=O)N=C3N)cc1"
+}

@@ -1,0 +1,12 @@
+{
+  "INChI key": "RCUFLECOBNVNRE-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C13H12Cl2O5/c1-19-7-2-6-3-8(5-10(17)12(14)15)20-13(18)11(6)9(16)4-7/h2-4,10,12,16-17H,5H2,1H3",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 10018400,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "37.3;0.0T;12|56.3;0.0Q;17|73.9;0.0D;13|77.2;0.0D;15|100.6;0.0S;3|101.2;0.0D;0|102.1;0.0D;5|107.4;0.0D;9|140.4;0.0S;4|154.9;0.0S;8|164.3;0.0S;2|166.8;0.0S;6|167.9;0.0S;1|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 6383,
+  "SMILES": "COc1cc(O)c2c(=O)oc(CC(O)C(Cl)Cl)cc2c1"
+}

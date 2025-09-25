@@ -1,0 +1,15 @@
+{
+  "INChI key": "INLLPKCGLOXCIV-UHFFFAOYSA-N",
+  "Program": "2:ACD/Labs C+H NMR Predictors and DB, 2020.1.0 ",
+  "INChI": "InChI=1S/C2H3Br/c1-2-3/h2H,1H2",
+  "Temperature [K]": "0:Unreported 1:Unreported ",
+  "nmrshiftdb2 ID": 10015830,
+  "Field Strength [MHz]": "0:Unreported 1:Unreported ",
+  "Spectrum 13C 1": "113.9;0.0D;1|121.8;0.0T;0|",
+  "Spectrum 13C 0": "115.6;0.0D;1|122.1;0.0T;0|",
+  "Solvent": "0:Unreported 1:Unreported ",
+  "Assignment Method": "0:Unreported 1:Unreported ",
+  "Spectrum 13C 2": "121.4;0.0T;0|114.37;0.0D;1|",
+  "_molecule_index": 4425,
+  "SMILES": "C=CBr"
+}

@@ -1,0 +1,12 @@
+{
+  "INChI key": "BJYLDDWXWJTGPU-IHRRRGAJSA-N",
+  "INChI": "InChI=1S/C15H18O2/c1-8-4-7-12-10(3)15(16)17-14(12)13-9(2)5-6-11(8)13/h12-14H,2-7H2,1H3/t12-,13-,14-/m0/s1",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20028271,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "23.3;0.0Q;14|25.9;0.0T;5|31.7;0.0T;10|32.8;0.0T;9|34.4;0.0T;6|52.4;0.0D;2|53.1;0.0D;4|82.0;0.0D;3|110.6;0.0T;13|117.5;0.0T;12|131.4;0.0S;1|136.0;0.0S;0|140.4;0.0S;8|149.5;0.0S;11|169.8;0.0S;7|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 12161,
+  "SMILES": "C=C1CCC2=C(C)CC[C@H]3C(=C)C(=O)O[C@@H]3[C@@H]12"
+}

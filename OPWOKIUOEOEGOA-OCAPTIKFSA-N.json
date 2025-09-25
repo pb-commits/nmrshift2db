@@ -1,0 +1,12 @@
+{
+  "INChI key": "OPWOKIUOEOEGOA-OCAPTIKFSA-N",
+  "INChI": "InChI=1S/C10H18Br2O2/c1-7(11)10(8(2)12)13-5-9(3,4)6-14-10/h7-8H,5-6H2,1-4H3/t7-,8+",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20221560,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "99.3;0.0S;0|29.1;0.0S;1|22.5;0.0Q;2|22.5;0.0Q;3|70.5;0.0T;4|69.7;0.0T;5|47.5;0.0D;6|47.5;0.0D;8|21.8;0.0Q;7|21.8;0.0Q;9|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 38648,
+  "SMILES": "C[C@H](Br)C1([C@@H](C)Br)OCC(C)(C)CO1"
+}

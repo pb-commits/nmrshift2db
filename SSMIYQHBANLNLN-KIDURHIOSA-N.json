@@ -1,0 +1,12 @@
+{
+  "INChI key": "SSMIYQHBANLNLN-KIDURHIOSA-N",
+  "INChI": "InChI=1S/C12H22N2O/c1-13-6-9-7-14-5-3-2-4-11(14)10(8-13)12(9)15/h9-12,15H,2-8H2,1H3/t9?,10?,11-,12-/m1/s1",
+  "Temperature [K]": "0:Unknown ",
+  "nmrshiftdb2 ID": 30085425,
+  "Field Strength [MHz]": "0:Unknown ",
+  "Spectrum 13C 0": "24.0;0.0t;14|25.6;0.0t;13|29.8;0.0t;12|35.5;0.0d;1|40.5;0.0d;0|52.0;0.0t;7|55.4;0.0t;10|55.4;0.0t;8|60.6;0.0t;5|64.5;0.0d;4|72.6;0.0d;3|",
+  "Solvent": "0:Chloroform-D1 (CDCl3) ",
+  "Assignment Method": "0:Unknown ",
+  "_molecule_index": 42100,
+  "SMILES": "CN1C[C@@H]2CN3CCCC[C@@H]3[C@H](C1)[C@@H]2O"
+}

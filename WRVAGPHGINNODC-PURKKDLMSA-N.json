@@ -1,0 +1,12 @@
+{
+  "INChI key": "WRVAGPHGINNODC-PURKKDLMSA-N",
+  "INChI": "InChI=1S/C28H28N2O5/c1-16-20-14-30-13-12-19-18-10-6-7-11-22(18)29-24(19)25(30)26(23(20)21(15-34-16)28(32)33-2)35-27(31)17-8-4-3-5-9-17/h3-11,15-16,20,23,25-26,29H,12-14H2,1-2H3/t16-,20+,23+,25+,26+/m1/s1",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "1.43;0.0;21|2.46;0.0;3|3.55;0.0;35|3.8;0.0;28|4.16;0.0;1|6.93;0.0;19|7.25;0.0;11|7.25;0.0;12|7.68;0.0;16|7.9;0.0;30|8.36;0.0;9|",
+  "nmrshiftdb2 ID": 20171933,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 24718,
+  "SMILES": "COC(=O)C1=CO[C@H](C)[C@@H]2CN3CCc4c([nH]c5ccccc45)[C@H]3[C@@H](OC(=O)c3ccccc3)[C@H]12"
+}

@@ -1,0 +1,12 @@
+{
+  "INChI key": "JGYSODNIGITANG-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C42H58GeNP/c1-27-21-29(3)37(30(4)22-27)43(44-34-19-17-16-18-20-34,38-31(5)23-28(2)24-32(38)6)45-39-35(41(10,11)12)25-33(40(7,8)9)26-36(39)42(13,14)15/h16-26,44-45H,1-15H3",
+  "Temperature [K]": "0:Unknown ",
+  "Spectrum 31P 0": "-94.9;0.0D;0|",
+  "nmrshiftdb2 ID": 80032942,
+  "Field Strength [MHz]": "0:Unknown ",
+  "Solvent": "0:Unknown ",
+  "Assignment Method": "0:Unknown ",
+  "_molecule_index": 51871,
+  "SMILES": "Cc1cc(C)[c]([Ge]([NH]c2ccccc2)([PH]c2c(C(C)(C)C)cc(C(C)(C)C)cc2C(C)(C)C)[c]2c(C)cc(C)cc2C)c(C)c1"
+}

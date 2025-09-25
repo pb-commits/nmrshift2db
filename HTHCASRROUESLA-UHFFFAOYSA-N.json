@@ -1,0 +1,12 @@
+{
+  "INChI key": "HTHCASRROUESLA-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C12H12ClN/c13-12-5-3-4-11(10-12)6-9-14-7-1-2-8-14/h1-5,7-8,10H,6,9H2",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 30101687,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "38.0;0.0T;5|50.8;0.0T;4|108.2;0.0D;1|108.2;0.0D;3|120.4;0.0D;0|120.4;0.0D;2|126.8;0.0D;11|126.9;0.0D;9|128.8;0.0D;7|129.8;0.0D;10|134.2;0.0S;8|140.3;0.0S;6|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 42887,
+  "SMILES": "Clc1cccc(CCn2cccc2)c1"
+}

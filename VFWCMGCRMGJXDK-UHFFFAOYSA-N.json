@@ -1,0 +1,13 @@
+{
+  "INChI key": "VFWCMGCRMGJXDK-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C4H9Cl/c1-2-3-4-5/h2-4H2,1H3",
+  "Temperature [K]": "0:313 1:Unreported ",
+  "nmrshiftdb2 ID": 10005626,
+  "Field Strength [MHz]": "0:23 1:Unreported ",
+  "Spectrum 13C 1": "13.0;0.0Q;3|19.9;0.0T;2|34.6;0.0T;1|44.4;0.0T;0|",
+  "Spectrum 13C 0": "13.3;0.0Q;3|20.1;0.0T;2|34.9;0.0T;1|44.0;0.0T;0|",
+  "Solvent": "0:TETRACHLORO-METHANE (CCl4) 1:Unreported ",
+  "Assignment Method": "1:Unreported ",
+  "_molecule_index": 3285,
+  "SMILES": "CCCCCl"
+}

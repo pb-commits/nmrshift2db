@@ -1,0 +1,12 @@
+{
+  "INChI key": "HOJXTDYERONLII-LETPATONSA-N",
+  "INChI": "InChI=1S/C37H46N4/c1-9-21-23(11-3)31-18-33-25(13-5)26(14-6)36(40-33)28-16-20(8)35-27(15-7)34(41-37(28)35)19-32-24(12-4)22(10-2)30(39-32)17-29(21)38-31/h17-20,38,41H,9-16H2,1-8H3/b29-17-,30-17-,31-18-,32-19-,33-18-,34-19-,36-28-",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "1.9;0.0;30|1.9;0.0;40|1.9;0.0;27|1.9;0.0;36|4.1;0.0;29|4.1;0.0;39|4.1;0.0;37|4.1;0.0;26|4.1;0.0;35|4.94;0.0;9|9.98;0.0;19|9.98;0.0;25|9.98;0.0;13|",
+  "nmrshiftdb2 ID": 20176099,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 28159,
+  "SMILES": "CCC1=C(CC)c2cc3[nH]c4c(c5nc(cc6[nH]c(cc1n2)c(CC)c6CC)C(CC)=C5CC)CC(C)c4c3CC"
+}

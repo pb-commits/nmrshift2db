@@ -1,0 +1,12 @@
+{
+  "INChI key": "IPEIHELRYKFSCR-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C15H25BrO2Si/c1-15(2,10-7-8-11-16)14(18-13-17-3)9-12-19(4,5)6/h14H,10-11,13H2,1-6H3",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20204274,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "-0.11;0.0Q;3|-0.11;0.0Q;4|-0.11;0.0Q;5|15.56;0.0T;10|22.55;0.0Q;12|23.37;0.0Q;11|28.63;0.0T;7|38.37;0.0S;6|55.89;0.0Q;14|72.43;0.0D;2|77.3;0.0S;9|85.67;0.0S;8|91.96;0.0S;0|94.34;0.0T;13|102.31;0.0S;1|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 34328,
+  "SMILES": "COCOC(C#C[Si](C)(C)C)C(C)(C)CC#CCBr"
+}

@@ -1,0 +1,12 @@
+{
+  "INChI key": "HJFJPKDXNZHKGG-LFVGHESCSA-N",
+  "INChI": "InChI=1S/C12H18/c1-11-7-4-3-5-8-12(2)10-6-9-11/h3-4,8-9H,5-7,10H2,1-2H3/b4-3+,11-9+,12-8+",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 19916,
+  "Field Strength [MHz]": "0:125 ",
+  "Spectrum 13C 0": "16.0;0.0Q;6|17.3;0.0Q;8|19.1;0.0T;2|32.3;0.0T;11|35.1;0.0T;3|42.9;0.0T;7|126.4;0.0D;0|129.5;0.0D;9|129.5;0.0D;10|131.0;0.0D;1|133.4;0.0S;5|135.6;0.0S;4|",
+  "Solvent": "0:Benzene-D6 (C6D6) ",
+  "Assignment Method": "0:COSY+Hetcor+longrange Hetcor ",
+  "_molecule_index": 949,
+  "SMILES": "C/C1=C\\CC/C(C)=C/C/C=C/C1"
+}

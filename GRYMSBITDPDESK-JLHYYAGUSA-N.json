@@ -1,0 +1,12 @@
+{
+  "INChI key": "GRYMSBITDPDESK-JLHYYAGUSA-N",
+  "INChI": "InChI=1S/C15H24O/c1-6-15(5)14(16-15)11-10-13(4)9-7-8-12(2)3/h6,8,10,14H,1,7,9,11H2,2-5H3/b13-10+",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 10018356,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "14.9;0.0Q;14|16.3;0.0Q;13|17.7;0.0Q;12|25.7;0.0Q;11|26.5;0.0T;4|27.8;0.0T;8|39.7;0.0T;7|59.5;0.0S;2|64.8;0.0D;3|115.8;0.0T;0|118.4;0.0D;5|124.0;0.0D;9|131.5;0.0S;10|138.0;0.0S;6|140.9;0.0D;1|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 6339,
+  "SMILES": "C=CC1(C)OC1C/C=C(\\C)CCC=C(C)C"
+}

@@ -1,0 +1,12 @@
+{
+  "INChI key": "WSLWRRMEGZYMRA-KVQDIILNSA-N",
+  "INChI": "InChI=1S/C39H27N2O2P/c1-43-36(42)25-35-37(39(38(35,26-40)27-41)33-23-13-11-21-31(33)32-22-12-14-24-34(32)39)44(28-15-5-2-6-16-28,29-17-7-3-8-18-29)30-19-9-4-10-20-30/h2-25H,1H3/b35-25+",
+  "Temperature [K]": "0:Unknown ",
+  "Spectrum 31P 0": "18.8;0.0S;38|",
+  "nmrshiftdb2 ID": 80030536,
+  "Field Strength [MHz]": "0:Unknown ",
+  "Solvent": "0:Unknown ",
+  "Assignment Method": "0:Unknown ",
+  "_molecule_index": 49624,
+  "SMILES": "COC(=O)/C=C1\\C(=P(c2ccccc2)(c2ccccc2)c2ccccc2)C2(c3ccccc3-c3ccccc32)C1(C#N)C#N"
+}

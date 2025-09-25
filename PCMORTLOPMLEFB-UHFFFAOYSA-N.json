@@ -1,0 +1,11 @@
+{
+  "INChI key": "PCMORTLOPMLEFB-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C11H12O5/c1-15-8-5-7(3-4-10(12)13)6-9(16-2)11(8)14/h3-6,14H,1-2H3,(H,12,13)",
+  "Temperature [K]": "0:298 ",
+  "nmrshiftdb2 ID": 10009239,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "56.8;0.883152Q;9|56.8;0.883152Q;10|106.8;1.0D;1|106.8;1.0D;5|116.3;0.47962D;7|126.1;0.243207S;0|139.1;0.0910326S;3|146.6;0.425272D;6|149.0;0.389946S;2|149.0;0.389946S;4|169.7;0.120924S;8|",
+  "Solvent": "0:Unreported ",
+  "_molecule_index": 4195,
+  "SMILES": "COc1cc(/C=C/C(=O)O)cc(OC)c1O"
+}

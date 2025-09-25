@@ -1,0 +1,12 @@
+{
+  "INChI key": "WIWYDRYHOASLOX-KLZNWCGWSA-N",
+  "INChI": "InChI=1S/C18H20N4O4/c1-11-9-22(18(25)21-16(11)24)17-15(13(7-19)14(10-23)26-17)20-8-12-5-3-2-4-6-12/h2-6,9,13-15,17,20,23H,8,10H2,1H3,(H,21,24,25)/t13-,14+,15+,17+/m0/s1",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "1.84;0.0;25|3.73;0.0;2|3.73;0.0;3|4.43;0.0;4|5.98;0.0;1|7.69;0.0;10|",
+  "nmrshiftdb2 ID": 20168023,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 21529,
+  "SMILES": "Cc1cn([C@@H]2O[C@H](CO)[C@H](C#N)[C@H]2NCc2ccccc2)c(=O)[nH]c1=O"
+}

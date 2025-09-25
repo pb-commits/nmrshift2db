@@ -1,0 +1,12 @@
+{
+  "INChI key": "ARWIWGSMGMBPDF-RUKNSNNVSA-N",
+  "INChI": "InChI=1S/C10H11F5/c11-8(9(12)10(13,14)15)7-4-5-1-2-6(7)3-5/h5-7H,1-4H2/b9-8-/t5-,6+,7+/m0/s1",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 10018908,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "27.9;0.0T;2|30.3;0.0T;1|34.7;0.0T;5|36.1;0.0D;0|37.4;0.0T;14|38.8;0.0D;4|42.0;0.0D;3|120.2;0.0S;10|134.5;0.0S;8|156.5;0.0S;6|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 6889,
+  "SMILES": "F/C(=C(\\F)C(F)(F)F)[C@@H]1C[C@H]2CC[C@@H]1C2"
+}

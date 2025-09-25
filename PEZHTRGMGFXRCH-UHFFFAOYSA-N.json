@@ -1,0 +1,13 @@
+{
+  "INChI key": "PEZHTRGMGFXRCH-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C13H19NO2/c1-4-14-6-5-9-7-11(15)12(16)8-10(9)13(14,2)3/h7-8,15-16H,4-6H2,1-3H3",
+  "Temperature [K]": "0:Unreported 1:Unreported ",
+  "nmrshiftdb2 ID": 10020901,
+  "Field Strength [MHz]": "0:126 1:Unreported ",
+  "Spectrum 13C 1": "15.0;0.0Q;12|24.3;0.0T;0|27.5;0.0Q;9|27.5;0.0Q;10|36.5;0.0T;4|38.8;0.0T;11|57.7;0.0S;3|112.5;0.0D;8|115.0;0.0D;5|121.8;0.0S;1|128.5;0.0S;2|144.0;0.0S;7|145.5;0.0S;6|",
+  "Spectrum 13C 0": "15.0;0.0Q;12|24.0;0.0T;0|27.5;0.0Q;9|27.5;0.0Q;10|36.5;0.0T;4|49.8;0.0T;11|57.7;0.0S;3|112.5;0.0D;8|115.0;0.0D;5|121.8;0.0S;1|128.5;0.0S;2|144.0;0.0S;7|145.5;0.0S;6|",
+  "Solvent": "0:Water (D2O) 1:Unreported ",
+  "Assignment Method": "0:COSY+Hetcor+longrange Hetcor 1:Unreported ",
+  "_molecule_index": 7465,
+  "SMILES": "CCN1CCc2cc(O)c(O)cc2C1(C)C"
+}

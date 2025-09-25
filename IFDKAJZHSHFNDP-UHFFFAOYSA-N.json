@@ -1,0 +1,12 @@
+{
+  "INChI key": "IFDKAJZHSHFNDP-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C20H36O3/c1-14-6-7-15-17(2,3)16(22)8-9-19(15,5)20(14)11-10-18(4,23-20)12-13-21/h14-16,21-22H,6-13H2,1-5H3",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 10010428,
+  "Field Strength [MHz]": "0:75 ",
+  "Spectrum 13C 0": "17.1;0.0T;7|18.11;0.0Q;12|18.3;0.0Q;11|22.4;0.0Q;10|25.2;0.0T;1|26.6;0.0Q;9|26.7;0.0T;2|28.9;0.0Q;17|29.2;0.0T;13|29.9;0.0T;22|38.0;0.0S;5|39.6;0.0T;14|40.5;0.0D;21|41.4;0.0D;4|42.2;0.0S;3|42.9;0.0T;18|59.8;0.0T;19|76.0;0.0D;0|83.5;0.0S;15|93.8;0.0S;6|",
+  "Solvent": "0:Benzene-D6 (C6D6) ",
+  "Assignment Method": "0:COSY+Hetcor+longrange Hetcor ",
+  "_molecule_index": 4317,
+  "SMILES": "CC1CCC2C(C)(C)C(O)CCC2(C)C12CCC(C)(CCO)O2"
+}

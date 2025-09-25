@@ -1,0 +1,12 @@
+{
+  "INChI key": "GTXWPKOFNDSLPN-JPZVFPHSSA-N",
+  "INChI": "InChI=1S/C19H28O5/c1-13(9-10-23-14(2)20)7-8-17-18(4,5)11-16(24-15(3)21)12-19(17,6)22/h7,9,16,22H,10-12H2,1-6H3/b13-9+/t8-,16-,19+/m0/s1",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "1.07;0.0;10|1.35;0.0;19|1.71;0.0;22|2.04;0.0;21|2.07;0.0;23|2.29;0.0;1|4.68;0.0;15|5.37;0.0;0|5.54;0.0;25|5.98;0.0;24|",
+  "nmrshiftdb2 ID": 20176778,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 28532,
+  "SMILES": "CC(=O)OC/C=C(\\C)C=C=C1C(C)(C)C[C@H](OC(C)=O)C[C@@]1(C)O"
+}

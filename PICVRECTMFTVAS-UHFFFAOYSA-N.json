@@ -1,0 +1,12 @@
+{
+  "INChI key": "PICVRECTMFTVAS-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C44H57GeP/c1-29-23-31(3)39(32(4)24-29)45(22-21-35-19-17-16-18-20-35,40-33(5)25-30(2)26-34(40)6)46-41-37(43(10,11)12)27-36(42(7,8)9)28-38(41)44(13,14)15/h16-20,23-28,46H,1-15H3",
+  "Temperature [K]": "0:Unknown ",
+  "Spectrum 31P 0": "-106.3;0.0D;0|",
+  "nmrshiftdb2 ID": 80032948,
+  "Field Strength [MHz]": "0:Unknown ",
+  "Solvent": "0:Unknown ",
+  "Assignment Method": "0:Unknown ",
+  "_molecule_index": 51877,
+  "SMILES": "Cc1cc(C)[c]([Ge]([C]#Cc2ccccc2)([PH]c2c(C(C)(C)C)cc(C(C)(C)C)cc2C(C)(C)C)[c]2c(C)cc(C)cc2C)c(C)c1"
+}

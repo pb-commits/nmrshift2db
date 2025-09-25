@@ -1,0 +1,18 @@
+{
+  "Program": "3:ACD/Labs C+H NMR Predictors and DB, 2020.1.0 4:HOSE code using nmrshiftdb2 data ",
+  "Temperature [K]": "0:313 1:Unreported 2:Unreported 5:Unreported ",
+  "Field Strength [MHz]": "0:23 1:Unreported 2:Unreported 5:Unreported ",
+  "Spectrum 1H 5": "2.278;0.0;7|6.94;0.0;3|6.96;0.0;1|7.109;0.0;4|",
+  "Assignment Method": "1:Unreported 2:Unreported 5:Unreported ",
+  "INChI key": "IVSZLXZYQVIEFR-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C8H10/c1-7-4-3-5-8(2)6-7/h3-6H,1-2H3",
+  "nmrshiftdb2 ID": 10008609,
+  "Spectrum 13C 1": "21.3;0.0Q;6|21.3;0.0Q;7|126.4;0.0D;3|126.4;0.0D;5|130.1;0.0D;1|137.5;0.0S;0|137.5;0.0S;2|",
+  "Spectrum 13C 0": "21.3;0.31Q;6|21.3;0.31Q;7|126.3;1.0D;3|126.3;1.0D;5|128.3;0.358D;4|130.0;0.409D;1|137.6;0.114S;0|137.6;0.114S;2|",
+  "Spectrum 13C 3": "21.25;0.0Q;6|21.25;0.0Q;7|137.65;0.0S;0|137.65;0.0S;2|126.25;0.0D;3|126.25;0.0D;5|128.25;0.0D;4|130.0;0.0D;1|",
+  "Solvent": "0:Chloroform-D1 (CDCl3) 1:Unreported 2:Unreported 5:Unreported ",
+  "Spectrum 13C 2": "21.31;0.0Q;6|126.13;0.0D;5|128.21;0.0D;4|129.96;0.0D;1|137.74;0.0S;0|",
+  "Spectrum 13C 4": "21.3;0.0Q;6|21.3;0.0Q;7|137.54;0.0S;0|137.54;0.0S;2|126.36;0.0D;3|126.36;0.0D;5|128.3;0.0D;4|130.06;0.0D;1|",
+  "_molecule_index": 3607,
+  "SMILES": "Cc1cccc(C)c1"
+}

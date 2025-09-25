@@ -1,0 +1,12 @@
+{
+  "INChI key": "SFTUROBOXVSXCX-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C13H10N4O3/c1-8-6-11(13(18)12(7-8)17(19)20)16-14-9-4-2-3-5-10(9)15-16/h2-7,18H,1H3",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20180587,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "20.4;0.0Q;12|117.8;0.0D;0|117.8;0.0D;3|126.2;0.0D;9|127.1;0.0S;6|128.1;0.0D;7|128.3;0.0D;1|128.3;0.0D;2|129.1;0.0S;8|138.3;0.0S;10|143.3;0.0S;11|143.9;0.0S;4|143.9;0.0S;5|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 30367,
+  "SMILES": "Cc1cc(-n2nc3ccccc3n2)c(O)c([N+](=O)[O-])c1"
+}

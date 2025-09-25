@@ -1,0 +1,15 @@
+{
+  "INChI key": "NCBZRJODKRCREW-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C7H9NO/c1-9-7-4-2-3-6(8)5-7/h2-5H,8H2,1H3",
+  "Temperature [K]": "0:Unreported 1:294 2:Unreported 3:294 ",
+  "nmrshiftdb2 ID": 30096248,
+  "Spectrum 1H 2": "3.59;0.0;7|3.718;0.0;0|6.21;0.0;4|6.24;0.0;2|6.3;0.0;3|7.03;0.0;1|",
+  "Field Strength [MHz]": "0:Unreported 1:150.0 2:Unreported 3:600.0 ",
+  "Spectrum 1H 3": "6.25592;0.0t;4|6.30421;0.0ddd;2|7.07825;0.0t;1|6.34584;0.0ddd;3|3.77127;0.0s;0|3.77127;0.0s;0|3.77127;0.0s;0|3.68635;0.0s;7|",
+  "Spectrum 13C 1": "100.967;0.0D;4|147.837;0.0S;5|107.906;0.0D;2|130.133;0.0D;1|103.877;0.0D;3|160.728;0.0S;6|55.1329;0.0Q;0|",
+  "Spectrum 13C 0": "54.9;0.0Q;0|101.0;0.0D;4|103.8;0.0D;3|107.9;0.0D;2|130.1;0.0D;1|148.1;0.0S;5|160.7;0.0S;6|",
+  "Solvent": "0:Unreported 1:Chloroform-D1 (CDCl3) 2:Unreported 3:Chloroform-D1 (CDCl3) ",
+  "Assignment Method": "0:Unreported 1:DEPT, COSY, HSQC, HMBC, NOESY 2:Unreported 3:1H, 13C, DEPT-135, COSY, HSQC, HMBC, NOESY ",
+  "_molecule_index": 42280,
+  "SMILES": "COc1cccc(N)c1"
+}

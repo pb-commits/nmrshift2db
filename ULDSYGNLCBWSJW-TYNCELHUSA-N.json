@@ -1,0 +1,12 @@
+{
+  "INChI key": "ULDSYGNLCBWSJW-TYNCELHUSA-N",
+  "INChI": "InChI=1S/C15H22O2/c1-14(2)7-4-8-15(3)10-9-13(16)17-11(10)5-6-12(14)15/h9,11-12H,4-8H2,1-3H3/t11-,12+,15-/m1/s1",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20221678,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "36.3;0.0T;0|18.1;0.0T;1|41.6;0.0T;2|33.9;0.0S;3|54.3;0.0D;4|39.4;0.0S;5|19.4;0.0T;6|34.9;0.0T;7|79.6;0.0D;8|182.3;0.0S;9|173.8;0.0S;10|107.6;0.0D;11|19.5;0.0Q;12|21.7;0.0Q;13|33.4;0.0Q;14|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 38766,
+  "SMILES": "CC1(C)CCC[C@]2(C)C3=CC(=O)O[C@@H]3CC[C@@H]12"
+}

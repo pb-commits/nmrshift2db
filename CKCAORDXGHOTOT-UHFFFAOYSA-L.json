@@ -1,0 +1,12 @@
+{
+  "INChI key": "CKCAORDXGHOTOT-UHFFFAOYSA-L",
+  "INChI": "InChI=1S/2C2H6N.C2H2O4.Pt/c2*1-2-3;3-1(4)2(5)6;/h2*3H,2H2,1H3;(H,3,4)(H,5,6);/q2*-1;;+4/p-2",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20134011,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "Spectrum 195Pt 0": "-1872.0;1.0;1|",
+  "_molecule_index": 18439,
+  "SMILES": "CC[NH][Pt]1([NH]CC)[O]C(=O)C(=O)[O]1"
+}

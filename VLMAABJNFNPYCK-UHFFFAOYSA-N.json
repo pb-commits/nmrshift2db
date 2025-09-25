@@ -1,0 +1,13 @@
+{
+  "INChI key": "VLMAABJNFNPYCK-UHFFFAOYSA-N",
+  "Program": "1:HOSE code using nmrshiftdb2 data ",
+  "INChI": "InChI=1S/C6H13NO2/c8-4-5-1-2-6(9)3-7-5/h5-9H,1-4H2",
+  "Temperature [K]": "0:298 ",
+  "nmrshiftdb2 ID": 10004247,
+  "Field Strength [MHz]": "0:100 ",
+  "Spectrum 13C 1": "67.7;0.0T;5|59.1;0.0D;4|29.0;0.0T;0|34.8;0.0T;1|70.0;0.0D;3|54.1;0.0T;2|",
+  "Spectrum 13C 0": "29.0;0.0T;0|34.8;0.0T;1|54.1;0.0T;2|59.1;0.0D;4|67.7;0.0T;5|70.0;0.0D;3|",
+  "Solvent": "0:Deuteriumoxide (D2O) ",
+  "_molecule_index": 3267,
+  "SMILES": "OCC1CCC(O)CN1"
+}

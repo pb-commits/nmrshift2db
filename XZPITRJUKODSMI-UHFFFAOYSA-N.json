@@ -1,0 +1,16 @@
+{
+  "INChI key": "XZPITRJUKODSMI-UHFFFAOYSA-N",
+  "Program": "2:ACD/Labs C+H NMR Predictors and DB, 2020.1.0 3:HOSE code using nmrshiftdb2 data ",
+  "INChI": "InChI=1S/C12H5Br3O3/c13-5-1-7(15)11-9(3-5)18-12-8(16)2-6(14)4-10(12)17-11/h1-4,16H",
+  "Temperature [K]": "0:298 1:Unreported ",
+  "nmrshiftdb2 ID": 2864,
+  "Field Strength [MHz]": "0:75 1:Unreported ",
+  "Spectrum 13C 1": "109.7;0.0D;6|110.2;0.0S;11|114.7;0.0S;12|115.4;0.0S;10|115.6;0.0D;7|118.9;0.0D;0|129.2;0.0S;4|129.5;0.0D;1|138.3;0.0S;3|142.3;0.0S;5|142.8;0.0S;2|146.8;0.0S;16|",
+  "Spectrum 13C 0": "109.7;0.0D;6|110.2;0.0S;11|114.7;0.0S;12|115.4;0.0S;10|115.6;0.0D;7|118.9;0.0D;0|129.2;0.0S;4|129.5;0.0D;1|138.3;0.0S;3|142.3;0.0S;5|142.8;0.0S;2|146.8;0.0S;16|",
+  "Spectrum 13C 3": "146.8;0.0S;16|115.6;0.0D;7|114.7;0.0S;12|109.7;0.0D;6|142.3;0.0S;5|129.2;0.0S;4|142.8;0.0S;2|118.9;0.0D;0|115.4;0.0S;10|129.5;0.0D;1|110.2;0.0S;11|138.3;0.0S;3|",
+  "Solvent": "0:Dimethylsulphoxide-D6 (DMSO-D6, C2D6SO) 1:Unreported ",
+  "Assignment Method": "1:Unreported ",
+  "Spectrum 13C 2": "146.8;0.0S;16|115.6;0.0D;7|114.7;0.0S;12|109.7;0.0D;6|142.3;0.0S;5|129.2;0.0S;4|142.8;0.0S;2|118.9;0.0D;0|115.4;0.0S;10|129.5;0.0D;1|110.2;0.0S;11|138.3;0.0S;3|",
+  "_molecule_index": 430,
+  "SMILES": "Oc1cc(Br)cc2c1Oc1cc(Br)cc(Br)c1O2"
+}

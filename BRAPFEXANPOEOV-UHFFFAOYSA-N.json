@@ -1,0 +1,12 @@
+{
+  "INChI key": "BRAPFEXANPOEOV-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C14H22O/c15-12-13(7-3-1-4-8-13)11-14(12)9-5-2-6-10-14/h1-11H2",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 89909,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "22.5;0.0T;7|25.5;0.0T;11|33.4;0.0T;13|39.5;0.0T;0|59.6;0.0S;3|220.8;0.0S;2|59.6;0.0S;1|22.5;0.0T;12|22.5;0.0T;10|33.4;0.0T;4|33.4;0.0T;8|33.4;0.0T;9|22.5;0.0T;5|25.5;0.0T;6|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 2859,
+  "SMILES": "O=C1C2(CCCCC2)CC12CCCCC2"
+}

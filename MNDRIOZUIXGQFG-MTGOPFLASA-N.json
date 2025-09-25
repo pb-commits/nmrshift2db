@@ -1,0 +1,12 @@
+{
+  "INChI key": "MNDRIOZUIXGQFG-MTGOPFLASA-N",
+  "INChI": "InChI=1S/C43H42F3N3O8S/c44-43(45,46)58(50,51)57-40-37(48-49-47)38(53-27-33-18-8-2-9-19-33)39(54-28-34-20-10-3-11-21-34)41(55-29-35-22-12-4-13-23-35)42(40,56-30-36-24-14-5-15-25-36)31-52-26-32-16-6-1-7-17-32/h1-25,37-41H,26-31H2/t37-,38+,39-,40+,41+,42-/m1/s1",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "3.75;0.0;0|3.93;0.0;1|4.01;0.0;36|4.15;0.0;7|4.17;0.0;5|4.18;0.0;15|5.81;0.0;3|",
+  "nmrshiftdb2 ID": 20173405,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 26188,
+  "SMILES": "[N-]=[N+]=N[C@@H]1[C@H](OCc2ccccc2)[C@@H](OCc2ccccc2)[C@H](OCc2ccccc2)[C@](COCc2ccccc2)(OCc2ccccc2)[C@H]1OS(=O)(=O)C(F)(F)F"
+}

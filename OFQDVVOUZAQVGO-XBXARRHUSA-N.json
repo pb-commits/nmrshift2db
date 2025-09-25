@@ -1,0 +1,14 @@
+{
+  "INChI key": "OFQDVVOUZAQVGO-XBXARRHUSA-N",
+  "INChI": "InChI=1S/C11H17BrO2/c1-11(2)13-9-5-3-4-8(12)6-7-10(9)14-11/h4,9-10H,3,5-7H2,1-2H3/b8-4+",
+  "Temperature [K]": "0:298 1:Unreported 2:Unreported ",
+  "nmrshiftdb2 ID": 20134754,
+  "Spectrum 1H 2": "1.36;0.0;9|1.36;0.0;9|1.36;0.0;9|1.37;0.0;10|1.37;0.0;10|1.37;0.0;10|1.54;0.0;7|1.54;0.0;4|2.12;0.0;7|2.17;0.0;2|2.17;0.0;2|2.3;0.0;4|2.54;0.0;3|2.75;0.0;3|3.89;0.0;6|3.89;0.0;5|6.02;0.0;0|",
+  "Field Strength [MHz]": "0:100.6 1:Unreported 2:Unreported ",
+  "Spectrum 13C 1": "24.81;0.0T;2|26.86;0.0Q;10|26.88;0.0Q;9|29.5;0.0T;4|32.06;0.0T;3|32.25;0.0T;7|80.03;0.0D;5|80.82;0.0D;6|107.83;0.0S;8|124.15;0.0S;1|130.78;0.0D;0|",
+  "Spectrum 13C 0": "24.8;0.0T;2|26.8;0.0Q;9|26.9;0.0Q;10|29.5;0.0T;4|32.1;0.0T;3|32.3;0.0T;7|80.0;0.0D;5|80.8;0.0D;6|107.8;0.0S;8|124.2;0.0S;1|130.8;0.0D;0|",
+  "Solvent": "0:Chloroform-D1 (CDCl3) 1:Unreported 2:Unreported ",
+  "Assignment Method": "0:COSY, HMQC, HMBC 1:Unreported 2:Unreported ",
+  "_molecule_index": 18467,
+  "SMILES": "CC1(C)OC2CC/C=C(/Br)CCC2O1"
+}

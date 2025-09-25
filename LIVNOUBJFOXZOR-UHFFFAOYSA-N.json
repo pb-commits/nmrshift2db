@@ -1,0 +1,14 @@
+{
+  "INChI key": "LIVNOUBJFOXZOR-UHFFFAOYSA-N",
+  "Program": "1:HOSE code using nmrshiftdb2 data ",
+  "INChI": "InChI=1S/C16H22O9/c1-23-9-4-2-8(3-5-12(18)19)10(6-9)24-16-15(22)14(21)13(20)11(7-17)25-16/h2,4,6,11,13-17,20-22H,3,5,7H2,1H3,(H,18,19)",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20025039,
+  "Field Strength [MHz]": "0:75 ",
+  "Spectrum 13C 1": "55.54;0.0Q;15|160.9;0.0S;8|108.57;0.0D;9|131.3;0.0D;10|123.5;0.0S;11|26.4;0.0T;12|35.2;0.0T;13|177.7;0.0S;14|157.7;0.0S;6|103.2;0.0D;0|77.17;0.0D;4|60.61;0.0T;5|69.67;0.0D;3|75.53;0.0D;2|75.0;0.0D;1|102.7;0.0D;7|",
+  "Spectrum 13C 0": "26.4;0.0T;12|35.2;0.0T;13|55.8;0.0Q;15|62.6;0.0T;5|71.5;0.0D;3|75.0;0.0D;1|78.3;0.0D;2|78.3;0.0D;4|102.7;0.0D;7|103.2;0.0D;0|108.57;0.0D;9|123.5;0.0S;11|131.3;0.0D;10|157.7;0.0S;6|160.9;0.0S;8|177.7;0.0S;14|",
+  "Solvent": "0:Methanol-D4 (CD3OD) ",
+  "Assignment Method": "0:Hetcor+longrange Hetcor ",
+  "_molecule_index": 10454,
+  "SMILES": "COc1ccc(CCC(=O)O)c(OC2OC(CO)C(O)C(O)C2O)c1"
+}

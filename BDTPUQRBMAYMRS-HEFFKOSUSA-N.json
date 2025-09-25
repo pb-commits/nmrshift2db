@@ -1,0 +1,12 @@
+{
+  "INChI key": "BDTPUQRBMAYMRS-HEFFKOSUSA-N",
+  "INChI": "InChI=1S/C33H25N6P/c1-6-16-26(17-7-1)31-32(27-18-8-2-9-19-27)35-36-33(34-31)37-38-39-40(28-20-10-3-11-21-28,29-22-12-4-13-23-29)30-24-14-5-15-25-30/h1-25H/b38-37+",
+  "Temperature [K]": "0:Unknown ",
+  "Spectrum 31P 0": "17.6;0.0S;11|",
+  "nmrshiftdb2 ID": 80030304,
+  "Field Strength [MHz]": "0:Unknown ",
+  "Solvent": "0:Unknown ",
+  "Assignment Method": "0:Unknown ",
+  "_molecule_index": 49401,
+  "SMILES": "c1ccc(-c2nnc(/N=N/N=P(c3ccccc3)(c3ccccc3)c3ccccc3)nc2-c2ccccc2)cc1"
+}

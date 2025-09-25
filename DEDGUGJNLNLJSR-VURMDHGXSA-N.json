@@ -1,0 +1,14 @@
+{
+  "INChI key": "DEDGUGJNLNLJSR-VURMDHGXSA-N",
+  "INChI": "InChI=1S/C9H8O3/c10-8(9(11)12)6-7-4-2-1-3-5-7/h1-6,10H,(H,11,12)/b8-6-",
+  "Temperature [K]": "0:Unreported 1:Unreported 2:Unreported ",
+  "nmrshiftdb2 ID": 10026896,
+  "Spectrum 1H 1": "6.48;0.0S;6|7.21;0.0DD;0|7.31;0.0DD;1|7.31;0.0DD;5|7.76;0.0D;2|7.76;0.0D;4|",
+  "Spectrum 1H 2": "6.48;0.0S;6|7.21;0.0DD;0|7.31;0.0DD;1|7.31;0.0DD;5|7.76;0.0D;2|7.76;0.0D;4|",
+  "Field Strength [MHz]": "0:125 1:500 2:500 ",
+  "Spectrum 13C 0": "111.6;0.0D;6|128.4;0.0D;0|129.3;0.0D;1|129.3;0.0D;5|130.8;0.0D;2|130.8;0.0D;4|136.4;0.0S;3|142.3;0.0S;7|168.4;0.0S;8|",
+  "Solvent": "0:Methanol-D4 (CD3OD) 1:Methanol-D4 (CD3OD) 2:Methanol-D4 (CD3OD) ",
+  "Assignment Method": "0:1D shift positions 1:1D shift positions 2:1D shift positions ",
+  "_molecule_index": 10185,
+  "SMILES": "O=C(O)/C(O)=C/c1ccccc1"
+}

@@ -1,0 +1,12 @@
+{
+  "INChI key": "QBOYTFUJAGPOGY-TYCPAEISSA-N",
+  "INChI": "InChI=1S/C21H31FO8/c1-9(2)17(24)29-12-8-19(5,26)13-7-14(28-11(4)23)20(6,27)21(13,22)16-15(12)10(3)18(25)30-16/h9-10,12-16,26-27H,7-8H2,1-6H3/t10-,12+,13-,14-,15+,16-,19+,20+,21-/m0/s1",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "1.2;0.0;29|1.21;0.0;27|1.27;0.0;19|1.35;0.0;15|1.45;0.0;22|1.95;0.0;5|2.0;0.0;28|2.25;0.0;12|2.39;0.0;30|2.6;0.0;26|4.85;0.0;11|4.98;0.0;32|5.29;0.0;6|",
+  "nmrshiftdb2 ID": 20168613,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 22114,
+  "SMILES": "CC(=O)O[C@H]1C[C@@H]2[C@](F)([C@H]3OC(=O)[C@@H](C)[C@@H]3[C@H](OC(=O)C(C)C)C[C@@]2(C)O)[C@]1(C)O"
+}

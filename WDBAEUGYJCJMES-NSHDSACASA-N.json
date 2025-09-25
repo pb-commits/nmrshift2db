@@ -1,0 +1,12 @@
+{
+  "INChI key": "WDBAEUGYJCJMES-NSHDSACASA-N",
+  "INChI": "InChI=1S/C11H16O3/c1-7(2)9-4-10(13)6-11(5-9)14-8(3)12/h4,7,11H,5-6H2,1-3H3/t11-/m0/s1",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20078467,
+  "Field Strength [MHz]": "0:100 ",
+  "Spectrum 13C 0": "26.7;0.0Q;7|27.1;0.0Q;8|30.8;0.0Q;10|36.1;0.0D;6|45.8;0.0T;5|47.5;0.0T;1|67.0;0.0D;0|113.1;0.0D;3|172.1;0.0S;9|182.6;0.0S;2|",
+  "Solvent": "0:Chloroform-D1 (CDCl3) ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 16589,
+  "SMILES": "CC(=O)O[C@@H]1CC(=O)C=C(C(C)C)C1"
+}

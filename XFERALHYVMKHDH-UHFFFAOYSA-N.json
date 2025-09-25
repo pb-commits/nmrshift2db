@@ -1,0 +1,13 @@
+{
+  "INChI key": "XFERALHYVMKHDH-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C18H20O7/c19-8-13-15(22)16(23)17(24)18(25-13)14-11(20)6-10(7-12(14)21)9-4-2-1-3-5-9/h1-7,13,15-24H,8H2",
+  "Temperature [K]": "0:Unknown 1:Unknown ",
+  "Spectrum 1H 0": "3.49;0.0m;13|3.59;0.0t;15|3.63;0.0t;16|3.75;0.0t;12|3.81;0.0dd;14|3.87;0.0dd;14|4.95;0.0d;11|6.81;0.0s;6|6.81;0.0s;9|7.31;0.0tt;3|7.4;0.0dt;2|7.4;0.0dt;4|7.58;0.0dd;5|7.58;0.0dd;1|",
+  "nmrshiftdb2 ID": 30078841,
+  "Spectrum 1H 1": "3.49;0.0m;13|3.59;0.0t;15|3.63;0.0t;16|3.75;0.0t;12|3.81;0.0dd;14|3.87;0.0dd;14|4.95;0.0d;11|6.81;0.0s;6|6.81;0.0s;9|7.31;0.0tt;3|7.4;0.0dt;2|7.4;0.0dt;4|7.58;0.0dd;5|7.58;0.0dd;1|",
+  "Field Strength [MHz]": "0:400 1:400 ",
+  "Solvent": "0:DMCO-d6 1:DMCO-d6 ",
+  "Assignment Method": "0:HREIMS(HMBC) 1:HREIMS(HMBC) ",
+  "_molecule_index": 41913,
+  "SMILES": "OCC1OC(c2c(O)cc(-c3ccccc3)cc2O)C(O)C(O)C1O"
+}

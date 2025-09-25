@@ -1,0 +1,12 @@
+{
+  "INChI key": "RYJXXVWEAFMFII-CSKARUKUSA-N",
+  "INChI": "InChI=1S/C12H9IN2O2S/c13-8(5-16)10-6-18-12-14-11(17)7-3-1-2-4-9(7)15(10)12/h1-4,16H,5-6H2/b10-8+",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20221682,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "127.2;0.0D;0|125.4;0.0D;1|133.1;0.0D;2|116.7;0.0D;3|138.6;0.0S;4|117.6;0.0S;5|166.0;0.0S;6|168.4;0.0S;7|39.9;0.0T;8|134.4;0.0S;9|100.1;0.0S;10|64.8;0.0T;11|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 38770,
+  "SMILES": "O=c1nc2n(c3ccccc13)/C(=C(/I)CO)CS2"
+}

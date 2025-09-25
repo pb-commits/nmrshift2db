@@ -1,0 +1,12 @@
+{
+  "INChI key": "PIMNUXXPDVIOLF-DCMFLLSESA-N",
+  "INChI": "InChI=1S/C36H31F3N2O5/c37-36(38,39)29-22-41(34(43)40-33(29)42)32-21-30(44-23-25-13-5-1-6-14-25)31(46-32)24-45-35(26-15-7-2-8-16-26,27-17-9-3-10-18-27)28-19-11-4-12-20-28/h1-20,22,30-32H,21,23-24H2,(H,40,42,43)/t30-,31+,32+/m0/s1",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "2.43;0.0;2|3.25;0.0;19|4.44;0.0;4|4.44;0.0;3|4.46;0.0;12|6.04;0.0;1|7.3;0.0;17|7.3;0.0;16|8.31;0.0;10|11.96;0.0;7|",
+  "nmrshiftdb2 ID": 20171696,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 24481,
+  "SMILES": "O=c1[nH]c(=O)n([C@H]2C[C@H](OCc3ccccc3)[C@@H](COC(c3ccccc3)(c3ccccc3)c3ccccc3)O2)cc1C(F)(F)F"
+}

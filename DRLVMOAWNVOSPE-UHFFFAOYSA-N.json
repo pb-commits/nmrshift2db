@@ -1,0 +1,13 @@
+{
+  "INChI key": "DRLVMOAWNVOSPE-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C12H14O/c13-12-9-5-4-8-11(12)10-6-2-1-3-7-10/h1-3,6-7,11H,4-5,8-9H2",
+  "Temperature [K]": "0:Unreported 1:Unreported ",
+  "nmrshiftdb2 ID": 20207932,
+  "Spectrum 1H 1": "1.82;0.0;4|1.82;0.0;3|2.01;0.0;2|2.01;0.0;3|2.14;0.0;4|2.25;0.0;2|2.47;0.0;5|3.601;0.0;1|7.132;0.0;8|7.249;0.0;12|7.324;0.0;10|",
+  "Field Strength [MHz]": "0:Unreported 1:Unreported ",
+  "Spectrum 13C 0": "25.24;0.0T;3|27.76;0.0T;4|35.05;0.0T;2|42.1;0.0T;5|57.26;0.0D;1|126.78;0.0D;12|128.25;0.0D;8|128.48;0.0D;10|138.77;0.0S;7|210.04;0.0S;6|",
+  "Solvent": "0:Unreported 1:Unreported ",
+  "Assignment Method": "0:Unreported 1:Unreported ",
+  "_molecule_index": 34934,
+  "SMILES": "O=C1CCCCC1c1ccccc1"
+}

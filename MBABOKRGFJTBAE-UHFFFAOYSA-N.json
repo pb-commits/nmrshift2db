@@ -1,0 +1,13 @@
+{
+  "INChI key": "MBABOKRGFJTBAE-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C2H6O3S/c1-5-6(2,3)4/h1-2H3",
+  "Temperature [K]": "0:0.0 1:318 ",
+  "Spectrum 1H 0": "2.95;0.0;0|2.95;0.0;0|2.95;0.0;0|3.88;0.0;1|3.88;0.0;1|3.88;0.0;1|",
+  "nmrshiftdb2 ID": 7987,
+  "Spectrum 1H 1": "3.02;0.0;0|3.02;0.0;0|3.02;0.0;0|3.92;0.0;1|3.92;0.0;1|3.92;0.0;1|",
+  "Field Strength [MHz]": "0:60 1:60 ",
+  "Solvent": "0:TETRACHLORO-METHANE (CCl4) 1:Chloroform-D1 (CDCl3) ",
+  "Assignment Method": "1:1D shift positions ",
+  "_molecule_index": 700,
+  "SMILES": "COS(C)(=O)=O"
+}

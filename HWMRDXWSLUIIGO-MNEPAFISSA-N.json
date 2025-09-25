@@ -1,0 +1,12 @@
+{
+  "INChI key": "HWMRDXWSLUIIGO-MNEPAFISSA-N",
+  "INChI": "InChI=1S/C21H24O7/c1-15(7-6-8-16(2)13-22)9-10-21(28-19(5)25)20(14-27-18(4)24)11-12-26-17(3)23/h8-9,11-14,21H,10H2,1-5H3/b12-11+,15-9-,16-8+,20-14+",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 10018345,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "11.7;0.0Q;11|17.3;0.0Q;6|19.7;0.0Q;21|19.9;0.0Q;27|20.4;0.0Q;15|32.6;0.0T;1|68.5;0.0D;0|83.6;0.0S;5|109.1;0.0S;4|109.5;0.0D;22|118.8;0.0S;16|121.3;0.0S;3|124.6;0.0D;2|127.9;0.0D;7|135.1;0.0D;17|137.5;0.0D;23|147.8;0.0S;8|166.4;0.0S;19|167.3;0.0S;25|169.2;0.0S;13|192.7;0.0D;9|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 6329,
+  "SMILES": "CC(=O)O/C=C/C(=C\\OC(C)=O)C(C/C=C(/C)C#C/C=C(\\C)C=O)OC(C)=O"
+}

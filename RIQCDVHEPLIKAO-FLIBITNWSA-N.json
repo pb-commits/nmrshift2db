@@ -1,0 +1,13 @@
+{
+  "INChI key": "RIQCDVHEPLIKAO-FLIBITNWSA-N",
+  "INChI": "InChI=1S/C11H12O2/c1-8(12)11(9(2)13)10-6-4-3-5-7-10/h3-7,12H,1-2H3/b11-8-",
+  "Temperature [K]": "0:Unreported 1:Unreported ",
+  "nmrshiftdb2 ID": 20208002,
+  "Spectrum 1H 1": "1.886;0.0;8|1.886;0.0;9|7.177;0.0;6|7.335;0.0;12|7.383;0.0;10|16.7;0.0;1|",
+  "Field Strength [MHz]": "0:Unreported 1:Unreported ",
+  "Spectrum 13C 0": "24.12;0.0Q;8|24.12;0.0Q;9|115.27;0.0S;2|127.5;0.0D;12|128.83;0.0D;10|131.13;0.0D;6|137.03;0.0S;3|190.86;0.0S;4|190.86;0.0S;5|",
+  "Solvent": "0:Unreported 1:Unreported ",
+  "Assignment Method": "0:Unreported 1:Unreported ",
+  "_molecule_index": 35003,
+  "SMILES": "CC(=O)/C(=C(\\C)O)c1ccccc1"
+}

@@ -1,0 +1,12 @@
+{
+  "INChI key": "HKJSFBRYXKTZTQ-UCLCLSETSA-N",
+  "INChI": "InChI=1S/C20H25N5O11/c1-7(26)22-19(30)24-11-12-14(35-16(18(29)32-4)13(11)33-8(2)27)15(34-9(3)28)17(36-12)25-6-5-10(21)23-20(25)31/h5-6,11-17H,1-4H3,(H2,21,23,31)(H2,22,24,26,30)/t11-,12+,13+,14+,15+,16-,17+/m0/s1",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "4.07;0.0;36|5.55;0.0;2|5.87;0.0;3|7.47;0.0;16|7.92;0.0;17|",
+  "nmrshiftdb2 ID": 20172161,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 24946,
+  "SMILES": "COC(=O)[C@H]1O[C@@H]2[C@H](O[C@@H](n3ccc(N)nc3=O)[C@@H]2OC(C)=O)[C@H](NC(=O)NC(C)=O)[C@H]1OC(C)=O"
+}

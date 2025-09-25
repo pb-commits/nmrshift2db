@@ -1,0 +1,12 @@
+{
+  "INChI key": "RFEKDBSKSCHAMP-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C12H10N2O3/c1-17-10-6-4-9(5-7-10)12-11(14(15)16)3-2-8-13-12/h2-8H,1H3",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20218802,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "121.72;0.0D;0|151.99;0.0D;1|152.26;0.0S;2|146.0;0.0S;3|132.16;0.0D;4|128.45;0.0S;5|129.67;0.0D;6|129.67;0.0D;10|114.28;0.0D;7|114.28;0.0D;9|161.02;0.0S;8|55.37;0.0Q;11|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 38382,
+  "SMILES": "COc1ccc(-c2ncccc2[N+](=O)[O-])cc1"
+}

@@ -1,0 +1,17 @@
+{
+  "Spectrum 19F 0": "-183.4;0.0S;1|-183.4;0.0S;2|",
+  "Temperature [K]": "0:363.15 1:273.15 2:298 3:298 4:205 5:299 ",
+  "Field Strength [MHz]": "0:471.6981386705509 1:471.6981386705509 2:471.6981386705509 3:471.6981386705509 4:471.6981386705509 5:471.6981386705509 ",
+  "Assignment Method": "0:Unreported 1:Unreported 2:Unreported 3:Unreported 4:Unreported 5:Unreported ",
+  "INChI key": "MVCYPLKRCAPPTM-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/F2H2Xe/c1-3-2/h3H2",
+  "nmrshiftdb2 ID": 60015055,
+  "Spectrum 19F 5": "-181.8;0.0S;1|-181.8;0.0S;2|",
+  "Spectrum 19F 1": "169.0;0.0S;1|169.0;0.0S;2|",
+  "Solvent": "0:gas phase 1:solid phase 2:HSO3F 3:SbF5 4:HF 5:BrF5 ",
+  "Spectrum 19F 2": "-245.5;0.0S;1|-245.5;0.0S;2|",
+  "Spectrum 19F 3": "-290.2;0.0S;1|-290.2;0.0S;2|",
+  "Spectrum 19F 4": "-199.6;0.0S;1|-199.6;0.0S;2|",
+  "_molecule_index": 44193,
+  "SMILES": "F[XeH2]F"
+}

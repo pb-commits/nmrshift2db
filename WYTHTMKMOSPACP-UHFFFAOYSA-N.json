@@ -1,0 +1,12 @@
+{
+  "INChI key": "WYTHTMKMOSPACP-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C13H13NO2S/c1-2-16-13(15)11-10(8-17-12(11)14)9-6-4-3-5-7-9/h3-8H,2,14H2,1H3",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 89916,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "13.7;0.0Q;7|58.6;0.0T;6|103.0;0.0S;1|105.1;0.0D;3|126.4;0.0D;10|127.1;0.0D;8|128.6;0.0D;9|138.2;0.0S;5|140.5;0.0S;2|164.7;0.0S;0|165.1;0.0S;4|128.6;0.0D;11|127.1;0.0D;12|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 2866,
+  "SMILES": "CCOC(=O)c1c(-c2ccccc2)csc1N"
+}

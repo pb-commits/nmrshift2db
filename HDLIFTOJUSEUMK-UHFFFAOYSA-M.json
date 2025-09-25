@@ -1,0 +1,13 @@
+{
+  "Spectrum 31P 1": "50.0;0.0S;0|",
+  "INChI key": "HDLIFTOJUSEUMK-UHFFFAOYSA-M",
+  "INChI": "InChI=1S/C14H17NOP.H2O4S/c1-15(2)17(16,13-9-5-3-6-10-13)14-11-7-4-8-12-14;1-5(2,3)4/h3-12,16H,1-2H3;(H2,1,2,3,4)/q+1;/p-1",
+  "Temperature [K]": "0:Unknown 1:Unknown ",
+  "Spectrum 31P 0": "155.0;0.0S;0|",
+  "nmrshiftdb2 ID": 80033727,
+  "Field Strength [MHz]": "0:Unknown 1:Unknown ",
+  "Solvent": "0:Unknown 1:Unknown ",
+  "Assignment Method": "0:Unknown 1:Unknown ",
+  "_molecule_index": 52551,
+  "SMILES": "CN(C)[P+](O)(c1ccccc1)c1ccccc1.O=S(=O)([O-])O"
+}

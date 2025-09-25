@@ -1,0 +1,12 @@
+{
+  "INChI key": "PDBNYFINPWETLO-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C13H15N3O3/c1-9(2)11(17)15-13(19)16-12(18)14-8-10-6-4-3-5-7-10/h3-7H,1,8H2,2H3,(H3,14,15,16,17,18,19)",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 10021856,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "17.94;0.0Q;2|42.77;0.0T;6|124.26;0.0T;0|126.91;0.0D;10|127.14;0.0D;8|127.14;0.0D;12|128.33;0.0D;9|128.33;0.0D;11|138.06;0.0S;1|139.08;0.0S;7|151.75;0.0S;4|152.46;0.0S;5|169.16;0.0S;3|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 7806,
+  "SMILES": "C=C(C)C(=O)NC(=O)NC(=O)NCc1ccccc1"
+}

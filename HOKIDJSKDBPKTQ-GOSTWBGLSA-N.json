@@ -1,0 +1,12 @@
+{
+  "INChI key": "HOKIDJSKDBPKTQ-GOSTWBGLSA-N",
+  "INChI": "InChI=1S/C16H21N3O8S/c1-7(20)27-5-8-6-28-14-11(13(22)19(14)12(8)16(25)26)18-10(21)4-2-3-9(17)15(23)24/h9,11,14H,2-6,17H2,1H3,(H,18,21)(H,23,24)(H,25,26)/t9?,11-,14?/m1/s1",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 10023003,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "21.1;0.0T;12|26.3;0.0T;3|30.6;0.0T;13|35.6;0.0T;11|55.8;0.0D;14|58.0;0.0D;0|59.9;0.0D;5|65.0;0.0T;7|116.9;0.0S;2|132.3;0.0S;1|165.7;0.0S;4|169.3;0.0S;6|177.3;0.0S;10|179.1;0.0S;8|179.6;0.0S;15|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 8388,
+  "SMILES": "CC(=O)OCC1=C(C(=O)O)N2C(=O)[C@@H](NC(=O)CCCC(N)C(=O)O)C2SC1"
+}

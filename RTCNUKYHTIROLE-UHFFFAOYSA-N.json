@@ -1,0 +1,12 @@
+{
+  "INChI key": "RTCNUKYHTIROLE-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C6H8F3N3O2/c1-3-2-5(14,6(7,8)9)12(11-3)4(10)13/h14H,2H2,1H3,(H2,10,13)",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20234122,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "151.5;0.0S;0|47.8;0.0T;1|90.1;0.0S;2|14.9;0.0Q;3|154.9;0.0S;4|123.4;0.0S;5|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 40464,
+  "SMILES": "CC1=NN(C(N)=O)C(O)(C(F)(F)F)C1"
+}

@@ -1,0 +1,12 @@
+{
+  "INChI key": "ASFPUPPCDSCDPM-HOFKKMOUSA-N",
+  "INChI": "InChI=1S/C27H21BO6/c1-16(29)32-15-27-13-22-24(23(14-27)33-28(34-27)19-9-3-2-4-10-19)26(31)21-12-18-8-6-5-7-17(18)11-20(21)25(22)30/h2-12,23H,13-15H2,1H3/t23-,27-/m0/s1",
+  "Temperature [K]": "0:Unreported ",
+  "Spectrum 1H 0": "2.15;0.0;33|2.37;0.0;2|3.22;0.0;16|4.39;0.0;21|5.76;0.0;1|7.33;0.0;29|7.33;0.0;28|7.73;0.0;18|7.73;0.0;19|8.06;0.0;17|8.06;0.0;20|8.64;0.0;9|8.72;0.0;12|",
+  "nmrshiftdb2 ID": 20172093,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 24878,
+  "SMILES": "CC(=O)OC[C@]12CC3=C(C(=O)c4cc5ccccc5cc4C3=O)[C@H](C1)OB(c1ccccc1)O2"
+}

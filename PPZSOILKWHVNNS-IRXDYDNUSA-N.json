@@ -1,0 +1,12 @@
+{
+  "INChI key": "PPZSOILKWHVNNS-IRXDYDNUSA-N",
+  "INChI": "InChI=1S/C17H20O6/c1-21-13-5-3-4-6-14(13)23-16(10-18)17(20)11-7-8-12(19)15(9-11)22-2/h3-9,16-20H,10H2,1-2H3/t16-,17-/m0/s1",
+  "Temperature [K]": "0:Unreported ",
+  "nmrshiftdb2 ID": 20230671,
+  "Field Strength [MHz]": "0:Unreported ",
+  "Spectrum 13C 0": "114.8;0.0D;0|145.6;0.0S;1|147.1;0.0S;2|111.4;0.0D;3|133.0;0.0S;4|119.2;0.0D;5|72.1;0.0D;6|85.7;0.0D;7|61.2;0.0T;8|148.6;0.0S;9|116.4;0.0D;10|120.8;0.0D;11|121.2;0.0D;12|113.0;0.0D;13|149.9;0.0S;14|56.7;0.0Q;15|56.5;0.0Q;16|",
+  "Solvent": "0:Unreported ",
+  "Assignment Method": "0:Unreported ",
+  "_molecule_index": 40164,
+  "SMILES": "COc1cc([C@H](O)[C@H](CO)Oc2ccccc2OC)ccc1O"
+}

@@ -1,0 +1,13 @@
+{
+  "INChI key": "PSYSNERBXJWYAS-UHFFFAOYSA-N",
+  "INChI": "InChI=1S/C20H18Se2/c1-3-11-19(12-4-1)21-15-17-9-7-8-10-18(17)16-22-20-13-5-2-6-14-20/h1-14H,15-16H2",
+  "Temperature [K]": "0:Unreported 1:Unreported ",
+  "nmrshiftdb2 ID": 20201468,
+  "Spectrum 1H 1": "4.187;0.0;2|7.052;0.0;5|7.071;0.0;1|7.225;0.0;11|7.254;0.0;9|7.427;0.0;7|",
+  "Field Strength [MHz]": "0:Unreported 1:Unreported ",
+  "Spectrum 13C 0": "29.62;0.0T;2|127.34;0.0D;5|127.43;0.0D;11|129.0;0.0D;9|130.51;0.0S;6|130.57;0.0D;1|133.84;0.0D;7|136.51;0.0S;3|",
+  "Solvent": "0:Unreported 1:Unreported ",
+  "Assignment Method": "0:Unreported 1:Unreported ",
+  "_molecule_index": 34006,
+  "SMILES": "c1ccc([Se]Cc2ccccc2C[Se]c2ccccc2)cc1"
+}
